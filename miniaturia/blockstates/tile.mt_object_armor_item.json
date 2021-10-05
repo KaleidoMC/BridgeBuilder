@@ -1,0 +1,56 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_object_armor_head.obj",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.7, "translation": [ 0, 0.1, 0 ] },
+		        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+		        "fixed": {"scale": 0.5},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"#0": "miniaturia_mod:blocks/object_armor_head_silver",
+					"#1": "miniaturia_mod:blocks/object_armor_parts",
+					"#2": "miniaturia_mod:blocks/object_armor_body_silver",
+					"#3": "miniaturia_mod:blocks/object_armor_base_silver",
+					"#4": "miniaturia_mod:blocks/object_armor_legs_silver"
+			 		}
+				},
+            "click1": {
+				"textures": {
+					"#0": "miniaturia_mod:blocks/object_armor_head_gold",
+					"#1": "miniaturia_mod:blocks/object_armor_parts",
+					"#2": "miniaturia_mod:blocks/object_armor_body_gold",
+					"#3": "miniaturia_mod:blocks/object_armor_base_gold",
+					"#4": "miniaturia_mod:blocks/object_armor_legs_gold"
+			 		}
+				},
+            "click2": {
+				"textures": {
+					"#0": "miniaturia_mod:blocks/object_armor_head_white",
+					"#1": "miniaturia_mod:blocks/object_armor_parts",
+					"#2": "miniaturia_mod:blocks/object_armor_body_white",
+					"#3": "miniaturia_mod:blocks/object_armor_base_white",
+					"#4": "miniaturia_mod:blocks/object_armor_legs_white"
+			 		}
+                },
+            "click3": {
+				"textures": {
+					"#0": "miniaturia_mod:blocks/object_armor_head_black",
+					"#1": "miniaturia_mod:blocks/object_armor_parts",
+					"#2": "miniaturia_mod:blocks/object_armor_body_black",
+					"#3": "miniaturia_mod:blocks/object_armor_base_black",
+					"#4": "miniaturia_mod:blocks/object_armor_legs_black"
+			 		}
+            }
+        }
+    }
+}

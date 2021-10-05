@@ -1,0 +1,47 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "miniaturia_mod:mt_brick_nswe",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+
+			"meta0": {
+				"textures": {
+					"top" : "miniaturia_mod:blocks/sandstone_brick_ns",
+					"ns" : "miniaturia_mod:blocks/sandstone_brick_ns",
+					"we" : "miniaturia_mod:blocks/sandstone_brick_we"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"top" : "miniaturia_mod:blocks/sandstone_brick_cracked_ns",
+					"ns" : "miniaturia_mod:blocks/sandstone_brick_cracked_ns",
+					"we" : "miniaturia_mod:blocks/sandstone_brick_cracked_we"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"top" : "miniaturia_mod:blocks/sandstone_brick_worn",
+					"ns" : "miniaturia_mod:blocks/sandstone_brick_worn",
+					"we" : "miniaturia_mod:blocks/sandstone_brick_worn"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_brick_ns",
+					"ns" : "miniaturia_mod:blocks/quartz_brick_ns",
+					"we" : "miniaturia_mod:blocks/quartz_brick_we"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_brick_worn",
+					"ns" : "miniaturia_mod:blocks/quartz_brick_worn",
+					"we" : "miniaturia_mod:blocks/quartz_brick_worn"
+				}
+			}
+		}
+    }
+}

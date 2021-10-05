@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/hat_boater",
+    "textures": {
+		    "0": "cocricotmod:blocks/hat_black",
+		    "particle": "cocricotmod:blocks/stone_color_black"
+	      }
+}

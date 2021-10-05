@@ -1,0 +1,43 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_chair_piano"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+	    			"textures": {
+						"frame": "miniaturia_mod:blocks/piano_chair_white_white",
+						"seat": "miniaturia_mod:blocks/piano_chair_red_brown"
+					}
+				},
+	    		"1": {
+	    			"textures": {
+						"frame": "miniaturia_mod:blocks/piano_chair_white_white",
+						"seat": "miniaturia_mod:blocks/piano_chair_red_brown"
+					}
+				},
+	    		"2":	{
+	    			"textures": {
+						"frame": "miniaturia_mod:blocks/piano_chair_white_white",
+						"seat": "miniaturia_mod:blocks/piano_chair_white_white"
+					}
+				},
+			 	"3":	{
+	    			"textures": {
+						"frame": "miniaturia_mod:blocks/piano_chair_white_white",
+						"seat": "miniaturia_mod:blocks/piano_chair_black_black"
+					}
+	    		}
+	    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+   }
+}

@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_steps_d_single"
+    },
+    "variants": {
+        "variant": {
+			 	"click0": {
+					"textures":{
+						"1": "miniaturia_mod:blocks/wood_marron_parts",
+						"3": "miniaturia_mod:blocks/table_marron_top",
+						"4": "miniaturia_mod:blocks/wood_pastel_blue_top"
+					}
+				},
+			 	"click1": {
+					"textures":{
+						"1": "miniaturia_mod:blocks/wood_marron_parts",
+						"3": "miniaturia_mod:blocks/table_marron_top",
+						"4": "miniaturia_mod:blocks/wood_pastel_purple_top"
+					}
+	    		}
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"model": "miniaturia_mod:mt_pillar_single"
+  },
+	"variants": {
+		"variant": {
+			"meta0": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/stone_plate_parts",
+				    "side": "minecraft:blocks/stonebrick_carved"
+				}
+			},
+			"meta1": {
+				"textures":{
+				    "end": "minecraft:blocks/quartz_block_chiseled_top",
+					"side": "miniaturia_mod:blocks/quartz_column"
+				}
+			},
+			"meta2": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/sandstone_plate_parts",
+			    	"side": "minecraft:blocks/sandstone_smooth"
+				}
+			},
+			"meta3": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/wood_oak_plate_parts",
+				    "side": "miniaturia_mod:blocks/wood_oak_upper_molding"
+				}
+			},
+			"meta4": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/wood_acacia_plate_parts",
+					"side": "miniaturia_mod:blocks/wood_acacia_column_b_top_parts"
+				}
+			},
+			"meta5": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/wood_dark_oak_plate_parts",
+			    	"side": "miniaturia_mod:blocks/wood_dark_oak_stairs_side"
+				}
+			}
+		}
+	}
+}

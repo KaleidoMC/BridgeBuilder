@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/handrail_wood_slant",
+    "textures": {
+        "texture": "cocricotmod:blocks/handrail_wood_turnedleg_white1"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/fireplace",
+    "textures": {
+  		"particle": "blocks/brick",
+  		"0": "cocricotmod:blocks/fireplace_brick"
+  	}
+}

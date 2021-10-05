@@ -1,0 +1,31 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_string_slope",
+		"textures":{
+			"0": "miniaturia_mod:blocks/chain_small_white",
+			"1": "miniaturia_mod:blocks/chain_small_white_b",
+			"#m_0": "miniaturia_mod:blocks/chain_small_white",
+			"#m_1": "miniaturia_mod:blocks/chain_small_white_b",
+			"particle": "miniaturia_mod:blocks/chain_small_white"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { "model":"miniaturia_mod:mt_string_slope" },
+			 	"1": { "model":"miniaturia_mod:mt_string_slope" },
+	    		"2": { "model":"miniaturia_mod:mt_string_slope_diagonal.obj" },
+	    		"3": { "model":"miniaturia_mod:mt_string_slope_diagonal.obj" }
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 180 },
+    		"east":		{ "y": 270 },
+    		"south":	{ "y": 0 },
+    		"west":		{ "y": 90 }
+		}
+    }
+}

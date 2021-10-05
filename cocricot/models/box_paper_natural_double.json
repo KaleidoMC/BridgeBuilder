@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/box_hardpulp_black_double",
+    "textures": {
+      "0": "cocricotmod:blocks/box_paper_natural",
+      "particle": "cocricotmod:blocks/planks_seadrift"
+    }
+}

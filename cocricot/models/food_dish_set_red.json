@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/food_dish_set_natural",
+    "textures": {
+        "0": "cocricotmod:blocks/food_dish_set_red"
+    }
+}

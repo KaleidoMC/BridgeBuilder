@@ -1,0 +1,30 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_mat_base"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/traffic_line_outer"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/traffic_line_outer"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/traffic_line_orange_outer"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/traffic_line_orange_outer"
+				}
+			}
+		}
+    }
+}

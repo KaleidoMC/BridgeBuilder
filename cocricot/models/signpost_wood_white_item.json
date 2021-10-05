@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/signpost_wood_item",
+    "textures": {
+        "particle": "cocricotmod:blocks/planks_white",
+        "0": "cocricotmod:blocks/signpost_wood_white",
+        "1": "cocricotmod:blocks/planks_white_stick"
+    }
+}

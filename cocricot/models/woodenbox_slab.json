@@ -1,0 +1,12 @@
+{
+    "parent": "cocricotmod:block/base_slab_all",
+    "textures": {
+      "top": "cocricotmod:blocks/woodenbox",
+      "w": "cocricotmod:blocks/woodenbox1",
+      "e": "cocricotmod:blocks/woodenbox1",
+      "n": "cocricotmod:blocks/woodenbox2",
+      "s": "cocricotmod:blocks/woodenbox2",
+      "bottom": "cocricotmod:blocks/woodenbox",
+      "particle": "cocricotmod:blocks/woodenbox"
+    }
+}

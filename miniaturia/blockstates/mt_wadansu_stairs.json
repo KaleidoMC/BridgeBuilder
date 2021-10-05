@@ -1,0 +1,168 @@
+{
+  "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_stairs"
+	},
+
+    "variants": {
+
+    	"click": {
+		 	"0": {
+				"textures": {
+			        "straight_bottom": "miniaturia_mod:blocks/wadansu_marron_top",
+			        "straight_top": "miniaturia_mod:blocks/wadansu_marron_top",
+			        "straight_front": "miniaturia_mod:blocks/wadansu_marron_stairs_side",
+			        "straight_back": "miniaturia_mod:blocks/wadansu_marron_side",
+			        "straight_north": "miniaturia_mod:blocks/wadansu_marron_stairs",
+			        "straight_south": "miniaturia_mod:blocks/wadansu_marron_stairs",
+			        "outer_bottom": "miniaturia_mod:blocks/wadansu_marron_top",
+				    "outer_top": "miniaturia_mod:blocks/wadansu_marron_top",
+				    "outer_side": "miniaturia_mod:blocks/wadansu_marron_stairs_side",
+				    "inner_bottom": "miniaturia_mod:blocks/wadansu_marron_top",
+			        "inner_top": "miniaturia_mod:blocks/wadansu_marron_top",
+			        "inner_side": "miniaturia_mod:blocks/wadansu_marron_stairs_side"
+				}
+			},
+		 	"1": {
+				"textures":{
+				    "straight_bottom": "miniaturia_mod:blocks/wadansu_brown_top",
+			        "straight_top": "miniaturia_mod:blocks/wadansu_brown_top",
+			        "straight_front": "miniaturia_mod:blocks/wadansu_brown_stairs_side",
+			        "straight_back": "miniaturia_mod:blocks/wadansu_brown_side",
+			        "straight_north": "miniaturia_mod:blocks/wadansu_brown_stairs",
+			        "straight_south": "miniaturia_mod:blocks/wadansu_brown_stairs",
+			        "outer_bottom": "miniaturia_mod:blocks/wadansu_brown_top",
+				    "outer_top": "miniaturia_mod:blocks/wadansu_brown_top",
+				    "outer_side": "miniaturia_mod:blocks/wadansu_brown_stairs_side",
+				    "inner_bottom": "miniaturia_mod:blocks/wadansu_brown_top",
+			        "inner_top": "miniaturia_mod:blocks/wadansu_brown_top",
+			        "inner_side": "miniaturia_mod:blocks/wadansu_brown_stairs_side"
+				}
+    		}
+    	},
+
+    	"facing": {
+    		"east": { },
+    		"west": { },
+    		"south": { },
+    		"north": { }
+		},
+
+		"half":{
+			"bottom": { },
+			"top": { }
+		},
+
+		"shape": {
+            "straight":		{ "model":"miniaturia_mod:mt_stairs" },
+            "outer_right":	{ "model":"miniaturia_mod:mt_outer_stairs" },
+            "outer_left":	{ "model":"miniaturia_mod:mt_outer_stairs" },
+            "inner_right":	{ "model":"miniaturia_mod:mt_inner_stairs" },
+            "inner_left":	{ "model":"miniaturia_mod:mt_inner_stairs" }
+		},
+
+
+        "click=0,facing=east,half=bottom,shape=straight":		{ "y": 0 },
+        "click=0,facing=west,half=bottom,shape=straight":		{ "y": 180 },
+        "click=0,facing=south,half=bottom,shape=straight":		{ "y": 90 },
+        "click=0,facing=north,half=bottom,shape=straight":		{ "y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=outer_right":	{"y": 0 },
+        "click=0,facing=west,half=bottom,shape=outer_right":	{"y": 180 },
+        "click=0,facing=south,half=bottom,shape=outer_right":	{"y": 90 },
+        "click=0,facing=north,half=bottom,shape=outer_right":	{"y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=outer_left":		{"y": 270 },
+        "click=0,facing=west,half=bottom,shape=outer_left":		{"y": 90 },
+        "click=0,facing=south,half=bottom,shape=outer_left":	{"y": 0 },
+        "click=0,facing=north,half=bottom,shape=outer_left":	{"y": 180 },
+
+        "click=0,facing=east,half=bottom,shape=inner_right":	{"y": 0 },
+        "click=0,facing=west,half=bottom,shape=inner_right":	{"y": 180 },
+        "click=0,facing=south,half=bottom,shape=inner_right":	{"y": 90 },
+        "click=0,facing=north,half=bottom,shape=inner_right":	{"y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=inner_left":		{"y": 270 },
+        "click=0,facing=west,half=bottom,shape=inner_left":		{"y": 90 },
+        "click=0,facing=south,half=bottom,shape=inner_left":	{"y": 0 },
+        "click=0,facing=north,half=bottom,shape=inner_left":	{"y": 180 },
+
+
+        "click=0,facing=east,half=top,shape=straight":			{"x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=straight":			{"x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=straight":			{"x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=straight":			{"x": 180, "y": 270 },
+
+        "click=0,facing=east,half=top,shape=outer_right":		{"x": 180, "y": 90 },
+        "click=0,facing=west,half=top,shape=outer_right":		{"x": 180, "y": 270 },
+        "click=0,facing=south,half=top,shape=outer_right":		{"x": 180, "y": 180 },
+        "click=0,facing=north,half=top,shape=outer_right":		{"x": 180, "y": 0 },
+
+        "click=0,facing=east,half=top,shape=outer_left":		{"x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=outer_left":		{"x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=outer_left":		{"x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=outer_left":		{"x": 180, "y": 270 },
+
+        "click=0,facing=east,half=top,shape=inner_right":		{"x": 180, "y": 90 },
+        "click=0,facing=west,half=top,shape=inner_right":		{"x": 180, "y": 270 },
+        "click=0,facing=south,half=top,shape=inner_right":		{"x": 180, "y": 180 },
+        "click=0,facing=north,half=top,shape=inner_right":		{"x": 180, "y": 0 },
+
+        "click=0,facing=east,half=top,shape=inner_left":		{"x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=inner_left":		{"x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=inner_left":		{"x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=inner_left":		{"x": 180, "y": 270 },
+
+
+        "click=1,facing=east,half=bottom,shape=straight":		{ "y": 0 },
+        "click=1,facing=west,half=bottom,shape=straight":		{ "y": 180 },
+        "click=1,facing=south,half=bottom,shape=straight":		{ "y": 90 },
+        "click=1,facing=north,half=bottom,shape=straight":		{ "y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=outer_right":	{"y": 0 },
+        "click=1,facing=west,half=bottom,shape=outer_right":	{"y": 180 },
+        "click=1,facing=south,half=bottom,shape=outer_right":	{"y": 90 },
+        "click=1,facing=north,half=bottom,shape=outer_right":	{"y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=outer_left":		{"y": 270 },
+        "click=1,facing=west,half=bottom,shape=outer_left":		{"y": 90 },
+        "click=1,facing=south,half=bottom,shape=outer_left":	{"y": 0 },
+        "click=1,facing=north,half=bottom,shape=outer_left":	{"y": 180 },
+
+        "click=1,facing=east,half=bottom,shape=inner_right":	{"y": 0 },
+        "click=1,facing=west,half=bottom,shape=inner_right":	{"y": 180 },
+        "click=1,facing=south,half=bottom,shape=inner_right":	{"y": 90 },
+        "click=1,facing=north,half=bottom,shape=inner_right":	{"y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=inner_left":		{"y": 270 },
+        "click=1,facing=west,half=bottom,shape=inner_left":		{"y": 90 },
+        "click=1,facing=south,half=bottom,shape=inner_left":	{"y": 0 },
+        "click=1,facing=north,half=bottom,shape=inner_left":	{"y": 180 },
+
+
+        "click=1,facing=east,half=top,shape=straight":			{"x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=straight":			{"x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=straight":			{"x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=straight":			{"x": 180, "y": 270 },
+
+        "click=1,facing=east,half=top,shape=outer_right":		{"x": 180, "y": 90 },
+        "click=1,facing=west,half=top,shape=outer_right":		{"x": 180, "y": 270 },
+        "click=1,facing=south,half=top,shape=outer_right":		{"x": 180, "y": 180 },
+        "click=1,facing=north,half=top,shape=outer_right":		{"x": 180, "y": 0 },
+
+        "click=1,facing=east,half=top,shape=outer_left":		{"x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=outer_left":		{"x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=outer_left":		{"x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=outer_left":		{"x": 180, "y": 270 },
+
+        "click=1,facing=east,half=top,shape=inner_right":		{"x": 180, "y": 90 },
+        "click=1,facing=west,half=top,shape=inner_right":		{"x": 180, "y": 270 },
+        "click=1,facing=south,half=top,shape=inner_right":		{"x": 180, "y": 180 },
+        "click=1,facing=north,half=top,shape=inner_right":		{"x": 180, "y": 0 },
+
+        "click=1,facing=east,half=top,shape=inner_left":		{"x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=inner_left":		{"x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=inner_left":		{"x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=inner_left":		{"x": 180, "y": 270 }
+    }
+}

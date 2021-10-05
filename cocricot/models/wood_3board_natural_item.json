@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_cube_topside",
+    "textures": {
+        "top": "cocricotmod:blocks/wood_3board_natural",
+        "side": "cocricotmod:blocks/wood_3board_natural_stairs_b"
+    }
+}

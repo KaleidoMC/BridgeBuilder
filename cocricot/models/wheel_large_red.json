@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/wheel_large",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_color_red",
+        "texture": "cocricotmod:blocks/wheel_red"
+    }
+}

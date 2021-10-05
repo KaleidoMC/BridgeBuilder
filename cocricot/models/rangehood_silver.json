@@ -1,0 +1,39 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/rangehood_silver",
+		"particle": "cocricotmod:blocks/metal_stainless"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 2],
+			"to": [16, 2.5, 16.01],
+			"faces": {
+				"north": {"uv": [0, 7, 8, 8.25], "texture": "#0", "cullface": "down"},
+				"east": {"uv": [15, 7, 8, 8.25], "texture": "#0", "cullface": "down"},
+				"south": {"uv": [8, 7, 16, 8.25], "texture": "#0", "cullface": "down"},
+				"west": {"uv": [8, 7, 15, 8.25], "texture": "#0", "cullface": "down"},
+				"up": {"uv": [0, 0, 8, 7], "rotation": 180, "texture": "#0", "cullface": "down"},
+				"down": {"uv": [0, 8.25, 8, 15.25], "rotation": 180, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4, 0, 9.5],
+			"to": [12, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 12, 8], "texture": "#0"},
+				"east": {"uv": [8, 0, 11.25, 8], "texture": "#0"},
+				"south": {"uv": [8, 0, 12, 8], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [8, 0, 11.25, 8], "texture": "#0"},
+				"up": {"uv": [4.75, 4.5, 8, 7], "rotation": 180, "texture": "#0", "cullface": "up"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [1, 0.75, 0],
+			"scale": [0.65, 0.65, 0.65]
+		}
+	}
+}

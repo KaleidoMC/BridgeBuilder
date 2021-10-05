@@ -1,0 +1,155 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_pillar_single"
+  },
+    "variants": {
+
+		"north":	{ "true": {}, "false": {} },
+		"east":		{ "true": {}, "false": {} },
+		"south":	{ "true": {}, "false": {} },
+		"west":		{ "true": {}, "false": {} },
+
+		"variant": {
+			"meta0": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/stone_plate_parts",
+				    "side": "minecraft:blocks/stonebrick_carved"
+				}
+			},
+			"meta1": {
+				"textures":{
+				    "end": "minecraft:blocks/quartz_block_chiseled_top",
+					"side": "miniaturia_mod:blocks/quartz_column"
+				}
+			},
+			"meta2": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/sandstone_plate_parts",
+			    	"side": "minecraft:blocks/sandstone_smooth"
+				}
+			},
+			"meta3": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/wood_oak_plate_parts",
+				    "side": "miniaturia_mod:blocks/wood_oak_upper_molding"
+				}
+			},
+			"meta4": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/wood_acacia_plate_parts",
+					"side": "miniaturia_mod:blocks/wood_acacia_column_b_top_parts"
+				}
+			},
+			"meta5": {
+				"textures":{
+				    "end": "miniaturia_mod:blocks/wood_dark_oak_plate_parts",
+			    	"side": "miniaturia_mod:blocks/wood_dark_oak_stairs_side"
+				}
+			}
+		},
+
+		"east=false,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_pillar_single" },
+		"east=false,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_pillar_end" },
+		"east=true,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y":180},
+		"east=false,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_pillar_end", "y":270},
+		"east=true,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer" },
+		"east=true,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_pillar_smiddle" },
+		"east=true,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_pillar_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_pillar_inner" },
+		"east=true,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_pillar_middle" },
+
+		"east=false,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_pillar_single" },
+		"east=false,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_pillar_end" },
+		"east=true,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y":180},
+		"east=false,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_pillar_end", "y":270},
+		"east=true,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer" },
+		"east=true,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_pillar_smiddle" },
+		"east=true,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_pillar_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_pillar_inner" },
+		"east=true,north=false,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_pillar_middle" },
+
+		"east=false,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_pillar_single" },
+		"east=false,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_pillar_end" },
+		"east=true,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y":180},
+		"east=false,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_pillar_end", "y":270},
+		"east=true,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer" },
+		"east=true,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_pillar_smiddle" },
+		"east=true,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_pillar_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_pillar_inner" },
+		"east=true,north=false,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_pillar_middle" },
+
+		"east=false,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_pillar_single" },
+		"east=false,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_pillar_end" },
+		"east=true,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y":180},
+		"east=false,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_pillar_end", "y":270},
+		"east=true,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer" },
+		"east=true,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_pillar_smiddle" },
+		"east=true,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_pillar_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta3,west=false":		{ "model": "miniaturia_mod:mt_pillar_inner" },
+		"east=true,north=false,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_pillar_middle" },
+
+		"east=false,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_pillar_single" },
+		"east=false,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_pillar_end" },
+		"east=true,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y":180},
+		"east=false,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_pillar_end", "y":270},
+		"east=true,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer" },
+		"east=true,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_pillar_smiddle" },
+		"east=true,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_pillar_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta4,west=false":		{ "model": "miniaturia_mod:mt_pillar_inner" },
+		"east=true,north=false,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_pillar_middle" },
+
+		"east=false,north=false,south=false,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_pillar_single" },
+		"east=false,north=true,south=false,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_pillar_end" },
+		"east=true,north=false,south=false,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_pillar_end", "y":180},
+		"east=false,north=false,south=false,variant=meta5,west=true":	{ "model": "miniaturia_mod:mt_pillar_end", "y":270},
+		"east=true,north=true,south=false,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer" },
+		"east=true,north=false,south=true,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta5,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta5,west=true":	{ "model": "miniaturia_mod:mt_pillar_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_pillar_smiddle" },
+		"east=true,north=false,south=false,variant=meta5,west=true":	{ "model": "miniaturia_mod:mt_pillar_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta5,west=false":		{ "model": "miniaturia_mod:mt_pillar_inner" },
+		"east=true,north=false,south=true,variant=meta5,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta5,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta5,west=true":		{ "model": "miniaturia_mod:mt_pillar_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta5,west=true":		{ "model": "miniaturia_mod:mt_pillar_middle" }
+
+		}
+}

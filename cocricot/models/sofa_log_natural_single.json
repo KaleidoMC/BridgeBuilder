@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/sofa_log_single",
+    "textures": {
+      "1": "cocricotmod:blocks/sofa_log_natural"
+    }
+}

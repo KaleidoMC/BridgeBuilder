@@ -1,0 +1,30 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_all",
+  		"textures": {
+			"all": "miniaturia_mod:blocks/c"
+		}
+  },
+    "variants": {
+
+    	"variant=meta0": [{}],
+    	"variant=meta1": [{}],
+    	"variant=meta2": [{}],
+    	"variant=meta3": [{}],
+    	"variant=meta4": [{}],
+    	"variant=meta5": [{}],
+    	"variant=meta6": [{}],
+    	"variant=meta7": [{}],
+    	"variant=meta8": [{}],
+    	"variant=meta9": [{}],
+    	"variant=meta10": [{}],
+    	"variant=meta11": [{}],
+    	"variant=meta12": [{}],
+    	"variant=meta13": [{}],
+    	"variant=meta14": [{}],
+    	"variant=meta15": [{}],
+
+		"inventory":[{ }]
+		}
+}

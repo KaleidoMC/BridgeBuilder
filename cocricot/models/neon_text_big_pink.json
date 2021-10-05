@@ -1,0 +1,18 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/neon_text_big_pink",
+		"particle": "cocricotmod:blocks/neon_text_big_pink"
+	},
+	"elements": [
+		{
+			"from": [-8, 0, 14],
+			"to": [24, 32, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 8, 22]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

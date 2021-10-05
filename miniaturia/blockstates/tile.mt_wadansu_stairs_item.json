@@ -1,0 +1,42 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stairs"
+    },
+    "variants": {
+        "variant": {
+		 	"click0": {
+				"textures": {
+			        "straight_bottom": "miniaturia_mod:blocks/wadansu_marron_top",
+			        "straight_top": "miniaturia_mod:blocks/wadansu_marron_top",
+			        "straight_front": "miniaturia_mod:blocks/wadansu_marron_stairs_side",
+			        "straight_back": "miniaturia_mod:blocks/wadansu_marron_side",
+			        "straight_north": "miniaturia_mod:blocks/wadansu_marron_stairs",
+			        "straight_south": "miniaturia_mod:blocks/wadansu_marron_stairs",
+			        "outer_bottom": "miniaturia_mod:blocks/wadansu_marron_top",
+				    "outer_top": "miniaturia_mod:blocks/wadansu_marron_top",
+				    "outer_side": "miniaturia_mod:blocks/wadansu_marron_stairs_side",
+				    "inner_bottom": "miniaturia_mod:blocks/wadansu_marron_top",
+			        "inner_top": "miniaturia_mod:blocks/wadansu_marron_top",
+			        "inner_side": "miniaturia_mod:blocks/wadansu_marron_stairs_side"
+				}
+			},
+		 	"click1": {
+				"textures":{
+				    "straight_bottom": "miniaturia_mod:blocks/wadansu_brown_top",
+			        "straight_top": "miniaturia_mod:blocks/wadansu_brown_top",
+			        "straight_front": "miniaturia_mod:blocks/wadansu_brown_stairs_side",
+			        "straight_back": "miniaturia_mod:blocks/wadansu_brown_side",
+			        "straight_north": "miniaturia_mod:blocks/wadansu_brown_stairs",
+			        "straight_south": "miniaturia_mod:blocks/wadansu_brown_stairs",
+			        "outer_bottom": "miniaturia_mod:blocks/wadansu_brown_top",
+				    "outer_top": "miniaturia_mod:blocks/wadansu_brown_top",
+				    "outer_side": "miniaturia_mod:blocks/wadansu_brown_stairs_side",
+				    "inner_bottom": "miniaturia_mod:blocks/wadansu_brown_top",
+			        "inner_top": "miniaturia_mod:blocks/wadansu_brown_top",
+			        "inner_side": "miniaturia_mod:blocks/wadansu_brown_stairs_side"
+				}
+    		}
+        }
+    }
+}

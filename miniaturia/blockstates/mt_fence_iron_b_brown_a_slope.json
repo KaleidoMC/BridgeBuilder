@@ -1,0 +1,26 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_fence_iron_b_slope",
+		"textures": {
+				"0": "miniaturia_mod:blocks/fence_iron_a_brown",
+				"1": "miniaturia_mod:blocks/c"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { "model": "miniaturia_mod:mt_fence_iron_b_slope_under" },
+	    		"2": { "model": "miniaturia_mod:mt_fence_iron_b_slope_upper" }
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

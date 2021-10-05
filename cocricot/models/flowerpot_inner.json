@@ -1,0 +1,25 @@
+{
+	"textures": {
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"from": [ 0, -8, 0 ],
+			"to": [ 22.5, 8, 0.2 ],
+			"rotation": { "origin": [ 0, -8, 0 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"from": [ 0, -8, 16 ],
+			"to": [ 22.5, 8, 16.2 ],
+			"rotation": { "origin": [ 0, -8, 16 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_shelf_c_12",
+		"textures": {
+				"edge": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+				"plate": "miniaturia_mod:blocks/table_lightbrown_top",
+				"side1": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+				"side2": "miniaturia_mod:blocks/furniture_lightbrown_side2",
+				"side1b": "miniaturia_mod:blocks/furniture_lightbrown_side1",
+				"edge2": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+				"plate_middle": "miniaturia_mod:blocks/table_lightbrown_top",
+				"edge_bottom": "miniaturia_mod:blocks/furniture_lightbrown_bottom"
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { "model": "miniaturia_mod:mt_shelf_c_12",
+				    		"textures": {
+								"front_12": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_0"
+							}
+					},
+            "click1": { "model": "miniaturia_mod:mt_shelf_c_12",
+				    		"textures": {
+								"front_12": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_0"
+							}
+					},
+            "click2": { "model": "miniaturia_mod:mt_shelf_c_12",
+				    		"textures": {
+								"front_12": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_0",
+								"edge2": "miniaturia_mod:blocks/c",
+								"plate_middle": "miniaturia_mod:blocks/c"
+							}
+					},
+            "click3": { "model": "miniaturia_mod:mt_shelf_c_12",
+				    		"textures": {
+								"front_12": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_0",
+								"edge2": "miniaturia_mod:blocks/c",
+								"plate_middle": "miniaturia_mod:blocks/c"
+							}
+					}
+		}
+	}
+}

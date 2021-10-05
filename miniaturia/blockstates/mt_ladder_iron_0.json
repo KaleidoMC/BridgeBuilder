@@ -1,0 +1,46 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {
+		"model": "miniaturia_mod:mt_ladder_a_top"
+		},
+
+    "variants": {
+    	"click": {
+	    		"0": {
+					"textures": {
+							"ladder" : "miniaturia_mod:blocks/lamppost_brown"
+						}
+	    			},
+			 	"1": {
+					"textures": {
+							"ladder" : "miniaturia_mod:blocks/lamppost_green"
+						}
+					},
+	    		"2": {
+					"textures": {
+							"ladder" : "miniaturia_mod:blocks/lamppost_gold"
+						}
+	    			},
+	    		"3": {
+					"textures": {
+							"ladder" : "miniaturia_mod:blocks/lamppost_white"
+						}
+	    			}
+		    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+			},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_ladder_a" },
+    		"middle":	{ "model": "miniaturia_mod:mt_ladder_a" },
+    		"top":		{ "model": "miniaturia_mod:mt_ladder_a" },
+    		"single":	{ "model": "miniaturia_mod:mt_ladder_a" }
+		}
+       }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/sofa_log_single",
+    "textures": {
+  		"0": "cocricotmod:blocks/log_birch",
+  		"1": "cocricotmod:blocks/sofa_log_birch_rustic",
+  		"particle": "blocks/log_birch"
+    }
+}

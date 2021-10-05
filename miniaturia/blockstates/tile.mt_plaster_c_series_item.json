@@ -1,0 +1,51 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "cube_all",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/plaster_peeled_stone_white"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/plaster_peeled_stone_orange"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/plaster_peeled_stone_yellow"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/plaster_peeled_stone_pink"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/plaster_peeled_stone_blue"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/plaster_peeled_stone_green"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/plaster_peeled_stone_gray"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/plaster_peeled_brick_gray"
+				}
+			}
+		}
+    }
+}

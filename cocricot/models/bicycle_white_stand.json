@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/bicycle_black_stand",
+    "textures": {
+        "0": "cocricotmod:blocks/bicycle_white"
+    }
+}

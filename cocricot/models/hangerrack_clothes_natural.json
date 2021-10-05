@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/hangerrack_clothes",
+    "textures": {
+      "texture": "cocricotmod:blocks/hangerrack_clothes_natural"
+    }
+}

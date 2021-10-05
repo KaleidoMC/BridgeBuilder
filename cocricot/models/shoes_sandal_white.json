@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/shoes_sandal_brown",
+  	"textures": {
+  		"0": "cocricotmod:blocks/awning_white_gold_lower",
+  		"particle": "cocricotmod:blocks/planks_clear"
+  	}
+}

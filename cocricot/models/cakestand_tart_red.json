@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/cakestand_tart_yellow",
+    "textures": {
+        "2": "cocricotmod:blocks/cakestand_tart_red"
+    }
+}

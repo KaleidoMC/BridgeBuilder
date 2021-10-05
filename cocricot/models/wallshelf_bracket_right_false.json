@@ -1,0 +1,53 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#texture",
+		"texture1": "cocricotmod:blocks/metal_black"
+	},
+	"elements": [
+		{
+			"from": [0, 14.5, 5],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1.5], "texture": "#texture3"},
+				"east": {"uv": [0, 0, 11, 1.5], "texture": "#texture3"},
+				"south": {"uv": [0, 0, 16, 1.5], "texture": "#texture3"},
+				"west": {"uv": [5, 0, 16, 1.5], "texture": "#texture3"},
+				"up": {"uv": [0, 5, 16, 16], "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 11], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [2.5, -2.5, 0.37258],
+			"to": [3.5, -1.5, 9.37258],
+			"rotation": {"angle": 45, "axis": "x", "origin": [2.5, -5, 25]},
+			"faces": {
+				"east": {"uv": [1, 0, 2, 7.5], "rotation": 90, "texture": "#texture1"},
+				"west": {"uv": [1, 0, 2, 7.5], "rotation": 90, "texture": "#texture1"},
+				"up": {"uv": [1, 0, 2, 7.5], "rotation": 180, "texture": "#texture1"},
+				"down": {"uv": [1, 0, 2, 7.5], "rotation": 180, "texture": "#texture1"}
+			}
+		},
+		{
+			"from": [2.5, 13.5, 8.5],
+			"to": [3.5, 14.5, 15],
+			"faces": {
+				"north": {"uv": [1, 0, 2, 1], "rotation": 270, "texture": "#texture1"},
+				"east": {"uv": [1, 0, 2, 6.5], "rotation": 270, "texture": "#texture1"},
+				"west": {"uv": [1, 0, 2, 6.5], "rotation": 270, "texture": "#texture1"},
+				"down": {"uv": [1, 0, 2, 6.5], "texture": "#texture1"}
+			}
+		},
+		{
+			"from": [2.5, 7, 15],
+			"to": [3.5, 14.5, 16],
+			"faces": {
+				"north": {"uv": [1, 0, 2, 7.5], "texture": "#texture1"},
+				"east": {"uv": [2, 0, 1, 6.5], "texture": "#texture1"},
+				"south": {"uv": [1, 0, 2, 7.5], "texture": "#texture1"},
+				"west": {"uv": [1, 0, 2, 6.5], "texture": "#texture1"},
+				"down": {"uv": [12.5, 0, 13.5, 1], "texture": "#texture1"}
+			}
+		}
+	]
+}

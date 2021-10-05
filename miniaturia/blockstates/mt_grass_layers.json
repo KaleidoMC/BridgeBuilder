@@ -1,0 +1,24 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_grass_height2",
+		"textures": {
+       	 	"particle": "miniaturia_mod:blocks/grass",
+        	"texture": "miniaturia_mod:blocks/grass",
+        	"all": "miniaturia_mod:blocks/grass"
+    	},
+    	"uvlock": true
+	},
+    "variants": {
+        "layers=1":  { "model": "miniaturia_mod:mt_grass_height2" },
+        "layers=2":  { "model": "miniaturia_mod:mt_grass_height4" },
+        "layers=3":  { "model": "miniaturia_mod:mt_grass_height6" },
+        "layers=4":  { "model": "miniaturia_mod:mt_grass_height8" },
+        "layers=5":  { "model": "miniaturia_mod:mt_grass_height10" },
+        "layers=6":  { "model": "miniaturia_mod:mt_grass_height12" },
+        "layers=7":  { "model": "miniaturia_mod:mt_grass_height14" },
+        "layers=8":  { "model": "miniaturia_mod:mt_cube_tinted" },
+
+		"inventory":[{ }]
+    }
+}

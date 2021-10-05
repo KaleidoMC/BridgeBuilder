@@ -1,0 +1,29 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"texture": "cocricotmod:blocks/luggage_basket",
+		"particle": "cocricotmod:blocks/basket"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 5.5],
+			"to": [15, 10, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 5], "rotation": 180, "texture": "#texture"},
+				"east": {"uv": [7, 0, 9.5, 5], "rotation": 180, "texture": "#texture"},
+				"south": {"uv": [0, 10, 7, 15], "texture": "#texture"},
+				"west": {"uv": [7, 0, 9.5, 5], "texture": "#texture"},
+				"up": {"uv": [0, 5, 7, 7.5], "texture": "#texture"},
+				"down": {"uv": [0, 7.5, 7, 10], "rotation": 180, "texture": "#texture", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [45, -135, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.95, 0.95, 0.95]
+		}
+	}
+}

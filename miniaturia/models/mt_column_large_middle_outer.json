@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "#middle"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [4, 0, -4.97056],
+			"to": [10.5, 16, 4.97056],
+			"rotation": {"angle": 45, "axis": "y", "origin": [16, 13, 0]},
+			"faces": {
+				"west": {"uv": [3, 0, 12.94113, 16], "texture": "#middle"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [4, 0, 0.02944],
+			"to": [16, 16, 4.97056],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 13, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 16], "texture": "#middle", "cullface": "east"},
+				"west": {"uv": [0, 0, 4.941, 16], "texture": "#middle"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [11.02944, 0, 0],
+			"to": [15.97056, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 13, 0]},
+			"faces": {
+				"east": {"uv": [4, 0, 16, 16], "texture": "#middle", "cullface": "south"},
+				"south": {"uv": [11, 0, 15.941, 16], "texture": "#middle"}
+			}
+		}
+	]
+}

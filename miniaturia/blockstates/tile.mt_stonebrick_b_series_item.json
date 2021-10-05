@@ -1,0 +1,51 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "cube_all",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/stonebrick_b_gray_mossy"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/stonebrick_b_colorful_a"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/stonebrick_b_colorful_b"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/stonebrick_b_colorful_c"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/stonebrick_b_cacao"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cs"
+				}
+			}
+		}
+    }
+}

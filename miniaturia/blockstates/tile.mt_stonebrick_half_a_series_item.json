@@ -1,0 +1,67 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "half_slab",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stonebrick_mossy",
+					"top" : "miniaturia_mod:blocks/stonebrick_mossy_top",
+					"side" : "miniaturia_mod:blocks/stonebrick_mossy"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/nether_brick",
+					"top" : "miniaturia_mod:blocks/nether_brick",
+					"side" : "miniaturia_mod:blocks/nether_brick"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stonebrick_beige",
+					"top" : "miniaturia_mod:blocks/stonebrick_beige",
+					"side" : "miniaturia_mod:blocks/stonebrick_beige"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stonebrick_blue",
+					"top" : "miniaturia_mod:blocks/stonebrick_blue",
+					"side" : "miniaturia_mod:blocks/stonebrick_blue"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stonebrick_a_gray",
+					"top" : "miniaturia_mod:blocks/stonebrick_a_gray",
+					"side" : "miniaturia_mod:blocks/stonebrick_a_gray"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stonebrick_a_red",
+					"top" : "miniaturia_mod:blocks/stonebrick_a_red",
+					"side" : "miniaturia_mod:blocks/stonebrick_a_red"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stonebrick_a_sand",
+					"top" : "miniaturia_mod:blocks/stonebrick_a_sand",
+					"side" : "miniaturia_mod:blocks/stonebrick_a_sand"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stonebrick_a_terracotta",
+					"top" : "miniaturia_mod:blocks/stonebrick_a_terracotta",
+					"side" : "miniaturia_mod:blocks/stonebrick_a_terracotta"
+				}
+			}
+		}
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/sconce_cube",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_white",
+      "0": "cocricotmod:blocks/sconce_cube_wood"
+    }
+}

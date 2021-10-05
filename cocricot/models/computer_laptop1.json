@@ -1,0 +1,20 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/espressomachine",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 1, 10],
+			"faces": {
+				"north": {"uv": [6.5, 8, 7, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [6.5, 11.5, 7, 15.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 8, 6.5, 14], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6.5, 11.5, 7, 15.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7, 8, 13, 12], "texture": "#0"},
+				"down": {"uv": [7, 12, 13, 16], "texture": "#0"}
+			}
+		}
+	]
+}

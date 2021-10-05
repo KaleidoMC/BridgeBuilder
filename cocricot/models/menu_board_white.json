@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/menu_board_brown",
+    "textures": {
+				"particle": "cocricotmod:blocks/menu_board_white",
+        "texture": "cocricotmod:blocks/menu_board_white"
+    }
+}

@@ -1,0 +1,51 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/bottle_wine",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 6, 9.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [6.5, 0, 6.5]},
+			"faces": {
+				"north": {"uv": [6.5, 10, 9.5, 16], "texture": "#0"},
+				"east": {"uv": [6.5, 10, 9.5, 16], "texture": "#0"},
+				"south": {"uv": [6.5, 10, 9.5, 16], "texture": "#0"},
+				"west": {"uv": [6.5, 10, 9.5, 16], "texture": "#0"},
+				"up": {"uv": [9.5, 13, 12.5, 16], "texture": "#0"},
+				"down": {"uv": [9.5, 13, 12.5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 6, 7],
+			"to": [9, 7, 9],
+			"faces": {
+				"north": {"uv": [7, 9, 9, 10], "texture": "#0"},
+				"east": {"uv": [7, 9, 9, 10], "texture": "#0"},
+				"south": {"uv": [7, 9, 9, 10], "texture": "#0"},
+				"west": {"uv": [7, 9, 9, 10], "texture": "#0"},
+				"up": {"uv": [10, 13.5, 12, 15.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 7, 7.5],
+			"to": [8.5, 11, 8.5],
+			"faces": {
+				"north": {"uv": [7.5, 5, 8.5, 9], "texture": "#0"},
+				"east": {"uv": [7.5, 5, 8.5, 9], "texture": "#0"},
+				"south": {"uv": [7.5, 5, 8.5, 9], "texture": "#0"},
+				"west": {"uv": [7.5, 5, 8.5, 9], "texture": "#0"},
+				"up": {"uv": [7.5, 5, 8.5, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 3.5, 0],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "half_slab",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "half_slab" },
+			"top":		{ "model": "upper_slab" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_peeled_brick_white",
+					"top" : "miniaturia_mod:blocks/plaster_peeled_brick_white",
+					"side" : "miniaturia_mod:blocks/plaster_peeled_brick_white"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_peeled_brick_orange",
+					"top" : "miniaturia_mod:blocks/plaster_peeled_brick_orange",
+					"side" : "miniaturia_mod:blocks/plaster_peeled_brick_orange"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_peeled_brick_yellow",
+					"top" : "miniaturia_mod:blocks/plaster_peeled_brick_yellow",
+					"side" : "miniaturia_mod:blocks/plaster_peeled_brick_yellow"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_peeled_brick_pink",
+					"top" : "miniaturia_mod:blocks/plaster_peeled_brick_pink",
+					"side" : "miniaturia_mod:blocks/plaster_peeled_brick_pink"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_peeled_brick_blue",
+					"top" : "miniaturia_mod:blocks/plaster_peeled_brick_blue",
+					"side" : "miniaturia_mod:blocks/plaster_peeled_brick_blue"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_peeled_brick_green",
+					"top" : "miniaturia_mod:blocks/plaster_peeled_brick_green",
+					"side" : "miniaturia_mod:blocks/plaster_peeled_brick_green"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_peeled_wood_white",
+					"top" : "miniaturia_mod:blocks/plaster_peeled_wood_white",
+					"side" : "miniaturia_mod:blocks/plaster_peeled_wood_white"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_peeled_wood_gray",
+					"top" : "miniaturia_mod:blocks/plaster_peeled_wood_gray",
+					"side" : "miniaturia_mod:blocks/plaster_peeled_wood_gray"
+				}
+			}
+		}
+	}
+}

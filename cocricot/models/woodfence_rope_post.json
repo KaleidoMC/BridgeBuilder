@@ -1,0 +1,26 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/planks_seadrift_stick",
+		"particle": "cocricotmod:blocks/planks_seadrift"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 16, 9.5],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.95, 0.95, 0.95]
+		}
+	}
+}

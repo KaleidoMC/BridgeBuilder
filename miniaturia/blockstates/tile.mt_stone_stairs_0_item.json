@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/stone_granite",
+			        "top":		 "miniaturia_mod:blocks/stone_granite",
+			        "side":		 "miniaturia_mod:blocks/stone_granite"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/stone_granite_smooth",
+			        "top":		 "miniaturia_mod:blocks/stone_granite_smooth",
+			        "side":		 "miniaturia_mod:blocks/stone_granite_smooth"
+					}
+				}
+        }
+    }
+}

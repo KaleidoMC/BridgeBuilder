@@ -1,0 +1,108 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_column"
+	},
+
+    "variants": {
+
+		"click=0,half=top":	{
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/wooden_box",
+							"side": "miniaturia_mod:blocks/wooden_box"
+							}
+						},
+		"click=0,half=bottom": {
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/wooden_box",
+							"side": "miniaturia_mod:blocks/wooden_box"
+							}
+						},
+		"click=1,half=top":	{
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/wooden_box_white",
+							"side": "miniaturia_mod:blocks/wooden_box_white"
+							}
+						},
+		"click=1,half=bottom": {
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/wooden_box_white",
+							"side": "miniaturia_mod:blocks/wooden_box_white"
+							}
+						},
+		"click=2,half=top":	[
+						{ "model": "miniaturia_mod:mt_wooden_box", "textures": { "0": "miniaturia_mod:blocks/wooden_box", "1": "miniaturia_mod:blocks/wooden_box2" } },
+						{ "model": "miniaturia_mod:mt_wooden_box", "y": 90, "textures": { "0": "miniaturia_mod:blocks/wooden_box", "1": "miniaturia_mod:blocks/wooden_box2" } }
+						],
+		"click=2,half=bottom": [
+						{ "model": "miniaturia_mod:mt_wooden_box", "textures": { "0": "miniaturia_mod:blocks/wooden_box", "1": "miniaturia_mod:blocks/wooden_box2" } },
+						{ "model": "miniaturia_mod:mt_wooden_box", "y": 90, "textures": { "0": "miniaturia_mod:blocks/wooden_box", "1": "miniaturia_mod:blocks/wooden_box2" } }
+						],
+		"click=3,half=top":	[
+						{ "model": "miniaturia_mod:mt_wooden_box", "textures": { "0": "miniaturia_mod:blocks/wooden_box_white", "1": "miniaturia_mod:blocks/wooden_box2_white" } },
+						{ "model": "miniaturia_mod:mt_wooden_box", "y": 90, "textures": { "0": "miniaturia_mod:blocks/wooden_box_white", "1": "miniaturia_mod:blocks/wooden_box2_white" } }
+						],
+		"click=3,half=bottom": [
+						{ "model": "miniaturia_mod:mt_wooden_box", "textures": { "0": "miniaturia_mod:blocks/wooden_box_white", "1": "miniaturia_mod:blocks/wooden_box2_white" } },
+						{ "model": "miniaturia_mod:mt_wooden_box", "y": 90, "textures": { "0": "miniaturia_mod:blocks/wooden_box_white", "1": "miniaturia_mod:blocks/wooden_box2_white" } }
+						],
+		"click=4,half=top":	[
+						{ "model": "miniaturia_mod:mt_sandbag", "textures": { "0": "miniaturia_mod:blocks/sandbag0" } },
+						{ "model": "miniaturia_mod:mt_sandbag", "y": 90, "textures": { "0": "miniaturia_mod:blocks/sandbag0" } },
+						{ "model": "miniaturia_mod:mt_sandbag", "y": 180, "textures": { "0": "miniaturia_mod:blocks/sandbag0" } },
+						{ "model": "miniaturia_mod:mt_sandbag", "y": 270, "textures": { "0": "miniaturia_mod:blocks/sandbag0" } }
+						],
+		"click=4,half=bottom":	[
+						{ "model": "miniaturia_mod:mt_sandbag", "textures": { "0": "miniaturia_mod:blocks/sandbag0" } },
+						{ "model": "miniaturia_mod:mt_sandbag", "y": 90, "textures": { "0": "miniaturia_mod:blocks/sandbag0" } },
+						{ "model": "miniaturia_mod:mt_sandbag", "y": 180, "textures": { "0": "miniaturia_mod:blocks/sandbag0" } },
+						{ "model": "miniaturia_mod:mt_sandbag", "y": 270, "textures": { "0": "miniaturia_mod:blocks/sandbag0" } }
+						],
+		"click=5,half=top":	{
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/cs",
+							"side": "miniaturia_mod:blocks/cs"
+							}
+						},
+		"click=5,half=bottom":	{
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/cs",
+							"side": "miniaturia_mod:blocks/cs"
+							}
+						},
+		"click=6,half=top":	{
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/cs",
+							"side": "miniaturia_mod:blocks/cs"
+							}
+						},
+		"click=6,half=bottom":	{
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/cs",
+							"side": "miniaturia_mod:blocks/cs"
+							}
+						},
+		"click=7,half=top":	{
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/cs",
+							"side": "miniaturia_mod:blocks/cs"
+							}
+						},
+		"click=7,half=bottom":	{
+						"model": "cube_column",
+						"textures": {
+							"end": "miniaturia_mod:blocks/cs",
+							"side": "miniaturia_mod:blocks/cs"
+							}
+						}
+	}
+}

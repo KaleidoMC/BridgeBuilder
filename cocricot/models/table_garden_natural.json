@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/table_garden_brown",
+    "textures": {
+			"particle": "cocricotmod:blocks/planks_natural",
+			"texture": "cocricotmod:blocks/chair_garden_natural",
+			"texture1": "cocricotmod:blocks/table_garden_natural"
+    }
+}

@@ -1,0 +1,405 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_table_square_single",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"north": { "true": {}, "false": {} },
+		"east": { "true": {}, "false": {} },
+		"south": { "true": {}, "false": {} },
+		"west": { "true": {}, "false": {} },
+
+		"variant": {
+
+			"meta0": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_ashbrown",
+					"top": "miniaturia_mod:blocks/table_ashbrown_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_ashbrown"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/table_lightbrown_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_lightbrown"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_acacia",
+					"top": "miniaturia_mod:blocks/table_acacia_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_acacia"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_darkbrown",
+					"top": "miniaturia_mod:blocks/table_darkbrown_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_darkbrown"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_white",
+					"top": "miniaturia_mod:blocks/table_white_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_white"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_white",
+					"top": "miniaturia_mod:blocks/table_marron_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_marron"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/tablecloth_white_top",
+					"cloth": "miniaturia_mod:blocks/tablecloth_white"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/tablecloth_yellowcheck_top",
+					"cloth": "miniaturia_mod:blocks/tablecloth_yellowcheck"
+				}
+			},
+			"meta8": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/tablecloth_bluecheck_top",
+					"cloth": "miniaturia_mod:blocks/tablecloth_bluecheck"
+				}
+			},
+			"meta9": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/tablecloth_redcheck_top",
+					"cloth": "miniaturia_mod:blocks/tablecloth_redcheck"
+				}
+			},
+			"meta10": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/cs",
+					"top": "miniaturia_mod:blocks/cs",
+					"cloth": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta11": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/cs",
+					"top": "miniaturia_mod:blocks/cs",
+					"cloth": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta12": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/cs",
+					"top": "miniaturia_mod:blocks/cs",
+					"cloth": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta13": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/cs",
+					"top": "miniaturia_mod:blocks/cs",
+					"cloth": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta14": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_pink",
+					"top": "miniaturia_mod:blocks/table_pink_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_pink"
+				}
+			},
+			"meta15": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_mint",
+					"top": "miniaturia_mod:blocks/table_mint_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_mint"
+				}
+			}
+		},
+
+
+		"east=false,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta3,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta4,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta5,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta5,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta5,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta5,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta5,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta5,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta5,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta5,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta5,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta5,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta6,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta6,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta6,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta6,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta6,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta6,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta6,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta6,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta6,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta6,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta6,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta6,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta6,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta6,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta6,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta6,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta7,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta7,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta7,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta7,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta7,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta7,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta7,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta7,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta7,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta7,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta7,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta7,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta7,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta7,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta7,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta7,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta8,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta8,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta8,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta8,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta8,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta8,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta8,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta8,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta8,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta8,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta8,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta8,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta8,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta8,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta8,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta8,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta9,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta9,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta9,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta9,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta9,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta9,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta9,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta9,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta9,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta9,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta9,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta9,west=false":		{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta9,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta9,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta9,west=true":		{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta9,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta10,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta10,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta10,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta10,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta10,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta10,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta10,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta10,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta10,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta10,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta10,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta10,west=false":	{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta10,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta10,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta10,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta10,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta11,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta11,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta11,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta11,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta11,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta11,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta11,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta11,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta11,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta11,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta11,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta11,west=false":	{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta11,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta11,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta11,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta11,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta12,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta12,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta12,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta12,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta12,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta12,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta12,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta12,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta12,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta12,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta12,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta12,west=false":	{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta12,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta12,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta12,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta12,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta13,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta13,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta13,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta13,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta13,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta13,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta13,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta13,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta13,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta13,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta13,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta13,west=false":	{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta13,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta13,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta13,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta13,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta14,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta14,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta14,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta14,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta14,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta14,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta14,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta14,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta14,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta14,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta14,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta14,west=false":	{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta14,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta14,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta14,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta14,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" },
+
+		"east=false,north=false,south=false,variant=meta15,west=false":	{ "model": "miniaturia_mod:mt_table_square_single" },
+		"east=false,north=true,south=false,variant=meta15,west=false":	{ "model": "miniaturia_mod:mt_table_square_end" },
+		"east=true,north=false,south=false,variant=meta15,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta15,west=false":	{ "model": "miniaturia_mod:mt_table_square_end", "y":180},
+		"east=false,north=false,south=false,variant=meta15,west=true":	{ "model": "miniaturia_mod:mt_table_square_end", "y":270},
+		"east=true,north=true,south=false,variant=meta15,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer" },
+		"east=true,north=false,south=true,variant=meta15,west=false":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta15,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 180},
+		"east=false,north=true,south=false,variant=meta15,west=true":	{ "model": "miniaturia_mod:mt_table_square_outer", "y": 270},
+		"east=false,north=true,south=true,variant=meta15,west=false":	{ "model": "miniaturia_mod:mt_table_square_smiddle" },
+		"east=true,north=false,south=false,variant=meta15,west=true":	{ "model": "miniaturia_mod:mt_table_square_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta15,west=false":	{ "model": "miniaturia_mod:mt_table_square_inner" },
+		"east=true,north=false,south=true,variant=meta15,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta15,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta15,west=true":	{ "model": "miniaturia_mod:mt_table_square_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta15,west=true":		{ "model": "miniaturia_mod:mt_table_square_middle" }
+
+		}
+}

@@ -1,0 +1,34 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_car_side_a_left"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/tin_white_c"
+					}
+			 	},
+			 	"1": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/tin_yellow_c"
+					}
+			 	}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"left":	{ "model": "miniaturia_mod:mt_car_side_a_left" },
+    		"right":{ "model": "miniaturia_mod:mt_car_side_a_right" }
+		}
+    }
+}

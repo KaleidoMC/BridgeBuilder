@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_vslab_all",
+    "textures": {
+      "u": "cocricotmod:blocks/stone_color_white",
+      "d": "cocricotmod:blocks/stone_color_white",
+  		"n": "cocricotmod:blocks/cabinet_color_white_side",
+  		"s": "cocricotmod:blocks/cabinet_color_white",
+  		"e": "cocricotmod:blocks/cabinet_color_white_side",
+  		"w": "cocricotmod:blocks/cabinet_color_white_side"
+    }
+}

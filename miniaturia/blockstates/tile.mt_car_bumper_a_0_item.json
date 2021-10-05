@@ -1,0 +1,21 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_car_bumper_a_single",
+		"textures": {
+			"1": "miniaturia_mod:blocks/car_silver_parts",
+			"2": "miniaturia_mod:blocks/traffic_plates"
+		},
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.625, "translation": [ 0.2, -0.2, 0 ] }
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { "model": "miniaturia_mod:mt_car_bumper_a_single" },
+            "click1": { "model": "miniaturia_mod:mt_car_bumper_a2_single" },
+            "click2": { "model": "miniaturia_mod:mt_car_bumper_b_single" },
+            "click3": { "model": "miniaturia_mod:mt_car_bumper_b2_single" }
+		}
+	}
+}

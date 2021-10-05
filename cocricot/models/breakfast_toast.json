@@ -1,0 +1,40 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "cocricotmod:blocks/stone_color_white",
+		"texture": "cocricotmod:blocks/breakfast_toast"
+	},
+	"elements": [
+		{
+			"from": [ 8, 1, 2 ],
+			"to": [ 13.5, 3, 8.5 ],
+			"rotation": { "origin": [ 8, 1, 2 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"up": { "uv": [ 0, 0, 5.5, 6 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0, 6, 5.5, 8 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 6, 5.5, 8 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 6, 5.5, 8 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 6, 5.5, 8 ], "texture": "#texture" }
+			}
+		},
+		{
+			"from": [ 2.75, 0, 1.25 ],
+			"to": [ 13.25, 1, 11.75 ],
+			"faces": {
+				"down": { "uv": [ 5.5, 0, 6, 0.5 ], "texture": "#texture" },
+				"up": { "uv": [ 5.5, 0, 16, 10.5 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 5.5, 10.5, 16, 11.5 ], "texture": "#texture" },
+				"south": { "uv": [ 5.5, 10.5, 16, 11.5 ], "texture": "#texture" },
+				"west": { "uv": [ 5.5, 10.5, 16, 11.5 ], "texture": "#texture" },
+				"east": { "uv": [ 5.5, 10.5, 16, 11.5 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation":  [ 45, 225, 0 ],
+			"translation":  [ -1.1, 5, 0 ],
+			"scale":  [ 1.05, 1.05, 1.05 ]
+		}
+	}
+}

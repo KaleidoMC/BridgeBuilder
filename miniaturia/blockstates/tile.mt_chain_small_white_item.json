@@ -1,0 +1,53 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_string_fence_smiddle",
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 90 }, { "z": 0 } ], "scale": 0.7, "translation": [ 0, 0, 0 ] }
+		}
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"upper1": "miniaturia_mod:blocks/c",
+					"upper2": "miniaturia_mod:blocks/c",
+					"middle1": "miniaturia_mod:blocks/chain_small_white",
+					"middle2": "miniaturia_mod:blocks/chain_small_white_b",
+					"lower1": "miniaturia_mod:blocks/c",
+					"lower2": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"upper1": "miniaturia_mod:blocks/chain_small_white",
+					"upper2": "miniaturia_mod:blocks/chain_small_white_b",
+					"middle1": "miniaturia_mod:blocks/c",
+					"middle2": "miniaturia_mod:blocks/c",
+					"lower1": "miniaturia_mod:blocks/c",
+					"lower2": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"upper1": "miniaturia_mod:blocks/c",
+					"upper2": "miniaturia_mod:blocks/c",
+					"middle1": "miniaturia_mod:blocks/c",
+					"middle2": "miniaturia_mod:blocks/c",
+					"lower1": "miniaturia_mod:blocks/chain_small_white",
+					"lower2": "miniaturia_mod:blocks/chain_small_white_b"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"upper1": "miniaturia_mod:blocks/chain_small_white",
+					"upper2": "miniaturia_mod:blocks/chain_small_white_b",
+					"middle1": "miniaturia_mod:blocks/c",
+					"middle2": "miniaturia_mod:blocks/c",
+					"lower1": "miniaturia_mod:blocks/chain_small_white",
+					"lower2": "miniaturia_mod:blocks/chain_small_white_b"
+				}
+			}
+		}
+    }
+}

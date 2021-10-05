@@ -1,0 +1,121 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_rope_fence_middle",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"east":		{ "true": {}, "false": {} },
+		"north":	{ "true": {}, "false": {} },
+		"south":	{ "true": {}, "false": {} },
+		"west":		{ "true": {}, "false": {} },
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/garland_0",
+					"1": "miniaturia_mod:blocks/c",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/garland_1",
+					"1": "miniaturia_mod:blocks/c",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/garland_2",
+					"1": "miniaturia_mod:blocks/c",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/garland_3",
+					"1": "miniaturia_mod:blocks/c",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			}
+		},
+
+		"east=false,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_middle" },
+		"east=false,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end" },
+		"east=true,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_outer" },
+		"east=true,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_smiddle" },
+		"east=true,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_smiddle", "y": 90 },
+		"east=true,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_rope_fence_inner" },
+		"east=true,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_middle" },
+
+
+		"east=false,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_middle" },
+		"east=false,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end" },
+		"east=true,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_outer" },
+		"east=true,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_smiddle" },
+		"east=true,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_smiddle", "y": 90 },
+		"east=true,north=true,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_rope_fence_inner" },
+		"east=true,north=false,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_middle" },
+
+
+		"east=false,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_middle" },
+		"east=false,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end" },
+		"east=true,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_outer" },
+		"east=true,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_smiddle" },
+		"east=true,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_smiddle", "y": 90 },
+		"east=true,north=true,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_rope_fence_inner" },
+		"east=true,north=false,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_middle" },
+
+
+		"east=false,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_middle" },
+		"east=false,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end" },
+		"east=true,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_outer" },
+		"east=true,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_rope_fence_smiddle" },
+		"east=true,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_rope_fence_smiddle", "y": 90 },
+		"east=true,north=true,south=true,variant=meta3,west=false":		{ "model": "miniaturia_mod:mt_rope_fence_inner" },
+		"east=true,north=false,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_rope_fence_middle" }
+		}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/ladder_wood_black",
+    "textures": {
+      "0": "cocricotmod:blocks/chair_natural",
+      "particle": "cocricotmod:blocks/planks_natural"
+    }
+}

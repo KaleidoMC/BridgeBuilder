@@ -1,0 +1,98 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_chair_small_0"
+	},
+
+    "variants": {
+
+    	"variant": {
+    		"meta0": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_brown"
+						}
+    		},
+    		"meta1": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_lightbrown"
+						}
+    		},
+    		"meta2": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_white"
+						}
+    		},
+			"meta3": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_choco"
+						}
+    		},
+    		"meta4": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_whitebrown"
+						}
+    		},
+    		"meta5": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_blue"
+						}
+    		},
+    		"meta6": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_yellow"
+						}
+    		},
+    		"meta7": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_lightblue"
+						}
+    		},
+    		"meta8": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_pink"
+						}
+    		},
+    		"meta9": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_green"
+						}
+    		},
+    		"meta10": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_red"
+						}
+    		},
+    		"meta11": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_mint"
+						}
+    		},
+    		"meta12": {
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_orange"
+						}
+    		},
+    		"meta13": {
+    			"model": "miniaturia_mod:mt_chair_small_3",
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_brown",
+						"cs3" : "miniaturia_mod:blocks/chair_small_1_black"
+						}
+    		},
+    		"meta14": {
+    			"model": "miniaturia_mod:mt_chair_small_3",
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_lightbrown",
+						"cs3" : "miniaturia_mod:blocks/chair_small_1_black"
+						}
+    		},
+    		"meta15": {
+    			"model": "miniaturia_mod:mt_chair_small_3",
+	    		"textures": {
+						"cs0" : "miniaturia_mod:blocks/chair_small_0_choco",
+						"cs3" : "miniaturia_mod:blocks/chair_small_1_black"
+						}
+    		}
+    	}
+    }
+}

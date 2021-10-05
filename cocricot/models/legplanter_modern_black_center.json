@@ -1,0 +1,39 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/legplanter_modern_black",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	},
+	"elements": [
+		{
+			"from": [2, 8, 0],
+			"to": [14, 16, 16],
+			"faces": {
+				"east": {"uv": [7, 0, 14.5, 4], "texture": "#0"},
+				"west": {"uv": [7, 0, 14.5, 4], "texture": "#0"},
+				"up": {"uv": [7, 4, 14.5, 10], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [7.25, 10, 14.25, 16], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [13, 0, 0],
+			"to": [14, 1, 16],
+			"faces": {
+				"east": {"uv": [0, 0, 0.5, 5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0.5, 0, 0, 5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0.5, 0, 0, 5], "texture": "#0"},
+				"down": {"uv": [0, 0, 0.5, 5], "rotation": 180, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2, 0, 0],
+			"to": [3, 1, 16],
+			"faces": {
+				"east": {"uv": [0.5, 0, 0, 5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 0, 0.5, 5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 0.5, 5], "texture": "#0"},
+				"down": {"uv": [0, 0, 0.5, 5], "rotation": 180, "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

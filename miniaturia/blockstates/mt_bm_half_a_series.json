@@ -1,0 +1,75 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "half_slab",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "half_slab" },
+			"top":		{ "model": "upper_slab" }
+		},
+
+		"variant": {
+
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stone_plate_parts",
+					"top" : "miniaturia_mod:blocks/stone_plate_parts",
+					"side" : "miniaturia_mod:blocks/stone_striped"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"side" : "miniaturia_mod:blocks/quartz_striped"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/sandstone_top",
+					"top" : "miniaturia_mod:blocks/sandstone_top",
+					"side" : "miniaturia_mod:blocks/sandstone_striped"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stone_plate_parts",
+					"top" : "miniaturia_mod:blocks/stone_plate_parts",
+					"side" : "miniaturia_mod:blocks/stone_molding"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"side" : "miniaturia_mod:blocks/quartz_molding"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/sandstone_plate_parts",
+					"top" : "miniaturia_mod:blocks/sandstone_plate_parts",
+					"side" : "miniaturia_mod:blocks/sandstone_molding"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/stone_plate_parts",
+					"top" : "miniaturia_mod:blocks/stone_plate_parts",
+					"side" : "miniaturia_mod:blocks/stone_molding_b"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"side" : "miniaturia_mod:blocks/quartz_molding_b"
+				}
+			}
+		}
+	}
+}

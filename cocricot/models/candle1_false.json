@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/candle1",
+    "textures": {
+  		"1": "cocricotmod:blocks/torch_false"
+  	}
+}

@@ -1,0 +1,69 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "cocricotmod:blocks/stone_color_darkbrown",
+		"0": "cocricotmod:blocks/glassbottle_cottonflower"
+	},
+	"elements": [
+		{
+			"from": [5.70711, 0, 5.5],
+			"to": [9.70711, 5, 9.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.70711, 5.25, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 10.5, 4, 16], "texture": "#0"},
+				"east": {"uv": [0, 10.5, 4, 16], "texture": "#0"},
+				"south": {"uv": [0, 10.5, 4, 16], "texture": "#0"},
+				"west": {"uv": [0, 10.5, 4, 16], "texture": "#0"},
+				"up": {"uv": [0, 6.5, 4, 10.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 6.5, 4, 10.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.70711, 5, 6.5],
+			"to": [8.70711, 6, 8.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.70711, 5.25, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 5.5, 2, 6.5], "texture": "#0"},
+				"east": {"uv": [0, 5.5, 2, 6.5], "texture": "#0"},
+				"south": {"uv": [0, 5.5, 2, 6.5], "texture": "#0"},
+				"west": {"uv": [0, 5.5, 2, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.20711, 6, 6],
+			"to": [9.20711, 7, 9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.70711, 5.25, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 4.5, 3, 5.5], "texture": "#0"},
+				"east": {"uv": [0, 4.5, 3, 5.5], "texture": "#0"},
+				"south": {"uv": [0, 4.5, 3, 5.5], "texture": "#0"},
+				"west": {"uv": [0, 4.5, 3, 5.5], "texture": "#0"},
+				"up": {"uv": [0, 1.5, 3, 4.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 1.5, 3, 4.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.03806, 1, 7.30866],
+			"to": [11.03806, 17, 7.30866],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 13, 7.5]},
+			"faces": {
+				"north": {"uv": [9, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [9, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.34672, 1, 4.2706],
+			"to": [7.34672, 17, 11.2706],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.5, 13, 7]},
+			"faces": {
+				"east": {"uv": [9, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [9, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 0, 0]
+		}
+	}
+}

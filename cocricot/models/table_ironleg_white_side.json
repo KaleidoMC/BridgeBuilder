@@ -1,0 +1,9 @@
+{
+	"parent": "cocricotmod:block/table_ironleg_brown_side",
+	"textures": {
+		"0": "cocricotmod:blocks/chest_color_white_side",
+		"1": "cocricotmod:blocks/stone_color_white",
+		"2": "cocricotmod:blocks/metal_black",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	}
+}

@@ -1,0 +1,67 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "half_slab",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tile_orange",
+					"top" : "miniaturia_mod:blocks/tile_orange",
+					"side" : "miniaturia_mod:blocks/tile_orange"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tile_lightblue",
+					"top" : "miniaturia_mod:blocks/tile_lightblue",
+					"side" : "miniaturia_mod:blocks/tile_lightblue"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tile_yellow",
+					"top" : "miniaturia_mod:blocks/tile_yellow",
+					"side" : "miniaturia_mod:blocks/tile_yellow"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tile_pink",
+					"top" : "miniaturia_mod:blocks/tile_pink",
+					"side" : "miniaturia_mod:blocks/tile_pink"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tile_navy",
+					"top" : "miniaturia_mod:blocks/tile_navy",
+					"side" : "miniaturia_mod:blocks/tile_navy"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tile_green",
+					"top" : "miniaturia_mod:blocks/tile_green",
+					"side" : "miniaturia_mod:blocks/tile_green"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tile_brown",
+					"top" : "miniaturia_mod:blocks/tile_brown",
+					"side" : "miniaturia_mod:blocks/tile_brown"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/cs",
+					"top" : "miniaturia_mod:blocks/cs",
+					"side" : "miniaturia_mod:blocks/cs"
+				}
+			}
+		}
+    }
+}

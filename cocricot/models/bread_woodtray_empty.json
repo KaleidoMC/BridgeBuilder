@@ -1,0 +1,38 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"texture": "cocricotmod:blocks/bread_woodtray",
+		"particle": "cocricotmod:blocks/planks_brown"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 1, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 14, 14, 15], "texture": "#texture"},
+				"east": {"uv": [0, 15, 14, 16], "texture": "#texture"},
+				"south": {"uv": [0, 14, 14, 15], "texture": "#texture"},
+				"west": {"uv": [14, 15, 0, 16], "texture": "#texture"},
+				"up": {"uv": [0, 0, 14, 14], "rotation": 180, "texture": "#texture"},
+				"down": {"uv": [0, 14, 14, 0], "rotation": 180, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [2, 0, 0.5],
+			"to": [5.5, 2, 0.5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [4, 0, 0.5]},
+			"faces": {
+				"north": {"uv": [14, 0, 16, 3.5], "rotation": 90, "texture": "#texture"},
+				"south": {"uv": [15.5, 0, 15.75, 0.25], "texture": "#texture"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			},
+		"uvlock": true
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_stone_white",
+			        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_stone_white",
+			        "ns":		"miniaturia_mod:blocks/plaster_peeled_stone_white",
+			        "we":		"miniaturia_mod:blocks/plaster_peeled_stone_white"
+			    	}
+            	},
+            "click1": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_stone_orange",
+			        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_stone_orange",
+			        "ns":		"miniaturia_mod:blocks/plaster_peeled_stone_orange",
+			        "we":		"miniaturia_mod:blocks/plaster_peeled_stone_orange"
+			    	}
+            	},
+            "click2": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_stone_yellow",
+			        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_stone_yellow",
+			        "ns":		"miniaturia_mod:blocks/plaster_peeled_stone_yellow",
+			        "we":		"miniaturia_mod:blocks/plaster_peeled_stone_yellow"
+			    	}
+            	},
+            "click3": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_stone_pink",
+			        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_stone_pink",
+			        "ns":		"miniaturia_mod:blocks/plaster_peeled_stone_pink",
+			        "we":		"miniaturia_mod:blocks/plaster_peeled_stone_pink"
+			    	}
+            	}
+            }
+        }
+}

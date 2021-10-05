@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "cocricotmod:blocks/stone_fishscale_",
+        "top": "cocricotmod:blocks/stone_fishscale_",
+        "side": "cocricotmod:blocks/stone_fishscale_"
+    }
+}

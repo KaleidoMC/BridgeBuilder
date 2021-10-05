@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/ladder_iron_black",
+    "textures": {
+      "0": "cocricotmod:blocks/metal_white",
+      "particle": "cocricotmod:blocks/stone_color_white"
+    }
+}

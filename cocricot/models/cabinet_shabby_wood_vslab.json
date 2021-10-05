@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_vslab_all",
+    "textures": {
+      "u": "cocricotmod:blocks/planks_seadrift",
+      "d": "cocricotmod:blocks/planks_seadrift",
+  		"n": "cocricotmod:blocks/cabinet_shabby_wood_side",
+  		"s": "cocricotmod:blocks/cabinet_shabby_wood",
+  		"e": "cocricotmod:blocks/cabinet_shabby_wood_side",
+  		"w": "cocricotmod:blocks/cabinet_shabby_wood_side"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"textures":{
+			"top" : "miniaturia_mod:blocks/brick_top",
+			"ns" : "miniaturia_mod:blocks/brick_ns",
+			"we" : "miniaturia_mod:blocks/brick_we"
+			},
+		"model": "miniaturia_mod:mt_brick_nswe",
+		"uvlock": true
+  },
+    "variants": {
+        "half=bottom,variant=default": { "model": "miniaturia_mod:mt_brick_nswe" },
+        "half=top,variant=default": { "model": "miniaturia_mod:mt_brick_nswe" },
+
+        "inventory":[{ }]
+    }
+}

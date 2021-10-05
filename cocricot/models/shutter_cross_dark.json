@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/shutter",
+    "textures": {
+      "top": "cocricotmod:blocks/shutter_cross_dark",
+      "side": "cocricotmod:blocks/shutter_cross_dark"
+    }
+}

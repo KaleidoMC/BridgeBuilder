@@ -1,0 +1,40 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/sofa_slipper_black",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 0],
+			"to": [16, 9.5, 16],
+			"faces": {
+				"north": {"uv": [8, 11.5, 15, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 11.5, 8, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [15, 11.5, 8, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 11.5, 8, 16], "texture": "#0"},
+				"up": {"uv": [0, 4.5, 8, 11.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 15.25, 0.75, 16], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [11, 9.5, 0],
+			"to": [16, 20, 16],
+			"faces": {
+				"north": {"uv": [8, 6.25, 10.5, 11.5], "texture": "#0"},
+				"east": {"uv": [0, 11.25, 8, 13.75], "texture": "#0"},
+				"south": {"uv": [10.5, 6.25, 8, 11.5], "texture": "#0"},
+				"west": {"uv": [0, 1.75, 8, 7], "texture": "#0"},
+				"up": {"uv": [8, 3.75, 16, 6.25], "rotation": 90, "texture": "#0", "cullface": "up"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -225, 0],
+			"translation": [0.4, -1.2, 0],
+			"scale": [0.56, 0.56, 0.56]
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_ivy",
+		"textures": {
+				"0": "miniaturia_mod:blocks/leaves_ivy_a",
+				"1": "miniaturia_mod:blocks/leaves_ivy_a_parts",
+				"2": "miniaturia_mod:blocks/leaves_rose_pink_flowers"
+			},
+  		"uvlock": true
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {},
+			 	"1": {},
+	    		"2": {}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+		"click=0,facing=north":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=0,facing=east":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=0,facing=south":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=0,facing=west":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+
+		"click=1,facing=north":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=1,facing=east":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=1,facing=south":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=1,facing=west":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+
+		"click=2,facing=north":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=2,facing=east":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=2,facing=south":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+		"click=2,facing=west":	[{ "model": "miniaturia_mod:mt_ivy" },{ "model": "miniaturia_mod:mt_ivy_b" }],
+
+        "inventory":[{ }]
+    }
+}

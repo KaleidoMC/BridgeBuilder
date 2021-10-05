@@ -1,0 +1,55 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_typewriter"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"body": "miniaturia_mod:blocks/typewriter_black_body",
+						"body2": "miniaturia_mod:blocks/typewriter_black_body2",
+						"parts": "miniaturia_mod:blocks/typewriter_black_parts",
+						"paper": "miniaturia_mod:blocks/typewriter_paper",
+						"particle": "miniaturia_mod:blocks/typewriter_black_body"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"body": "miniaturia_mod:blocks/typewriter_green_body",
+						"body2": "miniaturia_mod:blocks/typewriter_green_body2",
+						"parts": "miniaturia_mod:blocks/typewriter_green_parts",
+						"paper": "miniaturia_mod:blocks/typewriter_paper",
+						"particle": "miniaturia_mod:blocks/typewriter_green_body"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"body": "miniaturia_mod:blocks/typewriter_pink_body",
+						"body2": "miniaturia_mod:blocks/typewriter_pink_body2",
+						"parts": "miniaturia_mod:blocks/typewriter_pink_parts",
+						"paper": "miniaturia_mod:blocks/typewriter_paper",
+						"particle": "miniaturia_mod:blocks/typewriter_pink_body"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"body": "miniaturia_mod:blocks/typewriter_mint_body",
+						"body2": "miniaturia_mod:blocks/typewriter_mint_body2",
+						"parts": "miniaturia_mod:blocks/typewriter_mint_parts",
+						"paper": "miniaturia_mod:blocks/typewriter_paper",
+						"particle": "miniaturia_mod:blocks/typewriter_mint_body"
+			 		}
+	    		}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

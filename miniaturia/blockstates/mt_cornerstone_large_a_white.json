@@ -1,0 +1,63 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_cornerstone_large_l",
+	    "textures": {
+	        "0": "miniaturia_mod:blocks/cornerstone_white_l",
+			"1": "miniaturia_mod:blocks/cornerstone_white_r",
+			"3": "miniaturia_mod:blocks/cornerstone_small_white"
+	    	}
+	},
+
+    "variants": {
+
+        "facing=south,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_cornerstone_large_l", "y": 0 },
+        "facing=west,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_cornerstone_large_l", "y": 90 },
+        "facing=north,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_cornerstone_large_l", "y": 180 },
+        "facing=east,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_cornerstone_large_l", "y": 270 },
+
+        "facing=south,fence=false,shape=middle":{ "model":"miniaturia_mod:mt_cornerstone_small_b_m", "y": 0 },
+        "facing=west,fence=false,shape=middle":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m", "y": 90 },
+        "facing=north,fence=false,shape=middle":{ "model":"miniaturia_mod:mt_cornerstone_small_b_m", "y": 180 },
+        "facing=east,fence=false,shape=middle":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m", "y": 270 },
+
+        "facing=south,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_cornerstone_large_r", "y": 0 },
+        "facing=west,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_cornerstone_large_r", "y": 90 },
+        "facing=north,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_cornerstone_large_r", "y": 180 },
+        "facing=east,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_cornerstone_large_r", "y": 270 },
+
+        "facing=south,fence=false,shape=middle2":{ "model":"miniaturia_mod:mt_cornerstone_small_b_m2", "y": 0 },
+        "facing=west,fence=false,shape=middle2":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m2", "y": 90 },
+        "facing=north,fence=false,shape=middle2":{ "model":"miniaturia_mod:mt_cornerstone_small_b_m2", "y": 180 },
+        "facing=east,fence=false,shape=middle2":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m2", "y": 270 },
+
+        "facing=south,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_cornerstone_large_l_long", "y": 0 },
+        "facing=west,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_cornerstone_large_l_long", "y": 90 },
+        "facing=north,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_cornerstone_large_l_long", "y": 180 },
+        "facing=east,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_cornerstone_large_l_long", "y": 270 },
+
+        "facing=south,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m_long", "y": 0 },
+        "facing=west,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m_long", "y": 90 },
+        "facing=north,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m_long", "y": 180 },
+        "facing=east,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m_long", "y": 270 },
+
+        "facing=south,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_cornerstone_large_r_long", "y": 0 },
+        "facing=west,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_cornerstone_large_r_long", "y": 90 },
+        "facing=north,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_cornerstone_large_r_long", "y": 180 },
+        "facing=east,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_cornerstone_large_r_long", "y": 270 },
+
+        "facing=south,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m2_long", "y": 0 },
+        "facing=west,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m2_long", "y": 90 },
+        "facing=north,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m2_long", "y": 180 },
+        "facing=east,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_cornerstone_small_b_m2_long", "y": 270 },
+
+        "inventory":[{
+        	"transform": {
+		        "gui": {
+		            "rotation": [ { "x": 0}, { "y": 0 }, { "z": 0 } ],
+		            "scale": 0.8
+		        }
+			}
+        }]
+	}
+}

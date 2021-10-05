@@ -1,0 +1,9 @@
+{
+    "parent": "cocricotmod:block/refrigerator_retro",
+  	"textures": {
+      "0": "cocricotmod:blocks/refrigerator_retro_silver6",
+  		"1": "cocricotmod:blocks/refrigerator_retro_silver7",
+  		"2": "cocricotmod:blocks/refrigerator_retro_silver5",
+      "4": "cocricotmod:blocks/refrigerator_retro_silver8"
+  	}
+}

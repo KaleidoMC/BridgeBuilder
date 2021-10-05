@@ -1,0 +1,51 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "cube_all",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cobblestone_sand"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cobblestone_b"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cobblestone_b_black2"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cobblestone_b_beige"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cobblestone_b_gray"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cobblestone_b_black"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cobblestone_b_white"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cobblestone_a_black"
+				}
+			}
+		}
+    }
+}

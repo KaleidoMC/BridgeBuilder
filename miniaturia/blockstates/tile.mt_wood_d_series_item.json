@@ -1,0 +1,36 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "cube_all",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/wood_herringbone"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/wood_herringbone_dark"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/wood_herringbone_white"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/wood_walnut"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/wood_pine"
+				}
+			}
+		}
+    }
+}

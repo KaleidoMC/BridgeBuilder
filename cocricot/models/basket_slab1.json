@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/woodenbox_slab1",
+    "textures": {
+  		"0": "cocricotmod:blocks/basket_t",
+  		"1": "cocricotmod:blocks/basket_slab",
+  		"2": "cocricotmod:blocks/basket_slab1",
+  		"3": "cocricotmod:blocks/basket",
+  		"4": "cocricotmod:blocks/wood_2board_brown",
+  		"particle": "cocricotmod:blocks/basket"
+  	}
+}

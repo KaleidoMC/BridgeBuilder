@@ -1,0 +1,57 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_facade_b_single"
+    },
+    "variants": {
+        "variant": {
+            "meta0": {
+    			"model": "cube_column",
+    			"textures": {
+		    		"end": "miniaturia_mod:blocks/facade_black_top",
+					"side": "miniaturia_mod:blocks/facade_black_b"
+					}
+            	},
+            "meta1": {
+        		"model": "cube_column",
+        		"textures": {
+		    		"end": "miniaturia_mod:blocks/facade_black_top",
+					"side": "miniaturia_mod:blocks/facade_black_b_pillar"
+					}
+            	},
+            "meta2": {
+        		"model": "cube_column",
+        		"textures": {
+		    		"end": "miniaturia_mod:blocks/facade_black_top",
+					"side": "miniaturia_mod:blocks/facade_black_b_sign"
+					}
+		    	},
+            "meta3": {
+        		"model": "miniaturia_mod:mt_facade_b_single",
+			   	"transform": {
+					"gui": {
+						"rotation": [ { "x": 30}, { "y": 45 }, { "z": 0 } ], "scale": 0.5
+						}
+					},
+        		"textures": {
+		    		"end": "miniaturia_mod:blocks/facade_black_top",
+					"side": "miniaturia_mod:blocks/facade_black_b_deco",
+					"sign": "miniaturia_mod:blocks/facade_black_b_deco"
+					}
+            	},
+            "meta4": {
+        		"model": "miniaturia_mod:mt_facade_b_single",
+			   	"transform": {
+					"gui": {
+						"rotation": [ { "x": 30}, { "y": 45 }, { "z": 0 } ], "scale": 0.5
+						}
+					},
+        		"textures": {
+		    		"end": "miniaturia_mod:blocks/facade_black_top",
+					"side": "miniaturia_mod:blocks/facade_black_b_deco",
+					"sign": "miniaturia_mod:blocks/facade_black_b_sign"
+					}
+            	}
+            }
+        }
+}

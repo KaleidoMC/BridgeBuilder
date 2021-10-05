@@ -1,0 +1,44 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_chair_caster.obj",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.55, "translation": [ 0, -0.1, 0 ] },
+		        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+		        "fixed": {"scale": 0.5},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+			    "textures": {
+					"#0" : "miniaturia_mod:blocks/casterchair0",
+					"#1" : "miniaturia_mod:blocks/casterchair_winered"
+			    	}
+				},
+            "click1": {
+			    "textures": {
+					"#0" : "miniaturia_mod:blocks/casterchair1",
+					"#1" : "miniaturia_mod:blocks/casterchair_brown"
+			    	}
+				},
+            "click2": {
+			    "textures": {
+					"#0" : "miniaturia_mod:blocks/casterchair0",
+					"#1" : "miniaturia_mod:blocks/casterchair_white"
+			    	}
+				},
+            "click3": {
+			    "textures": {
+					"#0" : "miniaturia_mod:blocks/casterchair0",
+					"#1" : "miniaturia_mod:blocks/casterchair_black"
+			    	}
+				}
+            }
+        }
+}

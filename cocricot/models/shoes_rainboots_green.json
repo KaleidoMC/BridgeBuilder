@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/shoes_rainboots_red",
+	"textures": {
+		"0": "cocricotmod:blocks/awning_stripe_green_lower",
+		"particle": "cocricotmod:blocks/stone_color_green"
+	}
+}

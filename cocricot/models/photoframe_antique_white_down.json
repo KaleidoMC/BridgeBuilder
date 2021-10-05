@@ -1,0 +1,32 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/photoframe_antique_white",
+		"1": "cocricotmod:blocks/stone_color_white",
+		"2": "cocricotmod:blocks/photoframe_antique_white_back",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	},
+	"elements": [
+		{
+			"from": [4.5, -0.76537, 7.15224],
+			"to": [11.5, 8.23463, 7.15224],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 0, 9]},
+			"faces": {
+				"north": {"uv": [4.5, 3.5, 11.5, 12.5], "texture": "#0"},
+				"south": {"uv": [4.5, 3.5, 11.5, 12.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7, 0.57403, 10.11418],
+			"to": [9, 4.44903, 11.11418],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8.5, 0, 11.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 4.5, 0.5], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 4.5], "texture": "#1"},
+				"west": {"uv": [0, 0, 4.5, 0.5], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 0.5], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 0.5], "texture": "#1"}
+			}
+		}
+	]
+}

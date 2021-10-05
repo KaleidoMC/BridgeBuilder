@@ -1,0 +1,132 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_steel_beam_smiddle"
+	},
+
+	"variants": {
+
+		"east":		{ "true": {}, "false": {} },
+		"north":	{ "true": {}, "false": {} },
+		"south":	{ "true": {}, "false": {} },
+		"west":		{ "true": {}, "false": {} },
+
+		"variant": {
+			"meta0": {
+				"textures": {
+		    		"0": "miniaturia_mod:blocks/steel_silver_b"
+					}
+				},
+			"meta1": {
+				"textures": {
+		    		"0": "miniaturia_mod:blocks/steel_black_b"
+					}
+				},
+			"meta2": {
+				"textures": {
+		    		"0": "miniaturia_mod:blocks/steel_red_b"
+					}
+				},
+			"meta3": {
+				"textures": {
+		    		"0": "miniaturia_mod:blocks/steel_green_b"
+					}
+				},
+			"meta4": {
+				"textures": {
+		    		"0": "miniaturia_mod:blocks/brass_b",
+		    		"1": "miniaturia_mod:blocks/brass_c"
+					}
+				}
+		},
+
+		"east=false,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_single" },
+		"east=false,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end" },
+		"east=true,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_outer" },
+		"east=true,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_smiddle" },
+		"east=true,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_steel_beam_inner" },
+		"east=true,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_middle" },
+
+
+		"east=false,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_single" },
+		"east=false,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end" },
+		"east=true,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_outer" },
+		"east=true,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_smiddle" },
+		"east=true,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_steel_beam_inner" },
+		"east=true,north=false,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_middle" },
+
+
+		"east=false,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_single" },
+		"east=false,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end" },
+		"east=true,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_outer" },
+		"east=true,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_smiddle" },
+		"east=true,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_steel_beam_inner" },
+		"east=true,north=false,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_middle" },
+
+
+		"east=false,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_single" },
+		"east=false,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end" },
+		"east=true,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_outer" },
+		"east=true,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_smiddle" },
+		"east=true,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_steel_beam_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta3,west=false":		{ "model": "miniaturia_mod:mt_steel_beam_inner" },
+		"east=true,north=false,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_steel_beam_middle" },
+
+
+		"east=false,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_steel_beam_single" },
+		"east=false,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_steel_beam2_end" },
+		"east=true,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_steel_beam2_end", "y": 90 },
+		"east=false,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_steel_beam2_end", "y": 180 },
+		"east=false,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_steel_beam2_end", "y": 270 },
+		"east=true,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_steel_beam2_outer" },
+		"east=true,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_steel_beam2_outer", "y": 90 },
+		"east=false,north=false,south=true,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_steel_beam2_outer", "y": 180 },
+		"east=false,north=true,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_steel_beam2_outer", "y": 270 },
+		"east=false,north=true,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_steel_beam2_smiddle" },
+		"east=true,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_steel_beam2_smiddle", "y": 90},
+		"east=true,north=true,south=true,variant=meta4,west=false":		{ "model": "miniaturia_mod:mt_steel_beam2_inner" },
+		"east=true,north=false,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_steel_beam2_inner", "y": 90 },
+		"east=false,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_steel_beam2_inner", "y": 180 },
+		"east=true,north=true,south=false,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_steel_beam2_inner", "y": 270 },
+		"east=true,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_steel_beam2_middle" }
+		}
+}

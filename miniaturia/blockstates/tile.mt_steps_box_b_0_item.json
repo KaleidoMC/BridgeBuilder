@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_steps_d_single"
+    },
+    "variants": {
+        "variant": {
+			 	"click0": {
+					"textures":{
+						"1": "miniaturia_mod:blocks/wallpaper_2a_red",
+						"3": "miniaturia_mod:blocks/wallpaper_2a_red",
+						"4": "miniaturia_mod:blocks/wallpaper_2a_red"
+					}
+				},
+			 	"click1": {
+					"textures":{
+						"1": "miniaturia_mod:blocks/wallpaper_2a_redgold",
+						"3": "miniaturia_mod:blocks/wallpaper_2a_redgold",
+						"4": "miniaturia_mod:blocks/wallpaper_2a_redgold"
+					}
+	    		}
+        }
+    }
+}

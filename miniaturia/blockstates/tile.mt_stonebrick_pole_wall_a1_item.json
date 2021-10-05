@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_pole_wall_end"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/stonebrick_a_gray",
+					"end": "miniaturia_mod:blocks/stonebrick_a_gray",
+					"wall": "miniaturia_mod:blocks/stonebrick_a_gray"
+					}
+				},
+			"meta1": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/stonebrick_a_red",
+					"end": "miniaturia_mod:blocks/stonebrick_a_red",
+					"wall": "miniaturia_mod:blocks/stonebrick_a_red"
+					}
+				},
+			"meta2": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/stonebrick_a_sand",
+					"end": "miniaturia_mod:blocks/stonebrick_a_sand",
+					"wall": "miniaturia_mod:blocks/stonebrick_a_sand"
+					}
+				},
+			"meta3": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/stonebrick_a_terracotta",
+					"end": "miniaturia_mod:blocks/stonebrick_a_terracotta",
+					"wall": "miniaturia_mod:blocks/stonebrick_a_terracotta"
+					}
+				}
+        }
+    }
+}

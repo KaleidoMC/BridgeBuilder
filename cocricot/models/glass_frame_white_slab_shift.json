@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/glass_frame_slab_shift",
+    "textures": {
+      "0": "cocricotmod:blocks/glass_frame_white",
+      "1": "cocricotmod:blocks/glass_frame_white_slab"
+    }
+}

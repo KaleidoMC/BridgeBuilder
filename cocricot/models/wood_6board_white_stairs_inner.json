@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "cocricotmod:blocks/wood_6board_white",
+        "top": "cocricotmod:blocks/wood_6board_white",
+        "side": "cocricotmod:blocks/wood_6board_white"
+    }
+}

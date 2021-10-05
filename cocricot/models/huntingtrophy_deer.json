@@ -1,0 +1,86 @@
+{
+	"textures": {
+		"particle": "cocricotmod:blocks/stone_color_darkbrown",
+		"texture": "cocricotmod:blocks/huntingtrophy_deer2",
+		"texture1": "cocricotmod:blocks/huntingtrophy_deer1",
+		"texture2": "cocricotmod:blocks/huntingtrophy_deer"
+	},
+	"elements": [
+		{
+			"from": [ 2, 0, 15 ],
+			"to": [ 14, 17, 16 ],
+			"faces": {
+				"down": { "uv": [ 2, 0, 14, 1 ], "texture": "#texture2" },
+				"up": { "uv": [ 2, 15, 14, 16 ], "texture": "#texture2" },
+				"north": { "uv": [ 2, 0, 14, 16 ], "texture": "#texture2" },
+				"south": { "uv": [ 2, 0, 14, 16 ], "texture": "#texture2", "cullface": "south" },
+				"west": { "uv": [ 13, 0, 14, 16 ], "texture": "#texture2" },
+				"east": { "uv": [ 2, 0, 3, 16 ], "texture": "#texture2" }
+			}
+		},
+		{
+			"from": [ 4.5, 13, 6 ],
+			"to": [ 11.5, 20.5, 19 ],
+			"rotation": { "origin": [ 4.5, 13, 6 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 5, 0, 11, 12 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 5, 0, 11, 12 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 4, 4, 12, 9 ], "texture": "#texture" },
+				"west": { "uv": [ 9, 5.5, 14, 16 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 2, 5.5, 7, 16 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"from": [ 6, 7.9601, 2.5964 ],
+			"to": [ 10, 12.4601, 10.0964 ],
+			"rotation": { "origin": [ 6, 12.5, 2.5 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 6.5, 13.5, 9.5, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 9.5, 12.5, 6.5, 7.5 ], "texture": "#texture" },
+				"north": { "uv": [ 9.5, 16, 6.5, 12.5 ], "texture": "#texture", "rotation": 180 },
+				"west": { "uv": [ 10, 9, 13.5, 14 ], "texture": "#texture", "rotation": 90 },
+				"east": { "uv": [ 3, 9, 6.5, 14 ], "texture": "#texture", "rotation": 270 }
+			}
+		},
+		{
+			"from": [ -4, 9, 11 ],
+			"to": [ 20, 32, 11.5 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 150, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 150, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 180, 0 ],
+			"translation":  [ 0, -5.7, 0 ],
+			"scale":  [ 0.65, 0.65, 0.65 ]
+		},
+		"head": {
+			"translation":  [ 0, 3.4782, -9.76 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		}
+	}
+}

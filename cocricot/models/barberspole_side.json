@@ -1,0 +1,21 @@
+{
+  "__comment": "Designed by Kixiko",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "cocricotmod:blocks/stone_color_black",
+    "top": "cocricotmod:blocks/barberspole_top",
+    "wall": "cocricotmod:blocks/barberspole12"
+  },
+    "elements": [
+        {   "from": [ 5, 0, 0 ],
+            "to": [ 11, 14, 8 ],
+            "faces": {
+                "down":  { "texture": "#top", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#wall", "cullface": "north" },
+                "west":  { "texture": "#wall" },
+                "east":  { "texture": "#wall" }
+            }
+        }
+    ]
+}

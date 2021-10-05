@@ -1,0 +1,49 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			},
+		"uvlock": true
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/cobblestone_b_gray",
+			        "corner_top":		"miniaturia_mod:blocks/cobblestone_b_gray",
+			        "ns":		"miniaturia_mod:blocks/cobblestone_b_gray",
+			        "we":		"miniaturia_mod:blocks/cobblestone_b_gray"
+			    	}
+            	},
+            "click1": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/cobblestone_b_black",
+			        "corner_top":		"miniaturia_mod:blocks/cobblestone_b_black",
+			        "ns":		"miniaturia_mod:blocks/cobblestone_b_black",
+			        "we":		"miniaturia_mod:blocks/cobblestone_b_black"
+			    	}
+            	},
+            "click2": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/cobblestone_b_white",
+			        "corner_top":		"miniaturia_mod:blocks/cobblestone_b_white",
+			        "ns":		"miniaturia_mod:blocks/cobblestone_b_white",
+			        "we":		"miniaturia_mod:blocks/cobblestone_b_white"
+			    	}
+            	},
+            "click3": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/cobblestone_a_black",
+			        "corner_top":		"miniaturia_mod:blocks/cobblestone_a_black",
+			        "ns":		"miniaturia_mod:blocks/cobblestone_a_black",
+			        "we":		"miniaturia_mod:blocks/cobblestone_a_black"
+			    	}
+            	}
+            }
+        }
+}

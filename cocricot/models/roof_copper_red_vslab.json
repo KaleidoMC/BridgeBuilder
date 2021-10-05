@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_vslab",
+    "textures": {
+        "0": "cocricotmod:blocks/roof_copper_red"
+    }
+}

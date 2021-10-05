@@ -1,0 +1,44 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/pergola_brown",
+		"particle": "cocricotmod:blocks/planks_brown"
+	},
+	"elements": [
+		{
+			"from": [6.5, 12, 0],
+			"to": [9.5, 16, 16],
+			"faces": {
+				"north": {"uv": [7, 7, 10, 11], "texture": "#0"},
+				"east": {"uv": [3, 0, 7, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 3, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [3, 0, 7, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 13.5, -2],
+			"to": [9.5, 16, 0],
+			"faces": {
+				"north": {"uv": [7, 7, 10, 9.5], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [9, 11, 7, 13.5], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [7, 11, 9, 13.5], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [0, 0, 3, 2], "texture": "#0", "cullface": "north"},
+				"down": {"uv": [0, 0, 3, 2], "texture": "#0", "cullface": "north"}
+			}
+		},
+		{
+			"from": [0, 7, 6],
+			"to": [16, 12, 10],
+			"faces": {
+				"north": {"uv": [11, 0, 16, 16], "rotation": 90, "texture": "#0", "cullface": "north"},
+				"east": {"uv": [11, 0, 16, 4], "rotation": 90, "texture": "#0", "cullface": "north"},
+				"south": {"uv": [11, 0, 16, 16], "rotation": 90, "texture": "#0", "cullface": "north"},
+				"west": {"uv": [11, 0, 16, 4], "rotation": 90, "texture": "#0", "cullface": "north"},
+				"up": {"uv": [11, 0, 14, 16], "rotation": 90, "texture": "#0", "cullface": "north"},
+				"down": {"uv": [3, 0, 6, 16], "rotation": 90, "texture": "#0", "cullface": "north"}
+			}
+		}
+	]
+}

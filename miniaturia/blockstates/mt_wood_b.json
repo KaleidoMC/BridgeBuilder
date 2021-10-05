@@ -1,0 +1,17 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"textures":{
+			"end" : "miniaturia_mod:blocks/wood_pastel_white_top",
+			"side" : "miniaturia_mod:blocks/wood_pastel_white"
+			},
+		"model": "cube_column",
+    	"uvlock": true
+  },
+    "variants": {
+		"half=bottom,variant=default": { "model": "cube_column" },
+		"half=top,variant=default": { "model": "cube_column" },
+
+		"inventory":[{ }]
+    }
+}

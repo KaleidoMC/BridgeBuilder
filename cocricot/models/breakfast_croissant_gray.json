@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/breakfast_croissant",
+	"textures": {
+		"particle": "cocricotmod:blocks/stone_color_gray",
+		"texture": "cocricotmod:blocks/breakfast_croissant_gray"
+	}
+}

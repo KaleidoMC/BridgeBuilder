@@ -1,0 +1,62 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_barrel_a"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/barrel_a",
+						"1": "miniaturia_mod:blocks/barrel_a_top"
+				}
+            },
+            "click1": {
+                "textures": {
+						"0": "miniaturia_mod:blocks/barrel_a2",
+						"1": "miniaturia_mod:blocks/barrel_a2_top"
+                }
+            },
+            "click2": {
+                "textures": {
+						"0": "miniaturia_mod:blocks/barrel_b",
+						"1": "miniaturia_mod:blocks/barrel_a_top"
+                }
+            },
+            "click3": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/barrel_b2",
+						"1": "miniaturia_mod:blocks/barrel_a2_top"
+                }
+            },
+			"click4": {
+				"model": "miniaturia_mod:mt_oil_drum",
+				"textures": {
+						"0": "miniaturia_mod:blocks/oil_drum",
+						"1": "miniaturia_mod:blocks/oil_drum_top"
+					}
+				},
+			"click5": {
+				"model": "miniaturia_mod:mt_oil_drum",
+				"textures": {
+						"0": "miniaturia_mod:blocks/oil_drum_blue",
+						"1": "miniaturia_mod:blocks/oil_drum_blue_top"
+					}
+				},
+			"click6": {
+				"model": "miniaturia_mod:mt_oil_drum",
+				"textures": {
+						"0": "miniaturia_mod:blocks/oil_drum_yellow",
+						"1": "miniaturia_mod:blocks/oil_drum_yellow_top"
+					}
+				},
+			"click7": {
+				"model": "miniaturia_mod:mt_oil_drum",
+				"textures": {
+						"0": "miniaturia_mod:blocks/oil_drum_red",
+						"1": "miniaturia_mod:blocks/oil_drum_red_top"
+					}
+				}
+            }
+    }
+}

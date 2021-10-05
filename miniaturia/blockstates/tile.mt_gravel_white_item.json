@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube_all"
+    },
+    "variants": {
+        "variant": {
+            "meta0": {
+				"textures": {
+					"all": "miniaturia_mod:blocks/gravel_white"
+					}
+				},
+            "meta1": {
+				"textures": {
+					"all": "miniaturia_mod:blocks/gravel_karesansui_a"
+					}
+				},
+            "meta2": {
+                "textures": {
+                    "all": "miniaturia_mod:blocks/gravel_karesansui_b"
+                    }
+				}
+			}
+		}
+}

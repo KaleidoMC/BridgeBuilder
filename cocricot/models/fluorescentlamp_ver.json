@@ -1,0 +1,24 @@
+{
+	"parent": "cocricotmod:block/fluorescentlamp_hor",
+	"elements": [
+		{
+			"from": [7, 0, 14],
+			"to": [9, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 14.25, 16, 15.25], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8, 13.5, 16, 14.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [8.5, 15.75, 8.75, 16], "rotation": 270, "texture": "#0", "cullface": "south"},
+				"west": {"uv": [8, 13.5, 16, 14.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [8, 11.5, 9, 12.5], "rotation": 180, "texture": "#0", "cullface": "up"},
+				"down": {"uv": [8, 11.5, 9, 12.5], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [5.05, -2.5, 0],
+			"scale": [1.03, 1.03, 1.03]
+		}
+	}
+}

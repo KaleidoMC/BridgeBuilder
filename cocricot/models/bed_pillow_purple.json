@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/bed_pillow_darkblue",
+    "textures": {
+			"particle": "cocricotmod:blocks/stone_color_lightpurple",
+			"0": "cocricotmod:blocks/bed_pillow_purple"
+    }
+}

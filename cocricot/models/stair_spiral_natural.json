@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/stair_spiral_clear",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_natural",
+  		"texture": "cocricotmod:blocks/stair_natural"
+    }
+}

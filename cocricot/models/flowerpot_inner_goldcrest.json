@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/flowerpot_inner",
+    "textures": {
+        "texture": "cocricotmod:blocks/flowerpot_inner_goldcrest"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_box_vege",
+		"textures": {
+			"0": "miniaturia_mod:blocks/box_fru0",
+			"1": "miniaturia_mod:blocks/box_vege_side",
+			"2": "miniaturia_mod:blocks/box_vege_side2",
+			"3": "miniaturia_mod:blocks/box_vege_bottom"
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {"textures": { "0": "miniaturia_mod:blocks/box_fru0", "0b": "miniaturia_mod:blocks/box_fru0" } },
+		 	"click1": { "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_fru0", "0b": "miniaturia_mod:blocks/box_fru0" } },
+		 	"click2": {"textures": { "0": "miniaturia_mod:blocks/box_vege0", "0b": "miniaturia_mod:blocks/box_vege0" } },
+		 	"click3": { "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_vege0", "0b": "miniaturia_mod:blocks/box_vege0" } }
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "furnace"
+	},
+
+    "variants": {
+
+        	"click": {
+			 	"0": {
+					"textures": {
+							"front" : "miniaturia_mod:blocks/stove_white_front",
+							"side" : "miniaturia_mod:blocks/stove_white_side",
+							"top" : "miniaturia_mod:blocks/stove_white_top",
+							"particle" : "miniaturia_mod:blocks/stove_white_front"
+				 		}
+					},
+			 	"1": {
+					"textures": {
+							"front" : "miniaturia_mod:blocks/cs",
+							"side" : "miniaturia_mod:blocks/cs",
+							"top" : "miniaturia_mod:blocks/cs",
+							"particle" : "miniaturia_mod:blocks/cs"
+				 		}
+					},
+			 	"2": {
+					"textures": {
+							"front" : "miniaturia_mod:blocks/cs",
+							"side" : "miniaturia_mod:blocks/cs",
+							"top" : "miniaturia_mod:blocks/cs",
+							"particle" : "miniaturia_mod:blocks/cs"
+				 		}
+					},
+			 	"3": {
+					"textures": {
+							"front" : "miniaturia_mod:blocks/stove_choco_front",
+							"side" : "miniaturia_mod:blocks/stove_choco_side",
+							"top" : "miniaturia_mod:blocks/stove_white_top",
+							"particle" : "miniaturia_mod:blocks/stove_choco_front"
+				 		}
+					}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

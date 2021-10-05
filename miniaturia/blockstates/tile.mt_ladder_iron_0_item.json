@@ -1,0 +1,30 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_ladder_a"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+							"ladder" : "miniaturia_mod:blocks/lamppost_brown"
+						}
+	    			},
+            "click1": {
+					"textures": {
+							"ladder" : "miniaturia_mod:blocks/lamppost_green"
+						}
+	    			},
+            "click2": {
+					"textures": {
+							"ladder" : "miniaturia_mod:blocks/lamppost_gold"
+						}
+	    			},
+            "click3": {
+					"textures": {
+							"ladder" : "miniaturia_mod:blocks/lamppost_white"
+						}
+	    			}
+        }
+    }
+}

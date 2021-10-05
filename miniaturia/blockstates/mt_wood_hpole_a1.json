@@ -1,0 +1,31 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_hpole_middle",
+	    "textures": {
+	        "side":"miniaturia_mod:blocks/wood_spruce_pole",
+	        "end":"miniaturia_mod:blocks/wood_spruce_pole"
+	    	}
+	},
+
+    "variants": {
+
+        "position=x_n,up=true":	{ "model":"miniaturia_mod:mt_hpole_right", "y": 90 },
+        "position=x_m,up=true":	{ "model":"miniaturia_mod:mt_hpole_middle", "y": 90 },
+        "position=x_s,up=true":	{ "model":"miniaturia_mod:mt_hpole_left", "y": 90 },
+
+        "position=z_w,up=true":	{ "model":"miniaturia_mod:mt_hpole_right" },
+        "position=z_m,up=true":	{ "model":"miniaturia_mod:mt_hpole_middle" },
+        "position=z_e,up=true":	{ "model":"miniaturia_mod:mt_hpole_left" },
+
+        "position=x_n,up=false":{ "model":"miniaturia_mod:mt_hpole_right", "x": 180, "y": 90 },
+        "position=x_m,up=false":{ "model":"miniaturia_mod:mt_hpole_middle", "x": 180, "y": 90 },
+        "position=x_s,up=false":{ "model":"miniaturia_mod:mt_hpole_left", "x": 180, "y": 90 },
+
+        "position=z_w,up=false":{ "model":"miniaturia_mod:mt_hpole_right", "x": 180 },
+        "position=z_m,up=false":{ "model":"miniaturia_mod:mt_hpole_middle", "x": 180 },
+        "position=z_e,up=false":{ "model":"miniaturia_mod:mt_hpole_left", "x": 180 },
+
+		"inventory":[{ }]
+	}
+}

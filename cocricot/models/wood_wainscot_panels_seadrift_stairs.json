@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_stairs_all",
+    "textures": {
+        "bottom": "cocricotmod:blocks/planks_seadrift",
+        "top": "cocricotmod:blocks/planks_seadrift",
+        "front": "cocricotmod:blocks/wood_wainscot_panels_seadrift_stairs",
+        "back": "cocricotmod:blocks/wood_wainscot_panels_seadrift3",
+        "side": "cocricotmod:blocks/wood_wainscot_panels_seadrift_stairs1",
+        "side1": "cocricotmod:blocks/wood_wainscot_panels_seadrift_stairs2"
+    }
+}

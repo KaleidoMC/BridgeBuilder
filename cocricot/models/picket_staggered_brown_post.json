@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/picket_staggered_white_post",
+	"textures": {
+		"0": "cocricotmod:blocks/picket_staggered_brown",
+		"particle": "cocricotmod:blocks/planks_brown"
+	}
+}

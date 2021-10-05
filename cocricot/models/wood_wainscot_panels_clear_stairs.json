@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_stairs_all",
+    "textures": {
+        "bottom": "cocricotmod:blocks/planks_clear",
+        "top": "cocricotmod:blocks/planks_clear",
+        "front": "cocricotmod:blocks/wood_wainscot_panels_clear_stairs",
+        "back": "cocricotmod:blocks/wood_wainscot_panels_clear3",
+        "side": "cocricotmod:blocks/wood_wainscot_panels_clear_stairs1",
+        "side1": "cocricotmod:blocks/wood_wainscot_panels_clear_stairs2"
+    }
+}

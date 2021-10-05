@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/climbing_rose",
+    "textures": {
+        "texture1": "cocricotmod:blocks/climbing_rose_white"
+    }
+}

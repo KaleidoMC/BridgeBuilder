@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/captionplate_black",
+    "textures": {
+  		"0": "cocricotmod:blocks/captionplate_wood",
+  		"particle": "cocricotmod:blocks/planks_antique"
+    }
+}

@@ -1,0 +1,39 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_wheel_l.obj",
+		"textures": {
+			"#0": "miniaturia_mod:blocks/wheel_black",
+			"particle": "miniaturia_mod:blocks/wheel_black"
+			}
+		},
+
+    "variants": {
+
+		"click": {
+				"0": { },
+				"1": { },
+				"2": {
+					"textures": {
+						"#0": "miniaturia_mod:blocks/wheel_rust",
+						"particle": "miniaturia_mod:blocks/wheel_rust"
+						}
+					},
+				"3": {
+					"textures": {
+						"#0": "miniaturia_mod:blocks/wheel_rust",
+						"particle": "miniaturia_mod:blocks/wheel_rust"
+						}
+					}
+			},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+			}
+       }
+}

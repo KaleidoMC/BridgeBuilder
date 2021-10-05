@@ -1,0 +1,38 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {
+		"model": "miniaturia_mod:mt_ship_steering_top"
+		},
+
+    "variants": {
+    	"click": {
+	    		"0": {
+					"textures": {
+						"texture": "miniaturia_mod:blocks/ship_steering_brown",
+						"base": "miniaturia_mod:blocks/piano_plate_brown",
+						"particle": "miniaturia_mod:blocks/ship_steering_brown"
+						}
+	    			},
+			 	"1": {
+					"textures": {
+						"texture": "miniaturia_mod:blocks/ship_steering_white",
+						"base": "miniaturia_mod:blocks/piano_plate_white",
+						"particle": "miniaturia_mod:blocks/ship_steering_white"
+						}
+					}
+		    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+			},
+
+		"half": {
+			"bottom": { "model": "miniaturia_mod:mt_ship_steering_bottom" },
+			"top": { "model": "miniaturia_mod:mt_ship_steering_top" }
+			}
+       }
+}

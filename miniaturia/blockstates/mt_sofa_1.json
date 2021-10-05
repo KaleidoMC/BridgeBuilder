@@ -1,0 +1,131 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_sofa_single",
+	    "textures": {
+	    	}
+	},
+
+    "variants": {
+
+    	"click": {
+    		"0": {
+    			"textures": {
+					"2": "miniaturia_mod:blocks/kingchair3c",
+					"3": "miniaturia_mod:blocks/casterchair_white",
+					"4": "miniaturia_mod:blocks/sofa_white",
+					"cs0": "miniaturia_mod:blocks/table_side1_acacia"
+				}
+    		},
+    		"1": {
+    			"textures": {
+					"2": "miniaturia_mod:blocks/kingchair3d",
+					"3": "miniaturia_mod:blocks/casterchair_black",
+					"4": "miniaturia_mod:blocks/sofa_black",
+					"cs0": "miniaturia_mod:blocks/table_side1_acacia"
+				}
+    		}
+    	},
+
+    	"facing": {
+    		"east":		{ "y": 0 },
+    		"south":	{ "y": 90 },
+    		"west":		{ "y": 180 },
+    		"north":	{ "y": 270 }
+    	},
+
+    	"shape": {
+    		"single":		{ "model":"miniaturia_mod:mt_sofa_single" },
+    		"l_straight":	{ "model":"miniaturia_mod:mt_sofa_l" },
+    		"m_straight":	{ "model":"miniaturia_mod:mt_sofa_m" },
+    		"r_straight":	{ "model":"miniaturia_mod:mt_sofa_r" },
+    		"outer_right":	{ "model":"miniaturia_mod:mt_sofa_outer" },
+    		"outer_left":	{ "model":"miniaturia_mod:mt_sofa_outer" },
+    		"inner_right":	{ "model":"miniaturia_mod:mt_sofa_inner" },
+    		"inner_left":	{ "model":"miniaturia_mod:mt_sofa_inner" }
+    	},
+
+
+
+        "click=0,facing=east,shape=single":			[{}],
+        "click=0,facing=west,shape=single":			[{}],
+        "click=0,facing=south,shape=single":		[{}],
+        "click=0,facing=north,shape=single":		[{}],
+
+        "click=0,facing=east,shape=l_straight":		[{}],
+        "click=0,facing=west,shape=l_straight":		[{}],
+        "click=0,facing=south,shape=l_straight":	[{}],
+        "click=0,facing=north,shape=l_straight":	[{}],
+
+        "click=0,facing=east,shape=m_straight":		[{}],
+        "click=0,facing=west,shape=m_straight":		[{}],
+        "click=0,facing=south,shape=m_straight":	[{}],
+        "click=0,facing=north,shape=m_straight":	[{}],
+
+        "click=0,facing=east,shape=r_straight":		[{}],
+        "click=0,facing=west,shape=r_straight":		[{}],
+        "click=0,facing=south,shape=r_straight":	[{}],
+        "click=0,facing=north,shape=r_straight":	[{}],
+
+        "click=0,facing=east,shape=outer_right":	[{}],
+        "click=0,facing=west,shape=outer_right":	[{}],
+        "click=0,facing=south,shape=outer_right":	[{}],
+        "click=0,facing=north,shape=outer_right":	[{}],
+
+        "click=0,facing=east,shape=outer_left":		{ "y": 270 },
+        "click=0,facing=west,shape=outer_left":		{ "y": 90 },
+        "click=0,facing=south,shape=outer_left":	{ "y": 0 },
+        "click=0,facing=north,shape=outer_left":	{ "y": 180 },
+
+        "click=0,facing=east,shape=inner_right":	[{}],
+        "click=0,facing=west,shape=inner_right":	[{}],
+        "click=0,facing=south,shape=inner_right":	[{}],
+        "click=0,facing=north,shape=inner_right":	[{}],
+
+        "click=0,facing=east,shape=inner_left":		{ "y": 270 },
+        "click=0,facing=west,shape=inner_left":		{ "y": 90 },
+        "click=0,facing=south,shape=inner_left":	{ "y": 0 },
+        "click=0,facing=north,shape=inner_left":	{ "y": 180 },
+
+
+        "click=1,facing=east,shape=single":			[{}],
+        "click=1,facing=west,shape=single":			[{}],
+        "click=1,facing=south,shape=single":		[{}],
+        "click=1,facing=north,shape=single":		[{}],
+
+        "click=1,facing=east,shape=l_straight":		[{}],
+        "click=1,facing=west,shape=l_straight":		[{}],
+        "click=1,facing=south,shape=l_straight":	[{}],
+        "click=1,facing=north,shape=l_straight":	[{}],
+
+        "click=1,facing=east,shape=m_straight":		[{}],
+        "click=1,facing=west,shape=m_straight":		[{}],
+        "click=1,facing=south,shape=m_straight":	[{}],
+        "click=1,facing=north,shape=m_straight":	[{}],
+
+        "click=1,facing=east,shape=r_straight":		[{}],
+        "click=1,facing=west,shape=r_straight":		[{}],
+        "click=1,facing=south,shape=r_straight":	[{}],
+        "click=1,facing=north,shape=r_straight":	[{}],
+
+        "click=1,facing=east,shape=outer_right":	[{}],
+        "click=1,facing=west,shape=outer_right":	[{}],
+        "click=1,facing=south,shape=outer_right":	[{}],
+        "click=1,facing=north,shape=outer_right":	[{}],
+
+        "click=1,facing=east,shape=outer_left":		{ "y": 270 },
+        "click=1,facing=west,shape=outer_left":		{ "y": 90 },
+        "click=1,facing=south,shape=outer_left":	{ "y": 0 },
+        "click=1,facing=north,shape=outer_left":	{ "y": 180 },
+
+        "click=1,facing=east,shape=inner_right":	[{}],
+        "click=1,facing=west,shape=inner_right":	[{}],
+        "click=1,facing=south,shape=inner_right":	[{}],
+        "click=1,facing=north,shape=inner_right":	[{}],
+
+        "click=1,facing=east,shape=inner_left":		{ "y": 270 },
+        "click=1,facing=west,shape=inner_left":		{ "y": 90 },
+        "click=1,facing=south,shape=inner_left":	{ "y": 0 },
+        "click=1,facing=north,shape=inner_left":	{ "y": 180 }
+	}
+}

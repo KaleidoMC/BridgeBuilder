@@ -1,0 +1,28 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/captionplate_black",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	},
+	"elements": [
+		{
+			"from": [2.5, 2.5, 15],
+			"to": [9.5, 7, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 7, 4.5], "texture": "#0"},
+				"east": {"uv": [6, 0, 7, 4.5], "texture": "#0"},
+				"south": {"uv": [3, 4, 3.5, 4.5], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 0, 1, 4.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 7, 1], "texture": "#0"},
+				"down": {"uv": [0, 3.5, 7, 4.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [-2, 2, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

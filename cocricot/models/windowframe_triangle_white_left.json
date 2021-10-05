@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowframe_triangle_left",
+    "textures": {
+        "0": "cocricotmod:blocks/windowframe_classic_white",
+        "particle": "cocricotmod:blocks/stone_color_white"
+    }
+}

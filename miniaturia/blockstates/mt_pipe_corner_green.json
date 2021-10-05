@@ -1,0 +1,49 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_pipe_l_parts.obj",
+	    "textures": {
+			"0": "miniaturia_mod:blocks/pipe_green",
+			"2": "miniaturia_mod:blocks/steel_green_b",
+			"#m_0": "miniaturia_mod:blocks/pipe_green",
+			"#m_2": "miniaturia_mod:blocks/steel_green_b"
+		}
+	},
+
+    "variants": {
+    	"click": {
+	    		"0": { "model": "miniaturia_mod:mt_pipe_l_parts.obj" },
+			 	"1": { "model": "miniaturia_mod:mt_pipe_l_parts.obj" },
+	    		"2": { "model": "miniaturia_mod:mt_pipe_l_parts.obj" },
+	    		"3": { "model": "miniaturia_mod:mt_pipe_x_parts" }
+		    },
+
+    	"facing": {
+    		"north":	{ },
+    		"east":		{ },
+    		"south":	{ },
+    		"west":		{ }
+			},
+
+		"click=0,facing=north":	{ "y": 90 },
+		"click=0,facing=east":	{ "y": 180 },
+		"click=0,facing=south":	{ "y": 270 },
+		"click=0,facing=west":	{ "y": 0 },
+
+		"click=1,facing=north":	{ "y": 90, "x": 180 },
+		"click=1,facing=east":	{ "y": 180, "x": 180 },
+		"click=1,facing=south":	{ "y": 270, "x": 180 },
+		"click=1,facing=west":	{ "y": 0, "x": 180 },
+
+		"click=2,facing=north":	{ "y": 0, "x": 90 },
+		"click=2,facing=east":	{ "y": 90, "x": 90 },
+		"click=2,facing=south":	{ "y": 180, "x": 90 },
+		"click=2,facing=west":	{ "y": 270, "x": 90 },
+
+		"click=3,facing=north":	{ "y": 0 },
+		"click=3,facing=east":	{ "y": 90 },
+		"click=3,facing=south":	{ "y": 180 },
+		"click=3,facing=west":	{ "y": 270 }
+       }
+}

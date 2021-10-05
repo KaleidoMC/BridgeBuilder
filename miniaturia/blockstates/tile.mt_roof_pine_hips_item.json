@@ -1,0 +1,40 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_roof_hip_stairs_n",
+		"textures": {
+			"0": "miniaturia_mod:blocks/roof_pine_edge",
+	    	"#m_0": "miniaturia_mod:blocks/roof_pine_edge",
+	    	"#m_1": "miniaturia_mod:blocks/roof_pine_side",
+			"particle": "miniaturia_mod:blocks/roof_pine_edge"
+	    	},
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 0}, { "y": 90 }, { "z": 0 } ], "scale": 0.6, "translation": [ 0, 0.5, 0 ] },
+	        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+	        "fixed": {"scale": 0.5},
+	        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+	        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+	        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+	        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+		}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": {
+    			"model": "miniaturia_mod:mt_roof_hip_steep_straight.obj",
+			   	"transform": {
+					"gui": {"rotation": [ { "x": 0}, { "y": 90 }, { "z": 0 } ], "scale": 0.6, "translation": [ 0, 0, 0 ] },
+			        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+			        "fixed": {"scale": 0.5},
+			        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+			        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+			        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+			        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+					}
+    			}
+            }
+        }
+}

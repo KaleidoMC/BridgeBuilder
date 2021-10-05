@@ -1,0 +1,53 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "cube_all",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/coarse_dirt"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/sand"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/yellow_sand"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/red_sand"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/gravel"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/snow"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/ice_packed"
+				}
+			},
+			"meta7": {
+				"model": "cube_column",
+				"textures": {
+					"end" : "miniaturia_mod:blocks/cs",
+					"side" : "miniaturia_mod:blocks/cs"
+				}
+			}
+		}
+    }
+}

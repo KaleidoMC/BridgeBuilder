@@ -1,0 +1,46 @@
+{
+	"parent": "cocricotmod:block/book_glasses",
+	"elements": [
+		{
+			"from": [3, -8, 2.5],
+			"to": [15, -7, 10],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [9, 0, 9]},
+			"faces": {
+				"north": {"uv": [0, 7.5, 12, 8.5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 7.5, 5.5, 8.5], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [0, 7.5, 12, 8.5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 7.5, 5.5, 8.5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [0, 8.5, 12, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 0, 12, 7.5], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1.5, -7.5, 7.43588],
+			"to": [9, -4.5, 7.43588],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.25, -6.25, 8.96794]},
+			"faces": {
+				"north": {"uv": [0, 10, 7.5, 7], "texture": "#1"},
+				"south": {"uv": [0, 7, 7.5, 10], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2.48498, -7, 10.53626],
+			"to": [8.98498, -4.5, 10.53626],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.25, -5.75, 8.96794]},
+			"faces": {
+				"north": {"uv": [7, 10, 13.5, 7.5], "texture": "#1"},
+				"south": {"uv": [13.5, 10, 7, 7.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3.68168, -7, 5.23296],
+			"to": [3.68168, -4.5, 11.73296],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.25, -5.75, 8.96794]},
+			"faces": {
+				"east": {"uv": [13.5, 10, 7, 7.5], "texture": "#1"},
+				"west": {"uv": [7, 10, 13.5, 7.5], "texture": "#1"}
+			}
+		}
+	]
+}

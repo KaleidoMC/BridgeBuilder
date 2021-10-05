@@ -1,0 +1,29 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vhalf",
+	    "textures": {
+			"corner_bottom": "miniaturia_mod:blocks/wood_dark_oak_stairs_outer",
+			"corner_top": "miniaturia_mod:blocks/wood_dark_oak_stairs_outer",
+			"bottom" : "miniaturia_mod:blocks/wood_dark_oak_stairs_top",
+			"top" : "miniaturia_mod:blocks/wood_dark_oak_stairs_top",
+			"ns" : "miniaturia_mod:blocks/timber_white_7",
+			"we" : "miniaturia_mod:blocks/timber_white_7"
+	    	},
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"model": "miniaturia_mod:mt_vhalf"
+            	},
+            "click1": {
+				"model": "miniaturia_mod:mt_vquarter"
+            	}
+            }
+        }
+}

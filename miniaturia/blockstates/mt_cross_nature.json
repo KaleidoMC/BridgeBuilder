@@ -1,0 +1,90 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cross"
+	},
+    "variants": {
+		"variant": {
+            "meta0": {
+                "textures": {
+                    "cross" : "miniaturia_mod:blocks/smoke_white"
+                }
+            },
+            "meta1": {
+                "textures": {
+                    "cross" : "miniaturia_mod:blocks/smoke_black"
+                }
+            },
+            "meta2": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/waterfall"
+                }
+            },
+            "meta3": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/waterflow"
+                }
+            },
+            "meta4": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/stalactite"
+                }
+            },
+            "meta5": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/stalactite_b"
+                }
+            },
+            "meta6": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/icicles"
+                }
+            },
+            "meta7": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/icicles_b"
+                }
+            },
+            "meta8": {
+                "textures": {
+                    "cross" : "miniaturia_mod:blocks/cs"
+                }
+            },
+            "meta9": {
+                "textures": {
+                    "cross" : "miniaturia_mod:blocks/cs"
+                }
+            },
+            "meta10": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/cs"
+                }
+            },
+            "meta11": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/cs"
+                }
+            },
+            "meta12": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/cs"
+                }
+            },
+            "meta13": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/cs"
+                }
+            },
+            "meta14": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/cs"
+                }
+            },
+            "meta15": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/cs"
+                }
+            }
+		}
+	}
+}

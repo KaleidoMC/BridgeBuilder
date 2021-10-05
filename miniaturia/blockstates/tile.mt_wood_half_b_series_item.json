@@ -1,0 +1,67 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "half_slab",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_pastel_marron_top",
+					"top" : "miniaturia_mod:blocks/wood_pastel_marron_top",
+					"side" : "miniaturia_mod:blocks/wood_pastel_marron"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_pastel_orange_top",
+					"top" : "miniaturia_mod:blocks/wood_pastel_orange_top",
+					"side" : "miniaturia_mod:blocks/wood_pastel_orange"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_pastel_yellow_top",
+					"top" : "miniaturia_mod:blocks/wood_pastel_yellow_top",
+					"side" : "miniaturia_mod:blocks/wood_pastel_yellow"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_pastel_mint_top",
+					"top" : "miniaturia_mod:blocks/wood_pastel_mint_top",
+					"side" : "miniaturia_mod:blocks/wood_pastel_mint"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_pastel_lightblue_top",
+					"top" : "miniaturia_mod:blocks/wood_pastel_lightblue_top",
+					"side" : "miniaturia_mod:blocks/wood_pastel_lightblue"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_pastel_blue_top",
+					"top" : "miniaturia_mod:blocks/wood_pastel_blue_top",
+					"side" : "miniaturia_mod:blocks/wood_pastel_blue"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_pastel_purple_top",
+					"top" : "miniaturia_mod:blocks/wood_pastel_purple_top",
+					"side" : "miniaturia_mod:blocks/wood_pastel_purple"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_pastel_pink_top",
+					"top" : "miniaturia_mod:blocks/wood_pastel_pink_top",
+					"side" : "miniaturia_mod:blocks/wood_pastel_pink"
+				}
+			}
+		}
+    }
+}

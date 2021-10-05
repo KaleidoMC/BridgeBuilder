@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_cube_topside",
+    "textures": {
+        "top": "cocricotmod:blocks/shopfacade_paris_wood_top",
+        "side": "cocricotmod:blocks/shopfacade_paris_wood_pillar2"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/shelf_normal",
+    "textures": {
+        "texture2": "cocricotmod:blocks/shelf_normal_empty_cobweb3"
+    }
+}

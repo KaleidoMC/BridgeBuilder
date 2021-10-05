@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/diningtable_turnedleg_brown_corner",
+    "textures": {
+        "0": "cocricotmod:blocks/diningtable_turnedleg_antique",
+        "1": "cocricotmod:blocks/planks_antique",
+        "particle": "cocricotmod:blocks/planks_antique"
+    }
+}

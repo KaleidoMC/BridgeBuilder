@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/piano_black",
+    "textures": {
+        "0": "cocricotmod:blocks/piano_white",
+    		"particle": "cocricotmod:blocks/stone_color_white"
+    }
+}

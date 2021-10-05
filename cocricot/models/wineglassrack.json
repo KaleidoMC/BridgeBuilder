@@ -1,0 +1,43 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "cocricotmod:blocks/wineglassrack1",
+		"texture": "cocricotmod:blocks/wineglassrack",
+		"texture1": "cocricotmod:blocks/wineglassrack1"
+	},
+	"elements": [
+		{
+			"from": [ 0, 13, 2 ],
+			"to": [ 16, 16, 14 ],
+			"faces": {
+				"down": { "uv": [ 0, 2, 16, 14 ], "texture": "#texture" },
+				"north": { "uv": [ 16, 0, 0, 3 ], "texture": "#texture1" },
+				"south": { "uv": [ 0, 0, 16, 3 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"from": [ 0, 5.5, 4.25 ],
+			"to": [ 16, 13.5, 4.25 ],
+			"faces": {
+				"north": { "uv": [ 16, 3, 0, 11 ], "texture": "#texture1" },
+				"south": { "uv": [ 0, 3, 16, 11 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"from": [ 0, 5.5, 7.75 ],
+			"to": [ 16, 13.5, 7.75 ],
+			"faces": {
+				"north": { "uv": [ 16, 3, 0, 11 ], "texture": "#texture1" },
+				"south": { "uv": [ 0, 3, 16, 11 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"from": [ 0, 5.5, 11.25 ],
+			"to": [ 16, 13.5, 11.25 ],
+			"faces": {
+				"north": { "uv": [ 16, 3, 0, 11 ], "texture": "#texture1" },
+				"south": { "uv": [ 0, 3, 16, 11 ], "texture": "#texture1" }
+			}
+		}
+	]
+}

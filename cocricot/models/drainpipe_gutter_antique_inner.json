@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/drainpipe_gutter_inner",
+    "textures": {
+        "particle": "cocricotmod:blocks/planks_antique",
+        "texture": "cocricotmod:blocks/drainpipe_antique1"
+    }
+}

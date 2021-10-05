@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/carpet_block_fringe",
+    "textures": {
+  		"top": "cocricotmod:blocks/carpet_fringe_red"
+    }
+}

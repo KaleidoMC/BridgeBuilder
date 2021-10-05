@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_plate_all",
+    "textures": {
+      "bottom": "cocricotmod:blocks/wood_herringbone_seadrift",
+      "top": "cocricotmod:blocks/wood_herringbone_seadrift",
+      "n": "cocricotmod:blocks/wood_herringbone_seadrift_b",
+      "s": "cocricotmod:blocks/wood_herringbone_seadrift_b",
+      "e": "cocricotmod:blocks/wood_herringbone_seadrift_b",
+      "w": "cocricotmod:blocks/wood_herringbone_seadrift_b"
+    }
+}

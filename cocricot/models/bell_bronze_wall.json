@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/bell_antique_wall",
+    "textures": {
+        "0": "cocricotmod:blocks/bell_bronze",
+        "1": "cocricotmod:blocks/metal_bronze"
+    }
+}

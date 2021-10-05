@@ -1,0 +1,62 @@
+{
+	"parent": "cocricotmod:block/bed_frame_display",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/bed_mattress_black",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	},
+	"elements": [
+		{
+			"from": [-13.5, 4.1, -2],
+			"to": [-11.5, 6.5, 29.5],
+			"faces": {
+				"north": {"uv": [13, 2.375, 13.5, 3], "texture": "#0"},
+				"east": {"uv": [0, 16, 7.875, 15.375], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [0.5, 10.875, 0, 10.25], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [7.875, 16, 0, 15.375], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 16, 7.875, 15.5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [11.5, 4.1, -2],
+			"to": [13.5, 6.5, 29.5],
+			"faces": {
+				"north": {"uv": [6.75, 2.375, 7.25, 3], "texture": "#0"},
+				"east": {"uv": [0, 16, 7.875, 15.375], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [6.25, 10.875, 6.75, 10.25], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 15.375, 7.875, 16], "texture": "#0"},
+				"down": {"uv": [0, 15.5, 7.875, 16], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [-13.5, 6.5, -2],
+			"to": [13.5, 16, 29.5],
+			"faces": {
+				"north": {"uv": [6.75, 0, 13.5, 2.375], "texture": "#0"},
+				"east": {"uv": [0, 15.375, 7.875, 13], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [0, 7.875, 6.75, 10.25], "texture": "#0"},
+				"west": {"uv": [0, 13, 7.875, 15.375], "texture": "#0"},
+				"up": {"uv": [0, 0, 6.75, 7.875], "texture": "#0"},
+				"down": {"uv": [7.5, 2.875, 7.625, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-11.5, 7, -13.5],
+			"to": [11.5, 14, -2],
+			"faces": {
+				"north": {"uv": [7.25, 1.75, 13, 3.375], "texture": "#0"},
+				"east": {"uv": [7.25, 1.625, 10.125, 3.375], "texture": "#0"},
+				"west": {"uv": [10.125, 1.625, 13, 3.375], "texture": "#0"},
+				"up": {"uv": [7.25, 0.5, 13, 3.375], "texture": "#0"},
+				"down": {"uv": [7.25, 0.5, 13, 3.375], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [1.6, -1, 0],
+			"scale": [0.32, 0.32, 0.32]
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_chair_folding_wood"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/ladder_spruce"
+					}
+				},
+	    		"1": {
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/ladder_white"
+					}
+				},
+	    		"2":	{
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/ladder_acacia"
+					}
+				},
+			 	"3":	{
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/ladder_dark_oak"
+					}
+	    		}
+	    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+   }
+}

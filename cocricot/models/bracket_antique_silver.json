@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/bracket_antique_base",
+    "textures": {
+  		"particle": "cocricotmod:blocks/stone_color_gray",
+  		"texture": "cocricotmod:blocks/metal_silver"
+  	}
+}

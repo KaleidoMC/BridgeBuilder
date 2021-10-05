@@ -1,0 +1,67 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+  		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_object_armor_head.obj"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"#0": "miniaturia_mod:blocks/object_armor_head_silver",
+						"#1": "miniaturia_mod:blocks/object_armor_parts",
+						"#2": "miniaturia_mod:blocks/object_armor_body_silver",
+						"#3": "miniaturia_mod:blocks/object_armor_base_silver",
+						"#4": "miniaturia_mod:blocks/object_armor_legs_silver",
+						"particle": "miniaturia_mod:blocks/object_armor_head_silver"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"#0": "miniaturia_mod:blocks/object_armor_head_gold",
+						"#1": "miniaturia_mod:blocks/object_armor_parts",
+						"#2": "miniaturia_mod:blocks/object_armor_body_gold",
+						"#3": "miniaturia_mod:blocks/object_armor_base_gold",
+						"#4": "miniaturia_mod:blocks/object_armor_legs_gold",
+						"particle": "miniaturia_mod:blocks/object_armor_head_gold"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"#0": "miniaturia_mod:blocks/object_armor_head_white",
+						"#1": "miniaturia_mod:blocks/object_armor_parts",
+						"#2": "miniaturia_mod:blocks/object_armor_body_white",
+						"#3": "miniaturia_mod:blocks/object_armor_base_white",
+						"#4": "miniaturia_mod:blocks/object_armor_legs_white",
+						"particle": "miniaturia_mod:blocks/object_armor_head_white"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"#0": "miniaturia_mod:blocks/object_armor_head_black",
+						"#1": "miniaturia_mod:blocks/object_armor_parts",
+						"#2": "miniaturia_mod:blocks/object_armor_body_black",
+						"#3": "miniaturia_mod:blocks/object_armor_base_black",
+						"#4": "miniaturia_mod:blocks/object_armor_legs_black",
+						"particle": "miniaturia_mod:blocks/object_armor_head_black"
+			 		}
+	    		}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_object_armor_legs.obj" },
+    		"middle":	{ "model": "miniaturia_mod:mt_object_armor_body.obj" },
+    		"top":		{ "model": "miniaturia_mod:mt_object_armor_head.obj" },
+    		"single":	{ "model": "miniaturia_mod:mt_object_armor_legs.obj" }
+		}
+    }
+}

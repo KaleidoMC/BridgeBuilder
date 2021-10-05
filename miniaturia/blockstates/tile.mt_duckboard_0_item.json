@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_duckboard_bottom",
+		"textures": {
+			"0": "miniaturia_mod:blocks/duckboard_brown"
+		}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/duckboard_brown"
+								}
+					},
+            "click1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/duckboard_white"
+								}
+					}
+		}
+	}
+}

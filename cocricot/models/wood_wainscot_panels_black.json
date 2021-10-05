@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_cube_topside",
+    "textures": {
+        "top": "cocricotmod:blocks/stone_color_black",
+        "side": "cocricotmod:blocks/wood_wainscot_panels_black"
+    }
+}

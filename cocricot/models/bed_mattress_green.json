@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/bed_mattress_black",
+    "textures": {
+      "0": "cocricotmod:blocks/bed_mattress_green"
+    }
+}

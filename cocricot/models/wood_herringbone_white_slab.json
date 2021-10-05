@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "cocricotmod:blocks/wood_herringbone_white",
+        "top": "cocricotmod:blocks/wood_herringbone_white",
+        "side": "cocricotmod:blocks/wood_herringbone_white_f"
+    }
+}

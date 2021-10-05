@@ -1,0 +1,43 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_roof_edge_half_l.obj",
+		"textures": {
+				"#m_edge": "miniaturia_mod:blocks/roof_marron_edge",
+				"#m_edge_board": "miniaturia_mod:blocks/quartz_upper_molding",
+				"particle": "miniaturia_mod:blocks/roof_marron_edge"
+			},
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 0}, { "y": 0 }, { "z": 0 } ], "scale": 0.6, "translation": [ 0.2, 0.2, 0 ] },
+	        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+	        "fixed": {"scale": 0.5},
+	        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+	        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+	        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+	        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+	       }
+	},
+
+    "variants": {
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+		"half": {
+	    	"bottom": { },
+			"top": { }
+    	},
+
+    	"shape": {
+    		"left":	{ "model": "miniaturia_mod:mt_roof_edge_half_r.obj" },
+    		"right":{ "model": "miniaturia_mod:mt_roof_edge_half_l.obj" }
+		},
+
+        "inventory":[{ }]
+    }
+}

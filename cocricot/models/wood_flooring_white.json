@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_bottom",
+    "textures": {
+        "side": "cocricotmod:blocks/wood_flooring_white",
+        "bottom": "cocricotmod:blocks/wood_flooring_white_bottom"
+    }
+}

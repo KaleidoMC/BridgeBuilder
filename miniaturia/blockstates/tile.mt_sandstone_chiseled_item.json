@@ -1,0 +1,40 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stone_chiseled",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ],
+				"scale": 0.625
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+			    "textures": {
+					"top" : "miniaturia_mod:blocks/stone_plate_parts",
+					"side" : "miniaturia_mod:blocks/sandstone_chiseled",
+					"inner_side" : "miniaturia_mod:blocks/sandstone_chiseled",
+					"outer_side" : "miniaturia_mod:blocks/sandstone_chiseled"
+			    	}
+            	},
+            "click1": {
+			    "textures": {
+					"top" : "miniaturia_mod:blocks/stone_plate_parts",
+					"side" : "miniaturia_mod:blocks/sandstone_chiseled_a",
+					"inner_side" : "miniaturia_mod:blocks/sandstone_chiseled_a",
+					"outer_side" : "miniaturia_mod:blocks/sandstone_chiseled_a"
+			    	}
+            	},
+            "click2": {
+			    "textures": {
+					"top" : "miniaturia_mod:blocks/stone_plate_parts",
+					"side" : "miniaturia_mod:blocks/sandstone_chiseled_b",
+					"inner_side" : "miniaturia_mod:blocks/sandstone_chiseled_b",
+					"outer_side" : "miniaturia_mod:blocks/sandstone_chiseled_b"
+			    	}
+                }
+            }
+        }
+}

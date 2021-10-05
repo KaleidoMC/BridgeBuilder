@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/sink_plate_ceramic",
+    "textures": {
+  		"1": "cocricotmod:blocks/sink_plate_brown_ceramic",
+  		"2": "cocricotmod:blocks/planks_brown"
+    }
+}

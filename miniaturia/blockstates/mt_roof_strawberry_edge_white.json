@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_roof_edge_l",
+		"textures": {
+				"edge_side": "miniaturia_mod:blocks/roof_strawberry_edge",
+				"edge_top": "miniaturia_mod:blocks/roof_strawberry_edge",
+				"edge_board": "miniaturia_mod:blocks/quartz_upper_molding"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { }
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"left":	{ "model": "miniaturia_mod:mt_roof_edge_r" },
+    		"right":{ "model": "miniaturia_mod:mt_roof_edge_l" }
+		},
+
+		"click=0,facing=north,shape=left":	[{}],
+		"click=0,facing=east,shape=left":	[{}],
+		"click=0,facing=south,shape=left":	[{}],
+		"click=0,facing=west,shape=left":	[{}],
+
+		"click=0,facing=north,shape=right":	[{}],
+		"click=0,facing=east,shape=right":	[{}],
+		"click=0,facing=south,shape=right":	[{}],
+		"click=0,facing=west,shape=right":	[{}],
+
+		"click=1,facing=north,shape=left":	{ "model": "miniaturia_mod:mt_roof_edge_r_v" },
+		"click=1,facing=east,shape=left":	{ "model": "miniaturia_mod:mt_roof_edge_r_v" },
+		"click=1,facing=south,shape=left":	{ "model": "miniaturia_mod:mt_roof_edge_r_v" },
+		"click=1,facing=west,shape=left":	{ "model": "miniaturia_mod:mt_roof_edge_r_v" },
+
+		"click=1,facing=north,shape=right":	{ "model": "miniaturia_mod:mt_roof_edge_l_v" },
+		"click=1,facing=east,shape=right":	{ "model": "miniaturia_mod:mt_roof_edge_l_v" },
+		"click=1,facing=south,shape=right":	{ "model": "miniaturia_mod:mt_roof_edge_l_v" },
+		"click=1,facing=west,shape=right":	{ "model": "miniaturia_mod:mt_roof_edge_l_v" }
+    }
+}

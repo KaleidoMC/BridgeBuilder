@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/champagne_double",
+    "textures": {
+			"texture": "cocricotmod:blocks/champagne_rose"
+    }
+}

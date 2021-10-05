@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/base_stairs_h",
+    "textures": {
+        "bottom": "cocricotmod:blocks/wood_6board_dark",
+        "top": "cocricotmod:blocks/wood_6board_dark",
+        "side": "cocricotmod:blocks/wood_6board_dark"
+    }
+}

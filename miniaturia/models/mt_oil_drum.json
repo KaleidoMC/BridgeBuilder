@@ -1,0 +1,55 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#0"
+		},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [4.68629, 0, 0],
+			"to": [11.31371, 16, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [9, 0, 15.627, 16], "texture": "#0"},
+				"south": {"uv": [9, 0, 15.627, 16], "texture": "#0"},
+				"up": {"uv": [4.5, 0, 11.127, 16], "texture": "#1"},
+				"down": {"uv": [4.5, 0, 11.127, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [4.68629, 0.005, 0],
+			"to": [11.31371, 16.005, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 6.62742, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 6.62742, 16], "texture": "#0"},
+				"up": {"uv": [5, 0, 11.627, 16], "texture": "#1"},
+				"down": {"uv": [4.5, 0, 11.127, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [0, 0, 4.68629],
+			"to": [16, 16, 11.31371],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [9, 0, 15.627, 16], "texture": "#0"},
+				"west": {"uv": [9, 0, 15.627, 16], "texture": "#0"},
+				"up": {"uv": [0, 4.5, 16, 11.127], "texture": "#1"},
+				"down": {"uv": [0, 4.5, 16, 11.127], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [0, 0.01, 4.68629],
+			"to": [16, 16.01, 11.31371],
+			"faces": {
+				"east": {"uv": [0, 0, 6.62742, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 6.627, 16], "texture": "#0"},
+				"up": {"uv": [0, 5, 16, 11.627], "texture": "#1"},
+				"down": {"uv": [0, 4.5, 16, 11.127], "texture": "#1"}
+			}
+		}
+	]
+}

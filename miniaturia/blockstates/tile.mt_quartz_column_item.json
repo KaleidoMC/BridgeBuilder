@@ -1,0 +1,42 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_column_a_single",
+		"textures":{
+		    "end": "miniaturia_mod:blocks/quartz_plate_parts",
+		    "single": "miniaturia_mod:blocks/quartz_column_single",
+		    "top": "miniaturia_mod:blocks/quartz_column_top",
+		    "middle": "miniaturia_mod:blocks/quartz_column_middle",
+		    "bottom": "miniaturia_mod:blocks/quartz_column_bottom",
+		    "particle": "miniaturia_mod:blocks/quartz_column_single"
+		}
+    },
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { },
+            "click2": {
+            		"model": "miniaturia_mod:mt_column_b_single",
+					"textures":{
+					    "end": "miniaturia_mod:blocks/quartz_plate_parts",
+					    "cornice_parts": "miniaturia_mod:blocks/quartz_molding_b",
+					    "top_parts": "miniaturia_mod:blocks/quartz_column_b_top_parts",
+					    "top": "miniaturia_mod:blocks/quartz_column_b_top",
+					    "middle": "miniaturia_mod:blocks/quartz_column_b_middle",
+					    "bottom": "miniaturia_mod:blocks/quartz_column_b_bottom"
+					}
+				},
+            "click3": {
+            		"model": "miniaturia_mod:mt_column_b_single",
+					"textures":{
+					    "end": "miniaturia_mod:blocks/quartz_plate_parts",
+					    "cornice_parts": "miniaturia_mod:blocks/quartz_molding_b",
+					    "top_parts": "miniaturia_mod:blocks/quartz_column_b_top_parts",
+					    "top": "miniaturia_mod:blocks/quartz_column_b_top",
+					    "middle": "miniaturia_mod:blocks/quartz_column_b_middle",
+					    "bottom": "miniaturia_mod:blocks/quartz_column_b_bottom"
+					}
+				}
+		}
+	}
+}

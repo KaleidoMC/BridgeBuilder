@@ -1,0 +1,34 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_chair_dining"
+    },
+    "variants": {
+        "variant": {
+	    		"click0": {
+	    			"textures": {
+						"seat": "miniaturia_mod:blocks/chair_cushion_marron",
+						"frame": "miniaturia_mod:blocks/table_side1_pink"
+					}
+				},
+	    		"click1": {
+	    			"textures": {
+						"seat": "miniaturia_mod:blocks/chair_cushion_white",
+						"frame": "miniaturia_mod:blocks/table_side1_pink"
+					}
+				},
+	    		"click2":	{
+	    			"textures": {
+						"seat": "miniaturia_mod:blocks/chair_cushion_brown",
+						"frame": "miniaturia_mod:blocks/table_side1_pink"
+					}
+				},
+			 	"click3":	{
+	    			"textures": {
+						"seat": "miniaturia_mod:blocks/chair_cushion_rattan",
+						"frame": "miniaturia_mod:blocks/table_side1_pink"
+					}
+	    		}
+			}
+	}
+}

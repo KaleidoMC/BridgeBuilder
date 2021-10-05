@@ -1,0 +1,30 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/stool_log_foot",
+		"1": "cocricotmod:blocks/stool_log",
+		"particle": "blocks/log_oak"
+	},
+	"elements": [
+		{
+			"from": [2.8, 0, 2.8],
+			"to": [13.3, 9, 13.3],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 10, 9], "texture": "#1"},
+				"east": {"uv": [0, 0, 10, 9], "texture": "#1"},
+				"south": {"uv": [0, 0, 10, 9], "texture": "#1"},
+				"west": {"uv": [0, 0, 10, 9], "texture": "#1"},
+				"up": {"uv": [0, 0, 10, 10], "texture": "#0"},
+				"down": {"uv": [0, 0, 10, 10], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 0, 0],
+			"translation": [0.5, 2.5, 0]
+		}
+	}
+}

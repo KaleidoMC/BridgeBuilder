@@ -1,0 +1,8 @@
+{
+	"parent": "cocricotmod:block/cushion_white_single_a",
+	"textures": {
+		"0": "cocricotmod:blocks/cushion_blue",
+		"1": "cocricotmod:blocks/cushion_darkblue",
+		"particle": "cocricotmod:blocks/stone_color_blue"
+	}
+}

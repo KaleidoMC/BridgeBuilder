@@ -1,0 +1,51 @@
+{
+	"textures": {
+		"particle": "#texture",
+		"texture2": "cocricotmod:blocks/roof_incline"
+	},
+	"elements": [
+		{
+			"from": [ 0, -3.5495, 3.5071 ],
+			"to": [ 16, 1.4505, 9.1671 ],
+			"rotation": { "origin": [ 0, -3.5, 3.5 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 5, 16 ], "texture": "#texture2", "rotation": 90 },
+				"up": { "uv": [ 0, 12, 16, 16 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 11, 0, 16, 16 ], "texture": "#texture3", "rotation": 270 }
+			}
+		},
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 5, 5.66, 16 ],
+			"rotation": { "origin": [ 0, 0, 0 ], "axis": "z", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 11, 0, 16, 16 ], "texture": "#texture3", "rotation": 180 },
+				"west": { "uv": [ 0, 12, 16, 16 ], "texture": "#texture1" },
+				"east": { "uv": [ 0, 0, 5, 16 ], "texture": "#texture2", "rotation": 90 }
+			}
+		},
+		{
+			"from": [ 7, 0, 7 ],
+			"to": [ 16, 1, 16 ],
+			"faces": {
+				"down": { "uv": [ 9.5, 11.5, 16, 5 ], "texture": "#texture2" }
+			}
+		},
+		{
+			"from": [ 4, 4, 0 ],
+			"to": [ 5, 20.98, 16 ],
+			"rotation": { "origin": [ 4, 4, 0 ], "axis": "z", "angle": -45 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 12 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"from": [ 0, 3.2172, 4.5 ],
+			"to": [ 16, 4.2172, 21.48 ],
+			"rotation": { "origin": [ 0, 3.5, 4.5 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"up": { "uv": [ 0, 0, 16, 12 ], "texture": "#texture", "rotation": 180 }
+			}
+		}
+	]
+}

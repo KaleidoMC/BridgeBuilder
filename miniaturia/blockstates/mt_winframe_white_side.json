@@ -1,0 +1,61 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_winframe_middle",
+	    "textures": {
+	        "winframe_side":"miniaturia_mod:blocks/quartz_winframe_side",
+	        "side":"miniaturia_mod:blocks/quartz_plate_parts"
+	    	}
+	},
+    "variants": {
+
+        "facing=south,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_winframe_left", "y": 0 },
+        "facing=west,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_winframe_left", "y": 90 },
+        "facing=north,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_winframe_left", "y": 180 },
+        "facing=east,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_winframe_left", "y": 270 },
+
+        "facing=south,fence=false,shape=middle":{ "model":"miniaturia_mod:mt_winframe_middle", "y": 0 },
+        "facing=west,fence=false,shape=middle":	{ "model":"miniaturia_mod:mt_winframe_middle", "y": 90 },
+        "facing=north,fence=false,shape=middle":{ "model":"miniaturia_mod:mt_winframe_middle", "y": 180 },
+        "facing=east,fence=false,shape=middle":	{ "model":"miniaturia_mod:mt_winframe_middle", "y": 270 },
+
+        "facing=south,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_winframe_right", "y": 0 },
+        "facing=west,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_winframe_right", "y": 90 },
+        "facing=north,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_winframe_right", "y": 180 },
+        "facing=east,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_winframe_right", "y": 270 },
+
+        "facing=south,fence=false,shape=middle2":	{ "model":"miniaturia_mod:mt_winframe_middle2", "y": 0 },
+        "facing=west,fence=false,shape=middle2":	{ "model":"miniaturia_mod:mt_winframe_middle2", "y": 90 },
+        "facing=north,fence=false,shape=middle2":	{ "model":"miniaturia_mod:mt_winframe_middle2", "y": 180 },
+        "facing=east,fence=false,shape=middle2":	{ "model":"miniaturia_mod:mt_winframe_middle2", "y": 270 },
+
+        "facing=south,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_winframe_left_long", "y": 0 },
+        "facing=west,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_winframe_left_long", "y": 90 },
+        "facing=north,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_winframe_left_long", "y": 180 },
+        "facing=east,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_winframe_left_long", "y": 270 },
+
+        "facing=south,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_winframe_middle_long", "y": 0 },
+        "facing=west,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_winframe_middle_long", "y": 90 },
+        "facing=north,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_winframe_middle_long", "y": 180 },
+        "facing=east,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_winframe_middle_long", "y": 270 },
+
+        "facing=south,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_winframe_right_long", "y": 0 },
+        "facing=west,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_winframe_right_long", "y": 90 },
+        "facing=north,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_winframe_right_long", "y": 180 },
+        "facing=east,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_winframe_right_long", "y": 270 },
+
+        "facing=south,fence=true,shape=middle2":{ "model":"miniaturia_mod:mt_winframe_middle2_long", "y": 0 },
+        "facing=west,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_winframe_middle2_long", "y": 90 },
+        "facing=north,fence=true,shape=middle2":{ "model":"miniaturia_mod:mt_winframe_middle2_long", "y": 180 },
+        "facing=east,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_winframe_middle2_long", "y": 270 },
+
+        "inventory":[{
+        	"transform": {
+		        "gui": {
+		            "rotation": [ { "x": 0}, { "y": 0 }, { "z": 0 } ],
+		            "scale": 0.625
+		        }
+			}
+        }]
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/marinelamp_deck",
+    "textures": {
+				"particle": "cocricotmod:blocks/particle_gold",
+        "texture": "cocricotmod:blocks/marinelamp_gold"
+    }
+}

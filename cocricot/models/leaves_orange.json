@@ -1,0 +1,14 @@
+{
+    "parent": "cocricotmod:block/leaves_red",
+  	"textures": {
+  		"0": "cocricotmod:blocks/leaves_orange",
+  		"particle": "cocricotmod:blocks/leaves_orange"
+  	},
+  	"display": {
+  		"gui": {
+  			"rotation": [30, 128, -180],
+  			"translation": [0, -2.5, 0],
+  			"scale": [0.65, 0.65, 0.65]
+  		}
+  	}
+}

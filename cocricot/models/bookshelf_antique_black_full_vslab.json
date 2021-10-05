@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_vslab_all",
+    "textures": {
+      "u": "cocricotmod:blocks/planks_black",
+      "d": "cocricotmod:blocks/planks_black",
+      "w": "cocricotmod:blocks/bookshelf_antique_black_side",
+      "e": "cocricotmod:blocks/bookshelf_antique_black_side",
+      "s": "cocricotmod:blocks/bookshelf_antique_black_full12",
+      "n": "cocricotmod:blocks/bookshelf_antique_black_full12"
+    }
+}

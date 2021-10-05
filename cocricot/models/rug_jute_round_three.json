@@ -1,0 +1,18 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/rug_jute_round",
+		"particle": "cocricotmod:blocks/rug_jute_round"
+	},
+	"elements": [
+		{
+			"from": [0, 0.5, -8],
+			"to": [16, 0.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 12]},
+			"faces": {
+				"up": {"uv": [12, 6, 16, 12], "texture": "#0"},
+				"down": {"uv": [12, 6, 16, 12], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures":{
+				    "bottom":	"miniaturia_mod:blocks/stone_plate_parts",
+			        "top":		"miniaturia_mod:blocks/stone_plate_parts",
+			        "side":		"miniaturia_mod:blocks/stone_molding_b"
+				}
+			},
+            "click1": {
+				"textures":{
+				    "bottom":	"miniaturia_mod:blocks/quartz_plate_parts",
+			        "top":		"miniaturia_mod:blocks/quartz_plate_parts",
+			        "side":		"miniaturia_mod:blocks/quartz_molding_b"
+				}
+			}
+        }
+    }
+}

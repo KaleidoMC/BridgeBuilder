@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/marinelamp_lampshade",
+    "textures": {
+				"particle": "cocricotmod:blocks/stone_color_silver",
+        "texture": "cocricotmod:blocks/marinelamp_silver"
+    }
+}

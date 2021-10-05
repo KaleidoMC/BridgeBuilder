@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/pot_enameled_red",
+    "textures": {
+      "particle": "cocricotmod:blocks/particle_mintgreen",
+      "0": "cocricotmod:blocks/sofa_slipper_mintgreen1"
+    }
+}

@@ -1,0 +1,121 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+  		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_music_stand_single.obj"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/score",
+						"#m_1": "miniaturia_mod:blocks/music_stand",
+						"particle": "miniaturia_mod:blocks/music_stand"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"#m_1": "miniaturia_mod:blocks/music_stand",
+						"#m_2": "miniaturia_mod:blocks/microphone_parts",
+						"particle": "miniaturia_mod:blocks/music_stand"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"3": "miniaturia_mod:blocks/microphone_parts",
+						"particle": "miniaturia_mod:blocks/microphone_parts"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"3": "miniaturia_mod:blocks/microphone_parts2",
+						"particle": "miniaturia_mod:blocks/microphone_parts2"
+			 		}
+	    		}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_music_stand_bottom.obj" },
+    		"middle":	{ "model": "miniaturia_mod:mt_music_stand_middle.obj" },
+    		"top":		{ "model": "miniaturia_mod:mt_music_stand_top.obj" },
+    		"single":	{ "model": "miniaturia_mod:mt_music_stand_single.obj" }
+		},
+
+        "click=0,facing=north,shape=bottom":	[{}],
+        "click=0,facing=north,shape=middle":	[{}],
+        "click=0,facing=north,shape=top":		[{}],
+        "click=0,facing=north,shape=single":	[{}],
+        "click=0,facing=east,shape=bottom":		[{}],
+        "click=0,facing=east,shape=middle":		[{}],
+        "click=0,facing=east,shape=top":		[{}],
+        "click=0,facing=east,shape=single":		[{}],
+        "click=0,facing=south,shape=bottom":	[{}],
+        "click=0,facing=south,shape=middle":	[{}],
+        "click=0,facing=south,shape=top":		[{}],
+        "click=0,facing=south,shape=single":	[{}],
+        "click=0,facing=west,shape=bottom":		[{}],
+        "click=0,facing=west,shape=middle":		[{}],
+        "click=0,facing=west,shape=top":		[{}],
+        "click=0,facing=west,shape=single":		[{}],
+
+        "click=1,facing=north,shape=bottom":	[{}],
+        "click=1,facing=north,shape=middle":	[{}],
+        "click=1,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_microphone_large_top.obj" },
+        "click=1,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_microphone_large_single.obj" },
+        "click=1,facing=east,shape=bottom":		[{}],
+        "click=1,facing=east,shape=middle":		[{}],
+        "click=1,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_microphone_large_top.obj" },
+        "click=1,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_microphone_large_single.obj" },
+        "click=1,facing=south,shape=bottom":	[{}],
+        "click=1,facing=south,shape=middle":	[{}],
+        "click=1,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_microphone_large_top.obj" },
+        "click=1,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_microphone_large_single.obj" },
+        "click=1,facing=west,shape=bottom":		[{}],
+        "click=1,facing=west,shape=middle":		[{}],
+        "click=1,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_microphone_large_top.obj" },
+        "click=1,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_microphone_large_single.obj" },
+
+        "click=2,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_microphone_bottom" },
+        "click=2,facing=north,shape=middle":	{ "model": "miniaturia_mod:mt_microphone_middle" },
+        "click=2,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_microphone_top" },
+        "click=2,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_microphone_single" },
+        "click=2,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_microphone_bottom" },
+        "click=2,facing=east,shape=middle":		{ "model": "miniaturia_mod:mt_microphone_middle" },
+        "click=2,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_microphone_top" },
+        "click=2,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_microphone_single" },
+        "click=2,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_microphone_bottom" },
+        "click=2,facing=south,shape=middle":	{ "model": "miniaturia_mod:mt_microphone_middle" },
+        "click=2,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_microphone_top" },
+        "click=2,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_microphone_single" },
+        "click=2,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_microphone_bottom" },
+        "click=2,facing=west,shape=middle":		{ "model": "miniaturia_mod:mt_microphone_middle" },
+        "click=2,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_microphone_top" },
+        "click=2,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_microphone_single" },
+
+        "click=3,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_microphone_bottom" },
+        "click=3,facing=north,shape=middle":	{ "model": "miniaturia_mod:mt_microphone_middle" },
+        "click=3,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_microphone_top" },
+        "click=3,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_microphone_single" },
+        "click=3,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_microphone_bottom" },
+        "click=3,facing=east,shape=middle":		{ "model": "miniaturia_mod:mt_microphone_middle" },
+        "click=3,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_microphone_top" },
+        "click=3,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_microphone_single" },
+        "click=3,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_microphone_bottom" },
+        "click=3,facing=south,shape=middle":	{ "model": "miniaturia_mod:mt_microphone_middle" },
+        "click=3,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_microphone_top" },
+        "click=3,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_microphone_single" },
+        "click=3,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_microphone_bottom" },
+        "click=3,facing=west,shape=middle":		{ "model": "miniaturia_mod:mt_microphone_middle" },
+        "click=3,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_microphone_top" },
+        "click=3,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_microphone_single" }
+    }
+}

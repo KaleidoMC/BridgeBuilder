@@ -1,0 +1,105 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_car_door_bottom",
+		"textures":{
+			"0": "miniaturia_mod:blocks/tin_mint_c",
+			"1": "miniaturia_mod:blocks/tin_mint_c",
+			"2": "miniaturia_mod:blocks/car_silver_parts",
+			"4": "miniaturia_mod:blocks/car_window_silver_1",
+			"nm": "miniaturia_mod:blocks/c"
+			},
+		"transform": {
+				"gui": {"scale": 0.65, "rotation": [ { "x": 0}, { "y": 270 }, { "z": 0 } ], "translation": [ 0, 0, 0 ] }
+			}
+  },
+    "variants": {
+        "facing=east,half=lower,hinge=left,open=false,powered=true":  { "model": "miniaturia_mod:mt_car_door_bottom" },
+        "facing=south,half=lower,hinge=left,open=false,powered=true": { "model": "miniaturia_mod:mt_car_door_bottom", "y": 90 },
+        "facing=west,half=lower,hinge=left,open=false,powered=true":  { "model": "miniaturia_mod:mt_car_door_bottom", "y": 180 },
+        "facing=north,half=lower,hinge=left,open=false,powered=true": { "model": "miniaturia_mod:mt_car_door_bottom", "y": 270 },
+
+        "facing=east,half=lower,hinge=right,open=false,powered=true":  { "model": "miniaturia_mod:mt_car_door_bottom_rh" },
+        "facing=south,half=lower,hinge=right,open=false,powered=true": { "model": "miniaturia_mod:mt_car_door_bottom_rh", "y": 90 },
+        "facing=west,half=lower,hinge=right,open=false,powered=true":  { "model": "miniaturia_mod:mt_car_door_bottom_rh", "y": 180 },
+        "facing=north,half=lower,hinge=right,open=false,powered=true": { "model": "miniaturia_mod:mt_car_door_bottom_rh", "y": 270 },
+
+
+        "facing=east,half=lower,hinge=left,open=true,powered=true":  { "model": "miniaturia_mod:mt_car_door_bottom_open" },
+        "facing=south,half=lower,hinge=left,open=true,powered=true": { "model": "miniaturia_mod:mt_car_door_bottom_open", "y": 90 },
+        "facing=west,half=lower,hinge=left,open=true,powered=true":  { "model": "miniaturia_mod:mt_car_door_bottom_open", "y": 180 },
+        "facing=north,half=lower,hinge=left,open=true,powered=true": { "model": "miniaturia_mod:mt_car_door_bottom_open", "y": 270 },
+
+        "facing=east,half=lower,hinge=right,open=true,powered=true":  { "model": "miniaturia_mod:mt_car_door_bottom_rh_open" },
+        "facing=south,half=lower,hinge=right,open=true,powered=true": { "model": "miniaturia_mod:mt_car_door_bottom_rh_open", "y": 90 },
+        "facing=west,half=lower,hinge=right,open=true,powered=true":  { "model": "miniaturia_mod:mt_car_door_bottom_rh_open", "y": 180 },
+        "facing=north,half=lower,hinge=right,open=true,powered=true": { "model": "miniaturia_mod:mt_car_door_bottom_rh_open", "y": 270 },
+
+
+        "facing=east,half=upper,hinge=left,open=false,powered=true":  { "model": "miniaturia_mod:mt_nm" },
+        "facing=south,half=upper,hinge=left,open=false,powered=true": { "model": "miniaturia_mod:mt_nm", "y": 90 },
+        "facing=west,half=upper,hinge=left,open=false,powered=true":  { "model": "miniaturia_mod:mt_nm", "y": 180 },
+        "facing=north,half=upper,hinge=left,open=false,powered=true": { "model": "miniaturia_mod:mt_nm", "y": 270 },
+
+        "facing=east,half=upper,hinge=right,open=false,powered=true":  { "model": "miniaturia_mod:mt_nm" },
+        "facing=south,half=upper,hinge=right,open=false,powered=true": { "model": "miniaturia_mod:mt_nm", "y": 90 },
+        "facing=west,half=upper,hinge=right,open=false,powered=true":  { "model": "miniaturia_mod:mt_nm", "y": 180 },
+        "facing=north,half=upper,hinge=right,open=false,powered=true": { "model": "miniaturia_mod:mt_nm", "y": 270 },
+
+
+        "facing=east,half=upper,hinge=left,open=true,powered=true":  { "model": "miniaturia_mod:mt_nm" },
+        "facing=south,half=upper,hinge=left,open=true,powered=true": { "model": "miniaturia_mod:mt_nm", "y": 90 },
+        "facing=west,half=upper,hinge=left,open=true,powered=true":  { "model": "miniaturia_mod:mt_nm", "y": 180 },
+        "facing=north,half=upper,hinge=left,open=true,powered=true": { "model": "miniaturia_mod:mt_nm", "y": 270 },
+
+        "facing=east,half=upper,hinge=right,open=true,powered=true":  { "model": "miniaturia_mod:mt_nm" },
+        "facing=south,half=upper,hinge=right,open=true,powered=true": { "model": "miniaturia_mod:mt_nm", "y": 90 },
+        "facing=west,half=upper,hinge=right,open=true,powered=true":  { "model": "miniaturia_mod:mt_nm", "y": 180 },
+        "facing=north,half=upper,hinge=right,open=true,powered=true": { "model": "miniaturia_mod:mt_nm", "y": 270 },
+
+
+        "facing=east,half=lower,hinge=left,open=false,powered=false":  { "model": "miniaturia_mod:mt_car_door_bottom" },
+        "facing=south,half=lower,hinge=left,open=false,powered=false": { "model": "miniaturia_mod:mt_car_door_bottom", "y": 90 },
+        "facing=west,half=lower,hinge=left,open=false,powered=false":  { "model": "miniaturia_mod:mt_car_door_bottom", "y": 180 },
+        "facing=north,half=lower,hinge=left,open=false,powered=false": { "model": "miniaturia_mod:mt_car_door_bottom", "y": 270 },
+
+        "facing=east,half=lower,hinge=right,open=false,powered=false":  { "model": "miniaturia_mod:mt_car_door_bottom_rh" },
+        "facing=south,half=lower,hinge=right,open=false,powered=false": { "model": "miniaturia_mod:mt_car_door_bottom_rh", "y": 90 },
+        "facing=west,half=lower,hinge=right,open=false,powered=false":  { "model": "miniaturia_mod:mt_car_door_bottom_rh", "y": 180 },
+        "facing=north,half=lower,hinge=right,open=false,powered=false": { "model": "miniaturia_mod:mt_car_door_bottom_rh", "y": 270 },
+
+        "facing=east,half=lower,hinge=left,open=true,powered=false":  { "model": "miniaturia_mod:mt_car_door_bottom_open" },
+        "facing=south,half=lower,hinge=left,open=true,powered=false": { "model": "miniaturia_mod:mt_car_door_bottom_open", "y": 90 },
+        "facing=west,half=lower,hinge=left,open=true,powered=false":  { "model": "miniaturia_mod:mt_car_door_bottom_open", "y": 180 },
+        "facing=north,half=lower,hinge=left,open=true,powered=false": { "model": "miniaturia_mod:mt_car_door_bottom_open", "y": 270 },
+
+        "facing=east,half=lower,hinge=right,open=true,powered=false":  { "model": "miniaturia_mod:mt_car_door_bottom_rh_open" },
+        "facing=south,half=lower,hinge=right,open=true,powered=false": { "model": "miniaturia_mod:mt_car_door_bottom_rh_open", "y": 90 },
+        "facing=west,half=lower,hinge=right,open=true,powered=false":  { "model": "miniaturia_mod:mt_car_door_bottom_rh_open", "y": 180 },
+        "facing=north,half=lower,hinge=right,open=true,powered=false": { "model": "miniaturia_mod:mt_car_door_bottom_rh_open", "y": 270 },
+
+
+        "facing=east,half=upper,hinge=left,open=false,powered=false":  { "model": "miniaturia_mod:mt_nm" },
+        "facing=south,half=upper,hinge=left,open=false,powered=false": { "model": "miniaturia_mod:mt_nm", "y": 90 },
+        "facing=west,half=upper,hinge=left,open=false,powered=false":  { "model": "miniaturia_mod:mt_nm", "y": 180 },
+        "facing=north,half=upper,hinge=left,open=false,powered=false": { "model": "miniaturia_mod:mt_nm", "y": 270 },
+
+        "facing=east,half=upper,hinge=right,open=false,powered=false":  { "model": "miniaturia_mod:mt_nm" },
+        "facing=south,half=upper,hinge=right,open=false,powered=false": { "model": "miniaturia_mod:mt_nm", "y": 90 },
+        "facing=west,half=upper,hinge=right,open=false,powered=false":  { "model": "miniaturia_mod:mt_nm", "y": 180 },
+        "facing=north,half=upper,hinge=right,open=false,powered=false": { "model": "miniaturia_mod:mt_nm", "y": 270 },
+
+
+        "facing=east,half=upper,hinge=left,open=true,powered=false":  { "model": "miniaturia_mod:mt_nm" },
+        "facing=south,half=upper,hinge=left,open=true,powered=false": { "model": "miniaturia_mod:mt_nm", "y": 90 },
+        "facing=west,half=upper,hinge=left,open=true,powered=false":  { "model": "miniaturia_mod:mt_nm", "y": 180 },
+        "facing=north,half=upper,hinge=left,open=true,powered=false": { "model": "miniaturia_mod:mt_nm", "y": 270 },
+
+        "facing=east,half=upper,hinge=right,open=true,powered=false":  { "model": "miniaturia_mod:mt_nm" },
+        "facing=south,half=upper,hinge=right,open=true,powered=false": { "model": "miniaturia_mod:mt_nm", "y": 90 },
+        "facing=west,half=upper,hinge=right,open=true,powered=false":  { "model": "miniaturia_mod:mt_nm", "y": 180 },
+        "facing=north,half=upper,hinge=right,open=true,powered=false": { "model": "miniaturia_mod:mt_nm", "y": 270 },
+
+        "inventory":[{ }]
+    }
+}

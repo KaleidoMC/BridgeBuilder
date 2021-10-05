@@ -1,0 +1,50 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cross"
+	},
+    "variants": {
+		"variant": {
+            "meta0": {
+                "textures": {
+                    "cross" : "miniaturia_mod:blocks/crystal"
+                }
+            },
+            "meta1": {
+                "textures": {
+                    "cross" : "miniaturia_mod:blocks/crystal_blue"
+                }
+            },
+            "meta2": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/crystal_green"
+                }
+            },
+            "meta3": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/crystal_purple"
+                }
+            },
+            "meta4": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/particle"
+                }
+            },
+            "meta5": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/particle_yellow"
+                }
+            },
+            "meta6": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/particle_blue"
+                }
+            },
+            "meta7": {
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/particle_purple"
+                }
+            }
+		}
+	}
+}

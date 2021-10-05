@@ -1,0 +1,10 @@
+{
+    "parent": "cocricotmod:block/base_cube_all",
+    "textures": {
+      "particle": "#u",
+      "d": "#u",
+      "s": "#u",
+      "e": "#u",
+      "w": "#u"
+    }
+}

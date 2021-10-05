@@ -1,0 +1,35 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "cube_column",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/steel_checkered_silver",
+					"side" : "miniaturia_mod:blocks/steel_silver"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/steel_checkered_black",
+					"side" : "miniaturia_mod:blocks/steel_black"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/steel_checkered_red",
+					"side" : "miniaturia_mod:blocks/steel_red"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/steel_checkered_green",
+					"side" : "miniaturia_mod:blocks/steel_green"
+				}
+			}
+		}
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/door_small_top",
+    "textures": {
+        "texture": "cocricotmod:blocks/door_2panel_black"
+    }
+}

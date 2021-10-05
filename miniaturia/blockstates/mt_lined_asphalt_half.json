@@ -1,0 +1,872 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_half_slab",
+  		"textures": {
+			"n": "miniaturia_mod:blocks/asphalt_line_straight",
+			"s": "miniaturia_mod:blocks/asphalt_line_straight",
+			"w": "miniaturia_mod:blocks/asphalt",
+			"e": "miniaturia_mod:blocks/asphalt",
+			"bottom": "miniaturia_mod:blocks/asphalt",
+			"top": "miniaturia_mod:blocks/asphalt_line_straight"
+			}
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "miniaturia_mod:mt_half_slab" },
+			"top":		{ "model": "miniaturia_mod:mt_upper_slab" }
+		},
+
+		"north": { "true": {}, "false": {} },
+		"east": { "true": {}, "false": {} },
+		"south": { "true": {}, "false": {} },
+		"west": { "true": {}, "false": {} },
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"n": "miniaturia_mod:blocks/asphalt",
+					"s": "miniaturia_mod:blocks/asphalt",
+					"w": "miniaturia_mod:blocks/asphalt",
+					"e": "miniaturia_mod:blocks/asphalt",
+					"bottom": "miniaturia_mod:blocks/asphalt",
+					"top": "miniaturia_mod:blocks/asphalt"
+					}
+				},
+			"meta1": { },
+			"meta2": { },
+			"meta3": { },
+			"meta4": { }
+		},
+
+		"east=false,half=bottom,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=false,south=true,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=true,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=true,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_half_slab" },
+
+		"east=false,half=top,north=false,south=false,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=true,south=false,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=false,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=false,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=true,south=false,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=true,south=true,variant=meta0,west=true":			{ "model": "miniaturia_mod:mt_upper_slab" },
+
+
+
+		"east=false,half=bottom,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_half_slab", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_half_slab", "y": 180 },
+		"east=false,half=bottom,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_half_slab", "y": 270 },
+		"east=true,half=bottom,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}
+												},
+		"east=true,half=bottom,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 90
+												},
+		"east=false,half=bottom,north=false,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 180
+												},
+		"east=false,half=bottom,north=true,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 270
+												},
+		"east=false,half=bottom,north=true,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_half_slab", "y": 90 },
+		"east=true,half=bottom,north=true,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}
+												},
+		"east=true,half=bottom,north=false,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 90
+												},
+		"east=false,half=bottom,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 180
+												},
+		"east=true,half=bottom,north=true,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 270
+												},
+		"east=true,half=bottom,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt_line_straight",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_middle"
+													}
+												},
+
+		"east=false,half=top,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",  "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 180 },
+		"east=false,half=top,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 270 },
+		"east=true,half=top,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}
+												},
+		"east=true,half=top,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 90
+												},
+		"east=false,half=top,north=false,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 180
+												},
+		"east=false,half=top,north=true,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 270
+												},
+		"east=false,half=top,north=true,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 90 },
+		"east=true,half=top,north=true,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}
+												},
+		"east=true,half=top,north=false,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 90
+												},
+		"east=false,half=top,north=true,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 180
+												},
+		"east=true,half=top,north=true,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 270
+												},
+		"east=true,half=top,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt_line_straight",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_middle"
+													}
+												},
+
+
+
+
+		"east=false,half=bottom,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_half_slab", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_half_slab", "y": 180 },
+		"east=false,half=bottom,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_half_slab", "y": 270 },
+		"east=true,half=bottom,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}
+												},
+		"east=true,half=bottom,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 90
+												},
+		"east=false,half=bottom,north=false,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 180
+												},
+		"east=false,half=bottom,north=true,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 270
+												},
+		"east=false,half=bottom,north=true,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_half_slab", "y": 90 },
+		"east=true,half=bottom,north=true,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}
+												},
+		"east=true,half=bottom,north=false,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 90
+												},
+		"east=false,half=bottom,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 180
+												},
+		"east=true,half=bottom,north=true,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 270
+												},
+		"east=true,half=bottom,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt_line_straight",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_middle"
+													}
+												},
+
+		"east=false,half=top,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",  "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 180 },
+		"east=false,half=top,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 270 },
+		"east=true,half=top,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}
+												},
+		"east=true,half=top,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 90
+												},
+		"east=false,half=top,north=false,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 180
+												},
+		"east=false,half=top,north=true,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 270
+												},
+		"east=false,half=top,north=true,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 90 },
+		"east=true,half=top,north=true,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}
+												},
+		"east=true,half=top,north=false,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 90
+												},
+		"east=false,half=top,north=true,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 180
+												},
+		"east=true,half=top,north=true,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 270
+												},
+		"east=true,half=top,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt_line_straight",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_middle"
+													}
+												},
+
+
+
+
+		"east=false,half=bottom,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_half_slab", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_half_slab", "y": 180 },
+		"east=false,half=bottom,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_half_slab", "y": 270 },
+		"east=true,half=bottom,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}
+												},
+		"east=true,half=bottom,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 90
+												},
+		"east=false,half=bottom,north=false,south=true,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 180
+												},
+		"east=false,half=bottom,north=true,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 270
+												},
+		"east=false,half=bottom,north=true,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_half_slab", "y": 90 },
+		"east=true,half=bottom,north=true,south=true,variant=meta3,west=false":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}
+												},
+		"east=true,half=bottom,north=false,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 90
+												},
+		"east=false,half=bottom,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 180
+												},
+		"east=true,half=bottom,north=true,south=false,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 270
+												},
+		"east=true,half=bottom,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt_line_straight",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_middle"
+													}
+												},
+
+		"east=false,half=top,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",  "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 180 },
+		"east=false,half=top,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 270 },
+		"east=true,half=top,north=true,south=false,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}
+												},
+		"east=true,half=top,north=false,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 90
+												},
+		"east=false,half=top,north=false,south=true,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 180
+												},
+		"east=false,half=top,north=true,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer"
+													}, "y": 270
+												},
+		"east=false,half=top,north=true,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 90 },
+		"east=true,half=top,north=true,south=true,variant=meta3,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}
+												},
+		"east=true,half=top,north=false,south=true,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 90
+												},
+		"east=false,half=top,north=true,south=true,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 180
+												},
+		"east=true,half=top,north=true,south=false,variant=meta3,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 270
+												},
+		"east=true,half=top,north=true,south=true,variant=meta3,west=true":		{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt_line_straight",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_middle"
+													}
+												},
+
+
+
+		"east=false,half=bottom,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=false,half=bottom,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_half_slab", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_half_slab", "y": 180 },
+		"east=false,half=bottom,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_half_slab", "y": 270 },
+		"east=true,half=bottom,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}
+												},
+		"east=true,half=bottom,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 90
+												},
+		"east=false,half=bottom,north=false,south=true,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 180
+												},
+		"east=false,half=bottom,north=true,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 270
+												},
+		"east=false,half=bottom,north=true,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_half_slab" },
+		"east=true,half=bottom,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_half_slab", "y": 90 },
+		"east=true,half=bottom,north=true,south=true,variant=meta4,west=false":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}
+												},
+		"east=true,half=bottom,north=false,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 90
+												},
+		"east=false,half=bottom,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 180
+												},
+		"east=true,half=bottom,north=true,south=false,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 270
+												},
+		"east=true,half=bottom,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_half_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt_line_straight",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_middle"
+													}
+												},
+
+		"east=false,half=top,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=false,half=top,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",  "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 180 },
+		"east=false,half=top,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 270 },
+		"east=true,half=top,north=true,south=false,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}
+												},
+		"east=true,half=top,north=false,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 90
+												},
+		"east=false,half=top,north=false,south=true,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 180
+												},
+		"east=false,half=top,north=true,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_outer2"
+													}, "y": 270
+												},
+		"east=false,half=top,north=true,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_upper_slab" },
+		"east=true,half=top,north=false,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_upper_slab", "y": 90 },
+		"east=true,half=top,north=true,south=true,variant=meta4,west=false":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}
+												},
+		"east=true,half=top,north=false,south=true,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 90
+												},
+		"east=false,half=top,north=true,south=true,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 180
+												},
+		"east=true,half=top,north=true,south=false,variant=meta4,west=true":	{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_inner"
+													}, "y": 270
+												},
+		"east=true,half=top,north=true,south=true,variant=meta4,west=true":		{ "model": "miniaturia_mod:mt_upper_slab",
+												"textures": {
+													"n": "miniaturia_mod:blocks/asphalt_line_straight",
+													"s": "miniaturia_mod:blocks/asphalt_line_straight",
+													"w": "miniaturia_mod:blocks/asphalt_line_straight",
+													"e": "miniaturia_mod:blocks/asphalt_line_straight",
+													"bottom": "miniaturia_mod:blocks/asphalt",
+													"top": "miniaturia_mod:blocks/asphalt_line_middle"
+													}
+												}
+		}
+}

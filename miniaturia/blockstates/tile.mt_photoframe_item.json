@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_photoframe_a_1"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/photoframe1",
+						"1": "miniaturia_mod:blocks/wood_oak_winframe_side"
+					}
+				},
+            "click1": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/photoframe2",
+						"1": "miniaturia_mod:blocks/wood_oak_winframe_side"
+					}
+    			}
+        }
+    }
+}

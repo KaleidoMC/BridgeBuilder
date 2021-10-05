@@ -1,0 +1,373 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_shelf_b_12",
+		"textures": {
+				"edge": "miniaturia_mod:blocks/furniture_mint_edge",
+				"plate": "miniaturia_mod:blocks/table_mint_top",
+				"side1": "miniaturia_mod:blocks/furniture_mint_side1",
+				"side2": "miniaturia_mod:blocks/furniture_mint_side2",
+				"side1b": "miniaturia_mod:blocks/furniture_mint_side1b",
+				"edge2": "miniaturia_mod:blocks/c",
+				"plate_middle": "miniaturia_mod:blocks/c",
+				"edge_bottom": "miniaturia_mod:blocks/furniture_mint_bottom"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": { },
+			 	"1": { },
+			 	"2": { },
+			 	"3": { }
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_shelf_b_36" },
+    		"middle":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+    		"top":		{ "model": "miniaturia_mod:mt_shelf_b_12" },
+    		"single":	{ "model": "miniaturia_mod:mt_shelf_b_12" },
+    		"lb":		{ "model": "miniaturia_mod:mt_shelf_b_37" },
+    		"mb":		{ "model": "miniaturia_mod:mt_shelf_b_38" },
+    		"rb":		{ "model": "miniaturia_mod:mt_shelf_b_39" },
+    		"lm":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+    		"mm":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+    		"rm":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+    		"lt":		{ "model": "miniaturia_mod:mt_shelf_b_13" },
+    		"mt":		{ "model": "miniaturia_mod:mt_shelf_b_14" },
+    		"rt":		{ "model": "miniaturia_mod:mt_shelf_b_15" },
+    		"ls":		{ "model": "miniaturia_mod:mt_shelf_b_13" },
+    		"ms":		{ "model": "miniaturia_mod:mt_shelf_b_14" },
+    		"rs":		{ "model": "miniaturia_mod:mt_shelf_b_15" }
+		},
+
+        "click=0,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=north,shape=lb":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=north,shape=mb":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=north,shape=rb":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=north,shape=middle":	[{}],
+        "click=0,facing=north,shape=lm":		[{}],
+        "click=0,facing=north,shape=mm":		[{}],
+        "click=0,facing=north,shape=rm":		[{}],
+
+        "click=0,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=north,shape=lt":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=north,shape=mt":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=north,shape=rt":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=north,shape=ls":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=north,shape=ms":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=north,shape=rs":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=east,shape=lb":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=east,shape=mb":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=east,shape=rb":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=east,shape=middle":		[{}],
+        "click=0,facing=east,shape=lm":			[{}],
+        "click=0,facing=east,shape=mm":			[{}],
+        "click=0,facing=east,shape=rm":			[{}],
+
+        "click=0,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=east,shape=lt":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=east,shape=mt":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=east,shape=rt":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=east,shape=ls":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=east,shape=ms":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=east,shape=rs":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=south,shape=lb":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=south,shape=mb":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=south,shape=rb":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=south,shape=middle":	[{}],
+        "click=0,facing=south,shape=lm":		[{}],
+        "click=0,facing=south,shape=mm":		[{}],
+        "click=0,facing=south,shape=rm":		[{}],
+
+        "click=0,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=south,shape=lt":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=south,shape=mt":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=south,shape=rt":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=south,shape=ls":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=south,shape=ms":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=south,shape=rs":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=west,shape=lb":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=west,shape=mb":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=west,shape=rb":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=west,shape=middle":		[{}],
+        "click=0,facing=west,shape=lm":			[{}],
+        "click=0,facing=west,shape=mm":			[{}],
+        "click=0,facing=west,shape=rm":			[{}],
+
+        "click=0,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=west,shape=lt":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=west,shape=mt":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=west,shape=rt":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=0,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=0,facing=west,shape=ls":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=0,facing=west,shape=ms":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=0,facing=west,shape=rs":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=north,shape=lb":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=north,shape=mb":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=north,shape=rb":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=north,shape=middle":	[{}],
+        "click=1,facing=north,shape=lm":		[{}],
+        "click=1,facing=north,shape=mm":		[{}],
+        "click=1,facing=north,shape=rm":		[{}],
+
+        "click=1,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=north,shape=lt":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=north,shape=mt":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=north,shape=rt":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=north,shape=ls":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=north,shape=ms":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=north,shape=rs":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=east,shape=lb":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=east,shape=mb":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=east,shape=rb":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=east,shape=middle":		[{}],
+        "click=1,facing=east,shape=lm":			[{}],
+        "click=1,facing=east,shape=mm":			[{}],
+        "click=1,facing=east,shape=rm":			[{}],
+
+        "click=1,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=east,shape=lt":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=east,shape=mt":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=east,shape=rt":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=east,shape=ls":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=east,shape=ms":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=east,shape=rs":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=south,shape=lb":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=south,shape=mb":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=south,shape=rb":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=south,shape=middle":	[{}],
+        "click=1,facing=south,shape=lm":		[{}],
+        "click=1,facing=south,shape=mm":		[{}],
+        "click=1,facing=south,shape=rm":		[{}],
+
+        "click=1,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=south,shape=lt":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=south,shape=mt":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=south,shape=rt":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=south,shape=ls":		{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=south,shape=ms":		{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=south,shape=rs":		{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=west,shape=lb":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=west,shape=mb":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=west,shape=rb":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=west,shape=middle":		[{}],
+        "click=1,facing=west,shape=lm":			[{}],
+        "click=1,facing=west,shape=mm":			[{}],
+        "click=1,facing=west,shape=rm":			[{}],
+
+        "click=1,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=west,shape=lt":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=west,shape=mt":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=west,shape=rt":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+        "click=1,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_shelf_b_24" },
+        "click=1,facing=west,shape=ls":			{ "model": "miniaturia_mod:mt_shelf_b_25" },
+        "click=1,facing=west,shape=ms":			{ "model": "miniaturia_mod:mt_shelf_b_26" },
+        "click=1,facing=west,shape=rs":			{ "model": "miniaturia_mod:mt_shelf_b_27" },
+
+
+        "click=2,facing=north,shape=bottom":	[{}],
+        "click=2,facing=north,shape=lb":		[{}],
+        "click=2,facing=north,shape=mb":		[{}],
+        "click=2,facing=north,shape=rb":		[{}],
+
+        "click=2,facing=north,shape=middle":	[{}],
+        "click=2,facing=north,shape=lm":		[{}],
+        "click=2,facing=north,shape=mm":		[{}],
+        "click=2,facing=north,shape=rm":		[{}],
+
+        "click=2,facing=north,shape=top":		[{}],
+        "click=2,facing=north,shape=lt":		[{}],
+        "click=2,facing=north,shape=mt":		[{}],
+        "click=2,facing=north,shape=rt":		[{}],
+
+        "click=2,facing=north,shape=single":	[{}],
+        "click=2,facing=north,shape=ls":		[{}],
+        "click=2,facing=north,shape=ms":		[{}],
+        "click=2,facing=north,shape=rs":		[{}],
+
+        "click=2,facing=east,shape=bottom":		[{}],
+        "click=2,facing=east,shape=lb":			[{}],
+        "click=2,facing=east,shape=mb":			[{}],
+        "click=2,facing=east,shape=rb":			[{}],
+
+        "click=2,facing=east,shape=middle":		[{}],
+        "click=2,facing=east,shape=lm":			[{}],
+        "click=2,facing=east,shape=mm":			[{}],
+        "click=2,facing=east,shape=rm":			[{}],
+
+        "click=2,facing=east,shape=top":		[{}],
+        "click=2,facing=east,shape=lt":			[{}],
+        "click=2,facing=east,shape=mt":			[{}],
+        "click=2,facing=east,shape=rt":			[{}],
+
+        "click=2,facing=east,shape=single":		[{}],
+        "click=2,facing=east,shape=ls":			[{}],
+        "click=2,facing=east,shape=ms":			[{}],
+        "click=2,facing=east,shape=rs":			[{}],
+
+        "click=2,facing=south,shape=bottom":	[{}],
+        "click=2,facing=south,shape=lb":		[{}],
+        "click=2,facing=south,shape=mb":		[{}],
+        "click=2,facing=south,shape=rb":		[{}],
+
+        "click=2,facing=south,shape=middle":	[{}],
+        "click=2,facing=south,shape=lm":		[{}],
+        "click=2,facing=south,shape=mm":		[{}],
+        "click=2,facing=south,shape=rm":		[{}],
+
+        "click=2,facing=south,shape=top":		[{}],
+        "click=2,facing=south,shape=lt":		[{}],
+        "click=2,facing=south,shape=mt":		[{}],
+        "click=2,facing=south,shape=rt":		[{}],
+
+        "click=2,facing=south,shape=single":	[{}],
+        "click=2,facing=south,shape=ls":		[{}],
+        "click=2,facing=south,shape=ms":		[{}],
+        "click=2,facing=south,shape=rs":		[{}],
+
+        "click=2,facing=west,shape=bottom":		[{}],
+        "click=2,facing=west,shape=lb":			[{}],
+        "click=2,facing=west,shape=mb":			[{}],
+        "click=2,facing=west,shape=rb":			[{}],
+
+        "click=2,facing=west,shape=middle":		[{}],
+        "click=2,facing=west,shape=lm":			[{}],
+        "click=2,facing=west,shape=mm":			[{}],
+        "click=2,facing=west,shape=rm":			[{}],
+
+        "click=2,facing=west,shape=top":		[{}],
+        "click=2,facing=west,shape=lt":			[{}],
+        "click=2,facing=west,shape=mt":			[{}],
+        "click=2,facing=west,shape=rt":			[{}],
+
+        "click=2,facing=west,shape=single":		[{}],
+        "click=2,facing=west,shape=ls":			[{}],
+        "click=2,facing=west,shape=ms":			[{}],
+        "click=2,facing=west,shape=rs":			[{}],
+
+        "click=3,facing=north,shape=bottom":	[{}],
+        "click=3,facing=north,shape=lb":		[{}],
+        "click=3,facing=north,shape=mb":		[{}],
+        "click=3,facing=north,shape=rb":		[{}],
+
+        "click=3,facing=north,shape=middle":	[{}],
+        "click=3,facing=north,shape=lm":		[{}],
+        "click=3,facing=north,shape=mm":		[{}],
+        "click=3,facing=north,shape=rm":		[{}],
+
+        "click=3,facing=north,shape=top":		[{}],
+        "click=3,facing=north,shape=lt":		[{}],
+        "click=3,facing=north,shape=mt":		[{}],
+        "click=3,facing=north,shape=rt":		[{}],
+
+        "click=3,facing=north,shape=single":	[{}],
+        "click=3,facing=north,shape=ls":		[{}],
+        "click=3,facing=north,shape=ms":		[{}],
+        "click=3,facing=north,shape=rs":		[{}],
+
+        "click=3,facing=east,shape=bottom":		[{}],
+        "click=3,facing=east,shape=lb":			[{}],
+        "click=3,facing=east,shape=mb":			[{}],
+        "click=3,facing=east,shape=rb":			[{}],
+
+        "click=3,facing=east,shape=middle":		[{}],
+        "click=3,facing=east,shape=lm":			[{}],
+        "click=3,facing=east,shape=mm":			[{}],
+        "click=3,facing=east,shape=rm":			[{}],
+
+        "click=3,facing=east,shape=top":		[{}],
+        "click=3,facing=east,shape=lt":			[{}],
+        "click=3,facing=east,shape=mt":			[{}],
+        "click=3,facing=east,shape=rt":			[{}],
+
+        "click=3,facing=east,shape=single":		[{}],
+        "click=3,facing=east,shape=ls":			[{}],
+        "click=3,facing=east,shape=ms":			[{}],
+        "click=3,facing=east,shape=rs":			[{}],
+
+        "click=3,facing=south,shape=bottom":	[{}],
+        "click=3,facing=south,shape=lb":		[{}],
+        "click=3,facing=south,shape=mb":		[{}],
+        "click=3,facing=south,shape=rb":		[{}],
+
+        "click=3,facing=south,shape=middle":	[{}],
+        "click=3,facing=south,shape=lm":		[{}],
+        "click=3,facing=south,shape=mm":		[{}],
+        "click=3,facing=south,shape=rm":		[{}],
+
+        "click=3,facing=south,shape=top":		[{}],
+        "click=3,facing=south,shape=lt":		[{}],
+        "click=3,facing=south,shape=mt":		[{}],
+        "click=3,facing=south,shape=rt":		[{}],
+
+        "click=3,facing=south,shape=single":	[{}],
+        "click=3,facing=south,shape=ls":		[{}],
+        "click=3,facing=south,shape=ms":		[{}],
+        "click=3,facing=south,shape=rs":		[{}],
+
+        "click=3,facing=west,shape=bottom":		[{}],
+        "click=3,facing=west,shape=lb":			[{}],
+        "click=3,facing=west,shape=mb":			[{}],
+        "click=3,facing=west,shape=rb":			[{}],
+
+        "click=3,facing=west,shape=middle":		[{}],
+        "click=3,facing=west,shape=lm":			[{}],
+        "click=3,facing=west,shape=mm":			[{}],
+        "click=3,facing=west,shape=rm":			[{}],
+
+        "click=3,facing=west,shape=top":		[{}],
+        "click=3,facing=west,shape=lt":			[{}],
+        "click=3,facing=west,shape=mt":			[{}],
+        "click=3,facing=west,shape=rt":			[{}],
+
+        "click=3,facing=west,shape=single":		[{}],
+        "click=3,facing=west,shape=ls":			[{}],
+        "click=3,facing=west,shape=ms":			[{}],
+        "click=3,facing=west,shape=rs":			[{}]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/shower_rain_antique",
+    "textures": {
+      "particle": "cocricotmod:blocks/particle_gold",
+      "0": "cocricotmod:blocks/faucet_gold"
+    }
+}

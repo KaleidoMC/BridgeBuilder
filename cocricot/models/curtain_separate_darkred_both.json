@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/curtain_separate_both",
+    "textures": {
+      "texture": "cocricotmod:blocks/curtain_separate_darkred"
+    }
+}

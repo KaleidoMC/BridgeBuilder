@@ -1,0 +1,27 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vhalf",
+	    "textures": {
+			"bottom" : "miniaturia_mod:blocks/wool_colored_red",
+			"top" : "miniaturia_mod:blocks/wool_colored_red",
+			"ns" : "miniaturia_mod:blocks/wool_colored_red",
+			"we" : "miniaturia_mod:blocks/wool_colored_red"
+	    	},
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"model": "miniaturia_mod:mt_vhalf"
+            	},
+            "click1": {
+				"model": "miniaturia_mod:mt_vquarter"
+            	}
+            }
+        }
+}

@@ -1,0 +1,37 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_car_front_glass_b_single",
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.625, "translation": [ 0.2, -0.2, 0 ] }
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/steel_black",
+						"3": "miniaturia_mod:blocks/car_window_silver_1",
+						"4": "miniaturia_mod:blocks/car_silver_parts",
+						"5": "miniaturia_mod:blocks/car_silver_parts",
+						"6": "minecraft:blocks/diamond_block",
+						"7": "miniaturia_mod:blocks/handle",
+						"8": "miniaturia_mod:blocks/tv_black_front",
+						"9": "miniaturia_mod:blocks/tv_black_side"
+					}
+				},
+            "click1": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/steel_black",
+						"3": "miniaturia_mod:blocks/car_window_silver_1",
+						"4": "miniaturia_mod:blocks/car_silver_parts",
+						"5": "miniaturia_mod:blocks/c",
+						"6": "miniaturia_mod:blocks/c",
+						"7": "miniaturia_mod:blocks/c",
+						"8": "miniaturia_mod:blocks/c",
+						"9": "miniaturia_mod:blocks/c"
+					}
+				}
+		}
+	}
+}

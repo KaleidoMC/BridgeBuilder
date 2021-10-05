@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/chair_midcentury_white",
+	"textures": {
+		"0": "cocricotmod:blocks/chair_midcentury_black",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	}
+}

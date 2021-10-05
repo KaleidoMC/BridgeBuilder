@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/faucet_wall",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_darkbrown",
+      "texture": "cocricotmod:blocks/faucet_antique"
+    }
+}

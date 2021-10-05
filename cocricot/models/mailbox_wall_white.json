@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/mailbox_wall",
+    "textures": {
+			"particle": "cocricotmod:blocks/stone_color_white",
+  		"texture": "cocricotmod:blocks/mailbox_wall_white"
+    }
+}

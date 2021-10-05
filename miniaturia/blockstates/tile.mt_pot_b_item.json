@@ -1,0 +1,66 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_pot_b"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/pot_terracotta_a",
+						"1": "miniaturia_mod:blocks/pot_soil_a",
+						"2": "miniaturia_mod:blocks/c"
+				}
+            },
+            "click1": {
+                "textures": {
+						"0": "miniaturia_mod:blocks/pot_brown_a",
+						"1": "miniaturia_mod:blocks/pot_soil_a",
+						"2": "miniaturia_mod:blocks/c"
+                }
+            },
+            "click2": {
+                "textures": {
+						"0": "miniaturia_mod:blocks/pot_choco_a",
+						"1": "miniaturia_mod:blocks/pot_soil_a",
+						"2": "miniaturia_mod:blocks/c"
+                }
+            },
+            "click3": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/pot_white_a",
+						"1": "miniaturia_mod:blocks/pot_soil_a",
+						"2": "miniaturia_mod:blocks/c"
+                }
+            },
+			"click4": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/pot_mint_a",
+						"1": "miniaturia_mod:blocks/pot_soil_a",
+						"2": "miniaturia_mod:blocks/c"
+					}
+				},
+			"click5": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/pot_navy_a",
+						"1": "miniaturia_mod:blocks/pot_soil_a",
+						"2": "miniaturia_mod:blocks/c"
+					}
+				},
+			"click6": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/pot_green_a",
+						"1": "miniaturia_mod:blocks/pot_soil_a",
+						"2": "miniaturia_mod:blocks/c"
+					}
+				},
+			"click7": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/pot_rattan",
+						"1": "miniaturia_mod:blocks/pot_soil_a",
+						"2": "miniaturia_mod:blocks/pail_bottom"
+					}
+				}
+            }
+    }
+}

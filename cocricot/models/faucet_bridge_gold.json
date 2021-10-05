@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/faucet_bridge",
+    "textures": {
+      "particle": "cocricotmod:blocks/particle_gold",
+      "texture": "cocricotmod:blocks/faucet_gold"
+    }
+}

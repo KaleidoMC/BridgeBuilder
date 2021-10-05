@@ -1,0 +1,17 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/curtain_cafe_ecru",
+		"particle": "cocricotmod:blocks/curtain_cafe_ecru"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 14],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "south"}
+			}
+		}
+	]
+}

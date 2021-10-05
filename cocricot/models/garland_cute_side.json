@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_nothickness_side",
+    "textures": {
+        "texture": "cocricotmod:blocks/garland_cute"
+    }
+}

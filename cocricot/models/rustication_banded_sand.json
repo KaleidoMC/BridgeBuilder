@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_cube_topside",
+    "textures": {
+      "top": "cocricotmod:blocks/rustication_banded_sand_top",
+      "side": "cocricotmod:blocks/rustication_banded_sand"
+    }
+}

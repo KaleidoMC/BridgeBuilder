@@ -1,0 +1,46 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_plant_cross_a"
+	},
+
+    "variants": {
+
+		"variant=meta0": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_0" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_0" }
+				}
+			],
+		"variant=meta1": [
+				{	"model": "miniaturia_mod:mt_plant_bush",
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_0" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush", "y": 90,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_0" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush", "y": 180,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_0" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush", "y": 270,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_0" }
+				}
+			],
+		"variant=meta2": [
+				{	"model": "miniaturia_mod:mt_plant_bush_double",
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_0b_bottom", "2": "miniaturia_mod:blocks/tallgrass_0b_top" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush_double", "y": 90,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_0b_bottom", "2": "miniaturia_mod:blocks/tallgrass_0b_top" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush_double", "y": 180,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_0b_bottom", "2": "miniaturia_mod:blocks/tallgrass_0b_top" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush_double", "y": 270,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_0b_bottom", "2": "miniaturia_mod:blocks/tallgrass_0b_top" }
+				}
+			]
+	}
+}

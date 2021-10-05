@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/curtain_fringe_black",
+    "textures": {
+      "0": "cocricotmod:blocks/curtain_fringe_blue",
+      "particle": "cocricotmod:blocks/curtain_fringe_blue"
+    }
+}

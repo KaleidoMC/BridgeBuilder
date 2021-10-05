@@ -1,0 +1,708 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cross",
+  		"textures": {
+					"cross": "miniaturia_mod:blocks/cs"
+					}
+	},
+
+    "variants": {
+
+    	"click": {
+				"0":{ },
+				"1":{ },
+				"2":{ },
+				"3":{ },
+				"4":{ },
+				"5":{ },
+				"6":{ },
+				"7":{ }
+    	},
+
+    	"half": {
+    		"top":		{ "model": "miniaturia_mod:mt_plant_double_cross" },
+    		"bottom":	{ "model": "miniaturia_mod:mt_plant_double_cross" }
+    	},
+
+		"shape": {
+    		"bottom":	{ },
+    		"middle":	{ },
+    		"top":		{ },
+    		"single":	{ }
+		},
+
+		"click=0,half=top,shape=bottom":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_bottom"
+											}
+										}
+										],
+		"click=0,half=top,shape=middle":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_middle"
+											}
+										}
+										],
+		"click=0,half=top,shape=top":	[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+		"click=0,half=top,shape=single":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+
+		"click=0,half=bottom,shape=bottom":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_bottom"
+											}
+										}
+										],
+		"click=0,half=bottom,shape=middle":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_middle"
+											}
+										}
+										],
+		"click=0,half=bottom,shape=top":	[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+		"click=0,half=bottom,shape=single":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+
+
+		"click=1,half=top,shape=bottom":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_bottom"
+											}
+										}
+										],
+		"click=1,half=top,shape=middle":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_middle"
+											}
+										}
+										],
+		"click=1,half=top,shape=top":	[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+		"click=1,half=top,shape=single":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+
+		"click=1,half=bottom,shape=bottom":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_bottom"
+											}
+										}
+										],
+		"click=1,half=bottom,shape=middle":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_middle"
+											}
+										}
+										],
+		"click=1,half=bottom,shape=top":	[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+		"click=1,half=bottom,shape=single":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 90,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+
+
+
+		"click=2,half=top,shape=bottom":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_bottom"
+											}
+										}
+										],
+		"click=2,half=top,shape=middle":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_middle"
+											}
+										}
+										],
+		"click=2,half=top,shape=top":	[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+		"click=2,half=top,shape=single":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+
+		"click=2,half=bottom,shape=bottom":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_bottom"
+											}
+										}
+										],
+		"click=2,half=bottom,shape=middle":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_middle"
+											}
+										}
+										],
+		"click=2,half=bottom,shape=top":	[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+		"click=2,half=bottom,shape=single":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 180,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+
+
+
+
+		"click=3,half=top,shape=bottom":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_bottom"
+											}
+										}
+										],
+		"click=3,half=top,shape=middle":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_middle"
+											}
+										}
+										],
+		"click=3,half=top,shape=top":	[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+		"click=3,half=top,shape=single":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+
+		"click=3,half=bottom,shape=bottom":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_bottom"
+											}
+										}
+										],
+		"click=3,half=bottom,shape=middle":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_middle"
+											}
+										}
+										],
+		"click=3,half=bottom,shape=top":	[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+		"click=3,half=bottom,shape=single":[
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										},
+										{
+											"model": "miniaturia_mod:mt_plant_double_cross_sunflower_n2", "y": 270,
+											"textures": {
+											"cross": "miniaturia_mod:blocks/flower_sunflower_top",
+											"1": "miniaturia_mod:blocks/flower_sunflower_front",
+											"2": "miniaturia_mod:blocks/flower_sunflower_back"
+											}
+										}
+										],
+
+
+
+		"click=4,half=top,shape=bottom":	{
+					"model": "miniaturia_mod:mt_plant_double_cross",
+	    			"textures": {
+				        "cross": "miniaturia_mod:blocks/plant_corn_bottom"
+						}
+					},
+		"click=4,half=top,shape=middle":	{
+					"model": "miniaturia_mod:mt_plant_double_cross",
+	    			"textures": {
+				        "cross": "miniaturia_mod:blocks/plant_corn_bottom"
+						}
+					},
+		"click=4,half=top,shape=top":		{
+					"model": "miniaturia_mod:mt_plant_double_cross",
+	    			"textures": {
+				        "cross": "miniaturia_mod:blocks/plant_corn_top"
+						}
+					},
+		"click=4,half=top,shape=single":	{
+					"model": "miniaturia_mod:mt_plant_double_cross",
+	    			"textures": {
+				        "cross": "miniaturia_mod:blocks/plant_corn_top"
+						}
+					},
+
+		"click=4,half=bottom,shape=bottom":	{
+					"model": "miniaturia_mod:mt_plant_double_cross",
+	    			"textures": {
+				        "cross": "miniaturia_mod:blocks/plant_corn_bottom"
+						}
+					},
+		"click=4,half=bottom,shape=middle":	{
+					"model": "miniaturia_mod:mt_plant_double_cross",
+	    			"textures": {
+				        "cross": "miniaturia_mod:blocks/plant_corn_bottom"
+						}
+					},
+		"click=4,half=bottom,shape=top":	{
+					"model": "miniaturia_mod:mt_plant_double_cross",
+	    			"textures": {
+				        "cross": "miniaturia_mod:blocks/plant_corn_top"
+						}
+					},
+		"click=4,half=bottom,shape=single":	{
+					"model": "miniaturia_mod:mt_plant_double_cross",
+	    			"textures": {
+				        "cross": "miniaturia_mod:blocks/plant_corn_top"
+						}
+					},
+
+
+		"click=5,half=top,shape=bottom":	{
+					"model": "miniaturia_mod:mt_plant_bamboo_a",
+	    			"textures": {
+			        		"1": "miniaturia_mod:blocks/bamboo_stem",
+							"3": "miniaturia_mod:blocks/bamboo_leaves_a"
+						}
+					},
+		"click=5,half=top,shape=middle":	{
+					"model": "miniaturia_mod:mt_plant_bamboo_a",
+	    			"textures": {
+			        		"1": "miniaturia_mod:blocks/bamboo_stem",
+							"3": "miniaturia_mod:blocks/bamboo_leaves_a"
+						}
+					},
+		"click=5,half=top,shape=top":		{
+					"model": "miniaturia_mod:mt_plant_bamboo_a_top",
+	    			"textures": {
+			        		"1": "miniaturia_mod:blocks/bamboo_stem",
+							"3": "miniaturia_mod:blocks/bamboo_leaves_b"
+						}
+					},
+		"click=5,half=top,shape=single":	{
+					"model": "miniaturia_mod:mt_plant_bamboo_a",
+	    			"textures": {
+			        		"1": "miniaturia_mod:blocks/bamboo_stem",
+							"3": "miniaturia_mod:blocks/bamboo_leaves_a"
+						}
+					},
+
+		"click=5,half=bottom,shape=bottom":	{
+					"model": "miniaturia_mod:mt_plant_bamboo_a",
+	    			"textures": {
+			        		"1": "miniaturia_mod:blocks/bamboo_stem",
+							"3": "miniaturia_mod:blocks/bamboo_leaves_a"
+						}
+					},
+		"click=5,half=bottom,shape=middle":	{
+					"model": "miniaturia_mod:mt_plant_bamboo_a",
+	    			"textures": {
+			        		"1": "miniaturia_mod:blocks/bamboo_stem",
+							"3": "miniaturia_mod:blocks/bamboo_leaves_a"
+						}
+					},
+		"click=5,half=bottom,shape=top":	{
+					"model": "miniaturia_mod:mt_plant_bamboo_a_top",
+	    			"textures": {
+			        		"1": "miniaturia_mod:blocks/bamboo_stem",
+							"3": "miniaturia_mod:blocks/bamboo_leaves_b"
+						}
+					},
+		"click=5,half=bottom,shape=single":	{
+					"model": "miniaturia_mod:mt_plant_bamboo_a",
+	    			"textures": {
+			        		"1": "miniaturia_mod:blocks/bamboo_stem",
+							"3": "miniaturia_mod:blocks/bamboo_leaves_a"
+						}
+					},
+
+		"click=6,half=top,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_cactus_stack_bottom"
+											}
+										}
+										],
+		"click=6,half=top,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_cactus_stack_middle"
+											}
+										}
+										],
+		"click=6,half=top,shape=top":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_cactus_stack_top"
+											}
+										}
+										],
+		"click=6,half=top,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_cactus_stack_top"
+											}
+										}
+										],
+
+		"click=6,half=bottom,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_cactus_stack_bottom"
+											}
+										}
+										],
+		"click=6,half=bottom,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_cactus_stack_middle"
+											}
+										}
+										],
+		"click=6,half=bottom,shape=top":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_cactus_stack_top"
+											}
+										}
+										],
+		"click=6,half=bottom,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_cactus_stack_top"
+											}
+										}
+										],
+
+		"click=7,half=top,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_hedge_bottom"
+											}
+										}
+										],
+		"click=7,half=top,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_hedge_bottom"
+											}
+										}
+										],
+		"click=7,half=top,shape=top":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_hedge_top"
+											}
+										}
+										],
+		"click=7,half=top,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_hedge_top"
+											}
+										}
+										],
+
+		"click=7,half=bottom,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_hedge_bottom"
+											}
+										}
+										],
+		"click=7,half=bottom,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_hedge_bottom"
+											}
+										}
+										],
+		"click=7,half=bottom,shape=top":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_hedge_top"
+											}
+										}
+										],
+		"click=7,half=bottom,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_hedge_top"
+											}
+										}
+										]
+	}
+}

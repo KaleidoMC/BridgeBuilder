@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cocricotmod:blocks/marble_diagonal_large_blackwhite"
+    }
+}

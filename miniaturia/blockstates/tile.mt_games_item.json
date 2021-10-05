@@ -1,0 +1,60 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_soccergame",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.65 },
+		        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+		        "fixed": {"scale": 0.5},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+    			"model": "miniaturia_mod:mt_soccergame",
+				"textures": {
+						"0": "miniaturia_mod:blocks/soccergame1b",
+						"1": "miniaturia_mod:blocks/soccergame2b",
+						"2": "miniaturia_mod:blocks/soccergame3b"
+					}
+    			},
+            "click1": {
+    			"model": "miniaturia_mod:mt_soccergame",
+				"textures": {
+						"0": "miniaturia_mod:blocks/soccergame1",
+						"1": "miniaturia_mod:blocks/soccergame2",
+						"2": "miniaturia_mod:blocks/soccergame3"
+					}
+    			},
+            "click2": {
+            	"model": "miniaturia_mod:mt_videogametable",
+					"textures": {
+						"0": "miniaturia_mod:blocks/videogametable1",
+						"1": "miniaturia_mod:blocks/videogametable2",
+						"2": "miniaturia_mod:blocks/facade_wood_darkbrown_top",
+						"3": "miniaturia_mod:blocks/videogametable3",
+						"4": "miniaturia_mod:blocks/tv_black_back"
+						},
+			   	"transform": {
+						"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.625 },
+				        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+				        "fixed": {"scale": 0.5},
+				        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+				        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+				        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+				        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+					}
+				},
+            "click3": {
+	    			"model": "cross",
+					"textures": {
+							"cross": "miniaturia_mod:blocks/cs"
+						}
+	    			}
+        }
+    }
+}

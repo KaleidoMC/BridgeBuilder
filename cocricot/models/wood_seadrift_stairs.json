@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "cocricotmod:blocks/planks_seadrift",
+        "top": "cocricotmod:blocks/planks_seadrift",
+        "side": "cocricotmod:blocks/planks_seadrift"
+    }
+}

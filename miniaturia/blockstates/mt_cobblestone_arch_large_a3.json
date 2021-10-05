@@ -1,0 +1,49 @@
+{
+  "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+  		"model": "miniaturia_mod:mt_arch_large.obj"
+    },
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+					"textures":{
+					    "#m_1": "miniaturia_mod:blocks/cobblestone_b_white",
+					    "#m_2": "miniaturia_mod:blocks/cobblestone_b_white",
+					    "#m_3": "miniaturia_mod:blocks/cobblestone_b_white",
+					    "particle": "miniaturia_mod:blocks/cobblestone_b_white"
+					}
+				},
+			 	"1": {
+					"textures":{
+					    "#m_1": "miniaturia_mod:blocks/cobblestone_a_black",
+					    "#m_2": "miniaturia_mod:blocks/cobblestone_a_black",
+					    "#m_3": "miniaturia_mod:blocks/cobblestone_a_black",
+					    "particle": "miniaturia_mod:blocks/cobblestone_a_black"
+					}
+	    		}
+    	},
+
+    	"facing": {
+    		"east":		{ "y": 0 },
+    		"west":		{ "y": 180 },
+    		"south":	{ "y": 90 },
+    		"north":	{ "y": 270 }
+		},
+
+		"half":{
+			"bottom":	{ "model": "miniaturia_mod:mt_arch_large_bottom.obj" },
+			"top":		{ "model": "miniaturia_mod:mt_arch_large.obj" }
+		},
+
+		"shape": {
+			"straight":		{ },
+            "outer_right":	{ },
+            "outer_left":	{ },
+            "inner_right":	{ },
+            "inner_left":	{ }
+		}
+	}
+}

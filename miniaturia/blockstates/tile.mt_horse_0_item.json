@@ -1,0 +1,32 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_horse_tf.obj",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.5, "translation": [ -0.2, 0.1, 0 ] },
+		        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+		        "fixed": {"scale": 0.5},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			},
+		"textures": {
+			"#0": "miniaturia_mod:blocks/horse_0",
+			"#1": "miniaturia_mod:blocks/horse_1",
+			"#2": "miniaturia_mod:blocks/horse_2",
+			"#3": "miniaturia_mod:blocks/horse_3",
+			"#4": "miniaturia_mod:blocks/horse_4",
+			"#5": "miniaturia_mod:blocks/horse_5"
+ 		}
+    },
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { "model": "miniaturia_mod:mt_horse_bt.obj" },
+            "click2": { },
+            "click3": { "model": "miniaturia_mod:mt_horse_bt.obj" }
+        }
+    }
+}

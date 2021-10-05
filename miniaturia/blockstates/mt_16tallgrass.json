@@ -1,0 +1,110 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_plant_cross_a"
+	},
+
+    "variants": {
+
+		"variant=meta0": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_1" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_1" }
+				}
+			],
+		"variant=meta1": [
+				{	"model": "miniaturia_mod:mt_plant_bush",
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_1" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush", "y": 90,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_1" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush", "y": 180,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_1" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_bush", "y": 270,
+					"textures": { "1": "miniaturia_mod:blocks/tallgrass_1" }
+				}
+			],
+		"variant=meta2": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_2" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_2" }
+				}
+			],
+		"variant=meta3": [
+				{	"model": "miniaturia_mod:mt_clover",
+					"textures": { "0": "miniaturia_mod:blocks/clover", "1": "miniaturia_mod:blocks/clover_side" }
+				},
+				{	"model": "miniaturia_mod:mt_clover", "y": 90,
+					"textures": { "0": "miniaturia_mod:blocks/clover", "1": "miniaturia_mod:blocks/clover_side" }
+				},
+				{	"model": "miniaturia_mod:mt_clover", "y": 180,
+					"textures": { "0": "miniaturia_mod:blocks/clover", "1": "miniaturia_mod:blocks/clover_side" }
+				},
+				{	"model": "miniaturia_mod:mt_clover", "y": 270,
+					"textures": { "0": "miniaturia_mod:blocks/clover", "1": "miniaturia_mod:blocks/clover_side" }
+				}
+			],
+		"variant=meta4": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_4" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_4" }
+				}
+			],
+		"variant=meta5": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_lavender" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_lavender" }
+				}
+			],
+		"variant=meta6": {	"model": "miniaturia_mod:mt_plant_multicross_large",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_kochia" }
+				},
+		"variant=meta7": {	"model": "miniaturia_mod:mt_plant_multicross_large",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_kochia_red" }
+				},
+		"variant=meta8": {	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_lavender" }
+				},
+		"variant=meta9": {	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_rosemary" }
+				},
+		"variant=meta10": {	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_mint" }
+				},
+		"variant=meta11": {	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_thyme" }
+				},
+		"variant=meta12": [
+				{	"model": "miniaturia_mod:mt_flower_a",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_basil_side", "1": "miniaturia_mod:blocks/tallgrass_basil_top" }
+				},
+				{	"model": "miniaturia_mod:mt_flower_b",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_basil_side", "1": "miniaturia_mod:blocks/tallgrass_basil_top" }
+				}
+			],
+		"variant=meta13": {	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_sage" }
+				},
+		"variant=meta14": [
+				{	"model": "miniaturia_mod:mt_flower_a",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_chamomile_side", "1": "miniaturia_mod:blocks/tallgrass_chamomile_top" }
+				},
+				{	"model": "miniaturia_mod:mt_flower_b",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_chamomile_side", "1": "miniaturia_mod:blocks/tallgrass_chamomile_top" }
+				}
+			],
+		"variant=meta15": {	"model": "miniaturia_mod:mt_plant_multicross_large",
+					"textures": { "cross": "miniaturia_mod:blocks/tallgrass_lemongrass" }
+				}
+	}
+}

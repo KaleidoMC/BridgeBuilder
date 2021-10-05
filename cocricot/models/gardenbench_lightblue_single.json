@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/gardenbench_single",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_lightblue",
+      "texture": "cocricotmod:blocks/gardenbench_lightblue"
+    }
+}

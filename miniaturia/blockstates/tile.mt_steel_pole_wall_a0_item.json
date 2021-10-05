@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_pole_wall_end"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/steel_silver_b",
+					"end": "miniaturia_mod:blocks/steel_silver_b",
+					"wall": "miniaturia_mod:blocks/steel_silver_b"
+					}
+				},
+			"meta1": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/steel_black_b",
+					"end": "miniaturia_mod:blocks/steel_black_b",
+					"wall": "miniaturia_mod:blocks/steel_black_b"
+					}
+				},
+			"meta2": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/steel_red_b",
+					"end": "miniaturia_mod:blocks/steel_red_b",
+					"wall": "miniaturia_mod:blocks/steel_red_b"
+					}
+				},
+			"meta3": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/steel_green_b",
+					"end": "miniaturia_mod:blocks/steel_green_b",
+					"wall": "miniaturia_mod:blocks/steel_green_b"
+					}
+				}
+        }
+    }
+}

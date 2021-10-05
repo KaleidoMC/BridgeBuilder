@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/toilet",
+    "textures": {
+        "0": "cocricotmod:blocks/toilet_black",
+        "1": "cocricotmod:blocks/stone_color_black",
+        "particle": "cocricotmod:blocks/stone_color_white"
+    }
+}

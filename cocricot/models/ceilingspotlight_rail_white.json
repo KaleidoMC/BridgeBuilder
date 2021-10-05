@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/ceilingspotlight_rail_black",
+    "textures": {
+			"particle": "cocricotmod:blocks/stone_color_white",
+  		"0": "cocricotmod:blocks/sofa_slipper_white"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/telephone_retro_black",
+    "textures": {
+      "particle": "cocricotmod:blocks/particle_mintgreen",
+      "0": "cocricotmod:blocks/telephone_retro_mintgreen"
+    }
+}

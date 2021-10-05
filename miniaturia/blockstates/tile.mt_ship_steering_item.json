@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_ship_steering_top"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"texture": "miniaturia_mod:blocks/ship_steering_brown",
+					"base": "miniaturia_mod:blocks/piano_plate_brown"
+					}
+				},
+            "click1": {
+				"textures": {
+					"texture": "miniaturia_mod:blocks/ship_steering_white",
+					"base": "miniaturia_mod:blocks/piano_plate_white"
+					}
+    			}
+        }
+    }
+}

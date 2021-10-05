@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/menu_easel",
+    "textures": {
+				"particle": "cocricotmod:blocks/stone_color_black",
+        "texture": "cocricotmod:blocks/menu_easel_black"
+    }
+}

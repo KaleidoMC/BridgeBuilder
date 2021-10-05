@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/stonebrick_b_colorful_b",
+			        "top":		 "miniaturia_mod:blocks/stonebrick_b_colorful_b",
+			        "side":		 "miniaturia_mod:blocks/stonebrick_b_colorful_b"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/stonebrick_b_colorful_c",
+			        "top":		 "miniaturia_mod:blocks/stonebrick_b_colorful_c",
+			        "side":		 "miniaturia_mod:blocks/stonebrick_b_colorful_c"
+					}
+				}
+        }
+    }
+}

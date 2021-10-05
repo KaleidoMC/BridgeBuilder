@@ -1,0 +1,45 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_desk_a_single"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/table_acacia_top",
+						"2": "miniaturia_mod:blocks/table_acacia_parts",
+						"3": "miniaturia_mod:blocks/table_acacia_top"
+					}
+	    		},
+	    		"1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/table_darkbrown_top",
+						"2": "miniaturia_mod:blocks/table_darkbrown_parts",
+						"3": "miniaturia_mod:blocks/table_darkbrown_top"
+					}
+	    		}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+		"half": {
+    		"top":		{ },
+    		"bottom":	{ }
+    	},
+
+    	"shape": {
+    		"left":		{ "model": "miniaturia_mod:mt_desk_a_left" },
+    		"middle":	{ "model": "miniaturia_mod:mt_desk_a_middle" },
+    		"right":	{ "model": "miniaturia_mod:mt_desk_a_right" },
+    		"single":	{ "model": "miniaturia_mod:mt_desk_a_single" }
+		}
+    }
+}

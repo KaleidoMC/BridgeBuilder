@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_stool_a"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/sofa_red",
+						"1": "miniaturia_mod:blocks/casterchair_winered",
+						"2": "miniaturia_mod:blocks/lamppost_brown",
+						"3": "miniaturia_mod:blocks/lamppost_sign_brown"
+					}
+				},
+	    		"1": {
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/sofa_green",
+						"1": "miniaturia_mod:blocks/casterchair_green",
+						"2": "miniaturia_mod:blocks/lamppost_brown",
+						"3": "miniaturia_mod:blocks/lamppost_sign_brown"
+					}
+				},
+	    		"2":	{
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/sofa_blue",
+						"1": "miniaturia_mod:blocks/casterchair_blue",
+						"2": "miniaturia_mod:blocks/lamppost_brown",
+						"3": "miniaturia_mod:blocks/lamppost_sign_brown"
+					}
+				},
+			 	"3":	{
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/sofa_brown",
+						"1": "miniaturia_mod:blocks/casterchair_brown",
+						"2": "miniaturia_mod:blocks/lamppost_brown",
+						"3": "miniaturia_mod:blocks/lamppost_sign_brown"
+					}
+	    		}
+	    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+   }
+}

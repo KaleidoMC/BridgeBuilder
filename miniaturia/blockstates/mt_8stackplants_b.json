@@ -1,0 +1,340 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cross",
+  		"textures": {
+				"cross": "miniaturia_mod:blocks/cs"
+				}
+	},
+
+    "variants": {
+
+    	"click": {
+				"0":{ },
+				"1":{ },
+				"2":{ },
+				"3":{ },
+				"4":{ },
+				"5":{ },
+				"6":{ },
+				"7":{ }
+    	},
+
+    	"half": {
+    		"top":		{ "model": "cross" },
+    		"bottom":	{ "model": "cross" }
+    	},
+
+		"shape": {
+    		"bottom":	{ },
+    		"middle":	{ },
+    		"top":		{ },
+    		"single":	{ }
+		},
+
+		"click=0,half=top,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_benjamin_bottom"
+											}
+										}
+										],
+		"click=0,half=top,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_benjamin_bottom"
+											}
+										}
+										],
+		"click=0,half=top,shape=top":	{
+											"model": "miniaturia_mod:mt_plant_multicross",
+											"textures": {
+												"cross": "miniaturia_mod:blocks/plant_benjamin_top"
+											}
+										},
+		"click=0,half=top,shape=single":{
+											"model": "miniaturia_mod:mt_plant_multicross",
+											"textures": {
+												"cross": "miniaturia_mod:blocks/plant_benjamin_top"
+											}
+										},
+
+		"click=0,half=bottom,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_benjamin_bottom"
+											}
+										}
+										],
+		"click=0,half=bottom,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/plant_benjamin_bottom"
+											}
+										}
+										],
+		"click=0,half=bottom,shape=top":{
+											"model": "miniaturia_mod:mt_plant_multicross",
+											"textures": {
+												"cross": "miniaturia_mod:blocks/plant_benjamin_top"
+											}
+										},
+		"click=0,half=bottom,shape=single":{
+											"model": "miniaturia_mod:mt_plant_multicross",
+											"textures": {
+												"cross": "miniaturia_mod:blocks/plant_benjamin_top"
+											}
+										},
+
+
+		"click=1,half=top,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=1,half=top,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=1,half=top,shape=top":	[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=1,half=top,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+
+		"click=1,half=bottom,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=1,half=bottom,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=1,half=bottom,shape=top":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=1,half=bottom,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+
+
+
+		"click=2,half=top,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=2,half=top,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=2,half=top,shape=top":	[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=2,half=top,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+
+		"click=2,half=bottom,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=2,half=bottom,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=2,half=bottom,shape=top":	[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=2,half=bottom,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+
+
+
+
+		"click=3,half=top,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=3,half=top,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=3,half=top,shape=top":	[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=3,half=top,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+
+		"click=3,half=bottom,shape=bottom":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=3,half=bottom,shape=middle":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=3,half=bottom,shape=top":	[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+		"click=3,half=bottom,shape=single":[
+										{
+											"model": "cross",
+											"textures": {
+											"cross": "miniaturia_mod:blocks/cs"
+											}
+										}
+										],
+
+
+
+		"click=4,half=top,shape=bottom":	[{}],
+		"click=4,half=top,shape=middle":	[{}],
+		"click=4,half=top,shape=top":	[{}],
+		"click=4,half=top,shape=single":	[{}],
+
+		"click=4,half=bottom,shape=bottom":	[{}],
+		"click=4,half=bottom,shape=middle":	[{}],
+		"click=4,half=bottom,shape=top":	[{}],
+		"click=4,half=bottom,shape=single":	[{}],
+
+
+		"click=5,half=top,shape=bottom":	[{}],
+		"click=5,half=top,shape=middle":	[{}],
+		"click=5,half=top,shape=top":	[{}],
+		"click=5,half=top,shape=single":	[{}],
+
+		"click=5,half=bottom,shape=bottom":	[{}],
+		"click=5,half=bottom,shape=middle":	[{}],
+		"click=5,half=bottom,shape=top":	[{}],
+		"click=5,half=bottom,shape=single":	[{}],
+
+		"click=6,half=top,shape=bottom":	[{}],
+		"click=6,half=top,shape=middle":	[{}],
+		"click=6,half=top,shape=top":	[{}],
+		"click=6,half=top,shape=single":	[{}],
+
+		"click=6,half=bottom,shape=bottom":	[{}],
+		"click=6,half=bottom,shape=middle":	[{}],
+		"click=6,half=bottom,shape=top":	[{}],
+		"click=6,half=bottom,shape=single":	[{}],
+
+		"click=7,half=top,shape=bottom":	[{}],
+		"click=7,half=top,shape=middle":	[{}],
+		"click=7,half=top,shape=top":	[{}],
+		"click=7,half=top,shape=single":	[{}],
+
+		"click=7,half=bottom,shape=bottom":	[{}],
+		"click=7,half=bottom,shape=middle":	[{}],
+		"click=7,half=bottom,shape=top":	[{}],
+		"click=7,half=bottom,shape=single":	[{}]
+	}
+}

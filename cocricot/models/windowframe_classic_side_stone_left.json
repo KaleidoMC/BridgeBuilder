@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowframe_side_left",
+    "textures": {
+        "0": "cocricotmod:blocks/windowframe_classic_stone_side",
+        "particle": "cocricotmod:blocks/rustication_banded_stone_top"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_rod",
+    "textures": {
+        "particle": "cocricotmod:blocks/stucco_white",
+        "0": "cocricotmod:blocks/stucco_white"
+    }
+}

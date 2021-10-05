@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_rod",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_bushrock_",
+        "0": "cocricotmod:blocks/stone_bushrock_"
+    }
+}

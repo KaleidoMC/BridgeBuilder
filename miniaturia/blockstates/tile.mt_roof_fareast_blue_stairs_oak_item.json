@@ -1,0 +1,41 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_roof_stairs_single",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"top": "miniaturia_mod:blocks/roof_fareast_blue_stairs",
+					"top_outer": "miniaturia_mod:blocks/roof_fareast_blue_stairs_outer",
+					"top_inner": "miniaturia_mod:blocks/roof_fareast_blue_stairs_inner",
+					"side": "miniaturia_mod:blocks/roof_fareast_blue_stairs_side",
+					"edge": "miniaturia_mod:blocks/roof_fareast_blue_edge",
+					"edge_board": "miniaturia_mod:blocks/wood_oak_upper_molding",
+					"edge_bottom": "miniaturia_mod:blocks/wood_oak_upper_molding",
+					"edge_bottom2": "miniaturia_mod:blocks/wood_oak_plate_parts"
+				}
+			},
+            "click1": {
+            	"model": "miniaturia_mod:mt_roof_stairs",
+				"textures": {
+					"roof_outer_bottom": "miniaturia_mod:blocks/roof_fareast_blue_stairs_outer",
+					"roof_outer_top": "miniaturia_mod:blocks/roof_fareast_blue_stairs_outer",
+					"roof_outer_side": "miniaturia_mod:blocks/roof_fareast_blue_stairs_side",
+					"roof_inner_bottom": "miniaturia_mod:blocks/roof_fareast_blue_stairs_inner",
+					"roof_inner_top": "miniaturia_mod:blocks/roof_fareast_blue_stairs_inner",
+					"roof_inner_side": "miniaturia_mod:blocks/roof_fareast_blue_stairs_side",
+			        "roof_stairs_bottom": "miniaturia_mod:blocks/roof_fareast_blue_stairs",
+			        "roof_stairs_top": "miniaturia_mod:blocks/roof_fareast_blue_stairs",
+			        "roof_stairs_side": "miniaturia_mod:blocks/roof_fareast_blue_stairs_side"
+				}
+			}
+        }
+    }
+}

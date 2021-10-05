@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/drinkdispenser_lemon",
+    "textures": {
+  		"1": "cocricotmod:blocks/bathtub_clawfoot_rose"
+    }
+}

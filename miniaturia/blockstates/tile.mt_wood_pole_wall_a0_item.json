@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_pole_wall_end"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/wood_oak_pole",
+					"end": "miniaturia_mod:blocks/wood_oak_plate_parts",
+					"wall": "miniaturia_mod:blocks/wood_oak"
+					}
+				},
+			"meta1": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/wood_spruce_pole",
+					"end": "miniaturia_mod:blocks/wood_spruce_plate_parts",
+					"wall": "miniaturia_mod:blocks/wood_spruce"
+					}
+				},
+			"meta2": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/wood_birch_pole",
+					"end": "miniaturia_mod:blocks/wood_birch_stairs_top",
+					"wall": "miniaturia_mod:blocks/wood_birch"
+					}
+				},
+			"meta3": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/wood_jungle_pole",
+					"end": "miniaturia_mod:blocks/wood_jungle_stairs_top",
+					"wall": "miniaturia_mod:blocks/wood_jungle"
+					}
+				}
+        }
+    }
+}

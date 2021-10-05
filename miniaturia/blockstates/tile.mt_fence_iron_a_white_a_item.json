@@ -1,0 +1,30 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_fence_iron_a_straight",
+		"textures": {
+			"0": "miniaturia_mod:blocks/fence_iron_a_white",
+			"1": "miniaturia_mod:blocks/c"
+			},
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 0 }, { "y": 90 }, { "z": 0 } ], "scale": 0.65
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+		    	},
+            "click1": {
+            		"model": "miniaturia_mod:mt_fence_iron_a_slope_lower"
+            	},
+            "click2": {
+            		"model": "miniaturia_mod:mt_fence_iron_a_slope"
+		    	},
+            "click3": {
+            		"model": "miniaturia_mod:mt_fence_iron_a_slope_upper"
+            	}
+            }
+        }
+}

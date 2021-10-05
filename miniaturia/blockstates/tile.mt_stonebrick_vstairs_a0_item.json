@@ -1,0 +1,49 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			},
+		"uvlock": true
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+            	"textures": {
+					"corner_bottom":	"minecraft:blocks/stonebrick_mossy",
+			        "corner_top":		"minecraft:blocks/stonebrick_mossy",
+			        "ns":		"minecraft:blocks/stonebrick_mossy",
+			        "we":		"minecraft:blocks/stonebrick_mossy"
+			    	}
+            	},
+            "click1": {
+            	"textures": {
+					"corner_bottom":	"minecraft:blocks/nether_brick",
+			        "corner_top":		"minecraft:blocks/nether_brick",
+			        "ns":		"minecraft:blocks/nether_brick",
+			        "we":		"minecraft:blocks/nether_brick"
+			    	}
+            	},
+            "click2": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/stonebrick_beige",
+			        "corner_top":		"miniaturia_mod:blocks/stonebrick_beige",
+			        "ns":		"miniaturia_mod:blocks/stonebrick_beige",
+			        "we":		"miniaturia_mod:blocks/stonebrick_beige"
+			    	}
+            	},
+            "click3": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/stonebrick_blue",
+			        "corner_top":		"miniaturia_mod:blocks/stonebrick_blue",
+			        "ns":		"miniaturia_mod:blocks/stonebrick_blue",
+			        "we":		"miniaturia_mod:blocks/stonebrick_blue"
+			    	}
+            	}
+            }
+        }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_stairs",
+    "textures": {
+        "0": "cocricotmod:blocks/roof_copper_lightgreen"
+    }
+}

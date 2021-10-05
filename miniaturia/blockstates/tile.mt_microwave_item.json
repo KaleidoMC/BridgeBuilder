@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"model": "miniaturia_mod:mt_microwave"
+    },
+    "variants": {
+        "variant": {
+			 	"click0": {
+					"textures": {
+							"0": "miniaturia_mod:blocks/microwave_yellow",
+							"1": "miniaturia_mod:blocks/microwave_side",
+							"2": "miniaturia_mod:blocks/microwave_top"
+				 		}
+					},
+			 	"click1": {
+					"textures": {
+							"0": "miniaturia_mod:blocks/microwave_green",
+							"1": "miniaturia_mod:blocks/microwave_side",
+							"2": "miniaturia_mod:blocks/microwave_top"
+				 		}
+					},
+			 	"click2": {
+					"textures": {
+							"0": "miniaturia_mod:blocks/microwave_lightblue",
+							"1": "miniaturia_mod:blocks/microwave_side",
+							"2": "miniaturia_mod:blocks/microwave_top"
+				 		}
+					},
+			 	"click3": {
+					"textures": {
+							"0": "miniaturia_mod:blocks/microwave_pink",
+							"1": "miniaturia_mod:blocks/microwave_side",
+							"2": "miniaturia_mod:blocks/microwave_top"
+				 		}
+					}
+        }
+    }
+}

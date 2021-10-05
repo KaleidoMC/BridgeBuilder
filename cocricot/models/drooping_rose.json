@@ -1,0 +1,46 @@
+{
+  "__comment": "Designed by Kixiko",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "cocricotmod:blocks/drooping_leaves_green",
+    "texture": "cocricotmod:blocks/drooping_leaves_green"
+  },
+  "elements": [
+      {   "from": [ 0.8, 0, 8 ],
+          "to": [ 15.2, 16, 8 ],
+          "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+          "shade": false,
+          "faces": {
+              "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+              "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+          }
+      },
+      {   "from": [ 8, 0, 0.8 ],
+          "to": [ 8, 16, 15.2 ],
+          "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+          "shade": false,
+          "faces": {
+              "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+              "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+          }
+      },
+      {
+  			"from": [ 0, 0, -1 ],
+  			"to": [ 22.7, 16, 1 ],
+  			"rotation": { "origin": [ 0, 0, 0 ], "axis": "y", "angle": -45 },
+  			"faces": {
+  				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" },
+  				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" }
+  			}
+  		},
+  		{
+  			"from": [ -6.7, 0, -1 ],
+  			"to": [ 16, 16, 1 ],
+  			"rotation": { "origin": [ 16, 0, 0 ], "axis": "y", "angle": 45 },
+  			"faces": {
+  				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" },
+  				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" }
+  			}
+  		}
+    ]
+}

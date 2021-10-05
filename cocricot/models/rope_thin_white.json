@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/rope_thin_upper",
+    "textures": {
+        "0": "cocricotmod:blocks/rope_thin_white"
+    }
+}

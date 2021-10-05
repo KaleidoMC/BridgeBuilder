@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/woodfence_rope_slanting_item",
+	"textures": {
+		"0": "cocricotmod:blocks/planks_white_stick",
+		"particle": "cocricotmod:blocks/planks_white"
+	}
+}

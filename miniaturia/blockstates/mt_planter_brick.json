@@ -1,0 +1,74 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_bottom_top",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "cube_bottom_top" },
+			"top":		{ "model": "cube_bottom_top" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_top",
+					"top" : "miniaturia_mod:blocks/fb_brick_normal",
+					"side" : "miniaturia_mod:blocks/brick_normal"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/quartz",
+					"top" : "miniaturia_mod:blocks/fb_quartz",
+					"side" : "miniaturia_mod:blocks/quartz"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_grunge_top",
+					"top" : "miniaturia_mod:blocks/fb_brick_grunge",
+					"side" : "miniaturia_mod:blocks/brick_grunge_regular"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_red_top",
+					"top" : "miniaturia_mod:blocks/fb_brick_red",
+					"side" : "miniaturia_mod:blocks/brick_red_regular"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_orange_top",
+					"top" : "miniaturia_mod:blocks/fb_brick_orange",
+					"side" : "miniaturia_mod:blocks/brick_orange_regular"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_beige_top",
+					"top" : "miniaturia_mod:blocks/fb_brick_beige",
+					"side" : "miniaturia_mod:blocks/brick_beige_stairs"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_thin_black",
+					"top" : "miniaturia_mod:blocks/fb_brick_thin",
+					"side" : "miniaturia_mod:blocks/brick_thin_black"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/cs",
+					"top" : "miniaturia_mod:blocks/cs",
+					"side" : "miniaturia_mod:blocks/cs"
+				}
+			}
+		}
+	}
+}

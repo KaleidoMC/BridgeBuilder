@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_stairs_all_inner",
+    "textures": {
+        "bottom": "cocricotmod:blocks/stucco_white",
+        "top": "cocricotmod:blocks/stucco_white",
+        "side": "cocricotmod:blocks/stucco_white_stairs3",
+        "side1": "cocricotmod:blocks/stucco_white_stairs1",
+        "front": "cocricotmod:blocks/stucco_white_stairs2",
+        "back": "cocricotmod:blocks/stucco_white_stairs3"
+    }
+}

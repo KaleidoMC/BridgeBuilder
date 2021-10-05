@@ -1,0 +1,27 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_sleepers",
+		"textures":{
+			"wood" : "miniaturia_mod:blocks/sleepers_darkbrown"
+		}
+  },
+    "variants": {
+
+    	"click": {
+    		"0":	{ },
+		 	"1":	{ "model": "miniaturia_mod:mt_sleepers_c1" },
+		 	"2":	{ "model": "miniaturia_mod:mt_sleepers_c2" },
+		 	"3":	{ }
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+        "inventory":[{ }]
+    }
+}

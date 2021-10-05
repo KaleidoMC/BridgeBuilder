@@ -1,0 +1,22 @@
+{
+	"parent": "cocricotmod:block/piano_black",
+	"textures": {
+		"0": "cocricotmod:blocks/poster_modern",
+		"1": "cocricotmod:blocks/planks_seadrift",
+		"particle": "cocricotmod:blocks/planks_seadrift"
+	},
+	"elements": [
+		{
+			"from": [2.5, 0.5, 14.5],
+			"to": [13.5, 15.5, 16],
+			"faces": {
+				"north": {"uv": [2.5, 0.5, 13.5, 15.5], "texture": "#0"},
+				"east": {"uv": [0, 14.5, 15, 16], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [0, 0, 15, 11], "rotation": 90, "texture": "#1", "cullface": "south"},
+				"west": {"uv": [0, 14.5, 15, 16], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [13.5, 16, 2.5, 14.5], "texture": "#1"},
+				"down": {"uv": [13.5, 16, 2.5, 14.5], "texture": "#1"}
+			}
+		}
+	]
+}

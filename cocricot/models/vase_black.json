@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/vase",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_black",
+  		"texture": "cocricotmod:blocks/vase_black",
+      "texture1": "cocricotmod:blocks/vase_black1"
+    }
+}

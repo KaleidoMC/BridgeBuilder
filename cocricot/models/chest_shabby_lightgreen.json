@@ -1,0 +1,9 @@
+{
+    "parent": "cocricotmod:block/base_cube_topfrontsidebottom",
+    "textures": {
+      "top": "cocricotmod:blocks/planks_seadrift",
+      "bottom": "cocricotmod:blocks/shabby_lightgreen",
+  		"front": "cocricotmod:blocks/chest_shabby_lightgreen",
+  		"side": "cocricotmod:blocks/chest_shabby_lightgreen_side"
+    }
+}

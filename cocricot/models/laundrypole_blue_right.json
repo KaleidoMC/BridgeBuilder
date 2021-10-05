@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/laundrypole_right",
+    "textures": {
+      "texture1": "cocricotmod:blocks/laundrypole_blue"
+    }
+}

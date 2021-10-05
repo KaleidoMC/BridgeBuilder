@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/woodenbox_slab",
+    "textures": {
+        "top": "cocricotmod:blocks/woodenbox_apple"
+    }
+}

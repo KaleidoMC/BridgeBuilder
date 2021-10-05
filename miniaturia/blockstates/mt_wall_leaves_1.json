@@ -1,0 +1,39 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+			"model": "miniaturia_mod:mt_wall_leaves"
+		},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/leaves_oak_e"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/leaves_oak_f"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/leaves_oak_g"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/leaves_oak"
+			 		}
+	    		}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

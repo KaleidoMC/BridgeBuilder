@@ -1,0 +1,45 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_dollhouse"
+	},
+    "variants": {
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"switch": {
+    		"true": { "model": "miniaturia_mod:mt_dollhouse_open" },
+    		"false":{ "model": "miniaturia_mod:mt_dollhouse" }
+    	},
+
+    	"click": {
+    		"0": {
+				"textures":{
+					"0": "miniaturia_mod:blocks/dollhouse0",
+					"1": "miniaturia_mod:blocks/dollhouse1",
+					"2": "miniaturia_mod:blocks/dollhouse2",
+					"3": "miniaturia_mod:blocks/dollhouse3",
+					"4": "miniaturia_mod:blocks/dollhouse4",
+					"5": "miniaturia_mod:blocks/dollhouse5",
+					"6": "miniaturia_mod:blocks/dollhouse6"
+				}
+			},
+		 	"1": {
+				"textures":{
+					"0": "miniaturia_mod:blocks/dollhouse0b",
+					"1": "miniaturia_mod:blocks/dollhouse1b",
+					"2": "miniaturia_mod:blocks/dollhouse2b",
+					"3": "miniaturia_mod:blocks/dollhouse3",
+					"4": "miniaturia_mod:blocks/dollhouse4",
+					"5": "miniaturia_mod:blocks/dollhouse5",
+					"6": "miniaturia_mod:blocks/dollhouse6"
+				}
+			}
+	    }
+    }
+}

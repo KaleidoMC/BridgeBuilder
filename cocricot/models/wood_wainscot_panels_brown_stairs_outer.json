@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "cocricotmod:blocks/planks_brown",
+        "top": "cocricotmod:blocks/planks_brown",
+        "side": "cocricotmod:blocks/wood_wainscot_panels_brown"
+    }
+}

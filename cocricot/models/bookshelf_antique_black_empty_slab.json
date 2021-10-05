@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_slab_all",
+    "textures": {
+      "bottom": "cocricotmod:blocks/planks_black",
+      "top": "cocricotmod:blocks/planks_black",
+      "n": "cocricotmod:blocks/bookshelf_antique_black_empty8",
+      "s": "cocricotmod:blocks/bookshelf_antique_black_empty8",
+      "e": "cocricotmod:blocks/bookshelf_antique_black_empty8",
+      "w": "cocricotmod:blocks/bookshelf_antique_black_empty8"
+    }
+}

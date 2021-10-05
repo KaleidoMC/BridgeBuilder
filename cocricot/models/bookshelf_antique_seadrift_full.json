@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/base_shelf",
+    "textures": {
+      "top": "cocricotmod:blocks/planks_seadrift",
+      "front": "cocricotmod:blocks/bookshelf_antique_seadrift_full",
+      "side": "cocricotmod:blocks/bookshelf_antique_seadrift_side"
+    }
+}

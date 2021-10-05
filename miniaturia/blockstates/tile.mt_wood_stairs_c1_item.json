@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+					"bottom":	"miniaturia_mod:blocks/wood_painted_lightblue",
+					"top":		"miniaturia_mod:blocks/wood_painted_lightblue",
+					"side":		"miniaturia_mod:blocks/wood_painted_lightblue"
+					}
+				},
+            "click1": {
+				"textures": {
+			        "bottom":	"miniaturia_mod:blocks/wood_painted_pink",
+					"top":		"miniaturia_mod:blocks/wood_painted_pink",
+					"side":		"miniaturia_mod:blocks/wood_painted_pink"
+					}
+				}
+        }
+    }
+}

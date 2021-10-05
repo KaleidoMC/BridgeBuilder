@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/handrail_wood_both",
+    "textures": {
+        "texture": "cocricotmod:blocks/handrail_wood_straight_marineblue"
+    }
+}

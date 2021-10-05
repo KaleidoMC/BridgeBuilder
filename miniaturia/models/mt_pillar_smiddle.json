@@ -1,0 +1,20 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#side"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [0, 0.001, 0],
+			"to": [16, 16.001, 16],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "down"}
+			}
+		}
+	]
+}

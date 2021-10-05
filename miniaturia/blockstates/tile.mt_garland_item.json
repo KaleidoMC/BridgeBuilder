@@ -1,0 +1,45 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_rope_fence_smiddle",
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 90 }, { "z": 0 } ], "scale": 0.7, "translation": [ 0, 0, 0 ] }
+		}
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/garland_0",
+					"1": "miniaturia_mod:blocks/c",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/garland_1",
+					"1": "miniaturia_mod:blocks/c",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/garland_2",
+					"1": "miniaturia_mod:blocks/c",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/garland_3",
+					"1": "miniaturia_mod:blocks/c",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			}
+		}
+    }
+}

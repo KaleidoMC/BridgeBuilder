@@ -1,0 +1,106 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#cross"
+	},
+	"elements": [
+		{
+			"from": [5.07403, 4.38582, 12],
+			"to": [18.07403, 17.38582, 12],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [11.57403, 10.88582, 12]},
+			"faces": {
+				"north": {"uv": [1.5, 1.25, 14.5, 14.25], "texture": "#1"},
+				"south": {"uv": [1.5, 1.25, 14.5, 14.25], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-1.92597, 1.88582, 4],
+			"to": [11.07403, 14.88582, 4],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [4.57403, 8.38582, 4]},
+			"faces": {
+				"north": {"uv": [1.5, 1.25, 14.5, 14.25], "texture": "#1"},
+				"south": {"uv": [1.5, 1.25, 14.5, 14.25], "texture": "#2"}
+			}
+		},
+		{
+			"from": [11.5, 0, 4.8],
+			"to": [11.5, 16, 19.2],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [11.5, 8, 12], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [-2.7, 0, 4],
+			"to": [11.7, 16, 4],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [4.5, 8, 4], "rescale": true},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#cross"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [4.3, 0, 12],
+			"to": [18.7, 16, 12],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [11.5, 8, 12], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [4.5, 0, -3.2],
+			"to": [4.5, 16, 11.2],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [4.5, 8, 4], "rescale": true},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#cross"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#cross"}
+			}
+		}
+	],
+	"groups": [0, 1,
+		{
+			"name": "mt_plant_double_cross",
+			"origin": [8, 8, 8],
+			"children": [2, 3, 4, 5]
+		}
+	],
+	"display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 225, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    }
+}

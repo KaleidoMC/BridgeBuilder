@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_taruki_a",
+	    "textures": {
+			"2": "miniaturia_mod:blocks/wood_oriental_black_pole",
+			"3": "miniaturia_mod:blocks/wood_oriental_white_edge"
+	    	},
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ],
+				"scale": 0.625, "translation": [ 0.05, -0.3, 0 ]
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { "model": "miniaturia_mod:mt_taruki_b" }
+                }
+            }
+}

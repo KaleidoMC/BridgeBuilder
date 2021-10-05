@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_vslab_all",
+    "textures": {
+        "u": "cocricotmod:blocks/wood_herringbone_brown",
+        "d": "cocricotmod:blocks/wood_herringbone_brown",
+        "s": "cocricotmod:blocks/wood_herringbone_brown_b",
+        "n": "cocricotmod:blocks/wood_herringbone_brown_b",
+        "e": "cocricotmod:blocks/wood_herringbone_brown_b",
+        "w": "cocricotmod:blocks/wood_herringbone_brown_b"
+    }
+}

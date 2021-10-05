@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/carpet_block",
+    "textures": {
+  		"texture": "cocricotmod:blocks/carpet_block_gorgeous_blue"
+    }
+}

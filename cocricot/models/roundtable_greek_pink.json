@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/roundtable_greek",
+    "textures": {
+        "0": "cocricotmod:blocks/roundtable_greek_pink1",
+        "1": "cocricotmod:blocks/roundtable_greek_pink"
+    }
+}

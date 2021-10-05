@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/countertable_american_black",
+    "textures": {
+        "1": "cocricotmod:blocks/particle_silver_american"
+    }
+}

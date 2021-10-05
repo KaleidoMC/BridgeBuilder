@@ -1,0 +1,55 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_gear_l"
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/gear_silver_l",
+						"1": "miniaturia_mod:blocks/gear_silver",
+						"2": "miniaturia_mod:blocks/gear_silver2",
+						"3": "miniaturia_mod:blocks/c",
+						"4": "miniaturia_mod:blocks/gear_silver_l"
+			 		}
+	    		},
+	    		"1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/gear_silver_l",
+						"1": "miniaturia_mod:blocks/gear_silver",
+						"2": "miniaturia_mod:blocks/gear_silver2",
+						"3": "miniaturia_mod:blocks/c",
+						"4": "miniaturia_mod:blocks/gear_silver_l"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/gear_black_l",
+						"1": "miniaturia_mod:blocks/gear_black",
+						"2": "miniaturia_mod:blocks/gear_black2",
+						"3": "miniaturia_mod:blocks/c",
+						"4": "miniaturia_mod:blocks/gear_black_l"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/gear_black_l",
+						"1": "miniaturia_mod:blocks/gear_black",
+						"2": "miniaturia_mod:blocks/gear_black2",
+						"3": "miniaturia_mod:blocks/c",
+						"4": "miniaturia_mod:blocks/gear_black_l"
+			 		}
+	    		}
+    	},
+
+    	"facing": {
+    		"north":	{ "x": 270, "y": 0 },
+    		"east":		{ "x": 270, "y": 90 },
+    		"south":	{ "x": 270, "y": 180 },
+    		"west":		{ "x": 270, "y": 270 }
+		}
+    }
+}

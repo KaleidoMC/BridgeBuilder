@@ -1,0 +1,30 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/cushion_white",
+		"particle": "cocricotmod:blocks/cushion_white"
+	},
+	"elements": [
+		{
+			"from": [3, -8.5, 9],
+			"to": [13, 1.5, 12],
+			"rotation": {"angle": -45, "axis": "x", "origin": [1, -8.5, 9]},
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#0"},
+				"east": {"uv": [13, 3, 16, 13], "texture": "#0"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#0"},
+				"west": {"uv": [0, 3, 3, 13], "texture": "#0"},
+				"up": {"uv": [3, 0, 13, 3], "texture": "#0"},
+				"down": {"uv": [3, 13, 13, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [1.55, 1.5, 0],
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}

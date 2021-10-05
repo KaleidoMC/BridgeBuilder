@@ -1,0 +1,55 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "snow_height4",
+		"textures": {
+       	 	"particle": "miniaturia_mod:blocks/tile_lightblue",
+        	"texture": "miniaturia_mod:blocks/tile_lightblue",
+        	"all": "miniaturia_mod:blocks/tile_lightblue"
+    		},
+		"uvlock": true
+	},
+    "variants": {
+        "half=bottom,layers=1":  { "model": "snow_height4" },
+        "half=bottom,layers=2":  { "model": "snow_height8" },
+        "half=bottom,layers=3":  { "model": "snow_height12" },
+        "half=bottom,layers=4":  { "model": "cube_all" },
+
+        "half=top,layers=1":  { "model": "snow_height4", "x": 180 },
+        "half=top,layers=2":  { "model": "snow_height8", "x": 180 },
+        "half=top,layers=3":  { "model": "snow_height12", "x": 180 },
+        "half=top,layers=4":  { "model": "cube_all", "x": 180 },
+
+        "inventory":[{
+        	"transform": {
+		        "gui": {
+		            "rotation": [ { "x": 30}, { "y": 45 }, { "z": 0 } ],
+		            "scale": 0.625
+		        },
+		        "ground": {
+		            "translation": [ 0, 0, 0],
+		            "scale": 0.25
+		        },
+		        "fixed": {
+		            "scale": 0.45
+		        },
+		        "thirdperson_righthand": {
+		            "rotation": [ 75, 45, 0 ],
+		            "scale": 0.375
+		        },
+		        "thirdperson_lefthand": {
+		            "rotation": [ 75, 225, 0 ],
+		            "scale": 0.35
+		        },
+		        "firstperson_righthand": {
+		            "rotation": [ 0, 45, 0 ],
+		            "scale": 0.35
+		        },
+		        "firstperson_lefthand": {
+		            "rotation": [ 0, 225, 0 ],
+		            "scale": 0.35
+		        }
+			}
+        }]
+    }
+}

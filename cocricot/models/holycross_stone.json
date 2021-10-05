@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/holycross",
+    "textures": {
+        "particle": "cocricotmod:blocks/rustication_banded_stone_top",
+        "texture": "cocricotmod:blocks/holycross_stone",
+        "texture1": "cocricotmod:blocks/holycross_stone1"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+            	"textures": {
+					"corner_bottom" : "miniaturia_mod:blocks/wood_white_outer_corner",
+					"corner_top" : "miniaturia_mod:blocks/wood_white_outer_corner",
+					"ns" : "miniaturia_mod:blocks/wrapsiding_mint_meta1",
+					"we" : "miniaturia_mod:blocks/wrapsiding_mint_meta1"
+			    	}
+            	},
+            "click1": {
+            	"textures": {
+					"corner_bottom" : "miniaturia_mod:blocks/wood_white_outer_corner",
+					"corner_top" : "miniaturia_mod:blocks/wood_white_outer_corner",
+					"ns" : "miniaturia_mod:blocks/wrapsiding_blue_meta1",
+					"we" : "miniaturia_mod:blocks/wrapsiding_blue_meta1"
+			    	}
+            	},
+            "click2": {
+            	"textures": {
+					"corner_bottom" : "miniaturia_mod:blocks/wood_white_outer_corner",
+					"corner_top" : "miniaturia_mod:blocks/wood_white_outer_corner",
+					"ns" : "miniaturia_mod:blocks/wrapsiding_brown_meta1",
+					"we" : "miniaturia_mod:blocks/wrapsiding_brown_meta1"
+			    	}
+            	},
+            "click3": {
+            	"textures": {
+					"corner_bottom" : "miniaturia_mod:blocks/wood_white_outer_corner",
+					"corner_top" : "miniaturia_mod:blocks/wood_white_outer_corner",
+					"ns" : "miniaturia_mod:blocks/wrapsiding_red_meta1",
+					"we" : "miniaturia_mod:blocks/wrapsiding_red_meta1"
+			    	}
+            	}
+            }
+        }
+}

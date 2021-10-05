@@ -1,0 +1,62 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_shop_rack_top"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+		    		"textures": {
+						"plate": "miniaturia_mod:blocks/furniture_lightbrown_side2",
+						"plate_middle": "miniaturia_mod:blocks/furniture_lightbrown_side2",
+						"edge": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+						"edge2": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+						"side1": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+						"arm1": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"arm2": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"bottom_side": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+						"frame": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side"
+					}
+				},
+            "click1": {
+		    		"textures": {
+						"plate": "miniaturia_mod:blocks/furniture_lightbrown_side2",
+						"plate_middle": "miniaturia_mod:blocks/c",
+						"edge": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+						"edge2": "miniaturia_mod:blocks/c",
+						"side1": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+						"arm1": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"arm2": "miniaturia_mod:blocks/c",
+						"bottom_side": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+						"frame": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side"
+					}
+				},
+            "click2": {
+		    		"textures": {
+						"plate": "miniaturia_mod:blocks/furniture_lightbrown_side2",
+						"plate_middle": "miniaturia_mod:blocks/furniture_lightbrown_side2",
+						"edge": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+						"edge2": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+						"side1": "miniaturia_mod:blocks/wrought_iron_pannel_brown",
+						"arm1": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"arm2": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"bottom_side": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+						"frame": "miniaturia_mod:blocks/window_c_black_single"
+					}
+				},
+            "click3": {
+		    		"textures": {
+						"plate": "miniaturia_mod:blocks/furniture_lightbrown_side2",
+						"plate_middle": "miniaturia_mod:blocks/c",
+						"edge": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+						"edge2": "miniaturia_mod:blocks/c",
+						"side1": "miniaturia_mod:blocks/wrought_iron_pannel_brown",
+						"arm1": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"arm2": "miniaturia_mod:blocks/c",
+						"bottom_side": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+						"frame": "miniaturia_mod:blocks/window_c_black_single"
+					}
+				}
+		}
+	}
+}

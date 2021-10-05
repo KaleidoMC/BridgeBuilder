@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs",
+		"uvlock": true
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom": "miniaturia_mod:blocks/brick_rhombus_a",
+			        "top": "miniaturia_mod:blocks/brick_rhombus_a",
+			        "side": "miniaturia_mod:blocks/brick_rhombus_a"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom": "miniaturia_mod:blocks/brick_rhombus_b",
+			        "top": "miniaturia_mod:blocks/brick_rhombus_b",
+			        "side": "miniaturia_mod:blocks/brick_rhombus_b"
+					}
+				}
+        }
+    }
+}

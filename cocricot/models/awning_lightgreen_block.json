@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "cocricotmod:blocks/awning_lightgreen_upper"
+    }
+}

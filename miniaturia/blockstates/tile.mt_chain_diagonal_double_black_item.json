@@ -1,0 +1,31 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_string_slope_double.obj",
+		"textures": {
+			"0": "miniaturia_mod:blocks/chain_black",
+			"1": "miniaturia_mod:blocks/chain_black_b",
+			"#m_0": "miniaturia_mod:blocks/chain_black",
+			"#m_1": "miniaturia_mod:blocks/chain_black_b"
+	    	},
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 90 }, { "z": 0 } ], "scale": 0.6, "translation": [ 0.3, -0.1, 0 ] },
+	        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+	        "fixed": {"scale": 0.5},
+	        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+	        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+	        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+	        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+		}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { },
+            "click2": { },
+            "click3": { }
+            }
+        }
+}

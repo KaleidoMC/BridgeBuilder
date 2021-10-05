@@ -1,0 +1,156 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_plant_double_cross"
+	},
+
+    "variants": {
+
+		"variant=meta0": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/fantasy_plant_a" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/fantasy_plant_a" }
+				}
+			],
+		"variant=meta1": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/fantasy_plant_b" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/fantasy_plant_b" }
+				}
+			],
+		"variant=meta2": [
+				{	"model": "miniaturia_mod:mt_plant_fluff_a",
+					"textures": { "1": "miniaturia_mod:blocks/fantasy_plant_c", "2": "miniaturia_mod:blocks/fantasy_plant_c2" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_fluff_a", "y": 90,
+					"textures": { "1": "miniaturia_mod:blocks/fantasy_plant_c", "2": "miniaturia_mod:blocks/fantasy_plant_c2" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_fluff_a", "y": 180,
+					"textures": { "1": "miniaturia_mod:blocks/fantasy_plant_c", "2": "miniaturia_mod:blocks/fantasy_plant_c2" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_fluff_a", "y": 270,
+					"textures": { "1": "miniaturia_mod:blocks/fantasy_plant_c", "2": "miniaturia_mod:blocks/fantasy_plant_c2" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_fluff_b",
+					"textures": { "1": "miniaturia_mod:blocks/fantasy_plant_c", "2": "miniaturia_mod:blocks/fantasy_plant_c2" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_fluff_b", "y": 90,
+					"textures": { "1": "miniaturia_mod:blocks/fantasy_plant_c", "2": "miniaturia_mod:blocks/fantasy_plant_c2" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_fluff_b", "y": 180,
+					"textures": { "1": "miniaturia_mod:blocks/fantasy_plant_c", "2": "miniaturia_mod:blocks/fantasy_plant_c2" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_fluff_b", "y": 270,
+					"textures": { "1": "miniaturia_mod:blocks/fantasy_plant_c", "2": "miniaturia_mod:blocks/fantasy_plant_c2" }
+				}
+			],
+		"variant=meta3": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta4": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta5": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta6": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta7": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta8": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta9": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta10": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta11": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta12": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta13": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta14": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross", "y": 90,
+					"textures": { "cross": "miniaturia_mod:blocks/cs" }
+				}
+			],
+		"variant=meta15": [
+				{	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/plant_cactus_0" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/plant_cactus_1" }
+				}
+			]
+	}
+}

@@ -1,0 +1,44 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_palm_upper.obj",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.3 },
+		        "ground": {"scale": 0.3 },
+		        "fixed": {"scale": 0.3},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375 },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"#m_0": "miniaturia_mod:blocks/leaves_palm"
+			 		}
+				},
+            "click1": {
+				"textures": {
+					"#m_0": "miniaturia_mod:blocks/leaves_palm_b"
+			 		}
+				},
+            "click2": {
+            	"model": "miniaturia_mod:mt_cycad_upper.obj",
+				"textures": {
+					"#m_0": "miniaturia_mod:blocks/leaves_cycad_0",
+					"#m_1": "miniaturia_mod:blocks/leaves_cycad_1"
+			 		}
+                },
+            "click3": {
+            	"model": "miniaturia_mod:mt_cycad_upper.obj",
+				"textures": {
+					"#m_0": "miniaturia_mod:blocks/leaves_cycad_b_0",
+					"#m_1": "miniaturia_mod:blocks/leaves_cycad_b_1"
+			 		}
+            }
+        }
+    }
+}

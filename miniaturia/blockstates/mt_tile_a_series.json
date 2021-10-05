@@ -1,0 +1,58 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_all",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "cube_all" },
+			"top":		{ "model": "cube_all" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/tile_orange"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/tile_lightblue"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/tile_yellow"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/tile_pink"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/tile_navy"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/tile_green"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/tile_brown"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"all" : "miniaturia_mod:blocks/cs"
+				}
+			}
+		}
+	}
+}

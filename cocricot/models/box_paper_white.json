@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/box_hardpulp_black",
+    "textures": {
+      "0": "cocricotmod:blocks/box_paper_white",
+      "particle": "cocricotmod:blocks/stone_color_white"
+    }
+}

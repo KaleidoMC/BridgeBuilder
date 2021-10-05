@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+					"bottom":	"miniaturia_mod:blocks/wood_painted_navy",
+					"top":		"miniaturia_mod:blocks/wood_painted_navy",
+					"side":		"miniaturia_mod:blocks/wood_painted_navy"
+					}
+				},
+            "click1": {
+				"textures": {
+			        "bottom":	"miniaturia_mod:blocks/wood_painted_green",
+					"top":		"miniaturia_mod:blocks/wood_painted_green",
+					"side":		"miniaturia_mod:blocks/wood_painted_green"
+					}
+				}
+        }
+    }
+}

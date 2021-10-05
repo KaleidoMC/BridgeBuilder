@@ -1,0 +1,54 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_music_stand_single.obj"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"#m_0": "miniaturia_mod:blocks/score",
+					"#m_1": "miniaturia_mod:blocks/music_stand"
+		 			},
+			   	"transform": {
+						"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.625, "translation": [ 0, 0.1, 0 ] },
+				        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+				        "fixed": {"scale": 0.5},
+				        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+				        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+				        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+				        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+					}
+				},
+            "click1": {
+            	"model": "miniaturia_mod:mt_microphone_large_single.obj",
+				"textures": {
+					"#m_1": "miniaturia_mod:blocks/music_stand",
+					"#m_2": "miniaturia_mod:blocks/microphone_parts"
+		 			},
+			   	"transform": {
+						"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.625, "translation": [ 0, 0.1, 0 ] },
+				        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+				        "fixed": {"scale": 0.5},
+				        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+				        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+				        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+				        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+					}
+				},
+            "click2": {
+        		"model": "miniaturia_mod:mt_microphone_single",
+				"textures": {
+					"3": "miniaturia_mod:blocks/microphone_parts"
+			 		}
+                },
+            "click3": {
+        		"model": "miniaturia_mod:mt_microphone_single",
+				"textures": {
+					"3": "miniaturia_mod:blocks/microphone_parts2"
+			 		}
+            }
+        }
+    }
+}

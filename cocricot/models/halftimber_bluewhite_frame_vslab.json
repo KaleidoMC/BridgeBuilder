@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/halftimber_vslab",
+    "textures": {
+      "d": "cocricotmod:blocks/halftimber_blue",
+      "u": "cocricotmod:blocks/halftimber_blue",
+      "n": "cocricotmod:blocks/halftimber_bluewhite0",
+      "s": "cocricotmod:blocks/halftimber_bluewhite0",
+      "w": "cocricotmod:blocks/halftimber_bluewhite35",
+      "e": "cocricotmod:blocks/halftimber_bluewhite35"
+    }
+}

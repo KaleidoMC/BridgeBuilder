@@ -1,0 +1,46 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "half_slab",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "half_slab" },
+			"top":		{ "model": "upper_slab" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/shitamiita_brown",
+					"top" : "miniaturia_mod:blocks/shitamiita_brown",
+					"side" : "miniaturia_mod:blocks/shitamiita_brown"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/shitamiita_red",
+					"top" : "miniaturia_mod:blocks/shitamiita_red",
+					"side" : "miniaturia_mod:blocks/shitamiita_red"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/shitamiita_black",
+					"top" : "miniaturia_mod:blocks/shitamiita_black",
+					"side" : "miniaturia_mod:blocks/shitamiita_black"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_rack_top",
+					"top" : "miniaturia_mod:blocks/wood_rack_top",
+					"side" : "miniaturia_mod:blocks/wood_rack_top"
+				}
+			}
+		}
+	}
+}

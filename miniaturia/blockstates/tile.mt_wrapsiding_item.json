@@ -1,0 +1,107 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"model": "cube_column",
+		"uvlock": false
+  },
+	"variants": {
+		"variant": {
+			"meta0": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_white_meta0"
+					}
+				},
+			"meta1": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_white_meta1"
+					}
+				},
+			"meta2": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_lightblue_meta0"
+					}
+				},
+			"meta3": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_lightblue_meta1"
+					}
+				},
+			"meta4": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_yellow_meta0"
+					}
+				},
+			"meta5": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_yellow_meta1"
+					}
+				},
+			"meta6": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_pink_meta0"
+					}
+				},
+			"meta7": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_pink_meta1"
+					}
+				},
+			"meta8": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_mint_meta0"
+					}
+				},
+			"meta9": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_mint_meta1"
+					}
+				},
+			"meta10": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_blue_meta0"
+					}
+				},
+			"meta11": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_blue_meta1"
+					}
+				},
+			"meta12": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_brown_meta0"
+					}
+				},
+			"meta13": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_brown_meta1"
+					}
+				},
+			"meta14": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_red_meta0"
+					}
+				},
+			"meta15": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_white_top",
+					"side": "miniaturia_mod:blocks/wrapsiding_red_meta1"
+					}
+				}
+			}
+		}
+}

@@ -1,0 +1,6 @@
+# Made in Blockbench 3.7.4
+newmtl m_0
+map_Kd roof_orange_edge.png 
+newmtl m_1
+map_Kd roof_orange.png 
+newmtl none

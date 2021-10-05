@@ -1,0 +1,51 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_typewriter",
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.75, "translation": [ 0, 0.05, 0 ] },
+			        "ground": {"scale": 0.35, "translation": [ 0, 0.15, 0 ] },
+			        "fixed": {"scale": 0.5},
+			        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+			        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+			        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+			        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/typewriter_black_body",
+						"body2": "miniaturia_mod:blocks/typewriter_black_body2",
+						"parts": "miniaturia_mod:blocks/typewriter_black_parts",
+						"paper": "miniaturia_mod:blocks/typewriter_paper"
+			    	}
+				},
+            "click1": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/typewriter_green_body",
+						"body2": "miniaturia_mod:blocks/typewriter_green_body2",
+						"parts": "miniaturia_mod:blocks/typewriter_green_parts",
+						"paper": "miniaturia_mod:blocks/typewriter_paper"
+			    	}
+				},
+            "click2": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/typewriter_pink_body",
+						"body2": "miniaturia_mod:blocks/typewriter_pink_body2",
+						"parts": "miniaturia_mod:blocks/typewriter_pink_parts",
+						"paper": "miniaturia_mod:blocks/typewriter_paper"
+			    	}
+				},
+            "click3": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/typewriter_mint_body",
+						"body2": "miniaturia_mod:blocks/typewriter_mint_body2",
+						"parts": "miniaturia_mod:blocks/typewriter_mint_parts",
+						"paper": "miniaturia_mod:blocks/typewriter_paper"
+			    	}
+				}
+		}
+	}
+}

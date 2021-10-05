@@ -1,0 +1,40 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_bench_a_l",
+		"textures": {
+			"1": "miniaturia_mod:blocks/rack_wood_top",
+			"2": "miniaturia_mod:blocks/sewing0",
+			"4": "miniaturia_mod:blocks/lamppost_clock_brown_2"
+		},
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.625, "translation": [ 0.2, -0.2, 0 ] }
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+					}
+				},
+            "click1": {
+					"textures": {
+					}
+				},
+            "click2": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/rack_wood_top",
+						"2": "miniaturia_mod:blocks/sewing0b",
+						"4": "miniaturia_mod:blocks/lamppost_clock_green_2"
+					}
+				},
+            "click3": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/rack_wood_top",
+						"2": "miniaturia_mod:blocks/sewing0b",
+						"4": "miniaturia_mod:blocks/lamppost_clock_green_2"
+					}
+				}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_placed",
+    "textures": {
+      "top": "cocricotmod:blocks/letter_antique"
+    }
+}

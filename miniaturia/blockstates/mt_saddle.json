@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_saddle"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"6": "miniaturia_mod:blocks/harness",
+						"8": "miniaturia_mod:blocks/awning_orange_stripe",
+						"9": "miniaturia_mod:blocks/kingchair3b",
+						"10": "miniaturia_mod:blocks/kingchair5b"
+					}
+				},
+	    		"1": {
+					"textures": {
+						"6": "miniaturia_mod:blocks/harness",
+						"8": "miniaturia_mod:blocks/awning_green_stripe",
+						"9": "miniaturia_mod:blocks/kingchair3b",
+						"10": "miniaturia_mod:blocks/kingchair5b"
+					}
+				},
+	    		"2": {
+					"textures": {
+						"6": "miniaturia_mod:blocks/harness",
+						"8": "miniaturia_mod:blocks/awning_brown_stripe",
+						"9": "miniaturia_mod:blocks/kingchair3",
+						"10": "miniaturia_mod:blocks/kingchair5"
+					}
+				},
+			 	"3": {
+					"model": "miniaturia_mod:mt_harness.obj",
+					"textures": {
+						"#6": "miniaturia_mod:blocks/harness",
+						"particle": "miniaturia_mod:blocks/harness"
+					}
+	    		}
+	    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+   }
+}

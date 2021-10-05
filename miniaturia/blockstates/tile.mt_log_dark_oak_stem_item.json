@@ -1,0 +1,21 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_wood_prop_n",
+		"textures": {
+			"bottom": "miniaturia_mod:blocks/log_big_oak",
+			"top": "miniaturia_mod:blocks/log_big_oak",
+			"ns": "miniaturia_mod:blocks/log_big_oak_side",
+			"we": "miniaturia_mod:blocks/log_big_oak_side"
+	    	}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": { "model":"miniaturia_mod:mt_wood_prop_n" },
+			"click1": { "model":"miniaturia_mod:mt_wood_prop_b_n" },
+	    	"click2": { "model":"miniaturia_mod:mt_wood_prop_c_n" },
+	    	"click3": { "model":"miniaturia_mod:mt_wood_prop_d_n" }
+        }
+    }
+}

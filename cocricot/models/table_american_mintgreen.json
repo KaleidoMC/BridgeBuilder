@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/table_american",
+    "textures": {
+        "1": "cocricotmod:blocks/particle_mintgreen_american"
+    }
+}

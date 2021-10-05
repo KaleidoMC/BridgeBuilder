@@ -1,0 +1,67 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "half_slab",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_painted_white",
+					"top" : "miniaturia_mod:blocks/wood_painted_white",
+					"side" : "miniaturia_mod:blocks/wood_painted_white"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_painted_yellow",
+					"top" : "miniaturia_mod:blocks/wood_painted_yellow",
+					"side" : "miniaturia_mod:blocks/wood_painted_yellow"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_painted_lightblue",
+					"top" : "miniaturia_mod:blocks/wood_painted_lightblue",
+					"side" : "miniaturia_mod:blocks/wood_painted_lightblue"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_painted_pink",
+					"top" : "miniaturia_mod:blocks/wood_painted_pink",
+					"side" : "miniaturia_mod:blocks/wood_painted_pink"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_painted_navy",
+					"top" : "miniaturia_mod:blocks/wood_painted_navy",
+					"side" : "miniaturia_mod:blocks/wood_painted_navy"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_painted_green",
+					"top" : "miniaturia_mod:blocks/wood_painted_green",
+					"side" : "miniaturia_mod:blocks/wood_painted_green"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_painted_red",
+					"top" : "miniaturia_mod:blocks/wood_painted_red",
+					"side" : "miniaturia_mod:blocks/wood_painted_red"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wood_painted_black",
+					"top" : "miniaturia_mod:blocks/wood_painted_black",
+					"side" : "miniaturia_mod:blocks/wood_painted_black"
+				}
+			}
+		}
+    }
+}

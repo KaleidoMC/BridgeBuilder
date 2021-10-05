@@ -1,0 +1,61 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_candle_5"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/candle",
+						"1": "miniaturia_mod:blocks/candle_arm_gold",
+						"2": "miniaturia_mod:blocks/brass_parts"
+				}
+            },
+            "click1": {
+                "textures": {
+						"0": "miniaturia_mod:blocks/candle",
+						"1": "miniaturia_mod:blocks/candle_arm_silver",
+						"2": "miniaturia_mod:blocks/silver_parts"
+                }
+            },
+            "click2": {
+                "textures": {
+						"0": "miniaturia_mod:blocks/candle",
+						"1": "miniaturia_mod:blocks/candle_arm_black",
+						"2": "miniaturia_mod:blocks/metal_black_parts"
+                }
+            },
+            "click3": {
+				"model": "cross",
+				"textures": {
+						"cross": "miniaturia_mod:blocks/cs"
+					}
+            },
+			"click4": {
+				"model": "cross",
+				"textures": {
+						"cross": "miniaturia_mod:blocks/cs"
+					}
+				},
+			"click5": {
+				"model": "cross",
+				"textures": {
+						"cross": "miniaturia_mod:blocks/cs"
+					}
+				},
+			"click6": {
+				"model": "cross",
+				"textures": {
+						"cross": "miniaturia_mod:blocks/cs"
+					}
+				},
+			"click7": {
+				"model": "cross",
+				"textures": {
+						"cross": "miniaturia_mod:blocks/cs"
+					}
+				}
+            }
+    }
+}

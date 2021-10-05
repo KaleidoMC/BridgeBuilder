@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/ironfence_chain_black_item",
+	"textures": {
+		"0": "cocricotmod:blocks/metal_white",
+		"1": "cocricotmod:blocks/chain_fence_white"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/partitionpole_classic_gold_item",
+    "textures": {
+  		"0": "cocricotmod:blocks/metal_silver",
+  		"1": "cocricotmod:blocks/rope_thin_silver"
+  	}
+}

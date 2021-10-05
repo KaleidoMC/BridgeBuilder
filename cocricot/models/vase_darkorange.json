@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/vase",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_brown",
+  		"texture": "cocricotmod:blocks/vase_darkorange",
+      "texture1": "cocricotmod:blocks/vase_darkorange1"
+    }
+}

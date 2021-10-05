@@ -1,0 +1,42 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_lantern_a",
+  		"textures": {
+  			"0": "miniaturia_mod:blocks/lantern_steel_frame_blue",
+			"1": "miniaturia_mod:blocks/lamplight"
+  		}
+	},
+    "variants": {
+
+    	"facing": {
+    		"down":		{ "y": 0 },
+    		"up":		{ "y": 0 },
+    		"north":	{ "y": 0 },
+    		"south":	{ "y": 180 },
+    		"west": 	{ "y": 270 },
+    		"east": 	{ "y": 90 }
+    	},
+
+    	"switch": {
+    		"false": { },
+    		"true": { }
+    	},
+
+		"facing=down,switch=false":	{ "model": "miniaturia_mod:mt_lantern_a_up" },
+		"facing=up,switch=false":	{ "model": "miniaturia_mod:mt_lantern_a" },
+		"facing=north,switch=false":{ "model": "miniaturia_mod:mt_lantern_a_n" },
+		"facing=south,switch=false":{ "model": "miniaturia_mod:mt_lantern_a_n" },
+		"facing=west,switch=false":	{ "model": "miniaturia_mod:mt_lantern_a_n" },
+		"facing=east,switch=false":	{ "model": "miniaturia_mod:mt_lantern_a_n" },
+
+		"facing=down,switch=true":	{ "model": "miniaturia_mod:mt_lantern_a_up" },
+		"facing=up,switch=true":	{ "model": "miniaturia_mod:mt_lantern_a" },
+		"facing=north,switch=true":	{ "model": "miniaturia_mod:mt_lantern_a_n" },
+		"facing=south,switch=true":	{ "model": "miniaturia_mod:mt_lantern_a_n" },
+		"facing=west,switch=true":	{ "model": "miniaturia_mod:mt_lantern_a_n" },
+		"facing=east,switch=true":	{ "model": "miniaturia_mod:mt_lantern_a_n" },
+
+    	"inventory": [{}]
+	}
+}

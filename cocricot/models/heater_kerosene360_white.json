@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/heater_kerosene360",
+    "textures": {
+		    "texture": "cocricotmod:blocks/heater_kerosene360_white",
+		    "particle": "cocricotmod:blocks/retro_white"
+	      }
+}

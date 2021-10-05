@@ -1,0 +1,8 @@
+{
+	"parent": "cocricotmod:block/table_ironleg_brown_both",
+	"textures": {
+		"0": "cocricotmod:blocks/chair_seadrift",
+		"1": "cocricotmod:blocks/planks_seadrift",
+		"particle": "cocricotmod:blocks/planks_seadrift"
+	}
+}

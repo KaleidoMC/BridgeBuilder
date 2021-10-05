@@ -1,0 +1,57 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {
+		"model": "miniaturia_mod:mt_photoframe_a_1"
+		},
+
+    "variants": {
+    	"click": {
+			 	"0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/photoframe1",
+						"1": "miniaturia_mod:blocks/wood_oak_winframe_side"
+						}
+			 		},
+			 	"1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/photoframe2",
+						"1": "miniaturia_mod:blocks/wood_oak_winframe_side"
+			 			}
+	    			}
+		    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+			},
+
+		"half": {
+			"bottom": {"model": "miniaturia_mod:mt_photoframe_a_1"},
+			"top": {"model": "miniaturia_mod:mt_photoframe_b_1"}
+			},
+
+
+		"click=0,facing=north,half=bottom":	[{ "model": "miniaturia_mod:mt_photoframe_a_1" }, { "model": "miniaturia_mod:mt_photoframe_a_2" }],
+		"click=0,facing=east,half=bottom":	[{ "model": "miniaturia_mod:mt_photoframe_a_1" }, { "model": "miniaturia_mod:mt_photoframe_a_2" }],
+		"click=0,facing=south,half=bottom":	[{ "model": "miniaturia_mod:mt_photoframe_a_1" }, { "model": "miniaturia_mod:mt_photoframe_a_2" }],
+		"click=0,facing=west,half=bottom":	[{ "model": "miniaturia_mod:mt_photoframe_a_1" }, { "model": "miniaturia_mod:mt_photoframe_a_2" }],
+
+		"click=0,facing=north,half=top":	[{ "model": "miniaturia_mod:mt_photoframe_b_1" }, { "model": "miniaturia_mod:mt_photoframe_b_2" }],
+		"click=0,facing=east,half=top":		[{ "model": "miniaturia_mod:mt_photoframe_b_1" }, { "model": "miniaturia_mod:mt_photoframe_b_2" }],
+		"click=0,facing=south,half=top":	[{ "model": "miniaturia_mod:mt_photoframe_b_1" }, { "model": "miniaturia_mod:mt_photoframe_b_2" }],
+		"click=0,facing=west,half=top":		[{ "model": "miniaturia_mod:mt_photoframe_b_1" }, { "model": "miniaturia_mod:mt_photoframe_b_2" }],
+
+		"click=1,facing=north,half=bottom":	[{ "model": "miniaturia_mod:mt_photoframe_a_1" }, { "model": "miniaturia_mod:mt_photoframe_a_2" }],
+		"click=1,facing=east,half=bottom":	[{ "model": "miniaturia_mod:mt_photoframe_a_1" }, { "model": "miniaturia_mod:mt_photoframe_a_2" }],
+		"click=1,facing=south,half=bottom":	[{ "model": "miniaturia_mod:mt_photoframe_a_1" }, { "model": "miniaturia_mod:mt_photoframe_a_2" }],
+		"click=1,facing=west,half=bottom":	[{ "model": "miniaturia_mod:mt_photoframe_a_1" }, { "model": "miniaturia_mod:mt_photoframe_a_2" }],
+
+		"click=1,facing=north,half=top":	[{ "model": "miniaturia_mod:mt_photoframe_b_1" }, { "model": "miniaturia_mod:mt_photoframe_b_2" }],
+		"click=1,facing=east,half=top":		[{ "model": "miniaturia_mod:mt_photoframe_b_1" }, { "model": "miniaturia_mod:mt_photoframe_b_2" }],
+		"click=1,facing=south,half=top":	[{ "model": "miniaturia_mod:mt_photoframe_b_1" }, { "model": "miniaturia_mod:mt_photoframe_b_2" }],
+		"click=1,facing=west,half=top":		[{ "model": "miniaturia_mod:mt_photoframe_b_1" }, { "model": "miniaturia_mod:mt_photoframe_b_2" }]
+       }
+}

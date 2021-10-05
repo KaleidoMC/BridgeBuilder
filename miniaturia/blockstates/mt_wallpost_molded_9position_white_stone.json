@@ -1,0 +1,64 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_wall_post_molding",
+		"textures": {
+			"post_side": "miniaturia_mod:blocks/wall_stone_white_post_side",
+			"post_top": "miniaturia_mod:blocks/quartz_plate_parts",
+			"bottom": "miniaturia_mod:blocks/wall_stone_white_single_bottom",
+			"middle": "miniaturia_mod:blocks/wall_stone_white_middle_top",
+			"top_up": "miniaturia_mod:blocks/wall_stone_white_middle_top",
+			"up": "miniaturia_mod:blocks/wall_stone_white_middle_top"
+		}
+	},
+
+    "variants": {
+
+        "poleshape=middle,shape=single":	{ "model":"miniaturia_mod:mt_wall_post_molding" },
+        "poleshape=middle,shape=bottom":	{ "model":"miniaturia_mod:mt_wall_post_molding_bottom" },
+        "poleshape=middle,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle" },
+        "poleshape=middle,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up" },
+
+        "poleshape=n,shape=single":		{ "model":"miniaturia_mod:mt_wall_post_molding_n" },
+        "poleshape=n,shape=bottom":		{ "model":"miniaturia_mod:mt_wall_post_molding_bottom_n" },
+        "poleshape=n,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle_n" },
+        "poleshape=n,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up_n" },
+
+        "poleshape=e,shape=single":		{ "model":"miniaturia_mod:mt_wall_post_molding_n", "y": 90 },
+        "poleshape=e,shape=bottom":		{ "model":"miniaturia_mod:mt_wall_post_molding_bottom_n", "y": 90 },
+        "poleshape=e,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle_n", "y": 90 },
+        "poleshape=e,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up_n", "y": 90 },
+
+        "poleshape=s,shape=single":		{ "model":"miniaturia_mod:mt_wall_post_molding_n", "y": 180 },
+        "poleshape=s,shape=bottom":		{ "model":"miniaturia_mod:mt_wall_post_molding_bottom_n", "y": 180 },
+        "poleshape=s,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle_n", "y": 180 },
+        "poleshape=s,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up_n", "y": 180 },
+
+        "poleshape=w,shape=single":		{ "model":"miniaturia_mod:mt_wall_post_molding_n", "y": 270 },
+        "poleshape=w,shape=bottom":		{ "model":"miniaturia_mod:mt_wall_post_molding_bottom_n", "y": 270 },
+        "poleshape=w,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle_n", "y": 270 },
+        "poleshape=w,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up_n", "y": 270 },
+
+        "poleshape=ne,shape=single":	{ "model":"miniaturia_mod:mt_wall_post_molding_ne"},
+        "poleshape=ne,shape=bottom":	{ "model":"miniaturia_mod:mt_wall_post_molding_bottom_ne" },
+        "poleshape=ne,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle_ne" },
+        "poleshape=ne,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up_ne" },
+
+        "poleshape=se,shape=single":	{ "model":"miniaturia_mod:mt_wall_post_molding_ne", "y": 90 },
+        "poleshape=se,shape=bottom":	{ "model":"miniaturia_mod:mt_wall_post_molding_bottom_ne", "y": 90 },
+        "poleshape=se,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle_ne", "y": 90 },
+        "poleshape=se,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up_ne", "y": 90 },
+
+        "poleshape=sw,shape=single":	{ "model":"miniaturia_mod:mt_wall_post_molding_ne", "y": 180 },
+        "poleshape=sw,shape=bottom":	{ "model":"miniaturia_mod:mt_wall_post_molding_bottom_ne", "y": 180 },
+        "poleshape=sw,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle_ne", "y": 180 },
+        "poleshape=sw,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up_ne", "y": 180 },
+
+        "poleshape=nw,shape=single":	{ "model":"miniaturia_mod:mt_wall_post_molding_ne", "y": 270 },
+        "poleshape=nw,shape=bottom":	{ "model":"miniaturia_mod:mt_wall_post_molding_bottom_ne", "y": 270 },
+        "poleshape=nw,shape=vmiddle":	{ "model":"miniaturia_mod:mt_wall_post_molding_middle_ne", "y": 270 },
+        "poleshape=nw,shape=top":		{ "model":"miniaturia_mod:mt_wall_post_molding_top_up_ne", "y": 270 },
+
+        "inventory":[{ }]
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+  		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_harness.obj"
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+			 		"model": "miniaturia_mod:mt_harness_a.obj",
+					"textures": {
+						"#1": "miniaturia_mod:blocks/harness_parts_lightbrown",
+						"#6": "miniaturia_mod:blocks/harness",
+						"particle": "miniaturia_mod:blocks/harness"
+			 		}
+	    		},
+	    		"1": {
+			 		"model": "miniaturia_mod:mt_harness_a.obj",
+					"textures": {
+						"#1": "miniaturia_mod:blocks/harness_parts_lightbrown_b",
+						"#6": "miniaturia_mod:blocks/c",
+						"particle": "miniaturia_mod:blocks/harness_lightbrown_b"
+			 		}
+	    		},
+	    		"2": {
+			 		"model": "miniaturia_mod:mt_harness_b.obj",
+					"textures": {
+						"#1": "miniaturia_mod:blocks/harness_parts_lightbrown",
+						"#6": "miniaturia_mod:blocks/harness",
+						"particle": "miniaturia_mod:blocks/harness"
+			 		}
+	    		}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

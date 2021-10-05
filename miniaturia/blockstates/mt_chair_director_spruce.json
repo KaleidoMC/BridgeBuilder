@@ -1,0 +1,43 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_chair_director"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/ladder_spruce",
+						"1": "miniaturia_mod:blocks/awning_white"
+					}
+				},
+	    		"1": {
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/ladder_spruce",
+						"1": "miniaturia_mod:blocks/awning_red"
+					}
+				},
+	    		"2":	{
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/ladder_spruce",
+						"1": "miniaturia_mod:blocks/awning_green"
+					}
+				},
+			 	"3":	{
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/ladder_spruce",
+						"1": "miniaturia_mod:blocks/awning_blue"
+					}
+	    		}
+	    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+   }
+}

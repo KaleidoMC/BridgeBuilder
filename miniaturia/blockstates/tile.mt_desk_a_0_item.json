@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_desk_a_single"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/table_ashbrown_top",
+						"2": "miniaturia_mod:blocks/table_ashbrown_parts",
+						"3": "miniaturia_mod:blocks/table_ashbrown_top"
+					}
+				},
+            "click1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/table_lightbrown_top",
+						"2": "miniaturia_mod:blocks/table_lightbrown_parts",
+						"3": "miniaturia_mod:blocks/table_lightbrown_top"
+					}
+				}
+		}
+	}
+}

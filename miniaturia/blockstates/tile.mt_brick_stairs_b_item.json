@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs",
+		"uvlock": true
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom": "miniaturia_mod:blocks/quartz",
+			        "top": "miniaturia_mod:blocks/quartz",
+			        "side": "miniaturia_mod:blocks/quartz"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom": "miniaturia_mod:blocks/cs",
+			        "top": "miniaturia_mod:blocks/cs",
+			        "side": "miniaturia_mod:blocks/cs"
+					}
+				}
+        }
+    }
+}

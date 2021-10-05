@@ -1,0 +1,187 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_lamppost"
+	},
+
+	"variants": {
+		"variant": {
+			"meta0": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_green"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_green",
+					"1": "miniaturia_mod:blocks/lamppost_green"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_gold"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_gold",
+					"1": "miniaturia_mod:blocks/lamppost_gold"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_white"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_white",
+					"1": "miniaturia_mod:blocks/lamppost_white"
+				}
+			},
+			"meta8": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta9": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			},
+			"meta10": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta11": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			},
+			"meta12": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta13": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			},
+			"meta14": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta15": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			}
+		},
+
+		"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_lamppost_bottom" },
+    		"middle":	{ "model": "miniaturia_mod:mt_lamppost_middle" },
+    		"top":		{ "model": "miniaturia_mod:mt_lamppost_top" },
+    		"single":	{ "model": "miniaturia_mod:mt_lamppost_single" }
+		},
+
+
+		"shape=single,variant=meta0":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=bottom,variant=meta0":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=middle,variant=meta0":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=top,variant=meta0":		{ "model": "miniaturia_mod:mt_lamppost" },
+
+		"shape=single,variant=meta1":	[{}],
+		"shape=bottom,variant=meta1":	[{}],
+		"shape=middle,variant=meta1":	[{}],
+		"shape=top,variant=meta1":		[{}],
+
+		"shape=single,variant=meta2":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=bottom,variant=meta2":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=middle,variant=meta2":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=top,variant=meta2":		{ "model": "miniaturia_mod:mt_lamppost" },
+
+		"shape=single,variant=meta3":	[{}],
+		"shape=bottom,variant=meta3":	[{}],
+		"shape=middle,variant=meta3":	[{}],
+		"shape=top,variant=meta3":		[{}],
+
+		"shape=single,variant=meta4":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=bottom,variant=meta4":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=middle,variant=meta4":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=top,variant=meta4":		{ "model": "miniaturia_mod:mt_lamppost" },
+
+		"shape=single,variant=meta5":	[{}],
+		"shape=bottom,variant=meta5":	[{}],
+		"shape=middle,variant=meta5":	[{}],
+		"shape=top,variant=meta5":		[{}],
+
+		"shape=single,variant=meta6":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=bottom,variant=meta6":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=middle,variant=meta6":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=top,variant=meta6":		{ "model": "miniaturia_mod:mt_lamppost" },
+
+		"shape=single,variant=meta7":	[{}],
+		"shape=bottom,variant=meta7":	[{}],
+		"shape=middle,variant=meta7":	[{}],
+		"shape=top,variant=meta7":		[{}],
+
+		"shape=single,variant=meta8":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=bottom,variant=meta8":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=middle,variant=meta8":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=top,variant=meta8":		{ "model": "miniaturia_mod:mt_lamppost" },
+
+		"shape=single,variant=meta9":	[{}],
+		"shape=bottom,variant=meta9":	[{}],
+		"shape=middle,variant=meta9":	[{}],
+		"shape=top,variant=meta9":		[{}],
+
+		"shape=single,variant=meta10":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=bottom,variant=meta10":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=middle,variant=meta10":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=top,variant=meta10":		{ "model": "miniaturia_mod:mt_lamppost" },
+
+		"shape=single,variant=meta11":	[{}],
+		"shape=bottom,variant=meta11":	[{}],
+		"shape=middle,variant=meta11":	[{}],
+		"shape=top,variant=meta11":		[{}],
+
+		"shape=single,variant=meta12":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=bottom,variant=meta12":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=middle,variant=meta12":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=top,variant=meta12":		{ "model": "miniaturia_mod:mt_lamppost" },
+
+		"shape=single,variant=meta13":	[{}],
+		"shape=bottom,variant=meta13":	[{}],
+		"shape=middle,variant=meta13":	[{}],
+		"shape=top,variant=meta13":		[{}],
+
+		"shape=single,variant=meta14":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=bottom,variant=meta14":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=middle,variant=meta14":	{ "model": "miniaturia_mod:mt_lamppost" },
+		"shape=top,variant=meta14":		{ "model": "miniaturia_mod:mt_lamppost" },
+
+		"shape=single,variant=meta15":	[{}],
+		"shape=bottom,variant=meta15":	[{}],
+		"shape=middle,variant=meta15":	[{}],
+		"shape=top,variant=meta15":		[{}]
+		}
+}

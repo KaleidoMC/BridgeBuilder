@@ -1,0 +1,55 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"1_0": "cocricotmod:blocks/picket_staggered_white"
+	},
+	"elements": [
+		{
+			"from": [7.25, 0, 1.25],
+			"to": [8.75, 14, 4.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 2.75]},
+			"faces": {
+				"north": {"uv": [13.5, 0, 15, 14], "texture": "#1_0"},
+				"east": {"uv": [13, 0, 16, 14], "texture": "#1_0"},
+				"south": {"uv": [13.5, 0, 15, 14], "texture": "#1_0"},
+				"west": {"uv": [13, 0, 16, 14], "texture": "#1_0"},
+				"down": {"uv": [10, 0, 13, 3], "texture": "#1_0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7.5, 1.5, 0],
+			"to": [8.5, 3.5, 6.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 3, -1.5]},
+			"faces": {
+				"north": {"uv": [10, 0, 13, 3], "rotation": 180, "texture": "#1_0", "cullface": "north"},
+				"east": {"uv": [13, 0, 15, 6.5], "rotation": 90, "texture": "#1_0"},
+				"west": {"uv": [14, 0, 16, 6.5], "rotation": 270, "texture": "#1_0"},
+				"up": {"uv": [15, 9.5, 16, 16], "texture": "#1_0"},
+				"down": {"uv": [13.5, 0, 14.5, 6.5], "rotation": 180, "texture": "#1_0"}
+			}
+		},
+		{
+			"from": [7.5, 8.5, 0],
+			"to": [8.5, 10.5, 6.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 10, -1.5]},
+			"faces": {
+				"north": {"uv": [10, 0, 13, 3], "rotation": 180, "texture": "#1_0", "cullface": "north"},
+				"east": {"uv": [13, 0, 15, 6.5], "rotation": 90, "texture": "#1_0"},
+				"west": {"uv": [14, 0, 16, 6.5], "rotation": 270, "texture": "#1_0"},
+				"up": {"uv": [15, 9.5, 16, 16], "texture": "#1_0"},
+				"down": {"uv": [13.5, 0, 14.5, 6.5], "rotation": 180, "texture": "#1_0"}
+			}
+		},
+		{
+			"from": [7.27, 12.92218, 1.68],
+			"to": [8.73, 15.04218, 3.8],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 13.97218, 2.75]},
+			"faces": {
+				"north": {"uv": [13.5, 0, 14.96, 2], "rotation": 180, "texture": "#1_0"},
+				"east": {"uv": [10, 1, 12, 3], "rotation": 180, "texture": "#1_0"},
+				"west": {"uv": [10, 1, 12, 3], "rotation": 90, "texture": "#1_0"},
+				"up": {"uv": [13.5, 0, 14.96, 2], "texture": "#1_0"}
+			}
+		}
+	]
+}

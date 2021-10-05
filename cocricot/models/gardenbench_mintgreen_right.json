@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/gardenbench_right",
+    "textures": {
+      "particle": "cocricotmod:blocks/particle_mintgreen",
+      "texture": "cocricotmod:blocks/gardenbench_mintgreen"
+    }
+}

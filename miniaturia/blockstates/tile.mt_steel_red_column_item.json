@@ -1,0 +1,31 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_steel_column_a",
+		"textures":{
+			    "0": "miniaturia_mod:blocks/steel_red_b"
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { },
+            "click2": {
+            		"model": "miniaturia_mod:mt_steel_column_b",
+					"textures":{
+			    		"0": "miniaturia_mod:blocks/steel_red_b",
+						"1": "miniaturia_mod:blocks/steel_red_b",
+						"2": "miniaturia_mod:blocks/steel_red_b"
+					}
+				},
+            "click3": {
+            		"model": "miniaturia_mod:mt_steel_column_b",
+					"textures":{
+			    		"0": "miniaturia_mod:blocks/steel_red_b",
+						"1": "miniaturia_mod:blocks/steel_red_b",
+						"2": "miniaturia_mod:blocks/steel_red_b"
+					}
+				}
+		}
+	}
+}

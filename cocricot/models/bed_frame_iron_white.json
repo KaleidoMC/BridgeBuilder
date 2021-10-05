@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/bed_frame_iron",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_white",
+      "0": "cocricotmod:blocks/floorlamp_simpleleg_white"
+    }
+}

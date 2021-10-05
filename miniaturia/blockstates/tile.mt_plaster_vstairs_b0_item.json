@@ -1,0 +1,49 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			},
+		"uvlock": true
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_brick_white",
+			        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_brick_white",
+			        "ns":		"miniaturia_mod:blocks/plaster_peeled_brick_white",
+			        "we":		"miniaturia_mod:blocks/plaster_peeled_brick_white"
+			    	}
+            	},
+            "click1": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_brick_orange",
+			        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_brick_orange",
+			        "ns":		"miniaturia_mod:blocks/plaster_peeled_brick_orange",
+			        "we":		"miniaturia_mod:blocks/plaster_peeled_brick_orange"
+			    	}
+            	},
+            "click2": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_brick_yellow",
+			        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_brick_yellow",
+			        "ns":		"miniaturia_mod:blocks/plaster_peeled_brick_yellow",
+			        "we":		"miniaturia_mod:blocks/plaster_peeled_brick_yellow"
+			    	}
+            	},
+            "click3": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_brick_pink",
+			        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_brick_pink",
+			        "ns":		"miniaturia_mod:blocks/plaster_peeled_brick_pink",
+			        "we":		"miniaturia_mod:blocks/plaster_peeled_brick_pink"
+			    	}
+            	}
+            }
+        }
+}

@@ -1,0 +1,19 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "particle": "#roof_side"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#roof_end", "cullface": "down" },
+                "up":    { "texture": "#roof_end", "cullface": "up" },
+                "north": { "texture": "#roof_side", "cullface": "north" },
+                "south": { "texture": "#roof_side", "cullface": "south" },
+                "west":  { "texture": "#roof_side", "cullface": "west" },
+                "east":  { "texture": "#roof_side", "cullface": "east" }
+            }
+        }
+    ]
+}

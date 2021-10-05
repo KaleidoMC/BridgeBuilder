@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/counterstool_brown_false",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_white",
+      "0": "cocricotmod:blocks/stool_white"
+    }
+}

@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"particle": "cocricotmod:blocks/table_cloth_gingham_red_top",
+		"texture": "cocricotmod:blocks/table_wide_cloth_gingham_red",
+		"texture1": "cocricotmod:blocks/table_wide_cloth_gingham_red_top",
+		"texture2": "cocricotmod:blocks/table_cloth_gingham_red"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, -8 ],
+			"to": [ 16, 16, 24 ],
+			"faces": {
+				"up": { "uv": [ 0, 0, 8, 16 ], "texture": "#texture1", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture2" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture2" },
+				"west": { "uv": [ 0, 8, 16, 16 ], "texture": "#texture", "cullface": "west" },
+				"east": { "uv": [ 0, 8, 16, 16 ], "texture": "#texture", "cullface": "east" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 270, 0 ],
+			"translation":  [ 0, 0, -2 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

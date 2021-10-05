@@ -1,0 +1,27 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_glass_pane_center",
+		"textures": {
+				"0": "miniaturia_mod:blocks/window_b_pink_single"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { },
+	    		"2": { }
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+        "inventory":[{ }]
+    }
+}

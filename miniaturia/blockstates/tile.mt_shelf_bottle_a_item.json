@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_shelf_bottle_a",
+ 		"textures": {
+			"upper": "miniaturia_mod:blocks/c",
+			"lower": "miniaturia_mod:blocks/shelf_bottle_a"
+			},
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30 }, { "y": 45 }, { "z": 0 } ], "scale": 1.2, "translation": [ -0.15, 0.25, 0 ]
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { },
+		 	"click1": { },
+		 	"click2": { },
+		 	"click3": { "model": "miniaturia_mod:mt_shelf_bottle_a2" }
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/base_cube_topsidebottom",
+    "textures": {
+      "top": "cocricotmod:blocks/planter_stone_top",
+      "bottom": "cocricotmod:blocks/rustication_banded_stone_top",
+      "side": "cocricotmod:blocks/planter_stone"
+    }
+}

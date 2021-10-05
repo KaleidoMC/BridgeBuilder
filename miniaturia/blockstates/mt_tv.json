@@ -1,0 +1,76 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_tv"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"front" : "miniaturia_mod:blocks/tv_black_front",
+						"side" : "miniaturia_mod:blocks/tv_black_side",
+						"back" : "miniaturia_mod:blocks/tv_black_back",
+						"particle" : "miniaturia_mod:blocks/tv_black_front"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"front" : "miniaturia_mod:blocks/tv_red_front",
+						"side" : "miniaturia_mod:blocks/tv_red_side",
+						"back" : "miniaturia_mod:blocks/tv_red_back",
+						"particle" : "miniaturia_mod:blocks/tv_red_front"
+			 		}
+	    		},
+	    		"2": {
+	    		},
+	    		"3": {
+	    		}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+        "click=0,facing=north":	[{}],
+        "click=0,facing=east":	[{}],
+        "click=0,facing=south":	[{}],
+        "click=0,facing=west":	[{}],
+
+        "click=1,facing=north":	[{}],
+        "click=1,facing=east":	[{}],
+        "click=1,facing=south":	[{}],
+        "click=1,facing=west":	[{}],
+
+        "click=2,facing=north": {	"model": "cross", "y": 0,
+            						"textures": { "cross": "miniaturia_mod:blocks/cs" }
+        						},
+        "click=2,facing=east": {	"model": "cross", "y": 90,
+            						"textures": { "cross": "miniaturia_mod:blocks/cs" }
+        						},
+        "click=2,facing=south": {	"model": "cross", "y": 180,
+        							"textures": { "cross": "miniaturia_mod:blocks/cs" }
+            					},
+        "click=2,facing=west": {	"model": "cross", "y": 270,
+            						"textures": { "cross": "miniaturia_mod:blocks/cs" }
+            					},
+
+        "click=3,facing=north": {	"model": "cross", "y": 0,
+            						"textures": { "cross": "miniaturia_mod:blocks/cs" }
+        						},
+        "click=3,facing=east": {	"model": "cross", "y": 90,
+            						"textures": { "cross": "miniaturia_mod:blocks/cs" }
+        						},
+        "click=3,facing=south": {	"model": "cross", "y": 180,
+        							"textures": { "cross": "miniaturia_mod:blocks/cs" }
+            					},
+        "click=3,facing=west": {	"model": "cross", "y": 270,
+            						"textures": { "cross": "miniaturia_mod:blocks/cs" }
+            					}
+
+    }
+}

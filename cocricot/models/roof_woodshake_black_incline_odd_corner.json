@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/roof_incline_odd_corner",
+    "textures": {
+      "texture": "cocricotmod:blocks/roof_woodshake_black_outer",
+      "texture1": "cocricotmod:blocks/roof_woodshake_black_outer1"
+    }
+}

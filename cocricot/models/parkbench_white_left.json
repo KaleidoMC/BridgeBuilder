@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/parkbench_dark_left",
+	"textures": {
+		"0": "cocricotmod:blocks/parkbench_white",
+		"particle": "cocricotmod:blocks/planks_white"
+	}
+}

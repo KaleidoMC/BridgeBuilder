@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/chair_american_black",
+    "textures": {
+        "particle": "cocricotmod:blocks/planks_brown",
+        "0": "cocricotmod:blocks/chair_iron_brown"
+    }
+}

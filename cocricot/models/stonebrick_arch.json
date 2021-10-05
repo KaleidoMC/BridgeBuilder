@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_arch",
+    "textures": {
+      "texture": "blocks/stonebrick"
+    }
+}

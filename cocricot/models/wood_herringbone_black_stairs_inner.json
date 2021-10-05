@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_stairs_all_inner",
+    "textures": {
+        "bottom": "cocricotmod:blocks/wood_herringbone_black",
+        "top": "cocricotmod:blocks/wood_herringbone_black",
+        "side": "cocricotmod:blocks/wood_herringbone_black_b",
+        "side1": "cocricotmod:blocks/wood_herringbone_black_s",
+        "front": "cocricotmod:blocks/wood_herringbone_black_ss",
+        "back": "cocricotmod:blocks/wood_herringbone_black_b"
+    }
+}

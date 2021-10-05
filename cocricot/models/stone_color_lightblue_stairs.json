@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "cocricotmod:blocks/stone_color_lightblue",
+        "top": "cocricotmod:blocks/stone_color_lightblue",
+        "side": "cocricotmod:blocks/stone_color_lightblue"
+    }
+}

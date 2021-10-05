@@ -1,0 +1,26 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_campfire",
+  		"textures": {
+			"fire": "minecraft:blocks/fire_layer_0",
+			"log": "miniaturia_mod:blocks/campfire_log"
+		}
+  },
+    "variants": {
+
+		"switch=false": {
+				"model": "miniaturia_mod:mt_campfire",
+	    		"textures": { "fire": "miniaturia_mod:blocks/c", "log": "miniaturia_mod:blocks/campfire_log" }
+	    		},
+		"switch=true": [{
+				"model": "miniaturia_mod:mt_campfire",
+				"textures": { "fire": "minecraft:blocks/fire_layer_0", "log": "miniaturia_mod:blocks/campfire_log" }
+				},{
+				"model": "miniaturia_mod:mt_campfire",
+	    		"textures": { "fire": "minecraft:blocks/fire_layer_1", "log": "miniaturia_mod:blocks/campfire_log" }
+				}],
+
+		"inventory":[{ }]
+		}
+}

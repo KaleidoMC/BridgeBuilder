@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "miniaturia_mod:blocks/car_silver_parts",
+		"particle": "miniaturia_mod:blocks/car_silver_parts"
+	},
+	"elements": [
+		{
+			"from": [0, 11.05, 12.21167],
+			"to": [16, 14.05, 14.21167],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.2578, 9.91722, 14.09334]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 3], "texture": "#1"},
+				"south": {"uv": [16, 0.5, 0, 3.5], "texture": "#1"},
+				"up": {"uv": [16, 0, 0, 2], "texture": "#1"},
+				"down": {"uv": [16, 14, 0, 16], "rotation": 180, "texture": "#1"}
+			}
+		}
+	]
+}

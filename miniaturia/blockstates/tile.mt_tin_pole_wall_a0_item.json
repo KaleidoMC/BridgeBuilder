@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_pole_wall_end"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/tin_yellow_b",
+					"end": "miniaturia_mod:blocks/tin_yellow",
+					"wall": "miniaturia_mod:blocks/tin_yellow_b"
+					}
+				},
+			"meta1": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/tin_mint_b",
+					"end": "miniaturia_mod:blocks/tin_mint",
+					"wall": "miniaturia_mod:blocks/tin_mint_b"
+					}
+				},
+			"meta2": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/tin_blue_b",
+					"end": "miniaturia_mod:blocks/tin_blue",
+					"wall": "miniaturia_mod:blocks/tin_blue_b"
+					}
+				},
+			"meta3": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/tin_red_b",
+					"end": "miniaturia_mod:blocks/tin_red",
+					"wall": "miniaturia_mod:blocks/tin_red_b"
+					}
+				}
+        }
+    }
+}

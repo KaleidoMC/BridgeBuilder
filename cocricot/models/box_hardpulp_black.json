@@ -1,0 +1,28 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/box_hardpulp_black",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	},
+	"elements": [
+		{
+			"from": [2.5, 0, 2.5],
+			"to": [13.5, 8, 13.5],
+			"faces": {
+				"north": {"uv": [0, 0, 5.5, 4], "texture": "#0"},
+				"east": {"uv": [0, 8, 5.5, 12], "texture": "#0"},
+				"south": {"uv": [0, 0, 5.5, 4], "texture": "#0"},
+				"west": {"uv": [0, 8, 5.5, 12], "texture": "#0"},
+				"up": {"uv": [5.5, 0, 11, 5.5], "texture": "#0"},
+				"down": {"uv": [5.5, 0, 11, 5.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}

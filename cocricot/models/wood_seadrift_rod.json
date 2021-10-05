@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_rod",
+    "textures": {
+        "particle": "cocricotmod:blocks/planks_seadrift",
+        "0": "cocricotmod:blocks/planks_seadrift_rod"
+    }
+}

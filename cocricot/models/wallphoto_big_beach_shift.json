@@ -1,0 +1,51 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/wallphoto_beach",
+		"particle": "cocricotmod:blocks/planks_brown"
+	},
+	"elements": [
+		{
+			"from": [-7, 5, 15],
+			"to": [23, 27, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 13, 23]},
+			"faces": {
+				"north": {"uv": [0, 0, 15, 11], "texture": "#0"},
+				"east": {"uv": [15, 0, 14.5, 11], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 11], "texture": "#particle"},
+				"west": {"uv": [14.5, 0, 15, 11], "texture": "#0"},
+				"up": {"uv": [0, 0, 15, 0.5], "texture": "#0"},
+				"down": {"uv": [0, 11, 15, 10.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 135, 0],
+			"translation": [-0.25, 0.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
+}

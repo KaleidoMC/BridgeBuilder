@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/rug_jute_round_corner",
+	"textures": {
+		"0": "cocricotmod:blocks/rug_shag_round_lightbrown",
+		"particle": "cocricotmod:blocks/planks_seadrift"
+	}
+}

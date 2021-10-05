@@ -1,0 +1,15 @@
+{
+	"ambientocclusion": false,
+	"elements": [
+		{
+			"from": [13.5, 12, 13.5],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 2.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 13.5, 4, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [5, 0, 7.5, 2.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [5, 0, 7.5, 2.5], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

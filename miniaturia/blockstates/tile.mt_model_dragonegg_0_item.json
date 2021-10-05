@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "miniaturia_mod:mt_dragon_egg"
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"2": "miniaturia_mod:blocks/egg_stone_top",
+					"1": "miniaturia_mod:blocks/egg_stone"
+					}
+				},
+            "click1": {
+				"textures": {
+					"2": "miniaturia_mod:blocks/quartz_plate_parts",
+					"1": "miniaturia_mod:blocks/anvil_quartz"
+					}
+				}
+			}
+		}
+}

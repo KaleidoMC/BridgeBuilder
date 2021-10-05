@@ -1,0 +1,28 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_modern_light_a",
+  		"textures": {
+  			"0": "miniaturia_mod:blocks/light",
+			"1": "miniaturia_mod:blocks/piano_side_white"
+  		}
+	},
+    "variants": {
+
+    	"facing": {
+    		"down":		{ "x": 90 },
+    		"up":		{ "x": -90 },
+    		"north":	{ "y": 0 },
+    		"south":	{ "y": 180 },
+    		"west": 	{ "y": 270 },
+    		"east": 	{ "y": 90 }
+    	},
+
+    	"switch": {
+    		"false": { },
+    		"true": { }
+    	},
+
+    	"inventory": [{}]
+	}
+}

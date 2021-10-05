@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"model": "cube_bottom_top"
+    },
+    "variants": {
+        "variant": {
+			 	"click0": {
+					"textures": {
+							"side": "miniaturia_mod:blocks/tatami_a_side",
+							"top": "miniaturia_mod:blocks/tatami_a",
+							"bottom": "miniaturia_mod:blocks/table_ashbrown_top"
+				 		}
+					},
+			 	"click1": {
+					"textures": {
+							"side": "miniaturia_mod:blocks/tatami_b_side",
+							"top": "miniaturia_mod:blocks/tatami_a",
+							"bottom": "miniaturia_mod:blocks/wood_oriental_black_tile"
+				 		}
+					},
+			 	"click2": {
+					"textures": {
+							"side": "miniaturia_mod:blocks/tatami_a_side",
+							"top": "miniaturia_mod:blocks/tatami_b",
+							"bottom": "miniaturia_mod:blocks/table_ashbrown_top"
+				 		}
+					},
+			 	"click3": {
+					"textures": {
+							"side": "miniaturia_mod:blocks/tatami_b_side",
+							"top": "miniaturia_mod:blocks/tatami_b",
+							"bottom": "miniaturia_mod:blocks/wood_oriental_black_tile"
+				 		}
+					}
+        }
+    }
+}

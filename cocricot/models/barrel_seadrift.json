@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/barrel_antique",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_shabby",
+      "0": "cocricotmod:blocks/barrel_seadrift"
+    }
+}

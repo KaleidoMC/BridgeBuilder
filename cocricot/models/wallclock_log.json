@@ -1,0 +1,21 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"1": "cocricotmod:blocks/log",
+		"particle": "cocricotmod:blocks/clock"
+	},
+	"elements": [
+		{
+			"from": [2.5, 2, 14],
+			"to": [14, 14, 16],
+			"faces": {
+				"north": {"uv": [12, 12, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.75, 3.625], "texture": "#1"},
+				"south": {"uv": [12, 12, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.75, 3.625], "texture": "#1"},
+				"up": {"uv": [0, 0, 0.75, 3.625], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 0.75, 3.625], "rotation": 90, "texture": "#1"}
+			}
+		}
+	]
+}

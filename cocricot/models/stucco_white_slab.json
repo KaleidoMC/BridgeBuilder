@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "cocricotmod:blocks/stucco_white",
+        "top": "cocricotmod:blocks/stucco_white",
+        "side": "cocricotmod:blocks/stucco_white"
+    }
+}

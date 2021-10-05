@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/ironfence_chain_black_post",
+	"textures": {
+		"0": "cocricotmod:blocks/metal_white",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	}
+}

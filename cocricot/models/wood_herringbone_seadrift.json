@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_cube_topside",
+    "textures": {
+        "top": "cocricotmod:blocks/wood_herringbone_seadrift",
+        "side": "cocricotmod:blocks/wood_herringbone_seadrift_b"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/wallshelf_chain",
+    "textures": {
+      "texture": "cocricotmod:blocks/planks_white",
+      "texture2": "cocricotmod:blocks/chair_white"
+    }
+}

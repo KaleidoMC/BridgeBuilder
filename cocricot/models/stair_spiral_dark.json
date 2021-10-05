@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/stair_spiral_clear",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_darkbrown",
+  		"texture": "cocricotmod:blocks/stair_dark"
+    }
+}

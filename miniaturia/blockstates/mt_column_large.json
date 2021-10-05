@@ -1,0 +1,65 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_column_large_single"
+  },
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"end": "miniaturia_mod:blocks/stone_plate_parts",
+					    "single": "miniaturia_mod:blocks/stone_column_single",
+					    "top": "miniaturia_mod:blocks/stone_column_top",
+					    "middle": "miniaturia_mod:blocks/stone_column_middle",
+					    "bottom": "miniaturia_mod:blocks/stone_column_bottom",
+					    "particle": "miniaturia_mod:blocks/stone_column_single"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"end": "miniaturia_mod:blocks/quartz_plate_parts",
+					    "single": "miniaturia_mod:blocks/quartz_column_single",
+					    "top": "miniaturia_mod:blocks/quartz_column_top",
+					    "middle": "miniaturia_mod:blocks/quartz_column_middle",
+					    "bottom": "miniaturia_mod:blocks/quartz_column_bottom",
+					    "particle": "miniaturia_mod:blocks/quartz_column_single"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"end": "miniaturia_mod:blocks/quartz_plate_parts",
+					    "single": "miniaturia_mod:blocks/quartz_gold_column_single",
+					    "top": "miniaturia_mod:blocks/quartz_gold_column_top",
+					    "middle": "miniaturia_mod:blocks/quartz_gold_column_middle",
+					    "bottom": "miniaturia_mod:blocks/quartz_gold_column_bottom",
+					    "particle": "miniaturia_mod:blocks/quartz_gold_column_single"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"end": "miniaturia_mod:blocks/sandstone_plate_parts",
+					    "single": "miniaturia_mod:blocks/sandstone_column_single",
+					    "top": "miniaturia_mod:blocks/sandstone_column_top",
+					    "middle": "miniaturia_mod:blocks/sandstone_column_middle",
+					    "bottom": "miniaturia_mod:blocks/sandstone_column_bottom",
+					    "particle": "miniaturia_mod:blocks/sandstone_column_single"
+			 		}
+	    		}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_column_large_bottom" },
+    		"middle":	{ "model": "miniaturia_mod:mt_column_large_middle" },
+    		"top":		{ "model": "miniaturia_mod:mt_column_large_top" },
+    		"single":	{ "model": "miniaturia_mod:mt_column_large_single" }
+		}
+	}
+}

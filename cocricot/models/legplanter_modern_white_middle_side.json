@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/legplanter_modern_black_middle_side",
+    "textures": {
+        "0": "cocricotmod:blocks/legplanter_modern_white",
+        "particale": "cocricotmod:blocks/stone_color_white"
+    }
+}

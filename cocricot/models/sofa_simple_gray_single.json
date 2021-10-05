@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/sofa_simple_black_single",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_gray",
+      "0": "cocricotmod:blocks/sofa_simple_gray"
+    }
+}

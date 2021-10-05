@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/slantbar",
+    "textures": {
+  		"particle": "cocricotmod:blocks/planks_black",
+  		"texture": "cocricotmod:blocks/handrail_wood_straight_black"
+  	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/coffeegrinder_black",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_red",
+      "0": "cocricotmod:blocks/coffeegrinder_red"
+    }
+}

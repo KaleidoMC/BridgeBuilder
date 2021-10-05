@@ -1,0 +1,8 @@
+{
+	"parent": "cocricotmod:block/base_cube_all",
+	"textures": {
+		"d": "cocricotmod:blocks/stone_color_black",
+		"w": "#s",
+		"e": "#s"
+	}
+}

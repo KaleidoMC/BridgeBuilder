@@ -1,0 +1,36 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_ladder_normal"
+    },
+    "variants": {
+        "variant": {
+            	"click0": {
+					"textures": {
+							"ladder": "miniaturia_mod:blocks/ladder_spruce"
+						}
+	    			},
+            	"click1": {
+					"textures": {
+							"ladder": "miniaturia_mod:blocks/ladder_white"
+						}
+	    			},
+            	"click2": {
+            		"model": "miniaturia_mod:mt_ladder_b_top",
+					"textures": {
+							"0": "miniaturia_mod:blocks/rope",
+							"1": "miniaturia_mod:blocks/wood_birch_bar_side",
+							"2": "miniaturia_mod:blocks/chain_small_black"
+						}
+	    			},
+            	"click3": {
+            	"model": "miniaturia_mod:mt_ladder_b_top",
+					"textures": {
+							"0": "miniaturia_mod:blocks/rope_white",
+							"1": "miniaturia_mod:blocks/wood_spruce_half_side",
+							"2": "miniaturia_mod:blocks/chain_small_black"
+						}
+	    			}
+        }
+    }
+}

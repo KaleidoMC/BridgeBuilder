@@ -1,0 +1,19 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/planks_black",
+		"1": "cocricotmod:blocks/bench_turnedleg_black_both",
+		"particle": "cocricotmod:blocks/planks_black"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 3],
+			"to": [16, 9.5, 13],
+			"faces": {
+				"north": {"uv": [0, 6.5, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 6.5, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 3, 16, 13], "texture": "#0"}
+			}
+		}
+	]
+}

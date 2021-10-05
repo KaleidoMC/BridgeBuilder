@@ -1,0 +1,17 @@
+{
+    "forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_pole_middle",
+		"textures": {
+			"side": "miniaturia_mod:blocks/stonebrick_b_colorful_b",
+			"end": "miniaturia_mod:blocks/stonebrick_b_colorful_b"
+		}
+	},
+
+    "variants": {
+        "variant": {
+            "click0": { "model":"miniaturia_mod:mt_pole_n_b" },
+            "click1": { "model":"miniaturia_mod:mt_pole_n" }
+    			}
+            }
+}

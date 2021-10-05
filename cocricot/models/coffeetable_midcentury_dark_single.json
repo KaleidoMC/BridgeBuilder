@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/coffeetable_midcentury_single",
+    "textures": {
+        "texture": "cocricotmod:blocks/planks_dark",
+				"texture1": "cocricotmod:blocks/coffeetable_midcentury_dark"
+    }
+}

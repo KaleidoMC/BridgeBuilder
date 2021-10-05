@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/pendantlight_rattan_long_light",
+	"textures": {
+		"0": "cocricotmod:blocks/pendantlight_ratttan_dark",
+		"3": "cocricotmod:blocks/pendantlight_rattan_dark1"
+	}
+}

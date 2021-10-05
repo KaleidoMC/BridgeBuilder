@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/floorlamp_spot_black",
+    "textures": {
+  		"0": "cocricotmod:blocks/floorlamp_simpleleg_white",
+  		"1": "cocricotmod:blocks/sofa_slipper_white",
+  		"particle": "cocricotmod:blocks/stone_color_white"
+  	}
+}

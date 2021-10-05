@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_plate",
+    "textures": {
+      "0": "cocricotmod:blocks/wood_2board_black"
+    }
+}

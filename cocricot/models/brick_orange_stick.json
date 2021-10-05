@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_stick",
+    "textures": {
+        "particle": "cocricotmod:blocks/brick_orange_",
+        "0": "cocricotmod:blocks/brick_orange_"
+    }
+}

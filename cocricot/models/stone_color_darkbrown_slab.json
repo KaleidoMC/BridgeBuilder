@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "cocricotmod:blocks/stone_color_darkbrown",
+        "top": "cocricotmod:blocks/stone_color_darkbrown",
+        "side": "cocricotmod:blocks/stone_color_darkbrown"
+    }
+}

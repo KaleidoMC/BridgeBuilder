@@ -1,0 +1,74 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "half_slab",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "half_slab" },
+			"top":		{ "model": "upper_slab" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/coarse_dirt",
+					"top" : "miniaturia_mod:blocks/coarse_dirt",
+					"side" : "miniaturia_mod:blocks/coarse_dirt"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/sand",
+					"top" : "miniaturia_mod:blocks/sand",
+					"side" : "miniaturia_mod:blocks/sand"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/yellow_sand",
+					"top" : "miniaturia_mod:blocks/yellow_sand",
+					"side" : "miniaturia_mod:blocks/yellow_sand"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/red_sand",
+					"top" : "miniaturia_mod:blocks/red_sand",
+					"side" : "miniaturia_mod:blocks/red_sand"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/gravel",
+					"top" : "miniaturia_mod:blocks/gravel",
+					"side" : "miniaturia_mod:blocks/gravel"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/snow",
+					"top" : "miniaturia_mod:blocks/snow",
+					"side" : "miniaturia_mod:blocks/snow"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/ice_packed",
+					"top" : "miniaturia_mod:blocks/ice_packed",
+					"side" : "miniaturia_mod:blocks/ice_packed"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/cs",
+					"top" : "miniaturia_mod:blocks/cs",
+					"side" : "miniaturia_mod:blocks/cs"
+				}
+			}
+		}
+	}
+}

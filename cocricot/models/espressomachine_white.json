@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/espressomachine_red",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_white",
+      "0": "cocricotmod:blocks/espressomachine_white"
+    }
+}

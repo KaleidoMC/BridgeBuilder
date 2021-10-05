@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_tire_display_a",
+		"textures": {
+			"4": "miniaturia_mod:blocks/car_tire",
+			"particle": "miniaturia_mod:blocks/car_tire"
+			}
+		},
+    "variants": {
+        "variant": {
+			"click0": { "model": "miniaturia_mod:mt_tire_display_c" },
+            "click1": { "model": "miniaturia_mod:mt_tire_display_c", "x": 90, "y": 90 }
+        }
+    }
+}

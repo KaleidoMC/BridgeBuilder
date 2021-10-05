@@ -1,0 +1,29 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/diningtable_turnedleg_brown",
+		"1": "cocricotmod:blocks/planks_brown",
+		"particle": "cocricotmod:blocks/planks_brown"
+	},
+	"elements": [
+		{
+			"from": [0, 15, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [3, 0, 4, 16], "rotation": 90, "texture": "#0", "cullface": "north"},
+				"south": {"uv": [3, 0, 4, 16], "rotation": 90, "texture": "#0", "cullface": "south"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 12, 1],
+			"to": [16, 15, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 4.4, 8]},
+			"faces": {
+				"north": {"uv": [13, 16, 16, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [8, 7.5, 8.5, 8], "texture": "#0"}
+			}
+		}
+	]
+}

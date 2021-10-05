@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_prop_n",
+		"textures": {
+			"bottom": "miniaturia_mod:blocks/wood_dark_oak_bar_top",
+			"top": "miniaturia_mod:blocks/wood_dark_oak_bar_top",
+			"ns": "miniaturia_mod:blocks/wood_dark_oak_bar_side",
+			"we": "miniaturia_mod:blocks/wood_dark_oak_bar_side"
+	    	},
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 0}, { "y": 90 }, { "z": 0 } ], "scale": 0.5, "translation": [ 0, -0.1, 0 ] }
+		}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { "model": "miniaturia_mod:mt_prop_nb" },
+            "click2": { },
+            "click3": { "model": "miniaturia_mod:mt_prop_nb" }
+		}
+	}
+}

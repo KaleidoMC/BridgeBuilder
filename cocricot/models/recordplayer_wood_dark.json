@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/recordplayer_wood",
+    "textures": {
+        "particle": "cocricotmod:blocks/planks_dark",
+        "texture": "cocricotmod:blocks/recordplayer_wood_dark"
+    }
+}

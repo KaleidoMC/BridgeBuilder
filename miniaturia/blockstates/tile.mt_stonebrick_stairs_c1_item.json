@@ -1,0 +1,30 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures":{
+				    "straight_bottom": "miniaturia_mod:blocks/quartz_brick_ns",
+			        "straight_top": "miniaturia_mod:blocks/quartz_brick_ns",
+			        "straight_front": "miniaturia_mod:blocks/quartz_brick_we",
+			        "straight_back": "miniaturia_mod:blocks/quartz_brick_we",
+			        "straight_north": "miniaturia_mod:blocks/quartz_brick_ns",
+			        "straight_south": "miniaturia_mod:blocks/quartz_brick_ns"
+				}
+			},
+            "click1": {
+        		"textures":{
+				    "straight_bottom": "miniaturia_mod:blocks/quartz_brick_worn",
+			        "straight_top": "miniaturia_mod:blocks/quartz_brick_worn",
+			        "straight_front": "miniaturia_mod:blocks/quartz_brick_worn",
+			        "straight_back": "miniaturia_mod:blocks/quartz_brick_worn",
+			        "straight_north": "miniaturia_mod:blocks/quartz_brick_worn",
+			        "straight_south": "miniaturia_mod:blocks/quartz_brick_worn"
+				}
+			}
+        }
+    }
+}

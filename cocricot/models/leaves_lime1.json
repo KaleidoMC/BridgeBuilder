@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/leaves_base1",
+    "textures": {
+      "all": "cocricotmod:blocks/leaves_lime"
+    }
+}

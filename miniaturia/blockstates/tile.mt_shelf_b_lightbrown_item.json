@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_shelf_a_12",
+		"textures": {
+				"edge": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+				"plate": "miniaturia_mod:blocks/table_lightbrown_top",
+				"parts": "miniaturia_mod:blocks/furniture_lightbrown_bottom",
+				"side1": "miniaturia_mod:blocks/furniture_lightbrown_side1",
+				"plate_top": "miniaturia_mod:blocks/table_lightbrown_top",
+				"plate_middle": "miniaturia_mod:blocks/c",
+				"edge2": "miniaturia_mod:blocks/c"
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { "model": "miniaturia_mod:mt_shelf_a_24" },
+            "click1": { "model": "miniaturia_mod:mt_shelf_a_24" },
+            "click2": { "model": "miniaturia_mod:mt_shelf_a_12" },
+            "click3": { "model": "miniaturia_mod:mt_shelf_a_12" }
+		}
+	}
+}

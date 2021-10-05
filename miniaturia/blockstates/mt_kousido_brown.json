@@ -1,0 +1,91 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_hikido_top",
+		"textures":{
+		    "front_lower": "miniaturia_mod:blocks/kousido_brown_0",
+		    "front_top": "miniaturia_mod:blocks/kousido_brown_2",
+		    "front_lower_rh": "miniaturia_mod:blocks/kousido_brown_0",
+		    "front_top_rh": "miniaturia_mod:blocks/kousido_brown_2",
+		    "edge": "miniaturia_mod:blocks/wood_spruce_pole"
+		},
+		"transform": {
+				"gui": {"scale": 0.8, "rotation": [ { "x": 0}, { "y": 90 }, { "z": 0 } ], "translation": [ 0, 0, 0 ] }
+			}
+  },
+    "variants": {
+        "facing=east,half=lower,hinge=left,open=false,powered=true":  { "model": "miniaturia_mod:mt_hikido_bottom" },
+        "facing=south,half=lower,hinge=left,open=false,powered=true": { "model": "miniaturia_mod:mt_hikido_bottom", "y": 90 },
+        "facing=west,half=lower,hinge=left,open=false,powered=true":  { "model": "miniaturia_mod:mt_hikido_bottom", "y": 180 },
+        "facing=north,half=lower,hinge=left,open=false,powered=true": { "model": "miniaturia_mod:mt_hikido_bottom", "y": 270 },
+        "facing=east,half=lower,hinge=right,open=false,powered=true":  { "model": "miniaturia_mod:mt_hikido_bottom_rh" },
+        "facing=south,half=lower,hinge=right,open=false,powered=true": { "model": "miniaturia_mod:mt_hikido_bottom_rh", "y": 90 },
+        "facing=west,half=lower,hinge=right,open=false,powered=true":  { "model": "miniaturia_mod:mt_hikido_bottom_rh", "y": 180 },
+        "facing=north,half=lower,hinge=right,open=false,powered=true": { "model": "miniaturia_mod:mt_hikido_bottom_rh", "y": 270 },
+
+        "facing=east,half=lower,hinge=left,open=true,powered=true":  { "model": "miniaturia_mod:mt_hikido_bottom_open" },
+        "facing=south,half=lower,hinge=left,open=true,powered=true": { "model": "miniaturia_mod:mt_hikido_bottom_open", "y": 90 },
+        "facing=west,half=lower,hinge=left,open=true,powered=true":  { "model": "miniaturia_mod:mt_hikido_bottom_open", "y": 180 },
+        "facing=north,half=lower,hinge=left,open=true,powered=true": { "model": "miniaturia_mod:mt_hikido_bottom_open", "y": 270 },
+        "facing=east,half=lower,hinge=right,open=true,powered=true":  { "model": "miniaturia_mod:mt_hikido_bottom_rh_open" },
+        "facing=south,half=lower,hinge=right,open=true,powered=true": { "model": "miniaturia_mod:mt_hikido_bottom_rh_open", "y": 90 },
+        "facing=west,half=lower,hinge=right,open=true,powered=true":  { "model": "miniaturia_mod:mt_hikido_bottom_rh_open", "y": 180 },
+        "facing=north,half=lower,hinge=right,open=true,powered=true": { "model": "miniaturia_mod:mt_hikido_bottom_rh_open", "y": 270 },
+
+        "facing=east,half=upper,hinge=left,open=false,powered=true":  { "model": "miniaturia_mod:mt_hikido_top" },
+        "facing=south,half=upper,hinge=left,open=false,powered=true": { "model": "miniaturia_mod:mt_hikido_top", "y": 90 },
+        "facing=west,half=upper,hinge=left,open=false,powered=true":  { "model": "miniaturia_mod:mt_hikido_top", "y": 180 },
+        "facing=north,half=upper,hinge=left,open=false,powered=true": { "model": "miniaturia_mod:mt_hikido_top", "y": 270 },
+        "facing=east,half=upper,hinge=right,open=false,powered=true":  { "model": "miniaturia_mod:mt_hikido_top_rh" },
+        "facing=south,half=upper,hinge=right,open=false,powered=true": { "model": "miniaturia_mod:mt_hikido_top_rh", "y": 90 },
+        "facing=west,half=upper,hinge=right,open=false,powered=true":  { "model": "miniaturia_mod:mt_hikido_top_rh", "y": 180 },
+        "facing=north,half=upper,hinge=right,open=false,powered=true": { "model": "miniaturia_mod:mt_hikido_top_rh", "y": 270 },
+
+        "facing=east,half=upper,hinge=left,open=true,powered=true":  { "model": "miniaturia_mod:mt_hikido_top_open" },
+        "facing=south,half=upper,hinge=left,open=true,powered=true": { "model": "miniaturia_mod:mt_hikido_top_open", "y": 90 },
+        "facing=west,half=upper,hinge=left,open=true,powered=true":  { "model": "miniaturia_mod:mt_hikido_top_open", "y": 180 },
+        "facing=north,half=upper,hinge=left,open=true,powered=true": { "model": "miniaturia_mod:mt_hikido_top_open", "y": 270 },
+        "facing=east,half=upper,hinge=right,open=true,powered=true":  { "model": "miniaturia_mod:mt_hikido_top_rh_open" },
+        "facing=south,half=upper,hinge=right,open=true,powered=true": { "model": "miniaturia_mod:mt_hikido_top_rh_open", "y": 90 },
+        "facing=west,half=upper,hinge=right,open=true,powered=true":  { "model": "miniaturia_mod:mt_hikido_top_rh_open", "y": 180 },
+        "facing=north,half=upper,hinge=right,open=true,powered=true": { "model": "miniaturia_mod:mt_hikido_top_rh_open", "y": 270 },
+
+        "facing=east,half=lower,hinge=left,open=false,powered=false":  { "model": "miniaturia_mod:mt_hikido_bottom" },
+        "facing=south,half=lower,hinge=left,open=false,powered=false": { "model": "miniaturia_mod:mt_hikido_bottom", "y": 90 },
+        "facing=west,half=lower,hinge=left,open=false,powered=false":  { "model": "miniaturia_mod:mt_hikido_bottom", "y": 180 },
+        "facing=north,half=lower,hinge=left,open=false,powered=false": { "model": "miniaturia_mod:mt_hikido_bottom", "y": 270 },
+        "facing=east,half=lower,hinge=right,open=false,powered=false":  { "model": "miniaturia_mod:mt_hikido_bottom_rh" },
+        "facing=south,half=lower,hinge=right,open=false,powered=false": { "model": "miniaturia_mod:mt_hikido_bottom_rh", "y": 90 },
+        "facing=west,half=lower,hinge=right,open=false,powered=false":  { "model": "miniaturia_mod:mt_hikido_bottom_rh", "y": 180 },
+        "facing=north,half=lower,hinge=right,open=false,powered=false": { "model": "miniaturia_mod:mt_hikido_bottom_rh", "y": 270 },
+
+        "facing=east,half=lower,hinge=left,open=true,powered=false":  { "model": "miniaturia_mod:mt_hikido_bottom_open" },
+        "facing=south,half=lower,hinge=left,open=true,powered=false": { "model": "miniaturia_mod:mt_hikido_bottom_open", "y": 90 },
+        "facing=west,half=lower,hinge=left,open=true,powered=false":  { "model": "miniaturia_mod:mt_hikido_bottom_open", "y": 180 },
+        "facing=north,half=lower,hinge=left,open=true,powered=false": { "model": "miniaturia_mod:mt_hikido_bottom_open", "y": 270 },
+        "facing=east,half=lower,hinge=right,open=true,powered=false":  { "model": "miniaturia_mod:mt_hikido_bottom_rh_open" },
+        "facing=south,half=lower,hinge=right,open=true,powered=false": { "model": "miniaturia_mod:mt_hikido_bottom_rh_open", "y": 90 },
+        "facing=west,half=lower,hinge=right,open=true,powered=false":  { "model": "miniaturia_mod:mt_hikido_bottom_rh_open", "y": 180 },
+        "facing=north,half=lower,hinge=right,open=true,powered=false": { "model": "miniaturia_mod:mt_hikido_bottom_rh_open", "y": 270 },
+
+        "facing=east,half=upper,hinge=left,open=false,powered=false":  { "model": "miniaturia_mod:mt_hikido_top" },
+        "facing=south,half=upper,hinge=left,open=false,powered=false": { "model": "miniaturia_mod:mt_hikido_top", "y": 90 },
+        "facing=west,half=upper,hinge=left,open=false,powered=false":  { "model": "miniaturia_mod:mt_hikido_top", "y": 180 },
+        "facing=north,half=upper,hinge=left,open=false,powered=false": { "model": "miniaturia_mod:mt_hikido_top", "y": 270 },
+        "facing=east,half=upper,hinge=right,open=false,powered=false":  { "model": "miniaturia_mod:mt_hikido_top_rh" },
+        "facing=south,half=upper,hinge=right,open=false,powered=false": { "model": "miniaturia_mod:mt_hikido_top_rh", "y": 90 },
+        "facing=west,half=upper,hinge=right,open=false,powered=false":  { "model": "miniaturia_mod:mt_hikido_top_rh", "y": 180 },
+        "facing=north,half=upper,hinge=right,open=false,powered=false": { "model": "miniaturia_mod:mt_hikido_top_rh", "y": 270 },
+
+        "facing=east,half=upper,hinge=left,open=true,powered=false":  { "model": "miniaturia_mod:mt_hikido_top_open" },
+        "facing=south,half=upper,hinge=left,open=true,powered=false": { "model": "miniaturia_mod:mt_hikido_top_open", "y": 90 },
+        "facing=west,half=upper,hinge=left,open=true,powered=false":  { "model": "miniaturia_mod:mt_hikido_top_open", "y": 180 },
+        "facing=north,half=upper,hinge=left,open=true,powered=false": { "model": "miniaturia_mod:mt_hikido_top_open", "y": 270 },
+        "facing=east,half=upper,hinge=right,open=true,powered=false":  { "model": "miniaturia_mod:mt_hikido_top_rh_open" },
+        "facing=south,half=upper,hinge=right,open=true,powered=false": { "model": "miniaturia_mod:mt_hikido_top_rh_open", "y": 90 },
+        "facing=west,half=upper,hinge=right,open=true,powered=false":  { "model": "miniaturia_mod:mt_hikido_top_rh_open", "y": 180 },
+        "facing=north,half=upper,hinge=right,open=true,powered=false": { "model": "miniaturia_mod:mt_hikido_top_rh_open", "y": 270 },
+
+        "inventory":[{ }]
+    }
+}

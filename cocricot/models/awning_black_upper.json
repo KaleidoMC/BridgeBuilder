@@ -1,0 +1,29 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/awning_black_upper",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [ -6.626, -1, 0  ],
+			"to": [ 16, 0, 16 ],
+			"rotation": { "origin": [ 16, 0, 0 ], "axis": "z", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 },
+				"up": { "uv": [ 16, 0, 0, 16 ], "texture": "#0", "rotation": 90 },
+				"north": { "uv": [ 16, 16, 15, 0 ], "texture": "#0", "cullface": "north", "rotation": 90 },
+				"south": { "uv": [ 1, 16, 0, 0 ], "texture": "#0", "cullface": "south", "rotation": 90 },
+				"west": { "uv": [ 0, 0, 16, 1 ], "texture": "#0", "cullface": "west", "rotation": 180 },
+				"east": { "uv": [ 16, 15, 0, 16 ], "texture": "#0", "cullface": "east", "rotation": 180 }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation":  [ 30, -45, 0 ],
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		}
+	}
+}

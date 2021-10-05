@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "cocricotmod:blocks/stone_color_black",
+        "top": "cocricotmod:blocks/stone_color_black",
+        "side": "cocricotmod:blocks/stone_color_black"
+    }
+}

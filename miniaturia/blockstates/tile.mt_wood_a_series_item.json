@@ -1,0 +1,59 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "cube_column",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_oak",
+					"side" : "miniaturia_mod:blocks/wood_oak"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_spruce",
+					"side" : "miniaturia_mod:blocks/wood_spruce"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_birch_top",
+					"side" : "miniaturia_mod:blocks/wood_birch"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_jungle_top",
+					"side" : "miniaturia_mod:blocks/wood_jungle"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_acacia_top",
+					"side" : "miniaturia_mod:blocks/wood_acacia"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side" : "miniaturia_mod:blocks/wood_dark_oak"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_oriental_red",
+					"side" : "miniaturia_mod:blocks/wood_oriental_red"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wood_oriental_black",
+					"side" : "miniaturia_mod:blocks/wood_oriental_black"
+				}
+			}
+		}
+    }
+}

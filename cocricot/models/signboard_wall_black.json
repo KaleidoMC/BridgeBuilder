@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/signboard_wall_blue",
+	"textures": {
+		"0": "cocricotmod:blocks/captionplate_black",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/floorlamp_simpleleg_upper",
+    "textures": {
+        "particle": "cocricotmod:blocks/planks_natural",
+        "0": "cocricotmod:blocks/floorlamp_simpleleg_natural"
+    }
+}

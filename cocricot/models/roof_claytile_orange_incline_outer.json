@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/roof_incline_outer",
+    "textures": {
+      "texture": "cocricotmod:blocks/roof_claytile_orange_outer",
+      "texture1": "cocricotmod:blocks/roof_claytile_orange_outer1",
+      "texture3": "cocricotmod:blocks/roof_claytile_orange_incline"
+    }
+}

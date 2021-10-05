@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/stool_camp_natural",
+  	"textures": {
+  		"0": "cocricotmod:blocks/chair_beach_camouflage",
+  		"1": "cocricotmod:blocks/chair_beach_camouflage",
+  		"particle": "cocricotmod:blocks/planks_brown"
+  	}
+}

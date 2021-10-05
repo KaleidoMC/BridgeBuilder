@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/cobblestone_sand",
+			        "top":		 "miniaturia_mod:blocks/cobblestone_sand",
+			        "side":		 "miniaturia_mod:blocks/cobblestone_sand"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/cobblestone_b",
+			        "top":		 "miniaturia_mod:blocks/cobblestone_b",
+			        "side":		 "miniaturia_mod:blocks/cobblestone_b"
+					}
+				}
+        }
+    }
+}

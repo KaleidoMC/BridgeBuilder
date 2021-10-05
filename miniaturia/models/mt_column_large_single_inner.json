@@ -1,0 +1,67 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "miniaturia_mod:blocks/stone_column_end",
+		"end": "miniaturia_mod:blocks/stone_column_end",
+		"single": "miniaturia_mod:blocks/stone_column_single"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [0, 14, 0],
+			"to": [16, 16.0005, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 14, 0]},
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#single", "cullface": "east"},
+				"west": {"uv": [0, 14, 16, 16.0005], "texture": "#single"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#end", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#end"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [2, 2, 0],
+			"to": [16, 3.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 5, 0]},
+			"faces": {
+				"north": {"uv": [0, 12.5, 14, 14], "texture": "#single", "cullface": "east"},
+				"west": {"uv": [0, 12.5, 16, 14], "texture": "#single"},
+				"up": {"uv": [0, 0, 16, 14], "rotation": 270, "texture": "#end"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [3, 3.5, 0],
+			"to": [16, 10, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 6, 0]},
+			"faces": {
+				"north": {"uv": [0, 6, 13, 12.5], "texture": "#single", "cullface": "east"},
+				"west": {"uv": [0, 6, 16, 12.5], "texture": "#single"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [2, 10, 0],
+			"to": [16, 14, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 12.5, 0]},
+			"faces": {
+				"north": {"uv": [0, 2, 14, 6], "texture": "#single", "cullface": "east"},
+				"west": {"uv": [0, 2, 16, 6], "texture": "#single"},
+				"down": {"uv": [0, 2, 16, 16], "rotation": 90, "texture": "#end"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [0, 0, 0],
+			"to": [16, 2.0005, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#single", "cullface": "east"},
+				"west": {"uv": [0, 14, 16, 16.0005], "texture": "#single"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#end"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#end", "cullface": "down"}
+			}
+		}
+	]
+}

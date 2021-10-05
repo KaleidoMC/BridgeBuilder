@@ -1,0 +1,115 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_shelf_c_12",
+		"textures": {
+				"edge": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+				"plate": "miniaturia_mod:blocks/table_lightbrown_top",
+				"side1": "miniaturia_mod:blocks/furniture_lightbrown_side1a",
+				"side2": "miniaturia_mod:blocks/furniture_lightbrown_side2",
+				"side1b": "miniaturia_mod:blocks/furniture_lightbrown_side1",
+				"edge2": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+				"plate_middle": "miniaturia_mod:blocks/table_lightbrown_top",
+				"front_12": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_12",
+				"front_13": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_13",
+				"front_15": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_15",
+				"front_24": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_24",
+				"front_25": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_25",
+				"front_27": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_27"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": { },
+			 	"1": { },
+			 	"2": {
+				 	"textures": {
+							"edge2": "miniaturia_mod:blocks/c",
+							"plate_middle": "miniaturia_mod:blocks/c"
+						}
+					},
+			 	"3": {
+				 	"textures": {
+							"edge2": "miniaturia_mod:blocks/c",
+							"plate_middle": "miniaturia_mod:blocks/c"
+						}
+					}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_shelf_c_24",
+				    		"textures": {
+								"front_24": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_36"
+							}
+						},
+    		"middle":	{ "model": "miniaturia_mod:mt_shelf_c_24" },
+    		"top":		{ "model": "miniaturia_mod:mt_shelf_c_12" },
+    		"single":	{ "model": "miniaturia_mod:mt_shelf_c_12",
+				    		"textures": {
+								"front_12": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_0",
+								"side1": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side"
+							}
+    		 			},
+    		"lb":		{ "model": "miniaturia_mod:mt_shelf_c_25",
+				    		"textures": {
+								"front_25": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_37"
+							}
+    					},
+    		"mb":		{ "model": "miniaturia_mod:mt_shelf_c_27",
+				    		"textures": {
+								"front_27": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_39"
+							}
+    		 			},
+    		"rb":		{ "model": "miniaturia_mod:mt_shelf_c_27",
+				    		"textures": {
+								"front_27": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_39"
+							}
+    		 			},
+    		"lm":		{ "model": "miniaturia_mod:mt_shelf_c_25" },
+    		"mm":		{ "model": "miniaturia_mod:mt_shelf_c_27" },
+    		"rm":		{ "model": "miniaturia_mod:mt_shelf_c_27" },
+    		"lt":		{ "model": "miniaturia_mod:mt_shelf_c_13",
+				    		"textures": {
+								"front_13": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_13"
+							}
+						},
+    		"mt":		{ "model": "miniaturia_mod:mt_shelf_c_15",
+				    		"textures": {
+								"front_13": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_15"
+							}
+						},
+    		"rt":		{ "model": "miniaturia_mod:mt_shelf_c_15",
+				    		"textures": {
+								"front_13": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_15"
+							}
+						},
+    		"ls":		{ "model": "miniaturia_mod:mt_shelf_c_13",
+				    		"textures": {
+								"front_13": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_0",
+								"side1": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side"
+							}
+						},
+    		"ms":		{ "model": "miniaturia_mod:mt_shelf_c_15",
+				    		"textures": {
+								"front_15": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_0",
+								"side1": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side"
+							}
+						},
+    		"rs":		{ "model": "miniaturia_mod:mt_shelf_c_15",
+				    		"textures": {
+								"front_15": "miniaturia_mod:blocks/furniture_cupboard_lightbrown_0",
+								"side1": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side"
+							}
+						}
+				}
+		}
+}

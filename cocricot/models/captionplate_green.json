@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/captionplate_black",
+    "textures": {
+  		"0": "cocricotmod:blocks/captionplate_green",
+  		"particle": "cocricotmod:blocks/stone_color_green"
+    }
+}

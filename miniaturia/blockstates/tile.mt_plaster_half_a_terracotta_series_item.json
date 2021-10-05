@@ -1,0 +1,67 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "half_slab",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_orange",
+					"top" : "miniaturia_mod:blocks/terracotta_square",
+					"side" : "miniaturia_mod:blocks/plaster_orange_half_terracotta"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_yellow",
+					"top" : "miniaturia_mod:blocks/terracotta_square",
+					"side" : "miniaturia_mod:blocks/plaster_yellow_half_terracotta"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_lightblue",
+					"top" : "miniaturia_mod:blocks/terracotta_square",
+					"side" : "miniaturia_mod:blocks/plaster_lightblue_half_terracotta"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_pink",
+					"top" : "miniaturia_mod:blocks/terracotta_square",
+					"side" : "miniaturia_mod:blocks/plaster_pink_half_terracotta"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_mint",
+					"top" : "miniaturia_mod:blocks/terracotta_square",
+					"side" : "miniaturia_mod:blocks/plaster_mint_half_terracotta"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_blue",
+					"top" : "miniaturia_mod:blocks/terracotta_square",
+					"side" : "miniaturia_mod:blocks/plaster_blue_half_terracotta"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_green",
+					"top" : "miniaturia_mod:blocks/terracotta_square",
+					"side" : "miniaturia_mod:blocks/plaster_green_half_terracotta"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/plaster_red",
+					"top" : "miniaturia_mod:blocks/terracotta_square",
+					"side" : "miniaturia_mod:blocks/plaster_red_half_terracotta"
+				}
+			}
+		}
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cocricotmod:blocks/mirror_frame_seadrift10"
+    }
+}

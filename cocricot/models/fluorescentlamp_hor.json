@@ -1,0 +1,24 @@
+{
+	"parent": "cocricotmod:block/fluorescentlamp",
+	"elements": [
+		{
+			"from": [0, 7, 14],
+			"to": [16, 9, 16],
+			"faces": {
+				"north": {"uv": [8, 14.25, 16, 15.25], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [8, 11.5, 9, 12.5], "rotation": 270, "texture": "#0", "cullface": "east"},
+				"south": {"uv": [8.5, 15.75, 8.75, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [8, 11.5, 9, 12.5], "rotation": 90, "texture": "#0", "cullface": "west"},
+				"up": {"uv": [8, 13.5, 16, 14.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8, 13.5, 16, 14.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [6.3, -3.5, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

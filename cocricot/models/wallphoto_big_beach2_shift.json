@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/wallphoto_big_beach_shift",
+  	"textures": {
+  		"0": "cocricotmod:blocks/wallphoto_beach2"
+  	}
+}

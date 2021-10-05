@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/awning_black_upper",
+    "textures": {
+      "0": "cocricotmod:blocks/awning_lightpurple_upper"
+    }
+}

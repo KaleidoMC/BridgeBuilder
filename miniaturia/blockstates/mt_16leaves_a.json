@@ -1,0 +1,146 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+			"model": "miniaturia_mod:mt_leaves_a"
+  	},
+
+	"variants": {
+
+		"variant": {
+
+			"meta0": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_oak",
+					"1": "miniaturia_mod:blocks/leaves_oak_1"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_oak_b",
+					"1": "miniaturia_mod:blocks/leaves_oak_b_1"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_oak_c",
+					"1": "miniaturia_mod:blocks/leaves_oak_c_1"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_oak_d",
+					"1": "miniaturia_mod:blocks/leaves_oak_d_1"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_oak_e",
+					"1": "miniaturia_mod:blocks/leaves_oak_e_1"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_oak_f",
+					"1": "miniaturia_mod:blocks/leaves_oak_f_1"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_oak_g",
+					"1": "miniaturia_mod:blocks/leaves_oak_g_1"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_platan",
+					"1": "miniaturia_mod:blocks/leaves_platan_1"
+				}
+			},
+			"meta8": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_platan_b",
+					"1": "miniaturia_mod:blocks/leaves_platan_b_1"
+				}
+			},
+			"meta9": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_ginkgo",
+					"1": "miniaturia_mod:blocks/leaves_ginkgo_1"
+				}
+			},
+			"meta10":{
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_ginkgo_b",
+					"1": "miniaturia_mod:blocks/leaves_ginkgo_b_1"
+				}
+			},
+			"meta11": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_momiji",
+					"1": "miniaturia_mod:blocks/leaves_momiji_1"
+				}
+			},
+			"meta12": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/bamboo_leaves_b",
+					"1": "miniaturia_mod:blocks/bamboo_leaves_b_1"
+				}
+			},
+			"meta13": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_ivy_a_block",
+					"1": "miniaturia_mod:blocks/leaves_ivy_center"
+				}
+			},
+			"meta14": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_ivy_b_block",
+					"1": "miniaturia_mod:blocks/leaves_ivy_b_center"
+				}
+			},
+			"meta15": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/leaves_camellia",
+					"1": "miniaturia_mod:blocks/leaves_camellia_1"
+				}
+			}
+		},
+
+		"variant=meta0": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta1": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta2": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta3": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta4": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta5": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta6": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta7": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta8": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta9": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta10": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta11": [{ "model": "miniaturia_mod:mt_leaves_b" },{ "model": "miniaturia_mod:mt_leaves_b", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_b2" },{ "model": "miniaturia_mod:mt_leaves_b2", "y": 90 }],
+		"variant=meta12": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }],
+		"variant=meta13": [{ "model": "miniaturia_mod:mt_leaves_c" },{ "model": "miniaturia_mod:mt_leaves_c", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_c", "y": 180 },{ "model": "miniaturia_mod:mt_leaves_c", "y": 270 },
+							{ "model": "miniaturia_mod:mt_leaves_c2" },{ "model": "miniaturia_mod:mt_leaves_c2", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_c2", "y": 180 },{ "model": "miniaturia_mod:mt_leaves_c2", "y": 270 }],
+		"variant=meta14": [{ "model": "miniaturia_mod:mt_leaves_c" },{ "model": "miniaturia_mod:mt_leaves_c", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_c", "y": 180 },{ "model": "miniaturia_mod:mt_leaves_c", "y": 270 },
+							{ "model": "miniaturia_mod:mt_leaves_c2" },{ "model": "miniaturia_mod:mt_leaves_c2", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_c2", "y": 180 },{ "model": "miniaturia_mod:mt_leaves_c2", "y": 270 }],
+		"variant=meta15": [{ "model": "miniaturia_mod:mt_leaves_a" },{ "model": "miniaturia_mod:mt_leaves_a", "y": 90 },
+							{ "model": "miniaturia_mod:mt_leaves_a2" },{ "model": "miniaturia_mod:mt_leaves_a2", "y": 90 }]
+	}
+}

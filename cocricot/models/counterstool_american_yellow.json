@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/counterstool_american_black",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_color_yellow",
+        "1": "cocricotmod:blocks/counterstool_american_yellow"
+    }
+}

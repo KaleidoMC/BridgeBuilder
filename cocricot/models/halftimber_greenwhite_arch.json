@@ -1,0 +1,7 @@
+{
+  "parent": "cocricotmod:block/base_cube_topside",
+  "textures": {
+      "top": "cocricotmod:blocks/halftimber_green",
+      "side": "cocricotmod:blocks/halftimber_greenwhite26"
+    }
+}

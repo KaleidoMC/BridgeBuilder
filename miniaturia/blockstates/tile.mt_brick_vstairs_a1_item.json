@@ -1,0 +1,49 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			},
+		"uvlock": true
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/brick_beige_stairs_top",
+			        "corner_top":		"miniaturia_mod:blocks/brick_beige_stairs_top",
+			        "ns":		"miniaturia_mod:blocks/brick_beige",
+			        "we":		"miniaturia_mod:blocks/brick_beige"
+			    	}
+            	},
+            "click1": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/brick_thin_black",
+			        "corner_top":		"miniaturia_mod:blocks/brick_thin_black",
+			        "ns":		"miniaturia_mod:blocks/brick_thin_black",
+			        "we":		"miniaturia_mod:blocks/brick_thin_black"
+			    	}
+            	},
+            "click2": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/quartz",
+			        "corner_top":		"miniaturia_mod:blocks/quartz",
+			        "ns":		"miniaturia_mod:blocks/quartz",
+			        "we":		"miniaturia_mod:blocks/quartz"
+			    	}
+            	},
+            "click3": {
+            	"textures": {
+					"corner_bottom":	"miniaturia_mod:blocks/cs",
+			        "corner_top":		"miniaturia_mod:blocks/cs",
+			        "ns":		"miniaturia_mod:blocks/cs",
+			        "we":		"miniaturia_mod:blocks/cs"
+			    	}
+            	}
+            }
+        }
+}

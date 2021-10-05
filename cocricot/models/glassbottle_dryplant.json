@@ -1,0 +1,6 @@
+{
+	"parent": "cocricotmod:block/glassbottle_cottonflower",
+	"textures": {
+		"0": "cocricotmod:blocks/glassbottle_dryplant"
+	}
+}

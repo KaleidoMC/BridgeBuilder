@@ -1,0 +1,43 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_antiquephone_a"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"body": "miniaturia_mod:blocks/telephone_a_body_wood",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_wood"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"body": "miniaturia_mod:blocks/telephone_a_body_white",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_white"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"body": "miniaturia_mod:blocks/telephone_a_body_pink",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_pink"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"body": "miniaturia_mod:blocks/telephone_a_body_mint",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_mint"
+			 		}
+	    		}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

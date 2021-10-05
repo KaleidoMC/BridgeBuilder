@@ -1,0 +1,29 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/sofa_slipper_red1",
+		"particle": "cocricotmod:blocks/stone_color_red"
+	},
+	"elements": [
+		{
+			"from": [3.5, 0, 3.5],
+			"to": [12.5, 23, 12.5],
+			"faces": {
+				"north": {"uv": [4.5, 11.5, 16, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [4.5, 11.5, 16, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4.5, 11.5, 16, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [4.5, 11.5, 16, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 11.5, 4.5, 16], "texture": "#0"},
+				"down": {"uv": [15.75, 14.25, 16, 14.5], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -1.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

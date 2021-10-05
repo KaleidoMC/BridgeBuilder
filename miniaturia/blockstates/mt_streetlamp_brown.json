@@ -1,0 +1,32 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"custom": { "flip-v": true },
+  		"model": "miniaturia_mod:mt_streetlamp_a.obj",
+		"textures":{
+	    		"#2": "miniaturia_mod:blocks/streetlamp_brown",
+				"#3": "miniaturia_mod:blocks/lamplight",
+				"particle": "miniaturia_mod:blocks/streetlamp_brown"
+				}
+  },
+    "variants": {
+        "power=0": [{}],
+        "power=1": [{}],
+        "power=2": [{}],
+        "power=3": [{}],
+        "power=4": [{}],
+        "power=5": [{}],
+        "power=6": [{}],
+        "power=7": [{}],
+        "power=8": [{}],
+        "power=9": [{}],
+        "power=10": [{}],
+        "power=11": [{}],
+        "power=12": [{}],
+        "power=13": [{}],
+        "power=14": [{}],
+        "power=15": [{}],
+
+        "inventory":[{ }]
+    }
+}

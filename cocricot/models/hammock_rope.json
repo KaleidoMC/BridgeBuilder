@@ -1,0 +1,26 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/hammock",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	},
+	"elements": [
+		{
+			"from": [7.38388, -0.97577, 7.80635],
+			"to": [8.38388, -0.97577, 17.30635],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8.38388, 14.58058, -3]},
+			"shade": false,
+			"faces": {
+				"up": {"uv": [15.5, 11, 16, 16], "texture": "#0"},
+				"down": {"uv": [15.5, 11, 16, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [12, -14.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

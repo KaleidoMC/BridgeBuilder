@@ -1,0 +1,32 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "miniaturia_mod:item_generated",
+	  		"transform": "forge:default-item",
+	  		"textures": {
+			        "layer0": "miniaturia_mod:blocks/p"
+					},
+			"uvlock": true
+			},
+
+    "variants": {
+        "variant": {
+            "meta0": { },
+            "meta1": { },
+            "meta2": { },
+            "meta3": { },
+			"meta4": { },
+			"meta5": { },
+			"meta6": { },
+			"meta7": { },
+			"meta8": { },
+            "meta9": { },
+            "meta10": { },
+            "meta11": { },
+			"meta12": { },
+			"meta13": { },
+			"meta14": { },
+			"meta15": { }
+            }
+    }
+}

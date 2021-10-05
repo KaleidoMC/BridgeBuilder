@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "cocricotmod:blocks/roof_copper_red",
+        "top": "cocricotmod:blocks/roof_copper_red",
+        "side": "cocricotmod:blocks/roof_copper_red"
+    }
+}

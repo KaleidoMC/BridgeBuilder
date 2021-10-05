@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_nothickness_slant",
+    "textures": {
+        "texture": "cocricotmod:blocks/stringlights_globe1"
+    }
+}

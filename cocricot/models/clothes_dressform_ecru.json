@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_cross_double",
+    "textures": {
+        "cross": "cocricotmod:blocks/clothes_dressform_ecru"
+    }
+}

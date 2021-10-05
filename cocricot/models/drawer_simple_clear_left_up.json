@@ -1,0 +1,28 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/drawer_simple_clear",
+		"particle": "cocricotmod:blocks/planks_clear"
+	},
+	"elements": [
+		{
+			"from": [0, 14, 2.5],
+			"to": [13, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 3.375, 0.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 3.25, 0.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 3.375, 0.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 13, 13.5], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [0, 0, 13, 13.5], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [0, 0, 3],
+			"to": [12.5, 14, 15.5],
+			"faces": {
+				"north": {"uv": [3.75, 5, 6.875, 8.5], "texture": "#0"},
+				"east": {"uv": [12.875, 0, 16, 3.5], "texture": "#0"},
+				"south": {"uv": [9.75, 0, 12.875, 3.5], "texture": "#0"}
+			}
+		}
+	]
+}

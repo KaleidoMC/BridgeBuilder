@@ -1,0 +1,18 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"textures":{
+			"bottom" : "miniaturia_mod:blocks/stonebrick",
+			"top" : "miniaturia_mod:blocks/stonebrick",
+			"side" : "miniaturia_mod:blocks/stonebrick"
+			},
+		"model": "half_slab",
+		"uvlock": true
+  },
+    "variants": {
+        "half=bottom,variant=default": { "model": "half_slab" },
+        "half=top,variant=default": { "model": "upper_slab" },
+
+        "inventory":[{ }]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/wallshelf_floating",
+    "textures": {
+      "texture": "cocricotmod:blocks/planks_dark",
+      "texture1": "cocricotmod:blocks/chair_dark"
+    }
+}

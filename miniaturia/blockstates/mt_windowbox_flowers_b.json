@@ -1,0 +1,32 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_windowbox",
+		"textures": {
+				"0": "miniaturia_mod:blocks/windowbox0",
+				"1": "miniaturia_mod:blocks/pot_terracotta_a",
+				"3": "miniaturia_mod:blocks/windowbox2",
+				"6": "miniaturia_mod:blocks/flower_marigold",
+				"cross": "miniaturia_mod:blocks/flower_pansy",
+				"cross_front": "miniaturia_mod:blocks/flower_marigold"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { },
+	    		"2": { }
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+        "inventory":[{ }]
+    }
+}

@@ -1,0 +1,67 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_taruki_a",
+	    "textures": {
+			"2": "miniaturia_mod:blocks/wood_oriental_red_pole",
+			"3": "miniaturia_mod:blocks/wood_oriental_yellow_edge",
+			"#m_2": "miniaturia_mod:blocks/wood_oriental_red_pole",
+			"#m_3": "miniaturia_mod:blocks/wood_oriental_yellow_edge",
+			"particle": "miniaturia_mod:blocks/wood_oriental_red_pole"
+			}
+	},
+
+    "variants": {
+        "click=0,facing=east,shape=straight":		{"model":"miniaturia_mod:mt_taruki_a", "y": 0 },
+        "click=0,facing=west,shape=straight":		{"model":"miniaturia_mod:mt_taruki_a", "y": 180 },
+        "click=0,facing=south,shape=straight":		{"model":"miniaturia_mod:mt_taruki_a", "y": 90 },
+        "click=0,facing=north,shape=straight":		{"model":"miniaturia_mod:mt_taruki_a", "y": 270 },
+
+        "click=0,facing=east,shape=outer_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 0 },
+        "click=0,facing=west,shape=outer_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 180 },
+        "click=0,facing=south,shape=outer_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 90 },
+        "click=0,facing=north,shape=outer_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 270 },
+
+        "click=0,facing=east,shape=outer_left":		{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 270 },
+        "click=0,facing=west,shape=outer_left":		{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 90 },
+        "click=0,facing=south,shape=outer_left":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 0 },
+        "click=0,facing=north,shape=outer_left":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 180 },
+
+        "click=0,facing=east,shape=inner_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 0 },
+        "click=0,facing=west,shape=inner_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 180 },
+        "click=0,facing=south,shape=inner_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 90 },
+        "click=0,facing=north,shape=inner_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 270 },
+
+        "click=0,facing=east,shape=inner_left":		{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 270 },
+        "click=0,facing=west,shape=inner_left":		{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 90 },
+        "click=0,facing=south,shape=inner_left":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 0 },
+        "click=0,facing=north,shape=inner_left":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 180 },
+
+
+        "click=1,facing=east,shape=straight":		{"model":"miniaturia_mod:mt_taruki_b", "y": 0 },
+        "click=1,facing=west,shape=straight":		{"model":"miniaturia_mod:mt_taruki_b", "y": 180 },
+        "click=1,facing=south,shape=straight":		{"model":"miniaturia_mod:mt_taruki_b", "y": 90 },
+        "click=1,facing=north,shape=straight":		{"model":"miniaturia_mod:mt_taruki_b", "y": 270 },
+
+        "click=1,facing=east,shape=outer_right":	{"model":"miniaturia_mod:mt_taruki_b_outer.obj", "y": 0 },
+        "click=1,facing=west,shape=outer_right":	{"model":"miniaturia_mod:mt_taruki_b_outer.obj", "y": 180 },
+        "click=1,facing=south,shape=outer_right":	{"model":"miniaturia_mod:mt_taruki_b_outer.obj", "y": 90 },
+        "click=1,facing=north,shape=outer_right":	{"model":"miniaturia_mod:mt_taruki_b_outer.obj", "y": 270 },
+
+        "click=1,facing=east,shape=outer_left":		{"model":"miniaturia_mod:mt_taruki_b_outer.obj", "y": 270 },
+        "click=1,facing=west,shape=outer_left":		{"model":"miniaturia_mod:mt_taruki_b_outer.obj", "y": 90 },
+        "click=1,facing=south,shape=outer_left":	{"model":"miniaturia_mod:mt_taruki_b_outer.obj", "y": 0 },
+        "click=1,facing=north,shape=outer_left":	{"model":"miniaturia_mod:mt_taruki_b_outer.obj", "y": 180 },
+
+        "click=1,facing=east,shape=inner_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 0 },
+        "click=1,facing=west,shape=inner_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 180 },
+        "click=1,facing=south,shape=inner_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 90 },
+        "click=1,facing=north,shape=inner_right":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 270 },
+
+        "click=1,facing=east,shape=inner_left":		{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 270 },
+        "click=1,facing=west,shape=inner_left":		{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 90 },
+        "click=1,facing=south,shape=inner_left":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 0 },
+        "click=1,facing=north,shape=inner_left":	{"model":"miniaturia_mod:mt_taruki_a_outer.obj", "y": 180 }
+	}
+}

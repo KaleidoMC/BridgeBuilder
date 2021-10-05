@@ -1,0 +1,56 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_vquarter_molded"
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/stone_upper_molding",
+						"1": "miniaturia_mod:blocks/stone_plate_parts"
+						}
+					},
+			 	"1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/quartz_upper_molding",
+						"1": "miniaturia_mod:blocks/quartz_plate_parts"
+						}
+					}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+		"half": {
+    		"bottom":	{ },
+    		"top":		{ }
+		},
+
+		"click=0,facing=north,half=bottom":	{ "x": 180, "y": 180 },
+		"click=0,facing=east,half=bottom":	{ "x": 180, "y": 270 },
+		"click=0,facing=south,half=bottom":	{ "x": 180, "y": 0 },
+		"click=0,facing=west,half=bottom":	{ "x": 180, "y": 90 },
+
+		"click=0,facing=north,half=top":	[{}],
+		"click=0,facing=east,half=top":		[{}],
+		"click=0,facing=south,half=top":	[{}],
+		"click=0,facing=west,half=top":		[{}],
+
+		"click=1,facing=north,half=bottom":	{ "x": 180, "y": 180 },
+		"click=1,facing=east,half=bottom":	{ "x": 180, "y": 270 },
+		"click=1,facing=south,half=bottom":	{ "x": 180, "y": 0 },
+		"click=1,facing=west,half=bottom":	{ "x": 180, "y": 90 },
+
+		"click=1,facing=north,half=top":	[{}],
+		"click=1,facing=east,half=top":		[{}],
+		"click=1,facing=south,half=top":	[{}],
+		"click=1,facing=west,half=top":		[{}]
+    }
+}

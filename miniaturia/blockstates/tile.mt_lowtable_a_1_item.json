@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_lowtable_single"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/table_acacia_top",
+						"1": "miniaturia_mod:blocks/table_side1_acacia",
+						"2": "miniaturia_mod:blocks/table_acacia_parts"
+					}
+				},
+            "click1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/table_darkbrown_top",
+						"1": "miniaturia_mod:blocks/table_side1_darkbrown",
+						"2": "miniaturia_mod:blocks/table_darkbrown_parts"
+					}
+				}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/drawer_simple_clear",
+		"particle": "cocricotmod:blocks/planks_clear"
+	},
+	"elements": [
+		{
+			"from": [3.5, 2, 3],
+			"to": [16, 16, 15.5],
+			"faces": {
+				"north": {"uv": [10.875, 12.5, 14, 16], "texture": "#0"},
+				"south": {"uv": [12.875, 0.5, 9.75, 4], "texture": "#0"},
+				"west": {"uv": [12.875, 0.5, 16, 4], "texture": "#0"},
+				"down": {"uv": [0, 0, 12.5, 12.5], "texture": "#particle", "cullface": "up"}
+			}
+		},
+		{
+			"from": [3.5, 0, 13.5],
+			"to": [5.5, 2, 15.5],
+			"faces": {
+				"north": {"uv": [4, 0, 4.5, 0.5], "texture": "#0"},
+				"east": {"uv": [4.5, 0, 4, 0.5], "texture": "#0"},
+				"south": {"uv": [4, 0, 4.5, 0.5], "texture": "#0"},
+				"west": {"uv": [4.5, 0, 4, 0.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3.5, 0, 3],
+			"to": [5.5, 2, 5],
+			"faces": {
+				"north": {"uv": [4.5, 0, 4, 0.5], "texture": "#0"},
+				"east": {"uv": [4, 0, 4.5, 0.5], "texture": "#0"},
+				"south": {"uv": [4.5, 0, 4, 0.5], "texture": "#0"},
+				"west": {"uv": [4, 0, 4.5, 0.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		}
+	]
+}

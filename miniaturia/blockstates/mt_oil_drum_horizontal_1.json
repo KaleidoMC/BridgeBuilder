@@ -1,0 +1,38 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_oil_drum_b"
+	},
+
+    "variants": {
+
+    	"click": {
+				"0":{
+					"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_yellow",
+							"1": "miniaturia_mod:blocks/oil_drum_yellow_top",
+							"particle": "miniaturia_mod:blocks/oil_drum_yellow"
+						}
+					},
+				"1":{
+					"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_red",
+							"1": "miniaturia_mod:blocks/oil_drum_red_top",
+							"particle": "miniaturia_mod:blocks/oil_drum_red"
+						}
+					}
+    	},
+
+    	"half": {
+    		"top":		{ "model": "miniaturia_mod:mt_oil_drum_b" },
+    		"bottom":	{ "model": "miniaturia_mod:mt_oil_drum_b" }
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+	}
+}

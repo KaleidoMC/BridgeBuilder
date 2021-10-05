@@ -1,0 +1,36 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_roof_hip_stairs_n",
+		"textures": {
+			"0": "miniaturia_mod:blocks/roof_marron_edge",
+	    	"#m_0": "miniaturia_mod:blocks/roof_marron_edge",
+	    	"#m_1": "miniaturia_mod:blocks/roof_marron_side",
+			"particle": "miniaturia_mod:blocks/roof_marron_edge"
+	    }
+	},
+
+    "variants": {
+
+        "click=0,poleshape=n":	{ "model":"miniaturia_mod:mt_roof_hip_stairs_n" },
+        "click=0,poleshape=e":	{ "model":"miniaturia_mod:mt_roof_hip_stairs_n", "y": 90 },
+        "click=0,poleshape=s":	{ "model":"miniaturia_mod:mt_roof_hip_stairs_n", "y": 180 },
+        "click=0,poleshape=w":	{ "model":"miniaturia_mod:mt_roof_hip_stairs_n", "y": 270 },
+
+        "click=0,poleshape=ne":	{ "model":"miniaturia_mod:mt_roof_hip_stairs.obj", "y": 270 },
+        "click=0,poleshape=se":	{ "model":"miniaturia_mod:mt_roof_hip_stairs.obj", "y": 0 },
+        "click=0,poleshape=sw":	{ "model":"miniaturia_mod:mt_roof_hip_stairs.obj", "y": 90 },
+        "click=0,poleshape=nw":	{ "model":"miniaturia_mod:mt_roof_hip_stairs.obj", "y": 180 },
+
+        "click=1,poleshape=n":	{ "model":"miniaturia_mod:mt_roof_hip_steep_straight.obj" },
+        "click=1,poleshape=e":	{ "model":"miniaturia_mod:mt_roof_hip_steep_straight.obj", "y": 90 },
+        "click=1,poleshape=s":	{ "model":"miniaturia_mod:mt_roof_hip_steep_straight.obj", "y": 180 },
+        "click=1,poleshape=w":	{ "model":"miniaturia_mod:mt_roof_hip_steep_straight.obj", "y": 270 },
+
+        "click=1,poleshape=ne":	{ "model":"miniaturia_mod:mt_roof_hip_steep.obj", "y": 270 },
+        "click=1,poleshape=se":	{ "model":"miniaturia_mod:mt_roof_hip_steep.obj", "y": 0 },
+        "click=1,poleshape=sw":	{ "model":"miniaturia_mod:mt_roof_hip_steep.obj", "y": 90 },
+        "click=1,poleshape=nw":	{ "model":"miniaturia_mod:mt_roof_hip_steep.obj", "y": 180 }
+	}
+}

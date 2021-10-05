@@ -1,0 +1,70 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_grass",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "miniaturia_mod:mt_grass" },
+			"top":		{ "model": "miniaturia_mod:mt_grass" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"particle": "miniaturia_mod:blocks/dirt",
+			        "bottom": "miniaturia_mod:blocks/dirt",
+			        "top": "miniaturia_mod:blocks/grass",
+			        "side": "miniaturia_mod:blocks/grass_side",
+			        "overlay": "miniaturia_mod:blocks/grass_side_overlay"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"top": "miniaturia_mod:blocks/dirt",
+			        "overlay_top": "miniaturia_mod:blocks/grass_top_overlay",
+			        "overlay": "miniaturia_mod:blocks/grass"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"top": "miniaturia_mod:blocks/coarse_dirt",
+			        "overlay_top": "miniaturia_mod:blocks/grass_top_overlay",
+			        "overlay": "miniaturia_mod:blocks/grass"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"top": "miniaturia_mod:blocks/gravel",
+			        "overlay_top": "miniaturia_mod:blocks/grass_top_overlay",
+			        "overlay": "miniaturia_mod:blocks/grass"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"top": "miniaturia_mod:blocks/sand",
+			        "overlay_top": "miniaturia_mod:blocks/grass_top_overlay",
+			        "overlay": "miniaturia_mod:blocks/grass"
+				}
+			}
+		},
+
+		"half=bottom,variant=meta0":	{ "model": "grass" },
+		"half=top,variant=meta0":		{ "model": "grass" },
+
+		"half=bottom,variant=meta1":	[{}],
+		"half=top,variant=meta1":		[{}],
+
+		"half=bottom,variant=meta2":	[{}],
+		"half=top,variant=meta2":		[{}],
+
+		"half=bottom,variant=meta3":	[{}],
+		"half=top,variant=meta3":		[{}],
+
+		"half=bottom,variant=meta4":	[{}],
+		"half=top,variant=meta4":		[{}]
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/handrail_slant",
+    "textures": {
+      "texture1": "cocricotmod:blocks/handrail_turnedleg_sandstone2",
+      "texture2": "cocricotmod:blocks/handrail_turnedleg_sandstone_top"
+    }
+}

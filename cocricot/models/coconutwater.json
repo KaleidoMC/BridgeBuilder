@@ -1,0 +1,70 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/basket_deep_darkbrown_baguette",
+		"texture": "cocricotmod:blocks/cafelatte_glass",
+		"particle": "cocricotmod:blocks/stone_color_green"
+	},
+	"elements": [
+		{
+			"from": [5.4, 0, 5.85],
+			"to": [10.4, 5, 10.85],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.4, 4, 8.35]},
+			"faces": {
+				"north": {"uv": [2.5, 0, 0, 2.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 2.5, 2.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [2.5, 0, 0, 2.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 0, 2.5, 2.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2.5, 0, 5, 2.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0.5, 2, 0.75, 2.25], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6.19289, 6.25, 5.05711],
+			"to": [10.19289, 6.25, 9.05711],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8.19289, 6.25, 7.05711]},
+			"faces": {
+				"up": {"uv": [0, 3, 2, 5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2, 3, 0, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.69289, 6, 6.55711],
+			"to": [8.69289, 6, 10.55711],
+			"rotation": {"angle": 45, "axis": "z", "origin": [6.69289, 6, 8.55711]},
+			"faces": {
+				"up": {"uv": [2, 3, 0, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 3, 2, 5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.19289, 4.5, 9.05711],
+			"to": [10.19289, 8.5, 9.05711],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8.19289, 6.5, 9.05711]},
+			"faces": {
+				"north": {"uv": [0, 3, 2, 5], "texture": "#0"},
+				"south": {"uv": [2, 3, 0, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.9, 5, 7.85],
+			"to": [9.4, 8.5, 8.35],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.9, 5, 7.85]},
+			"faces": {
+				"north": {"uv": [3, 12.5, 3.5, 16], "texture": "#texture"},
+				"east": {"uv": [3, 12.5, 3.5, 16], "texture": "#texture"},
+				"south": {"uv": [3, 12.5, 3.5, 16], "texture": "#texture"},
+				"west": {"uv": [3, 12.5, 3.5, 16], "texture": "#texture"},
+				"up": {"uv": [3, 15.5, 3.5, 16], "texture": "#texture"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 0, 0],
+			"translation": [0, 5.25, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

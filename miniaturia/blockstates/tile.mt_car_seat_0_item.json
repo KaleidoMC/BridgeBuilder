@@ -1,0 +1,34 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_car_seat"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/black_parts",
+						"2": "miniaturia_mod:blocks/kingchair3b"
+					}
+				},
+            "click1": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/black_parts",
+						"2": "miniaturia_mod:blocks/kingchair3c"
+					}
+				},
+            "click2": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/black_parts",
+						"2": "miniaturia_mod:blocks/kingchair3d"
+					}
+				},
+            "click3": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/black_parts",
+						"2": "miniaturia_mod:blocks/kingchair3"
+					}
+				}
+            }
+        }
+}

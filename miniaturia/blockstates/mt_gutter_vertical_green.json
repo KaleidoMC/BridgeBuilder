@@ -1,0 +1,126 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_gutter_vertical_strap",
+		"textures": {
+			"0": "miniaturia_mod:blocks/gutter_green2",
+			"1": "miniaturia_mod:blocks/gutter_green1"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { },
+	    		"2": { },
+	    		"3": { }
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_gutter_vertical_strap" },
+    		"middle":	{ "model": "miniaturia_mod:mt_gutter_vertical_strap" },
+    		"top":		{ "model": "miniaturia_mod:mt_gutter_vertical_strap" },
+    		"single":	{ "model": "miniaturia_mod:mt_gutter_vertical_strap" }
+		},
+
+		"click=0,facing=north,shape=bottom":	[{}],
+		"click=0,facing=east,shape=bottom":		[{}],
+		"click=0,facing=south,shape=bottom":	[{}],
+		"click=0,facing=west,shape=bottom":		[{}],
+
+		"click=0,facing=north,shape=middle":	[{}],
+		"click=0,facing=east,shape=middle":		[{}],
+		"click=0,facing=south,shape=middle":	[{}],
+		"click=0,facing=west,shape=middle":		[{}],
+
+		"click=0,facing=north,shape=top":		[{}],
+		"click=0,facing=east,shape=top":		[{}],
+		"click=0,facing=south,shape=top":		[{}],
+		"click=0,facing=west,shape=top":		[{}],
+
+		"click=0,facing=north,shape=single":	[{}],
+		"click=0,facing=east,shape=single":		[{}],
+		"click=0,facing=south,shape=single":	[{}],
+		"click=0,facing=west,shape=single":		[{}],
+
+
+		"click=1,facing=north,shape=bottom":	[{}],
+		"click=1,facing=east,shape=bottom":		[{}],
+		"click=1,facing=south,shape=bottom":	[{}],
+		"click=1,facing=west,shape=bottom":		[{}],
+
+		"click=1,facing=north,shape=middle":	[{}],
+		"click=1,facing=east,shape=middle":		[{}],
+		"click=1,facing=south,shape=middle":	[{}],
+		"click=1,facing=west,shape=middle":		[{}],
+
+		"click=1,facing=north,shape=top":		[{}],
+		"click=1,facing=east,shape=top":		[{}],
+		"click=1,facing=south,shape=top":		[{}],
+		"click=1,facing=west,shape=top":		[{}],
+
+		"click=1,facing=north,shape=single":	[{}],
+		"click=1,facing=east,shape=single":		[{}],
+		"click=1,facing=south,shape=single":	[{}],
+		"click=1,facing=west,shape=single":		[{}],
+
+
+		"click=2,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_gutter_vertical_bottom" },
+		"click=2,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_gutter_vertical_bottom" },
+		"click=2,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_gutter_vertical_bottom" },
+		"click=2,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_gutter_vertical_bottom" },
+
+		"click=2,facing=north,shape=middle":	{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=east,shape=middle":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=south,shape=middle":	{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=west,shape=middle":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+
+		"click=2,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+
+		"click=2,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=2,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+
+
+		"click=3,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_gutter_vertical_bottom" },
+		"click=3,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_gutter_vertical_bottom" },
+		"click=3,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_gutter_vertical_bottom" },
+		"click=3,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_gutter_vertical_bottom" },
+
+		"click=3,facing=north,shape=middle":	{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=east,shape=middle":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=south,shape=middle":	{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=west,shape=middle":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+
+		"click=3,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+
+		"click=3,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_gutter_vertical" },
+		"click=3,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_gutter_vertical" },
+
+        "inventory":[{
+        	"transform": {
+		        "gui": {
+		            "rotation": [ { "x": 0}, { "y": 0 }, { "z": 0 } ],
+		            "scale": 0.8
+		       		}
+				}
+        	}]
+        }
+}

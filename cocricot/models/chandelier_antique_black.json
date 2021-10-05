@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "cocricotmod:blocks/chandelier_antique_black"
+    }
+}

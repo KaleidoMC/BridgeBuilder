@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/roundtable_turnedleg",
+    "textures": {
+			"texture": "cocricotmod:blocks/planks_brown",
+			"texture1": "cocricotmod:blocks/roundtable_turnedleg_brown"
+    }
+}

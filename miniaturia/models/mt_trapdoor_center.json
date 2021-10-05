@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#edge"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 6.5],
+			"to": [16, 16, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"east": {"uv": [6.5, 0, 9.5, 16], "texture": "#edge", "cullface": "east"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#front"},
+				"west": {"uv": [6.5, 0, 9.5, 16], "texture": "#edge", "cullface": "west"},
+				"up": {"uv": [6.5, 0, 9.5, 16], "rotation": 90, "texture": "#edge", "cullface": "up"},
+				"down": {"uv": [6.5, 0, 9.5, 16], "rotation": 270, "texture": "#edge", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
+}

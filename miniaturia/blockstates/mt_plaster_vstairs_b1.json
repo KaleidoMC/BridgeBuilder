@@ -1,0 +1,52 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+		"uvlock": true
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_brick_blue",
+				        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_brick_blue",
+				        "ns":		"miniaturia_mod:blocks/plaster_peeled_brick_blue",
+				        "we":		"miniaturia_mod:blocks/plaster_peeled_brick_blue"
+				    	}
+				},
+	    		"1": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_brick_green",
+				        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_brick_green",
+				        "ns":		"miniaturia_mod:blocks/plaster_peeled_brick_green",
+				        "we":		"miniaturia_mod:blocks/plaster_peeled_brick_green"
+				    	}
+	    			},
+	    		"2": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_wood_white",
+				        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_wood_white",
+				        "ns":		"miniaturia_mod:blocks/plaster_peeled_wood_white",
+				        "we":		"miniaturia_mod:blocks/plaster_peeled_wood_white"
+				    	}
+	    			},
+	    		"3": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_wood_gray",
+				        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_wood_gray",
+				        "ns":		"miniaturia_mod:blocks/plaster_peeled_wood_gray",
+				        "we":		"miniaturia_mod:blocks/plaster_peeled_wood_gray"
+				    	}
+	    			}
+    	},
+
+        "position": {
+				"ne":	{ "y": 270 },
+				"se":	{ "y": 0 },
+				"sw":	{ "y": 90 },
+				"nw":	{ "y": 180 }
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+	    "textures": {
+	        "corner_bottom":	"miniaturia_mod:blocks/steel_silver",
+	        "corner_top":		"miniaturia_mod:blocks/steel_silver",
+	        "ns":		"miniaturia_mod:blocks/steel_silver",
+	        "we":		"miniaturia_mod:blocks/steel_silver"
+	    	},
+		"uvlock": true
+	},
+
+    "variants": {
+
+        "position": {
+				"ne":	{ "y": 270 },
+				"se":	{ "y": 0 },
+				"sw":	{ "y": 90 },
+				"nw":	{ "y": 180 }
+		},
+
+        "inventory":[{
+        	"transform": {
+		        "gui": {
+		            "rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ],
+		            "scale": 0.625
+		        }
+			}
+        }]
+	}
+}

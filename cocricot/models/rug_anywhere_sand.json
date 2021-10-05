@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/rug_anywhere",
+	"textures": {
+		"particle": "cocricotmod:blocks/rug_anywhere",
+		"top": "cocricotmod:blocks/rug_anywhere_sand"
+	}
+}

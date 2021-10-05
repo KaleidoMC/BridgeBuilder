@@ -1,0 +1,221 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_roof_stairs_single"
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+					"textures": {
+						"top": "miniaturia_mod:blocks/roof_fareast_blue_stairs",
+						"top_outer": "miniaturia_mod:blocks/roof_fareast_blue_stairs_outer",
+						"top_inner": "miniaturia_mod:blocks/roof_fareast_blue_stairs_inner",
+						"side": "miniaturia_mod:blocks/roof_fareast_blue_stairs_side",
+						"edge": "miniaturia_mod:blocks/roof_fareast_blue_edge",
+						"edge_board": "miniaturia_mod:blocks/wood_dark_oak_upper_molding",
+						"edge_bottom": "miniaturia_mod:blocks/wood_dark_oak_upper_molding",
+						"edge_bottom2": "miniaturia_mod:blocks/wood_dark_oak_plate_parts"
+					}
+			 	},
+			 	"1": {
+					"textures": {
+				        "roof_outer_bottom": "miniaturia_mod:blocks/roof_fareast_blue_stairs_outer",
+						"roof_outer_top": "miniaturia_mod:blocks/roof_fareast_blue_stairs_outer",
+						"roof_outer_side": "miniaturia_mod:blocks/roof_fareast_blue_stairs_side",
+						"roof_inner_bottom": "miniaturia_mod:blocks/roof_fareast_blue_stairs_inner",
+						"roof_inner_top": "miniaturia_mod:blocks/roof_fareast_blue_stairs_inner",
+						"roof_inner_side": "miniaturia_mod:blocks/roof_fareast_blue_stairs_side",
+				        "roof_stairs_bottom": "miniaturia_mod:blocks/roof_fareast_blue_stairs",
+				        "roof_stairs_top": "miniaturia_mod:blocks/roof_fareast_blue_stairs",
+				        "roof_stairs_side": "miniaturia_mod:blocks/roof_fareast_blue_stairs_side"
+				    }
+			 	}
+    	},
+
+    	"facing": {
+    		"east":		{ "y": 0 },
+    		"west":		{ "y": 180 },
+    		"south":	{ "y": 90 },
+    		"north": 	{ "y": 270 }
+		},
+
+		"half":{
+			"bottom":	{ "x": 0 },
+			"top":		{ "x": 180 }
+		},
+
+		"shape": {
+			"single":		{"model":"miniaturia_mod:mt_roof_stairs_single"},
+			"l_straight":	{"model":"miniaturia_mod:mt_roof_stairs_l"},
+			"m_straight":	{"model":"miniaturia_mod:mt_roof_stairs_m"},
+			"r_straight":	{"model":"miniaturia_mod:mt_roof_stairs_r"},
+            "outer_right":	{"model":"miniaturia_mod:mt_roof_stairs_outer"},
+            "outer_left":	{"model":"miniaturia_mod:mt_roof_stairs_outer"},
+            "inner_right":	{"model":"miniaturia_mod:mt_roof_stairs_inner"},
+            "inner_left":	{"model":"miniaturia_mod:mt_roof_stairs_inner"}
+		},
+
+        "click=0,facing=east,half=bottom,shape=single":			{ "y": 0 },
+        "click=0,facing=west,half=bottom,shape=single":			{ "y": 180 },
+        "click=0,facing=south,half=bottom,shape=single":		{ "y": 90 },
+        "click=0,facing=north,half=bottom,shape=single":		{ "y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=l_straight":		{ "y": 0 },
+        "click=0,facing=west,half=bottom,shape=l_straight":		{ "y": 180 },
+        "click=0,facing=south,half=bottom,shape=l_straight":	{ "y": 90 },
+        "click=0,facing=north,half=bottom,shape=l_straight":	{ "y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=m_straight":		{ "y": 0 },
+        "click=0,facing=west,half=bottom,shape=m_straight":		{ "y": 180 },
+        "click=0,facing=south,half=bottom,shape=m_straight":	{ "y": 90 },
+        "click=0,facing=north,half=bottom,shape=m_straight":	{ "y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=r_straight":		{ "y": 0 },
+        "click=0,facing=west,half=bottom,shape=r_straight":		{ "y": 180 },
+        "click=0,facing=south,half=bottom,shape=r_straight":	{ "y": 90 },
+        "click=0,facing=north,half=bottom,shape=r_straight":	{ "y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=outer_right":	{ "y": 0 },
+        "click=0,facing=west,half=bottom,shape=outer_right":	{ "y": 180 },
+        "click=0,facing=south,half=bottom,shape=outer_right":	{ "y": 90 },
+        "click=0,facing=north,half=bottom,shape=outer_right":	{ "y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=outer_left":		{ "y": 270 },
+        "click=0,facing=west,half=bottom,shape=outer_left":		{ "y": 90 },
+        "click=0,facing=south,half=bottom,shape=outer_left":	{ "y": 0 },
+        "click=0,facing=north,half=bottom,shape=outer_left":	{ "y": 180 },
+
+        "click=0,facing=east,half=bottom,shape=inner_right":	{ "y": 0 },
+        "click=0,facing=west,half=bottom,shape=inner_right":	{ "y": 180 },
+        "click=0,facing=south,half=bottom,shape=inner_right":	{ "y": 90 },
+        "click=0,facing=north,half=bottom,shape=inner_right":	{ "y": 270 },
+
+        "click=0,facing=east,half=bottom,shape=inner_left":	{ "y": 270 },
+        "click=0,facing=west,half=bottom,shape=inner_left":	{ "y": 90 },
+        "click=0,facing=south,half=bottom,shape=inner_left":{ "y": 0 },
+        "click=0,facing=north,half=bottom,shape=inner_left":{ "y": 180 },
+
+        "click=0,facing=east,half=top,shape=single":		{ "x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=single":		{ "x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=single":		{ "x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=single":		{ "x": 180, "y": 270 },
+
+        "click=0,facing=east,half=top,shape=l_straight":	{ "model":"miniaturia_mod:mt_roof_stairs_r", "x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=l_straight":	{ "model":"miniaturia_mod:mt_roof_stairs_r", "x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=l_straight":	{ "model":"miniaturia_mod:mt_roof_stairs_r", "x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=l_straight":	{ "model":"miniaturia_mod:mt_roof_stairs_r", "x": 180, "y": 270 },
+
+        "click=0,facing=east,half=top,shape=m_straight":	{ "x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=m_straight":	{ "x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=m_straight":	{ "x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=m_straight":	{ "x": 180, "y": 270 },
+
+        "click=0,facing=east,half=top,shape=r_straight":	{ "model":"miniaturia_mod:mt_roof_stairs_l", "x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=r_straight":	{ "model":"miniaturia_mod:mt_roof_stairs_l", "x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=r_straight":	{ "model":"miniaturia_mod:mt_roof_stairs_l", "x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=r_straight":	{ "model":"miniaturia_mod:mt_roof_stairs_l", "x": 180, "y": 270 },
+
+        "click=0,facing=east,half=top,shape=outer_right":	{ "x": 180, "y": 90 },
+        "click=0,facing=west,half=top,shape=outer_right":	{ "x": 180, "y": 270 },
+        "click=0,facing=south,half=top,shape=outer_right":	{ "x": 180, "y": 180 },
+        "click=0,facing=north,half=top,shape=outer_right":	{ "x": 180, "y": 0 },
+
+        "click=0,facing=east,half=top,shape=outer_left":	{ "x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=outer_left":	{ "x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=outer_left":	{ "x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=outer_left":	{ "x": 180, "y": 270 },
+
+        "click=0,facing=east,half=top,shape=inner_right":	{ "x": 180, "y": 90 },
+        "click=0,facing=west,half=top,shape=inner_right":	{ "x": 180, "y": 270 },
+        "click=0,facing=south,half=top,shape=inner_right":	{ "x": 180, "y": 180 },
+        "click=0,facing=north,half=top,shape=inner_right":	{ "x": 180, "y": 0 },
+
+        "click=0,facing=east,half=top,shape=inner_left":	{ "x": 180, "y": 0 },
+        "click=0,facing=west,half=top,shape=inner_left":	{ "x": 180, "y": 180 },
+        "click=0,facing=south,half=top,shape=inner_left":	{ "x": 180, "y": 90 },
+        "click=0,facing=north,half=top,shape=inner_left":	{ "x": 180, "y": 270 },
+
+
+        "click=1,facing=east,half=bottom,shape=single":			{ "model": "miniaturia_mod:mt_roof_stairs", "y": 0 },
+        "click=1,facing=west,half=bottom,shape=single":			{ "model": "miniaturia_mod:mt_roof_stairs", "y": 180 },
+        "click=1,facing=south,half=bottom,shape=single":		{ "model": "miniaturia_mod:mt_roof_stairs", "y": 90 },
+        "click=1,facing=north,half=bottom,shape=single":		{ "model": "miniaturia_mod:mt_roof_stairs", "y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=l_straight":		{ "model": "miniaturia_mod:mt_roof_stairs", "y": 0 },
+        "click=1,facing=west,half=bottom,shape=l_straight":		{ "model": "miniaturia_mod:mt_roof_stairs", "y": 180 },
+        "click=1,facing=south,half=bottom,shape=l_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "y": 90 },
+        "click=1,facing=north,half=bottom,shape=l_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=m_straight":		{ "model": "miniaturia_mod:mt_roof_stairs", "y": 0 },
+        "click=1,facing=west,half=bottom,shape=m_straight":		{ "model": "miniaturia_mod:mt_roof_stairs", "y": 180 },
+        "click=1,facing=south,half=bottom,shape=m_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "y": 90 },
+        "click=1,facing=north,half=bottom,shape=m_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=r_straight":		{ "model": "miniaturia_mod:mt_roof_stairs", "y": 0 },
+        "click=1,facing=west,half=bottom,shape=r_straight":		{ "model": "miniaturia_mod:mt_roof_stairs", "y": 180 },
+        "click=1,facing=south,half=bottom,shape=r_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "y": 90 },
+        "click=1,facing=north,half=bottom,shape=r_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=outer_right":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "y": 0 },
+        "click=1,facing=west,half=bottom,shape=outer_right":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "y": 180 },
+        "click=1,facing=south,half=bottom,shape=outer_right":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "y": 90 },
+        "click=1,facing=north,half=bottom,shape=outer_right":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=outer_left":		{ "model": "miniaturia_mod:mt_roof_outer_stairs", "y": 270 },
+        "click=1,facing=west,half=bottom,shape=outer_left":		{ "model": "miniaturia_mod:mt_roof_outer_stairs", "y": 90 },
+        "click=1,facing=south,half=bottom,shape=outer_left":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "y": 0 },
+        "click=1,facing=north,half=bottom,shape=outer_left":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "y": 180 },
+
+        "click=1,facing=east,half=bottom,shape=inner_right":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "y": 0 },
+        "click=1,facing=west,half=bottom,shape=inner_right":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "y": 180 },
+        "click=1,facing=south,half=bottom,shape=inner_right":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "y": 90 },
+        "click=1,facing=north,half=bottom,shape=inner_right":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "y": 270 },
+
+        "click=1,facing=east,half=bottom,shape=inner_left":		{ "model": "miniaturia_mod:mt_roof_inner_stairs", "y": 270 },
+        "click=1,facing=west,half=bottom,shape=inner_left":		{ "model": "miniaturia_mod:mt_roof_inner_stairs", "y": 90 },
+        "click=1,facing=south,half=bottom,shape=inner_left":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "y": 0 },
+        "click=1,facing=north,half=bottom,shape=inner_left":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "y": 180 },
+
+        "click=1,facing=east,half=top,shape=single":		{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=single":		{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=single":		{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=single":		{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 270 },
+
+        "click=1,facing=east,half=top,shape=l_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=l_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=l_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=l_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 270 },
+
+        "click=1,facing=east,half=top,shape=m_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=m_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=m_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=m_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 270 },
+
+        "click=1,facing=east,half=top,shape=r_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=r_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=r_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=r_straight":	{ "model": "miniaturia_mod:mt_roof_stairs", "x": 180, "y": 270 },
+
+        "click=1,facing=east,half=top,shape=outer_right":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "x": 180, "y": 90 },
+        "click=1,facing=west,half=top,shape=outer_right":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "x": 180, "y": 270 },
+        "click=1,facing=south,half=top,shape=outer_right":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "x": 180, "y": 180 },
+        "click=1,facing=north,half=top,shape=outer_right":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "x": 180, "y": 0 },
+
+        "click=1,facing=east,half=top,shape=outer_left":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=outer_left":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=outer_left":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=outer_left":	{ "model": "miniaturia_mod:mt_roof_outer_stairs", "x": 180, "y": 270 },
+
+        "click=1,facing=east,half=top,shape=inner_right":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "x": 180, "y": 90 },
+        "click=1,facing=west,half=top,shape=inner_right":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "x": 180, "y": 270 },
+        "click=1,facing=south,half=top,shape=inner_right":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "x": 180, "y": 180 },
+        "click=1,facing=north,half=top,shape=inner_right":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "x": 180, "y": 0 },
+
+        "click=1,facing=east,half=top,shape=inner_left":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "x": 180, "y": 0 },
+        "click=1,facing=west,half=top,shape=inner_left":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "x": 180, "y": 180 },
+        "click=1,facing=south,half=top,shape=inner_left":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "x": 180, "y": 90 },
+        "click=1,facing=north,half=top,shape=inner_left":	{ "model": "miniaturia_mod:mt_roof_inner_stairs", "x": 180, "y": 270 }
+	}
+}

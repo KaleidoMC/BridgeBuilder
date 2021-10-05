@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/counterstool_industrial_brown",
+    "textures": {
+        "0": "cocricotmod:blocks/chair_iron_dark",
+        "1": "cocricotmod:blocks/planks_dark"
+    }
+}

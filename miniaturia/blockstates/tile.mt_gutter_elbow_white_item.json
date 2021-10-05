@@ -1,0 +1,21 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_gutter_vertical_elbow",
+		"textures": {
+			"0": "miniaturia_mod:blocks/gutter_white2",
+			"1": "miniaturia_mod:blocks/gutter_white1"
+			},
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 0}, { "y": 90 }, { "z": 0 } ], "scale": 0.8, "translation": [ 0.1, 0, 0 ] }
+			}
+    },
+    "variants": {
+        "variant": {
+				"click0": { "model": "miniaturia_mod:mt_gutter_vertical_elbow" },
+			 	"click1": { "model": "miniaturia_mod:mt_gutter_vertical_l" },
+	    		"click2": { "model": "miniaturia_mod:mt_gutter_vertical_r" },
+	    		"click3": { "model": "miniaturia_mod:mt_gutter_vertical_elbow_b" }
+            }
+        }
+}

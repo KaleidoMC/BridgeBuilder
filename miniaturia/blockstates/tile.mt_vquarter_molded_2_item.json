@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_vquarter_molded"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/wood_acacia_upper_molding",
+					"1": "miniaturia_mod:blocks/wood_acacia_plate_parts"
+					}
+				},
+            "click1": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/wood_dark_oak_upper_molding",
+					"1": "miniaturia_mod:blocks/wood_dark_oak_plate_parts"
+					}
+				}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#texture",
+		"1": "cocricotmod:blocks/metal_black"
+	},
+	"elements": [
+		{
+			"from": [ 0, -1.5, 21 ],
+			"to": [ 16, 0, 32 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 11 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 5, 16, 16 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 16, 1.5 ], "texture": "#texture3" },
+				"south": { "uv": [ 0, 0, 16, 1.5 ], "texture": "#texture3" },
+				"west": { "uv": [ 5, 0, 16, 1.5 ], "texture": "#texture3" },
+				"east": { "uv": [ 0, 0, 11, 1.5 ], "texture": "#texture3" }
+			}
+		},
+		{
+			"from": [ 2.5, -2.5, 24.5 ],
+			"to": [ 3.5, -1.5, 31 ],
+			"faces": {
+				"down": { "uv": [ 1, 0, 2, 6.5 ], "texture": "#1" },
+				"north": { "uv": [ 1, 0, 2, 1 ], "texture": "#1", "rotation": 270 },
+				"west": { "uv": [ 1, 0, 2, 6.5 ], "texture": "#1", "rotation": 270 },
+				"east": { "uv": [ 1, 0, 2, 6.5 ], "texture": "#1", "rotation": 270 }
+			}
+		},
+		{
+			"from": [ 2.5, -9, 31 ],
+			"to": [ 3.5, -1.5, 32 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 0, 13.5, 1 ], "texture": "#1" },
+				"north": { "uv": [ 1, 0, 2, 7.5 ], "texture": "#1" },
+				"south": { "uv": [ 1, 0, 2, 7.5 ], "texture": "#1" },
+				"west": { "uv": [ 1, 0, 2, 6.5 ], "texture": "#1" },
+				"east": { "uv": [ 2, 0, 1, 6.5 ], "texture": "#1" }
+			}
+		},
+		{
+			"from": [ 3, -9, 24.5 ],
+			"to": [ 3, -2.5, 31 ],
+			"faces": {
+				"west": { "uv": [ 9.5, 0, 16, 6.5 ], "texture": "#1" },
+				"east": { "uv": [ 16, 0, 9.5, 6.5 ], "texture": "#1" }
+			}
+		}
+	]
+}

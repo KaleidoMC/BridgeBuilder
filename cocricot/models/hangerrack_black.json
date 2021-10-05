@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/hangerrack",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_black",
+      "texture": "cocricotmod:blocks/chair_black"
+    }
+}

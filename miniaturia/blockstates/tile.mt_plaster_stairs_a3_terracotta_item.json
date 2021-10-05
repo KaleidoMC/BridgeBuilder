@@ -1,0 +1,26 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stairs_v"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "side":			"miniaturia_mod:blocks/plaster_green_terracotta",
+					"half_side":	"miniaturia_mod:blocks/plaster_green_half_terracotta",
+					"top":			"miniaturia_mod:blocks/terracotta_square",
+					"bottom":		"miniaturia_mod:blocks/plaster_green"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "side":			"miniaturia_mod:blocks/plaster_red_terracotta",
+					"half_side":	"miniaturia_mod:blocks/plaster_red_half_terracotta",
+					"top":			"miniaturia_mod:blocks/terracotta_square",
+					"bottom":		"miniaturia_mod:blocks/plaster_red"
+					}
+				}
+        }
+    }
+}

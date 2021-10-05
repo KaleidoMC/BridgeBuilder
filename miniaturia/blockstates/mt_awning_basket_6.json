@@ -1,0 +1,230 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_awning_basket_single.obj",
+		"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "translation": [ 0, 0, 0 ], "scale": 0.45 },
+	        "ground": {"scale": 0.25, "translation": [ 0, 0.2, 0 ] },
+	        "fixed": {"scale": 0.45},
+	        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0, 0 ] },
+	        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.35},
+	        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.35},
+	        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.35}
+		}
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/awning_mint",
+						"#m_1": "miniaturia_mod:blocks/awning_mint_frill",
+						"#m_2": "miniaturia_mod:blocks/lamppost_brown"
+					}
+				},
+			 	"1": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/awning_mint",
+						"#m_1": "miniaturia_mod:blocks/awning_mint_frill",
+						"#m_2": "miniaturia_mod:blocks/lamppost_brown"
+					}
+	    		},
+	    		"2": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/awning_mint",
+						"#m_1": "miniaturia_mod:blocks/awning_mint_frill",
+						"#m_2": "miniaturia_mod:blocks/awning_mint"
+					}
+	    		},
+	    		"3": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/awning_mint",
+						"#m_1": "miniaturia_mod:blocks/awning_mint_frill",
+						"#m_2": "miniaturia_mod:blocks/awning_mint"
+					}
+	    		}
+    	},
+
+    	"facing": {
+    		"east": { "y": 180 },
+    		"west": { "y": 0 },
+    		"south": { "y": 270 },
+    		"north": { "y": 90 }
+		},
+
+    	"shape": {
+    		"single":		{"model":"miniaturia_mod:mt_awning_basket_single.obj"},
+            "l_straight":	{"model":"miniaturia_mod:mt_awning_basket_right.obj"},
+            "straight":		{"model":"miniaturia_mod:mt_awning_basket_middle.obj"},
+            "r_straight":	{"model":"miniaturia_mod:mt_awning_basket_left.obj"},
+            "outer_right":	{"model":"miniaturia_mod:mt_awning_basket_inner.obj"},
+            "outer_left":	{"model":"miniaturia_mod:mt_awning_basket_inner.obj"},
+            "inner_right":	{"model":"miniaturia_mod:mt_awning_basket_outer.obj"},
+            "inner_left":	{"model":"miniaturia_mod:mt_awning_basket_outer.obj"}
+		},
+
+        "click=0,facing=east,shape=single":			[{}],
+        "click=0,facing=west,shape=single":			[{}],
+        "click=0,facing=south,shape=single":		[{}],
+        "click=0,facing=north,shape=single":		[{}],
+
+        "click=0,facing=east,shape=l_straight":		[{}],
+        "click=0,facing=west,shape=l_straight":		[{}],
+        "click=0,facing=south,shape=l_straight":	[{}],
+        "click=0,facing=north,shape=l_straight":	[{}],
+
+        "click=0,facing=east,shape=straight":		[{}],
+        "click=0,facing=west,shape=straight":		[{}],
+        "click=0,facing=south,shape=straight":		[{}],
+        "click=0,facing=north,shape=straight":		[{}],
+
+        "click=0,facing=east,shape=r_straight":		[{}],
+        "click=0,facing=west,shape=r_straight":		[{}],
+        "click=0,facing=south,shape=r_straight":	[{}],
+        "click=0,facing=north,shape=r_straight":	[{}],
+
+        "click=0,facing=east,shape=outer_right":	[{}],
+        "click=0,facing=west,shape=outer_right":	[{}],
+        "click=0,facing=south,shape=outer_right":	[{}],
+        "click=0,facing=north,shape=outer_right":	[{}],
+
+        "click=0,facing=east,shape=outer_left":		{ "y": 90 },
+        "click=0,facing=west,shape=outer_left":		{ "y": 270 },
+        "click=0,facing=south,shape=outer_left":	{ "y": 180 },
+        "click=0,facing=north,shape=outer_left":	{ "y": 0 },
+
+        "click=0,facing=east,shape=inner_right":	[{}],
+        "click=0,facing=west,shape=inner_right":	[{}],
+        "click=0,facing=south,shape=inner_right":	[{}],
+        "click=0,facing=north,shape=inner_right":	[{}],
+
+        "click=0,facing=east,shape=inner_left":		{ "y": 90 },
+        "click=0,facing=west,shape=inner_left":		{ "y": 270 },
+        "click=0,facing=south,shape=inner_left":	{ "y": 180 },
+        "click=0,facing=north,shape=inner_left":	{ "y": 0 },
+
+
+        "click=1,facing=east,shape=single":			[{}],
+        "click=1,facing=west,shape=single":			[{}],
+        "click=1,facing=south,shape=single":		[{}],
+        "click=1,facing=north,shape=single":		[{}],
+
+        "click=1,facing=east,shape=l_straight":		[{}],
+        "click=1,facing=west,shape=l_straight":		[{}],
+        "click=1,facing=south,shape=l_straight":	[{}],
+        "click=1,facing=north,shape=l_straight":	[{}],
+
+        "click=1,facing=east,shape=straight":		[{}],
+        "click=1,facing=west,shape=straight":		[{}],
+        "click=1,facing=south,shape=straight":		[{}],
+        "click=1,facing=north,shape=straight":		[{}],
+
+        "click=1,facing=east,shape=r_straight":		[{}],
+        "click=1,facing=west,shape=r_straight":		[{}],
+        "click=1,facing=south,shape=r_straight":	[{}],
+        "click=1,facing=north,shape=r_straight":	[{}],
+
+        "click=1,facing=east,shape=outer_right":	[{}],
+        "click=1,facing=west,shape=outer_right":	[{}],
+        "click=1,facing=south,shape=outer_right":	[{}],
+        "click=1,facing=north,shape=outer_right":	[{}],
+
+        "click=1,facing=east,shape=outer_left":		{ "y": 90 },
+        "click=1,facing=west,shape=outer_left":		{ "y": 270 },
+        "click=1,facing=south,shape=outer_left":	{ "y": 180 },
+        "click=1,facing=north,shape=outer_left":	{ "y": 0 },
+
+        "click=1,facing=east,shape=inner_right":	[{}],
+        "click=1,facing=west,shape=inner_right":	[{}],
+        "click=1,facing=south,shape=inner_right":	[{}],
+        "click=1,facing=north,shape=inner_right":	[{}],
+
+        "click=1,facing=east,shape=inner_left":		{ "y": 90 },
+        "click=1,facing=west,shape=inner_left":		{ "y": 270 },
+        "click=1,facing=south,shape=inner_left":	{ "y": 180 },
+        "click=1,facing=north,shape=inner_left":	{ "y": 0 },
+
+        "click=2,facing=east,shape=single":			[{}],
+        "click=2,facing=west,shape=single":			[{}],
+        "click=2,facing=south,shape=single":		[{}],
+        "click=2,facing=north,shape=single":		[{}],
+
+        "click=2,facing=east,shape=l_straight":		[{}],
+        "click=2,facing=west,shape=l_straight":		[{}],
+        "click=2,facing=south,shape=l_straight":	[{}],
+        "click=2,facing=north,shape=l_straight":	[{}],
+
+        "click=2,facing=east,shape=straight":		[{}],
+        "click=2,facing=west,shape=straight":		[{}],
+        "click=2,facing=south,shape=straight":		[{}],
+        "click=2,facing=north,shape=straight":		[{}],
+
+        "click=2,facing=east,shape=r_straight":		[{}],
+        "click=2,facing=west,shape=r_straight":		[{}],
+        "click=2,facing=south,shape=r_straight":	[{}],
+        "click=2,facing=north,shape=r_straight":	[{}],
+
+        "click=2,facing=east,shape=outer_right":	[{}],
+        "click=2,facing=west,shape=outer_right":	[{}],
+        "click=2,facing=south,shape=outer_right":	[{}],
+        "click=2,facing=north,shape=outer_right":	[{}],
+
+        "click=2,facing=east,shape=outer_left":		{ "y": 90 },
+        "click=2,facing=west,shape=outer_left":		{ "y": 270 },
+        "click=2,facing=south,shape=outer_left":	{ "y": 180 },
+        "click=2,facing=north,shape=outer_left":	{ "y": 0 },
+
+        "click=2,facing=east,shape=inner_right":	[{}],
+        "click=2,facing=west,shape=inner_right":	[{}],
+        "click=2,facing=south,shape=inner_right":	[{}],
+        "click=2,facing=north,shape=inner_right":	[{}],
+
+        "click=2,facing=east,shape=inner_left":		{ "y": 90 },
+        "click=2,facing=west,shape=inner_left":		{ "y": 270 },
+        "click=2,facing=south,shape=inner_left":	{ "y": 180 },
+        "click=2,facing=north,shape=inner_left":	{ "y": 0 },
+
+
+        "click=3,facing=east,shape=single":			[{}],
+        "click=3,facing=west,shape=single":			[{}],
+        "click=3,facing=south,shape=single":		[{}],
+        "click=3,facing=north,shape=single":		[{}],
+
+        "click=3,facing=east,shape=l_straight":		[{}],
+        "click=3,facing=west,shape=l_straight":		[{}],
+        "click=3,facing=south,shape=l_straight":	[{}],
+        "click=3,facing=north,shape=l_straight":	[{}],
+
+        "click=3,facing=east,shape=straight":		[{}],
+        "click=3,facing=west,shape=straight":		[{}],
+        "click=3,facing=south,shape=straight":		[{}],
+        "click=3,facing=north,shape=straight":		[{}],
+
+        "click=3,facing=east,shape=r_straight":		[{}],
+        "click=3,facing=west,shape=r_straight":		[{}],
+        "click=3,facing=south,shape=r_straight":	[{}],
+        "click=3,facing=north,shape=r_straight":	[{}],
+
+        "click=3,facing=east,shape=outer_right":	[{}],
+        "click=3,facing=west,shape=outer_right":	[{}],
+        "click=3,facing=south,shape=outer_right":	[{}],
+        "click=3,facing=north,shape=outer_right":	[{}],
+
+        "click=3,facing=east,shape=outer_left":		{ "y": 90 },
+        "click=3,facing=west,shape=outer_left":		{ "y": 270 },
+        "click=3,facing=south,shape=outer_left":	{ "y": 180 },
+        "click=3,facing=north,shape=outer_left":	{ "y": 0 },
+
+        "click=3,facing=east,shape=inner_right":	[{}],
+        "click=3,facing=west,shape=inner_right":	[{}],
+        "click=3,facing=south,shape=inner_right":	[{}],
+        "click=3,facing=north,shape=inner_right":	[{}],
+
+        "click=3,facing=east,shape=inner_left":		{ "y": 90 },
+        "click=3,facing=west,shape=inner_left":		{ "y": 270 },
+        "click=3,facing=south,shape=inner_left":	{ "y": 180 },
+        "click=3,facing=north,shape=inner_left":	{ "y": 0 }
+	}
+}

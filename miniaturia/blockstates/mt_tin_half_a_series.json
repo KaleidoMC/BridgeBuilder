@@ -1,0 +1,53 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "half_slab",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "half_slab" },
+			"top":		{ "model": "upper_slab" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tin_white",
+					"top" : "miniaturia_mod:blocks/tin_white",
+					"side" : "miniaturia_mod:blocks/tin_white_b"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tin_yellow",
+					"top" : "miniaturia_mod:blocks/tin_yellow",
+					"side" : "miniaturia_mod:blocks/tin_yellow_b"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tin_mint",
+					"top" : "miniaturia_mod:blocks/tin_mint",
+					"side" : "miniaturia_mod:blocks/tin_mint_b"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tin_blue",
+					"top" : "miniaturia_mod:blocks/tin_blue",
+					"side" : "miniaturia_mod:blocks/tin_blue_b"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/tin_red",
+					"top" : "miniaturia_mod:blocks/tin_red",
+					"side" : "miniaturia_mod:blocks/tin_red_b"
+				}
+			}
+		}
+	}
+}

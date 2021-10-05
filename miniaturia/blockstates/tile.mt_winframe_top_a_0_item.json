@@ -1,0 +1,50 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_winframe_upper_a_s",
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 0}, { "y": 180 }, { "z": 0 } ], "scale": 0.625 }
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/stone_upper_molding",
+						"2": "miniaturia_mod:blocks/stone_molding",
+						"3": "miniaturia_mod:blocks/stone_column_single",
+						"4": "miniaturia_mod:blocks/stone_plate_parts",
+						"5": "miniaturia_mod:blocks/stone_winframe_side"
+						}
+					},
+            "click1": {
+					"model": "miniaturia_mod:mt_winframe_upper_b_s",
+					"textures": {
+						"1": "miniaturia_mod:blocks/stone_upper_molding",
+						"3": "miniaturia_mod:blocks/stone_molding_b",
+						"4": "miniaturia_mod:blocks/stone_plate_parts",
+						"5": "miniaturia_mod:blocks/stone_column_single"
+						}
+					},
+			"click2": {
+					"model": "miniaturia_mod:mt_winframe_upper_c_s",
+					"textures": {
+						"3": "miniaturia_mod:blocks/stone_upper_molding",
+						"4": "miniaturia_mod:blocks/stone_plate_parts",
+						"5": "miniaturia_mod:blocks/stone_winframe_side"
+						}
+					},
+            "click3": {
+					"model": "miniaturia_mod:mt_winframe_upper_d_s",
+				   	"transform": {
+							"gui": {"rotation": [ { "x": 0}, { "y": 180 }, { "z": 0 } ], "scale": 0.625, "translation": [ 0, 0.5, 0 ] }
+						},
+					"textures": {
+						"winframe_side": "miniaturia_mod:blocks/stone_winframe_side",
+						"winframe_parts": "miniaturia_mod:blocks/stone_upper_molding",
+						"side": "miniaturia_mod:blocks/stone_plate_parts"
+						}
+					}
+		}
+	}
+}

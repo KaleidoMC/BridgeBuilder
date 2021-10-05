@@ -1,0 +1,39 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/signpost_wood_brown",
+		"particle": "cocricotmod:blocks/planks_brown"
+	},
+	"elements": [
+		{
+			"from": [7.25, 1.5, 8],
+			"to": [8.75, 6.5, 24],
+			"faces": {
+				"east": {"uv": [0, 11, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 11, 1.5, 16], "texture": "#0"},
+				"west": {"uv": [0, 16, 16, 11], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [0, 9.5, 16, 11], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 9.5, 16, 11], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.26, 3.08604, -0.87843],
+			"to": [8.74, 6.63604, 2.67157],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 13, 5.5]},
+			"faces": {
+				"north": {"uv": [0, 9.5, 3.5, 11], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [12.5, 0, 16, 3.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [12.5, 0, 16, 3.5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [0, 9.5, 3.5, 11], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, -90, 0],
+			"translation": [6.5, 0, 0],
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}

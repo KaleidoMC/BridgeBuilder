@@ -1,0 +1,109 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"custom": { "flip-v": true },
+  		"model": "miniaturia_mod:mt_chair_small_2.obj"
+	},
+
+	"variants": {
+
+    	"variant": {
+    		"meta0": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_brown",
+						"particle": "miniaturia_mod:blocks/chair_small_0_brown"
+						}
+    		},
+    		"meta1": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_lightbrown",
+						"particle": "miniaturia_mod:blocks/chair_small_0_lightbrown"
+						}
+    		},
+    		"meta2": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_white",
+						"particle": "miniaturia_mod:blocks/chair_small_0_white"
+						}
+    		},
+			"meta3": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_choco",
+						"particle": "miniaturia_mod:blocks/chair_small_0_choco"
+						}
+    		},
+    		"meta4": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_whitebrown2",
+						"particle": "miniaturia_mod:blocks/chair_small_0_whitebrown2"
+						}
+    		},
+    		"meta5": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_blue",
+						"particle": "miniaturia_mod:blocks/chair_small_0_blue"
+						}
+    		},
+    		"meta6": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_yellow",
+						"particle": "miniaturia_mod:blocks/chair_small_0_yellow"
+						}
+    		},
+    		"meta7": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_lightblue",
+						"particle": "miniaturia_mod:blocks/chair_small_0_lightblue"
+						}
+    		},
+    		"meta8": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_pink",
+						"particle": "miniaturia_mod:blocks/chair_small_0_pink"
+						}
+    		},
+    		"meta9": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_green",
+						"particle": "miniaturia_mod:blocks/chair_small_0_green"
+						}
+    		},
+    		"meta10": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_red",
+						"particle": "miniaturia_mod:blocks/chair_small_0_red"
+						}
+    		},
+    		"meta11": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_mint",
+						"particle": "miniaturia_mod:blocks/chair_small_0_mint"
+						}
+    		},
+    		"meta12": {
+	    		"textures": {
+						"#1" : "miniaturia_mod:blocks/chair_small_0_orange",
+						"particle": "miniaturia_mod:blocks/chair_small_0_orange"
+						}
+    		},
+    		"meta13": {
+    			"model": "miniaturia_mod:mt_chair_small_1",
+	    		"textures": {
+						"cs1" : "miniaturia_mod:blocks/chair_small_1_black"
+						}
+    		},
+    		"meta14": {
+    			"model": "miniaturia_mod:mt_chair_small_1",
+	    		"textures": {
+						"cs1" : "miniaturia_mod:blocks/chair_small_1_silver"
+						}
+    		},
+    		"meta15": {
+    			"model": "miniaturia_mod:mt_chair_small_1",
+	    		"textures": {
+						"cs1" : "miniaturia_mod:blocks/chair_small_1_white"
+						}
+    		}
+    	}
+    }
+}

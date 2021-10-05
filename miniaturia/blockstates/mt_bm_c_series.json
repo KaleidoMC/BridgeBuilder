@@ -1,0 +1,66 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_column",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "cube_column" },
+			"top":		{ "model": "cube_column" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/stone_plate_parts",
+					"side" : "miniaturia_mod:blocks/stone_chiseled_a"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/stone_plate_parts",
+					"side" : "miniaturia_mod:blocks/stone_chiseled_b"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/sandstone_plate_parts",
+					"side" : "miniaturia_mod:blocks/sandstone_chiseled"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/sandstone_plate_parts",
+					"side" : "miniaturia_mod:blocks/sandstone_chiseled_a"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/sandstone_plate_parts",
+					"side" : "miniaturia_mod:blocks/sandstone_chiseled_b"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/quartz_top",
+					"side" : "miniaturia_mod:blocks/quartz_v"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"side" : "miniaturia_mod:blocks/quartz_gold_h"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/quartz_gold_top",
+					"side" : "miniaturia_mod:blocks/quartz_gold_v"
+				}
+			}
+		}
+	}
+}

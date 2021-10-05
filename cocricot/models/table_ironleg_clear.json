@@ -1,0 +1,9 @@
+{
+	"parent": "cocricotmod:block/table_ironleg_brown",
+	"textures": {
+		"0": "cocricotmod:blocks/chair_clear",
+		"1": "cocricotmod:blocks/planks_clear",
+		"2": "cocricotmod:blocks/metal_black",
+		"particle": "cocricotmod:blocks/planks_clear"
+	}
+}

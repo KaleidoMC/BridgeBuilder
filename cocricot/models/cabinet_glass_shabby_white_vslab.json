@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_vslab_all",
+    "textures": {
+      "u": "cocricotmod:blocks/shabby_white",
+      "d": "cocricotmod:blocks/shabby_white",
+  		"n": "cocricotmod:blocks/cabinet_shabby_white_side",
+  		"s": "cocricotmod:blocks/cabinet_glass_shabby_white",
+  		"e": "cocricotmod:blocks/cabinet_shabby_white_side",
+  		"w": "cocricotmod:blocks/cabinet_shabby_white_side"
+    }
+}

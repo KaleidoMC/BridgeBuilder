@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_stick",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_color_gray",
+        "0": "cocricotmod:blocks/stone_color_gray"
+    }
+}

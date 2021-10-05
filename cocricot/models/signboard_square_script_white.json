@@ -1,0 +1,8 @@
+{
+	"parent": "cocricotmod:block/signboard_square_script_black",
+	"textures": {
+		"0": "cocricotmod:blocks/signboard_white",
+		"1": "cocricotmod:blocks/signboard_square_script_white",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	}
+}

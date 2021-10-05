@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/hangerrack_bar_black",
+    "textures": {
+      "particle": "cocricotmod:blocks/metal_stainless",
+      "texture": "cocricotmod:blocks/metal_silver"
+    }
+}

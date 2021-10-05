@@ -1,0 +1,109 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_horse_tf.obj",
+		"textures": {
+			"#0": "miniaturia_mod:blocks/horse_0_white",
+			"#1": "miniaturia_mod:blocks/horse_1_white",
+			"#2": "miniaturia_mod:blocks/horse_2_white",
+			"#3": "miniaturia_mod:blocks/horse_3_white",
+			"#4": "miniaturia_mod:blocks/horse_4_white",
+			"#5": "miniaturia_mod:blocks/horse_5",
+			"nm": "miniaturia_mod:blocks/nm",
+			"particle": "miniaturia_mod:blocks/horse_0_white"
+ 		}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { },
+	    		"2": { },
+	    		"3": { }
+	    },
+
+    	"facing": {
+    		"north":{ "y": 0 },
+    		"east":	{ "y": 90 },
+    		"south":{ "y": 180 },
+    		"west":	{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ },
+    		"middle":	{ },
+    		"top":		{ },
+    		"single":	{ }
+		},
+
+        "click=0,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_horse_bf.obj" },
+        "click=0,facing=north,shape=middle":	{ "model": "miniaturia_mod:mt_horse_mf.obj" },
+        "click=0,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_horse_tf.obj" },
+        "click=0,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_horse_tf.obj" },
+        "click=0,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_horse_bf.obj" },
+        "click=0,facing=east,shape=middle":		{ "model": "miniaturia_mod:mt_horse_mf.obj" },
+        "click=0,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_horse_tf.obj" },
+        "click=0,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_horse_tf.obj" },
+        "click=0,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_horse_bf.obj" },
+        "click=0,facing=south,shape=middle":	{ "model": "miniaturia_mod:mt_horse_mf.obj" },
+        "click=0,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_horse_tf.obj" },
+        "click=0,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_horse_tf.obj" },
+        "click=0,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_horse_bf.obj" },
+        "click=0,facing=west,shape=middle":		{ "model": "miniaturia_mod:mt_horse_mf.obj" },
+        "click=0,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_horse_tf.obj" },
+        "click=0,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_horse_tf.obj" },
+
+        "click=1,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_horse_bb.obj" },
+        "click=1,facing=north,shape=middle":	{ "model": "miniaturia_mod:mt_nm" },
+        "click=1,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_horse_bt.obj" },
+        "click=1,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_horse_tm.obj" },
+        "click=1,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_horse_bb.obj" },
+        "click=1,facing=east,shape=middle":		{ "model": "miniaturia_mod:mt_nm" },
+        "click=1,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_horse_bt.obj" },
+        "click=1,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_horse_tm.obj" },
+        "click=1,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_horse_bb.obj" },
+        "click=1,facing=south,shape=middle":	{ "model": "miniaturia_mod:mt_nm" },
+        "click=1,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_horse_bt.obj" },
+        "click=1,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_horse_tm.obj" },
+        "click=1,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_horse_bb.obj" },
+        "click=1,facing=west,shape=middle":		{ "model": "miniaturia_mod:mt_nm" },
+        "click=1,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_horse_bt.obj" },
+        "click=1,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_horse_tm.obj" },
+
+        "click=2,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_horse2_bf.obj" },
+        "click=2,facing=north,shape=middle":	{ "model": "miniaturia_mod:mt_horse2_mf.obj" },
+        "click=2,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_horse2_tf.obj" },
+        "click=2,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_horse2_tf.obj" },
+        "click=2,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_horse2_bf.obj" },
+        "click=2,facing=east,shape=middle":		{ "model": "miniaturia_mod:mt_horse2_mf.obj" },
+        "click=2,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_horse2_tf.obj" },
+        "click=2,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_horse2_tf.obj" },
+        "click=2,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_horse2_bf.obj" },
+        "click=2,facing=south,shape=middle":	{ "model": "miniaturia_mod:mt_horse2_mf.obj" },
+        "click=2,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_horse2_tf.obj" },
+        "click=2,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_horse2_tf.obj" },
+        "click=2,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_horse2_bf.obj" },
+        "click=2,facing=west,shape=middle":		{ "model": "miniaturia_mod:mt_horse2_mf.obj" },
+        "click=2,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_horse2_tf.obj" },
+        "click=2,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_horse2_tf.obj" },
+
+        "click=3,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_horse2_bb.obj" },
+        "click=3,facing=north,shape=middle":	{ "model": "miniaturia_mod:mt_nm" },
+        "click=3,facing=north,shape=top":		{ "model": "miniaturia_mod:mt_horse2_bt.obj" },
+        "click=3,facing=north,shape=single":	{ "model": "miniaturia_mod:mt_horse_tm.obj" },
+        "click=3,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_horse2_bb.obj" },
+        "click=3,facing=east,shape=middle":		{ "model": "miniaturia_mod:mt_nm" },
+        "click=3,facing=east,shape=top":		{ "model": "miniaturia_mod:mt_horse2_bt.obj" },
+        "click=3,facing=east,shape=single":		{ "model": "miniaturia_mod:mt_horse_tm.obj" },
+        "click=3,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_horse2_bb.obj" },
+        "click=3,facing=south,shape=middle":	{ "model": "miniaturia_mod:mt_nm" },
+        "click=3,facing=south,shape=top":		{ "model": "miniaturia_mod:mt_horse2_bt.obj" },
+        "click=3,facing=south,shape=single":	{ "model": "miniaturia_mod:mt_horse_tm.obj" },
+        "click=3,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_horse2_bb.obj" },
+        "click=3,facing=west,shape=middle":		{ "model": "miniaturia_mod:mt_nm" },
+        "click=3,facing=west,shape=top":		{ "model": "miniaturia_mod:mt_horse2_bt.obj" },
+        "click=3,facing=west,shape=single":		{ "model": "miniaturia_mod:mt_horse_tm.obj" }
+    }
+}

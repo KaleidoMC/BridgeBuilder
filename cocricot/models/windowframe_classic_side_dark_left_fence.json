@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowframe_side_left_fence",
+    "textures": {
+        "0": "cocricotmod:blocks/windowframe_classic_dark_side",
+        "particle": "cocricotmod:blocks/planks_dark"
+    }
+}

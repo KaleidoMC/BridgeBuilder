@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/cafelatte_glass_table",
+    "textures": {
+        "0": "cocricotmod:blocks/bed_pillow_white_grid"
+    }
+}

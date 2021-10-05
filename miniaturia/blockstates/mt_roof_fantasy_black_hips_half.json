@@ -1,0 +1,36 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_roof_hip_half_straight_double.obj",
+		"textures": {
+	    	"#m_0": "miniaturia_mod:blocks/roof_fantasy_black_edge",
+	    	"#m_edge": "miniaturia_mod:blocks/roof_fantasy_black_edge",
+			"particle": "miniaturia_mod:blocks/roof_fantasy_black_edge"
+	    },
+		"transform": {
+			"gui": {"rotation": [ { "x": 0}, { "y": 90 }, { "z": 0 } ], "scale": 0.6, "translation": [ 0, 0.5, 0 ] },
+	        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+	        "fixed": {"scale": 0.5},
+	        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+	        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+	        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+	        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+		}
+	},
+
+    "variants": {
+
+        "poleshape=n":	{ "model":"miniaturia_mod:mt_roof_hip_half_straight_double.obj" },
+        "poleshape=e":	{ "model":"miniaturia_mod:mt_roof_hip_half_straight_double.obj", "y": 90 },
+        "poleshape=s":	{ "model":"miniaturia_mod:mt_roof_hip_half_straight_double.obj", "y": 180 },
+        "poleshape=w":	{ "model":"miniaturia_mod:mt_roof_hip_half_straight_double.obj", "y": 270 },
+
+        "poleshape=ne":	{ "model":"miniaturia_mod:mt_roof_hip_half_double.obj", "y": 270 },
+        "poleshape=se":	{ "model":"miniaturia_mod:mt_roof_hip_half_double.obj", "y": 0 },
+        "poleshape=sw":	{ "model":"miniaturia_mod:mt_roof_hip_half_double.obj", "y": 90 },
+        "poleshape=nw":	{ "model":"miniaturia_mod:mt_roof_hip_half_double.obj", "y": 180 },
+
+        "inventory":[{ }]
+	}
+}

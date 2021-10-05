@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/table_ironleg_brown_all",
+	"textures": {
+		"1": "cocricotmod:blocks/stone_color_white",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	}
+}

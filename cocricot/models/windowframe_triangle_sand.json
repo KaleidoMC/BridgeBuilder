@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowframe_triangle",
+    "textures": {
+        "0": "cocricotmod:blocks/windowframe_classic_sand",
+        "particle": "cocricotmod:blocks/rustication_banded_sand_top"
+    }
+}

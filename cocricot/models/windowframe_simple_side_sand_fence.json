@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowframe_side_fence",
+    "textures": {
+        "0": "cocricotmod:blocks/windowframe_simple_sand",
+        "particle": "cocricotmod:blocks/rustication_banded_sand_top"
+    }
+}

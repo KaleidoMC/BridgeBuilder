@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/cobblestone_b_white",
+			        "top":		 "miniaturia_mod:blocks/cobblestone_b_white",
+			        "side":		 "miniaturia_mod:blocks/cobblestone_b_white"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/cobblestone_a_black",
+			        "top":		 "miniaturia_mod:blocks/cobblestone_a_black",
+			        "side":		 "miniaturia_mod:blocks/cobblestone_a_black"
+					}
+				}
+        }
+    }
+}

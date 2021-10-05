@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cocricotmod:blocks/window_diamond_blue"
+    }
+}

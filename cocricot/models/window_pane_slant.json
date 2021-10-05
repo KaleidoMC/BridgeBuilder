@@ -1,0 +1,18 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 7 ],
+			"to": [ 12.73, 16.01, 8.4 ],
+			"rotation": { "origin": [ 0, 0, 7 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"up": { "uv": [ 0, 0, 16, 2 ], "texture": "#texture", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

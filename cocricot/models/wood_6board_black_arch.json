@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_arch",
+    "textures": {
+      "texture": "cocricotmod:blocks/wood_6board_black"
+    }
+}

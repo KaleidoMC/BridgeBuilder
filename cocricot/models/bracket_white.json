@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/bracket",
+    "textures": {
+  		"particle": "cocricotmod:blocks/stone_color_white",
+  		"texture": "cocricotmod:blocks/metal_white"
+  	}
+}

@@ -1,0 +1,32 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_sofa_single",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ],
+				"scale": 0.625
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+    			"textures": {
+					"2": "miniaturia_mod:blocks/kingchair_pink",
+					"3": "miniaturia_mod:blocks/casterchair_pink",
+					"4": "miniaturia_mod:blocks/sofa_pink",
+					"cs0": "miniaturia_mod:blocks/table_side1_acacia"
+				}
+    		},
+    		"click1": {
+    			"textures": {
+					"2": "miniaturia_mod:blocks/kingchair_lightblue",
+					"3": "miniaturia_mod:blocks/casterchair_lightblue",
+					"4": "miniaturia_mod:blocks/sofa_lightblue",
+					"cs0": "miniaturia_mod:blocks/table_side1_acacia"
+				}
+    		}
+        }
+    }
+}

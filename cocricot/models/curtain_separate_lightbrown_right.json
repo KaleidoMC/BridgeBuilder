@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/curtain_separate_right",
+    "textures": {
+      "texture": "cocricotmod:blocks/curtain_separate_lightbrown"
+    }
+}

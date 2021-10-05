@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cocricotmod:blocks/pattern_tribal_blue"
+    }
+}

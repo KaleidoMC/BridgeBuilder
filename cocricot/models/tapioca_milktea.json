@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/tapioca_cafelatte",
+    "textures": {
+        "0": "cocricotmod:blocks/tapioca_milktea"
+    }
+}

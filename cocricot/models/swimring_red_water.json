@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/swimring_yellow_water",
+  	"textures": {
+  		"0": "cocricotmod:blocks/bed_pillow_red",
+  		"particle": "cocricotmod:blocks/stone_color_red"
+  	}
+}

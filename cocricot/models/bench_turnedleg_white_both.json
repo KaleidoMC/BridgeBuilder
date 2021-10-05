@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/bench_turnedleg_black_both",
+    "textures": {
+			"0": "cocricotmod:blocks/planks_white",
+			"1": "cocricotmod:blocks/bench_turnedleg_white_both"
+    }
+}

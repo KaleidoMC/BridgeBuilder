@@ -1,0 +1,62 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_shelf_book_a_single",
+		"textures": {
+	 		"upper": "miniaturia_mod:blocks/shelf_book",
+			"lower": "miniaturia_mod:blocks/shelf_book"
+			}
+    },
+    "variants": {
+        "variant": {
+			 	"click0": {
+				 	"submodel": "miniaturia_mod:mt_shelf_a_24",
+				 	"textures": {
+						"edge": "miniaturia_mod:blocks/furniture_ashbrown_edge",
+						"plate": "miniaturia_mod:blocks/table_ashbrown_top",
+						"parts": "miniaturia_mod:blocks/furniture_ashbrown_parts",
+						"side1": "miniaturia_mod:blocks/furniture_ashbrown_side1",
+						"plate_top": "miniaturia_mod:blocks/table_ashbrown_top",
+						"plate_middle": "miniaturia_mod:blocks/table_ashbrown_top",
+						"edge2": "miniaturia_mod:blocks/furniture_ashbrown_edge"
+						}
+					},
+			 	"click1": {
+				 	"submodel": "miniaturia_mod:mt_shelf_a_24",
+				 	"textures": {
+						"edge": "miniaturia_mod:blocks/furniture_lightbrown_edge",
+						"plate": "miniaturia_mod:blocks/table_lightbrown_top",
+						"parts": "miniaturia_mod:blocks/furniture_lightbrown_parts",
+						"side1": "miniaturia_mod:blocks/furniture_lightbrown_side1",
+						"plate_top": "miniaturia_mod:blocks/table_lightbrown_top",
+						"plate_middle": "miniaturia_mod:blocks/table_lightbrown_top",
+						"edge2": "miniaturia_mod:blocks/furniture_lightbrown_edge"
+						}
+					},
+			 	"click2": {
+				 	"submodel": "miniaturia_mod:mt_shelf_b_24",
+				 	"textures": {
+						"edge": "miniaturia_mod:blocks/furniture_acacia_edge",
+						"plate": "miniaturia_mod:blocks/table_acacia_top",
+						"side1": "miniaturia_mod:blocks/furniture_acacia_side1",
+						"side2": "miniaturia_mod:blocks/furniture_acacia_side2",
+						"side1b": "miniaturia_mod:blocks/furniture_acacia_side1b",
+						"edge2": "miniaturia_mod:blocks/furniture_acacia_edge",
+						"plate_middle": "miniaturia_mod:blocks/table_acacia_top"
+						}
+					},
+			 	"click3": {
+				 	"submodel": "miniaturia_mod:mt_shelf_b_24",
+				 	"textures": {
+						"edge": "miniaturia_mod:blocks/furniture_darkbrown_edge",
+						"plate": "miniaturia_mod:blocks/table_darkbrown_top",
+						"side1": "miniaturia_mod:blocks/furniture_darkbrown_side1",
+						"side2": "miniaturia_mod:blocks/furniture_darkbrown_side2",
+						"side1b": "miniaturia_mod:blocks/furniture_darkbrown_side1b",
+						"edge2": "miniaturia_mod:blocks/furniture_darkbrown_edge",
+						"plate_middle": "miniaturia_mod:blocks/table_darkbrown_top"
+						}
+					}
+		}
+	}
+}

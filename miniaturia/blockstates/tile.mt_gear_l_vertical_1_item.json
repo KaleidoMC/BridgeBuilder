@@ -1,0 +1,53 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_gear_l",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 0}, { "y": 0 }, { "z": 0 } ], "translation": [ 0, -0.8, 0.5 ], "scale": 0.6 }
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+            	"x": 270,
+			    "textures": {
+			    		"0": "miniaturia_mod:blocks/gear_red_l",
+						"1": "miniaturia_mod:blocks/gear_red",
+						"2": "miniaturia_mod:blocks/gear_red2",
+						"3": "miniaturia_mod:blocks/c",
+						"4": "miniaturia_mod:blocks/gear_red_l"
+			    	}
+				},
+            "click1": {
+            	"x": 270,
+			    "textures": {
+			    		"0": "miniaturia_mod:blocks/gear_red_l",
+						"1": "miniaturia_mod:blocks/gear_red",
+						"2": "miniaturia_mod:blocks/gear_red2",
+						"3": "miniaturia_mod:blocks/c",
+						"4": "miniaturia_mod:blocks/gear_red_l"
+			    	}
+				},
+            "click2": {
+            	"x": 270,
+			    "textures": {
+			    		"0": "miniaturia_mod:blocks/gear_green_l",
+						"1": "miniaturia_mod:blocks/gear_green",
+						"2": "miniaturia_mod:blocks/gear_green2",
+						"3": "miniaturia_mod:blocks/c",
+						"4": "miniaturia_mod:blocks/gear_green_l"
+			    	}
+				},
+            "click3": {
+            	"x": 270,
+			    "textures": {
+			    		"0": "miniaturia_mod:blocks/gear_green_l",
+						"1": "miniaturia_mod:blocks/gear_green",
+						"2": "miniaturia_mod:blocks/gear_green2",
+						"3": "miniaturia_mod:blocks/c",
+						"4": "miniaturia_mod:blocks/gear_green_l"
+			    	}
+				}
+		}
+	}
+}

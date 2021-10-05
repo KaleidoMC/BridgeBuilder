@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/speaker",
+    "textures": {
+        "particle": "cocricotmod:blocks/planks_brown",
+        "texture": "cocricotmod:blocks/speaker_brown"
+    }
+}

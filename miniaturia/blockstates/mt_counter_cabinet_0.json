@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "furnace"
+	},
+
+    "variants": {
+
+    	"click": {
+		 	"0": {
+				"textures": {
+						"front" : "miniaturia_mod:blocks/furniture_ashbrown_cabinet_a_front",
+						"side" : "miniaturia_mod:blocks/furniture_ashbrown_cabinet_side",
+						"top" : "miniaturia_mod:blocks/table_ashbrown_top",
+						"particle": "miniaturia_mod:blocks/furniture_ashbrown_cabinet_a_front"
+			 		}
+				},
+		 	"1": {
+				"textures": {
+						"front" : "miniaturia_mod:blocks/furniture_lightbrown_cabinet_a_front",
+						"side" : "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+						"top" : "miniaturia_mod:blocks/table_lightbrown_top",
+						"particle": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_a_front"
+			 		}
+				},
+		 	"2": {
+				"textures": {
+						"front" : "miniaturia_mod:blocks/furniture_acacia_cabinet_a_front",
+						"side" : "miniaturia_mod:blocks/furniture_acacia_cabinet_side",
+						"top" : "miniaturia_mod:blocks/table_acacia_top",
+						"particle": "miniaturia_mod:blocks/furniture_acacia_cabinet_a_front"
+			 		}
+				},
+		 	"3": {
+				"textures": {
+						"front" : "miniaturia_mod:blocks/furniture_darkbrown_cabinet_a_front",
+						"side" : "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side",
+						"top" : "miniaturia_mod:blocks/table_darkbrown_top",
+						"particle": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_a_front"
+			 		}
+				}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

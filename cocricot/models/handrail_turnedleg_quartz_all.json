@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/handrail_all",
+    "textures": {
+        "texture": "cocricotmod:blocks/handrail_turnedleg_quartz_post3",
+        "texture1": "cocricotmod:blocks/handrail_turnedleg_quartz1",
+        "texture2": "cocricotmod:blocks/handrail_turnedleg_quartz_top"
+    }
+}

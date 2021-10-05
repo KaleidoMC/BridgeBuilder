@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/chair_american_black",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_color_yellow",
+        "0": "cocricotmod:blocks/chair_american_yellow"
+    }
+}

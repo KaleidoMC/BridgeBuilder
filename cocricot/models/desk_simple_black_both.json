@@ -1,0 +1,8 @@
+{
+	"parent": "cocricotmod:block/desk_simple_white_both",
+	"textures": {
+		"1": "cocricotmod:blocks/stone_color_black",
+		"2": "cocricotmod:blocks/shopfacade_paris_black_vertical3",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	}
+}

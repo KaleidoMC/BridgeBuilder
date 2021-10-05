@@ -1,0 +1,46 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "half_slab",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "half_slab" },
+			"top":		{ "model": "upper_slab" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_rhombus_a",
+					"top" : "miniaturia_mod:blocks/brick_rhombus_a",
+					"side" : "miniaturia_mod:blocks/brick_rhombus_a"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_rhombus_b",
+					"top" : "miniaturia_mod:blocks/brick_rhombus_b",
+					"side" : "miniaturia_mod:blocks/brick_rhombus_b"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brick_graffiti",
+					"top" : "miniaturia_mod:blocks/brick_graffiti",
+					"side" : "miniaturia_mod:blocks/brick_graffiti"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/cs",
+					"top" : "miniaturia_mod:blocks/cs",
+					"side" : "miniaturia_mod:blocks/cs"
+				}
+			}
+		}
+	}
+}

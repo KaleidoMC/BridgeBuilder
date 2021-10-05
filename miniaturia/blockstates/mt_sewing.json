@@ -1,0 +1,78 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_sewing_upper"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/sewing0",
+						"1": "miniaturia_mod:blocks/sewing1",
+						"2": "miniaturia_mod:blocks/brass_parts",
+						"3": "miniaturia_mod:blocks/sewing2",
+						"4": "miniaturia_mod:blocks/table_marron_top",
+						"5": "miniaturia_mod:blocks/sewing0",
+						"6": "miniaturia_mod:blocks/sewing1",
+						"7": "miniaturia_mod:blocks/sewing2",
+						"particle": "miniaturia_mod:blocks/sewing1"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/sewing0",
+						"1": "miniaturia_mod:blocks/sewing1b",
+						"2": "miniaturia_mod:blocks/brass_parts",
+						"3": "miniaturia_mod:blocks/sewing2b",
+						"4": "miniaturia_mod:blocks/table_darkbrown_top",
+						"5": "miniaturia_mod:blocks/sewing0b",
+						"6": "miniaturia_mod:blocks/sewing1b",
+						"7": "miniaturia_mod:blocks/sewing2b",
+						"particle": "miniaturia_mod:blocks/sewing1b"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/sewing0",
+						"1": "miniaturia_mod:blocks/sewing1c",
+						"2": "miniaturia_mod:blocks/brass_parts",
+						"3": "miniaturia_mod:blocks/sewing2c",
+						"4": "miniaturia_mod:blocks/table_lightbrown_top",
+						"5": "miniaturia_mod:blocks/sewing0",
+						"6": "miniaturia_mod:blocks/sewing1c",
+						"7": "miniaturia_mod:blocks/sewing2c",
+						"particle": "miniaturia_mod:blocks/sewing1c"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/sewing0",
+						"1": "miniaturia_mod:blocks/sewing1d",
+						"2": "miniaturia_mod:blocks/silver_parts",
+						"3": "miniaturia_mod:blocks/sewing2d",
+						"4": "miniaturia_mod:blocks/table_ashbrown_top",
+						"5": "miniaturia_mod:blocks/sewing0d",
+						"6": "miniaturia_mod:blocks/sewing1d",
+						"7": "miniaturia_mod:blocks/sewing2d",
+						"particle": "miniaturia_mod:blocks/sewing1d"
+			 		}
+	    		}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_sewing_lower" },
+    		"middle":	{ "model": "miniaturia_mod:mt_nm" },
+    		"top":		{ "model": "miniaturia_mod:mt_sewing_upper" },
+    		"single":	{ "model": "miniaturia_mod:mt_sewing_upper" }
+		}
+    }
+}

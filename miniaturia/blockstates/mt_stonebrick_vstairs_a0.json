@@ -1,0 +1,52 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+		"uvlock": true
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/stonebrick_mossy",
+				        "corner_top":		"miniaturia_mod:blocks/stonebrick_mossy",
+				        "ns":		"miniaturia_mod:blocks/stonebrick_mossy",
+				        "we":		"miniaturia_mod:blocks/stonebrick_mossy"
+				    	}
+				},
+	    		"1": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/nether_brick",
+				        "corner_top":		"miniaturia_mod:blocks/nether_brick",
+				        "ns":		"miniaturia_mod:blocks/nether_brick",
+				        "we":		"miniaturia_mod:blocks/nether_brick"
+				    	}
+	    			},
+	    		"2": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/stonebrick_beige",
+				        "corner_top":		"miniaturia_mod:blocks/stonebrick_beige",
+				        "ns":		"miniaturia_mod:blocks/stonebrick_beige",
+				        "we":		"miniaturia_mod:blocks/stonebrick_beige"
+				    	}
+	    			},
+	    		"3": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/stonebrick_blue",
+				        "corner_top":		"miniaturia_mod:blocks/stonebrick_blue",
+				        "ns":		"miniaturia_mod:blocks/stonebrick_blue",
+				        "we":		"miniaturia_mod:blocks/stonebrick_blue"
+				    	}
+	    			}
+    	},
+
+        "position": {
+				"ne":	{ "y": 270 },
+				"se":	{ "y": 0 },
+				"sw":	{ "y": 90 },
+				"nw":	{ "y": 180 }
+		}
+	}
+}

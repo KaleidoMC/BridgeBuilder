@@ -1,0 +1,42 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_steel_beam_smiddle",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 0 }, { "y": 90 }, { "z": 0 } ], "scale": 0.65
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+				    		"0": "miniaturia_mod:blocks/steel_silver_b"
+							}
+				},
+			"meta1": {
+				"textures": {
+				    		"0": "miniaturia_mod:blocks/steel_black_b"
+							}
+				},
+			"meta2": {
+				"textures": {
+				    		"0": "miniaturia_mod:blocks/steel_red_b"
+							}
+				},
+			"meta3": {
+				"textures": {
+				    		"0": "miniaturia_mod:blocks/steel_green_b"
+							}
+				},
+			"meta4": {
+				"model": "miniaturia_mod:mt_steel_beam2_smiddle",
+				"textures": {
+				    		"0": "miniaturia_mod:blocks/brass_b",
+				    		"1": "miniaturia_mod:blocks/brass_c"
+							}
+				}
+		}
+    }
+}

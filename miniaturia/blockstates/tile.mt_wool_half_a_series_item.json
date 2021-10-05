@@ -1,0 +1,67 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "half_slab",
+  			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wool_colored_magenta",
+					"top" : "miniaturia_mod:blocks/wool_colored_magenta",
+					"side" : "miniaturia_mod:blocks/wool_colored_magenta"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wool_colored_light_blue",
+					"top" : "miniaturia_mod:blocks/wool_colored_light_blue",
+					"side" : "miniaturia_mod:blocks/wool_colored_light_blue"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wool_colored_yellow",
+					"top" : "miniaturia_mod:blocks/wool_colored_yellow",
+					"side" : "miniaturia_mod:blocks/wool_colored_yellow"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wool_colored_lime",
+					"top" : "miniaturia_mod:blocks/wool_colored_lime",
+					"side" : "miniaturia_mod:blocks/wool_colored_lime"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wool_colored_silver",
+					"top" : "miniaturia_mod:blocks/wool_colored_silver",
+					"side" : "miniaturia_mod:blocks/wool_colored_silver"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wool_colored_brown",
+					"top" : "miniaturia_mod:blocks/wool_colored_brown",
+					"side" : "miniaturia_mod:blocks/wool_colored_brown"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wool_colored_red",
+					"top" : "miniaturia_mod:blocks/wool_colored_red",
+					"side" : "miniaturia_mod:blocks/wool_colored_red"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/wool_colored_black",
+					"top" : "miniaturia_mod:blocks/wool_colored_black",
+					"side" : "miniaturia_mod:blocks/wool_colored_black"
+				}
+			}
+		}
+    }
+}

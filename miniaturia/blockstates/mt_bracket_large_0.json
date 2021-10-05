@@ -1,0 +1,67 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_bracket_large",
+		"textures": {
+				"0": "miniaturia_mod:blocks/stone_upper_molding",
+				"1": "miniaturia_mod:blocks/stone_column_b_middle",
+				"2": "miniaturia_mod:blocks/stone_winframe_side",
+				"3": "miniaturia_mod:blocks/stone_column_b_top_parts",
+				"4": "miniaturia_mod:blocks/stone_plate_parts"
+	 		}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { },
+	    		"2": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/quartz_upper_molding",
+						"1": "miniaturia_mod:blocks/quartz_column_b_middle",
+						"2": "miniaturia_mod:blocks/quartz_winframe_side",
+						"3": "miniaturia_mod:blocks/quartz_column_b_top_parts",
+						"4": "miniaturia_mod:blocks/quartz_plate_parts"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/quartz_upper_molding",
+						"1": "miniaturia_mod:blocks/quartz_column_b_middle",
+						"2": "miniaturia_mod:blocks/quartz_winframe_side",
+						"3": "miniaturia_mod:blocks/quartz_column_b_top_parts",
+						"4": "miniaturia_mod:blocks/quartz_plate_parts"
+			 		}
+	    		}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+        "click=0,facing=north":	[{}],
+        "click=0,facing=east":	[{}],
+        "click=0,facing=south":	[{}],
+        "click=0,facing=west":	[{}],
+
+        "click=1,facing=north":	{ "x": 180, "y": 180 },
+        "click=1,facing=east":	{ "x": 180, "y": 270 },
+        "click=1,facing=south":	{ "x": 180, "y": 0 },
+        "click=1,facing=west":	{ "x": 180, "y": 90 },
+
+        "click=2,facing=north":	[{}],
+        "click=2,facing=east":	[{}],
+        "click=2,facing=south":	[{}],
+        "click=2,facing=west":	[{}],
+
+        "click=3,facing=north":	{ "x": 180, "y": 180 },
+        "click=3,facing=east":	{ "x": 180, "y": 270 },
+        "click=3,facing=south":	{ "x": 180, "y": 0 },
+        "click=3,facing=west":	{ "x": 180, "y": 90 }
+
+    }
+}

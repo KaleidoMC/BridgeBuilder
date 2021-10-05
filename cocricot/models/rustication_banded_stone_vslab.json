@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_vslab_topside",
+    "textures": {
+      "top": "cocricotmod:blocks/rustication_banded_stone_top",
+      "side": "cocricotmod:blocks/rustication_banded_stone"
+    }
+}

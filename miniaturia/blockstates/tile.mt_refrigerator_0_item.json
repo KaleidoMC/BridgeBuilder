@@ -1,0 +1,42 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_refrigerator_top",
+		"textures": {
+	    			"bottom": "miniaturia_mod:blocks/metal_black_parts",
+					"plate": "miniaturia_mod:blocks/traffic_plates"
+				}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+		    		"textures": {
+						"front_2": "miniaturia_mod:blocks/refrigerator_white_3",
+						"side_2": "miniaturia_mod:blocks/refrigerator_white_side_3",
+						"back_2": "miniaturia_mod:blocks/refrigerator_white_back_3"
+					}
+				},
+            "click1": {
+		    		"textures": {
+						"front_2": "miniaturia_mod:blocks/refrigerator_yellow_3",
+						"side_2": "miniaturia_mod:blocks/refrigerator_yellow_side_3",
+						"back_2": "miniaturia_mod:blocks/refrigerator_yellow_back_3"
+					}
+				},
+            "click2": {
+		    		"textures": {
+						"front_2": "miniaturia_mod:blocks/refrigerator_blue_3",
+						"side_2": "miniaturia_mod:blocks/refrigerator_blue_side_3",
+						"back_2": "miniaturia_mod:blocks/refrigerator_blue_back_3"
+					}
+				},
+            "click3": {
+		    		"textures": {
+						"front_2": "miniaturia_mod:blocks/refrigerator_red_3",
+						"side_2": "miniaturia_mod:blocks/refrigerator_red_side_3",
+						"back_2": "miniaturia_mod:blocks/refrigerator_red_back_3"
+					}
+				}
+		}
+	}
+}

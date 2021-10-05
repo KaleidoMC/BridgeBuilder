@@ -1,0 +1,21 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_wood_prop_n",
+		"textures": {
+			"bottom": "miniaturia_mod:blocks/log_spruce",
+			"top": "miniaturia_mod:blocks/log_spruce",
+			"ns": "miniaturia_mod:blocks/log_spruce_side",
+			"we": "miniaturia_mod:blocks/log_spruce_side"
+	    	}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": { "model":"miniaturia_mod:mt_wood_prop_n" },
+			"click1": { "model":"miniaturia_mod:mt_wood_prop_b_n" },
+	    	"click2": { "model":"miniaturia_mod:mt_wood_prop_c_n" },
+	    	"click3": { "model":"miniaturia_mod:mt_wood_prop_d_n" }
+        }
+    }
+}

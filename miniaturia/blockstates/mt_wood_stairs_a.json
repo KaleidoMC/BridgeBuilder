@@ -1,0 +1,90 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_stairs_v",
+	    "textures": {
+	    	"side":			"miniaturia_mod:blocks/wood_white",
+			"half_side":	"miniaturia_mod:blocks/wood_white",
+			"top":			"miniaturia_mod:blocks/wood_white_stairs",
+			"bottom":			"miniaturia_mod:blocks/wood_white_stairs",
+			"corner_top":	"miniaturia_mod:blocks/wood_white_stairs_outer",
+			"corner_bottom":"miniaturia_mod:blocks/wood_white_stairs_outer"
+	    }
+	},
+
+    "variants": {
+
+    	"facing": {
+    		"east": { },
+    		"west": { },
+    		"south": { },
+    		"north": { }
+		},
+
+		"half":{
+			"bottom": { },
+			"top": { }
+		},
+
+		"shape": {
+            "straight":		{ "model":"miniaturia_mod:mt_stairs_v" },
+            "outer_right":	{ "model":"miniaturia_mod:mt_stairs_v_outer" },
+            "outer_left":	{ "model":"miniaturia_mod:mt_stairs_v_outer" },
+            "inner_right":	{ "model":"miniaturia_mod:mt_stairs_v_inner" },
+            "inner_left":	{ "model":"miniaturia_mod:mt_stairs_v_inner" }
+		},
+
+        "facing=east,half=bottom,shape=straight":		{"y": 0 },
+        "facing=west,half=bottom,shape=straight":		{"y": 180 },
+        "facing=south,half=bottom,shape=straight":		{"y": 90 },
+        "facing=north,half=bottom,shape=straight":		{"y": 270 },
+
+        "facing=east,half=bottom,shape=outer_right":	{"y": 0 },
+        "facing=west,half=bottom,shape=outer_right":	{"y": 180 },
+        "facing=south,half=bottom,shape=outer_right":	{"y": 90 },
+        "facing=north,half=bottom,shape=outer_right":	{"y": 270 },
+
+        "facing=east,half=bottom,shape=outer_left":		{"y": 270 },
+        "facing=west,half=bottom,shape=outer_left":		{"y": 90 },
+        "facing=south,half=bottom,shape=outer_left":	{"y": 0 },
+        "facing=north,half=bottom,shape=outer_left":	{"y": 180 },
+
+        "facing=east,half=bottom,shape=inner_right":	{"y": 0 },
+        "facing=west,half=bottom,shape=inner_right":	{"y": 180 },
+        "facing=south,half=bottom,shape=inner_right":	{"y": 90 },
+        "facing=north,half=bottom,shape=inner_right":	{"y": 270 },
+
+        "facing=east,half=bottom,shape=inner_left":		{"y": 270 },
+        "facing=west,half=bottom,shape=inner_left":		{"y": 90 },
+        "facing=south,half=bottom,shape=inner_left":	{"y": 0 },
+        "facing=north,half=bottom,shape=inner_left":	{"y": 180 },
+
+
+        "facing=east,half=top,shape=straight":			{"x": 180, "y": 0 },
+        "facing=west,half=top,shape=straight":			{"x": 180, "y": 180 },
+        "facing=south,half=top,shape=straight":			{"x": 180, "y": 90 },
+        "facing=north,half=top,shape=straight":			{"x": 180, "y": 270 },
+
+        "facing=east,half=top,shape=outer_right":		{"x": 180, "y": 90 },
+        "facing=west,half=top,shape=outer_right":		{"x": 180, "y": 270 },
+        "facing=south,half=top,shape=outer_right":		{"x": 180, "y": 180 },
+        "facing=north,half=top,shape=outer_right":		{"x": 180, "y": 0 },
+
+        "facing=east,half=top,shape=outer_left":		{"x": 180, "y": 0 },
+        "facing=west,half=top,shape=outer_left":		{"x": 180, "y": 180 },
+        "facing=south,half=top,shape=outer_left":		{"x": 180, "y": 90 },
+        "facing=north,half=top,shape=outer_left":		{"x": 180, "y": 270 },
+
+        "facing=east,half=top,shape=inner_right":		{"x": 180, "y": 90 },
+        "facing=west,half=top,shape=inner_right":		{"x": 180, "y": 270 },
+        "facing=south,half=top,shape=inner_right":		{"x": 180, "y": 180 },
+        "facing=north,half=top,shape=inner_right":		{"x": 180, "y": 0 },
+
+        "facing=east,half=top,shape=inner_left":		{"x": 180, "y": 0 },
+        "facing=west,half=top,shape=inner_left":		{"x": 180, "y": 180 },
+        "facing=south,half=top,shape=inner_left":		{"x": 180, "y": 90 },
+        "facing=north,half=top,shape=inner_left":		{"x": 180, "y": 270 },
+
+		"inventory":[{ }]
+	}
+}

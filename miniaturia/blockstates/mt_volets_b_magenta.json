@@ -1,0 +1,60 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_trapdoor_half_left",
+		"textures":{
+			"volet" : "miniaturia_mod:blocks/volets_b_magenta"
+		}
+  },
+    "variants": {
+
+        "facing=south,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_trapdoor_half_left", "y": 0 },
+        "facing=west,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_trapdoor_half_left", "y": 90 },
+        "facing=north,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_trapdoor_half_left", "y": 180 },
+        "facing=east,fence=false,shape=left":	{ "model":"miniaturia_mod:mt_trapdoor_half_left", "y": 270 },
+
+        "facing=south,fence=false,shape=middle":{ "model":"miniaturia_mod:mt_trapdoor_half", "y": 0 },
+        "facing=west,fence=false,shape=middle":	{ "model":"miniaturia_mod:mt_trapdoor_half", "y": 90 },
+        "facing=north,fence=false,shape=middle":{ "model":"miniaturia_mod:mt_trapdoor_half", "y": 180 },
+        "facing=east,fence=false,shape=middle":	{ "model":"miniaturia_mod:mt_trapdoor_half", "y": 270 },
+
+        "facing=south,fence=false,shape=middle2":{ "model":"miniaturia_mod:mt_trapdoor_half2", "y": 0 },
+        "facing=west,fence=false,shape=middle2":	{ "model":"miniaturia_mod:mt_trapdoor_half2", "y": 90 },
+        "facing=north,fence=false,shape=middle2":{ "model":"miniaturia_mod:mt_trapdoor_half2", "y": 180 },
+        "facing=east,fence=false,shape=middle2":	{ "model":"miniaturia_mod:mt_trapdoor_half2", "y": 270 },
+
+        "facing=south,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_trapdoor_half_right", "y": 0 },
+        "facing=west,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_trapdoor_half_right", "y": 90 },
+        "facing=north,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_trapdoor_half_right", "y": 180 },
+        "facing=east,fence=false,shape=right":	{ "model":"miniaturia_mod:mt_trapdoor_half_right", "y": 270 },
+
+        "facing=south,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_trapdoor_half_left_long", "y": 0 },
+        "facing=west,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_trapdoor_half_left_long", "y": 90 },
+        "facing=north,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_trapdoor_half_left_long", "y": 180 },
+        "facing=east,fence=true,shape=left":	{ "model":"miniaturia_mod:mt_trapdoor_half_left_long", "y": 270 },
+
+        "facing=south,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_trapdoor_half_long", "y": 0 },
+        "facing=west,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_trapdoor_half_long", "y": 90 },
+        "facing=north,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_trapdoor_half_long", "y": 180 },
+        "facing=east,fence=true,shape=middle":	{ "model":"miniaturia_mod:mt_trapdoor_half_long", "y": 270 },
+
+        "facing=south,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_trapdoor_half_right_long", "y": 0 },
+        "facing=west,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_trapdoor_half_right_long", "y": 90 },
+        "facing=north,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_trapdoor_half_right_long", "y": 180 },
+        "facing=east,fence=true,shape=right":	{ "model":"miniaturia_mod:mt_trapdoor_half_right_long", "y": 270 },
+
+        "facing=south,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_trapdoor_half2_long", "y": 0 },
+        "facing=west,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_trapdoor_half2_long", "y": 90 },
+        "facing=north,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_trapdoor_half2_long", "y": 180 },
+        "facing=east,fence=true,shape=middle2":	{ "model":"miniaturia_mod:mt_trapdoor_half2_long", "y": 270 },
+
+        "inventory":[{
+        	"transform": {
+		        "gui": {
+		            "rotation": [ { "x": 0}, { "y": 0 }, { "z": 0 } ],
+		            "scale": 0.8
+		        }
+			}
+        }]
+	}
+}

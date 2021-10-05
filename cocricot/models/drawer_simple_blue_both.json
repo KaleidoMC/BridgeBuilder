@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/drawer_simple_clear_both",
+	"textures": {
+		"0": "cocricotmod:blocks/drawer_simple_blue",
+		"particle": "cocricotmod:blocks/planks_blue"
+	}
+}

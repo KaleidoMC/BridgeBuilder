@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/pathway_wood_brown",
+    "textures": {
+        "0": "cocricotmod:blocks/signpost_wood_seadrift",
+        "particle": "cocricotmod:blocks/planks_seadrift"
+    }
+}

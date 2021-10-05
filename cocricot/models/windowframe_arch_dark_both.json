@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowframe_arch_both",
+    "textures": {
+        "0": "cocricotmod:blocks/windowframe_classic_dark",
+        "particle": "cocricotmod:blocks/planks_dark"
+    }
+}

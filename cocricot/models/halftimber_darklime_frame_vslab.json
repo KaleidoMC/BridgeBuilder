@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/halftimber_vslab",
+    "textures": {
+      "d": "cocricotmod:blocks/planks_dark",
+      "u": "cocricotmod:blocks/planks_dark",
+      "n": "cocricotmod:blocks/halftimber_darklime0",
+      "s": "cocricotmod:blocks/halftimber_darklime0",
+      "w": "cocricotmod:blocks/halftimber_darklime35",
+      "e": "cocricotmod:blocks/halftimber_darklime35"
+    }
+}

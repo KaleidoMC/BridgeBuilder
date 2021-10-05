@@ -1,0 +1,43 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_column",
+		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "cube_column" },
+			"top":		{ "model": "cube_column" }
+		},
+
+		"variant": {
+
+			"meta0": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/sandstone_slab_top",
+					"side" : "miniaturia_mod:blocks/sandstone_plate_stacked"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/sandstone_slab_top",
+					"side" : "miniaturia_mod:blocks/sandstone_plate_stacked_b"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/sandstone_slab_top_b",
+					"side" : "miniaturia_mod:blocks/sandstone_lattice"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/sandstone_checked",
+					"side" : "miniaturia_mod:blocks/sandstone_checked"
+				}
+			}
+		}
+	}
+}

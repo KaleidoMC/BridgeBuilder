@@ -1,0 +1,41 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_lamppost_clock"
+  },
+    "variants": {
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"switch": {
+    		"true": {},
+    		"false":{}
+    	},
+
+    	"click": {
+    		"0": {
+    			"textures":{
+						"1": "miniaturia_mod:blocks/street_clock_face",
+						"2": "miniaturia_mod:blocks/lamppost_clock_brown",
+						"3": "miniaturia_mod:blocks/lamppost_clock_brown_1",
+						"4": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"particle": "miniaturia_mod:blocks/lamppost_clock_brown"
+					}
+				},
+		 	"1": {
+    			"textures":{
+						"1": "miniaturia_mod:blocks/street_clock_face",
+						"2": "miniaturia_mod:blocks/lamppost_clock_green",
+						"3": "miniaturia_mod:blocks/lamppost_clock_green_1",
+						"4": "miniaturia_mod:blocks/lamppost_clock_green_2",
+						"particle": "miniaturia_mod:blocks/lamppost_clock_green"
+					}
+				}
+	    }
+    }
+}

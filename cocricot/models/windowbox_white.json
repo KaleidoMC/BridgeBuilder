@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowbox",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_white",
+  		"texture": "cocricotmod:blocks/windowbox_white"
+    }
+}

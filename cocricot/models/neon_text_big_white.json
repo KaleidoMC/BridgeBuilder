@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/neon_text_big_pink",
+    "textures": {
+      "0": "cocricotmod:blocks/neon_text_big_white",
+  		"particle": "cocricotmod:blocks/neon_text_big_white"
+    }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/drawer_simple_clear_right_up",
+	"textures": {
+		"0": "cocricotmod:blocks/drawer_simple_dark",
+		"particle": "cocricotmod:blocks/planks_dark"
+	}
+}

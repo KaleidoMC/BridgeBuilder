@@ -1,0 +1,63 @@
+{
+	"textures": {
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [8, 13, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 3], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 8, 3], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 13, 8, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 13, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 13, 8, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9.5, 11, 1.5],
+			"to": [16, 13, 14.5],
+			"faces": {
+				"north": {"uv": [1.5, 3.5, 8, 5.5], "texture": "#0"},
+				"east": {"uv": [1.5, 3.5, 14.5, 5.5], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [1.5, 3.5, 8, 5.5], "texture": "#0"},
+				"west": {"uv": [1.5, 3.5, 14.5, 5.5], "texture": "#0"},
+				"down": {"uv": [0, 1.5, 6.5, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9.5, 3, 1.5],
+			"to": [16, 5, 14.5],
+			"faces": {
+				"north": {"uv": [1.5, 11, 8, 13], "texture": "#0"},
+				"east": {"uv": [1.5, 11, 14.5, 13], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [1.5, 11, 8, 13], "texture": "#0"},
+				"west": {"uv": [1.5, 11, 14.5, 13], "texture": "#0"},
+				"up": {"uv": [0, 1.5, 6.5, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11.5, 5, 3.5],
+			"to": [16, 11, 12.5],
+			"faces": {
+				"north": {"uv": [3.5, 5, 8, 11], "texture": "#0"},
+				"east": {"uv": [3.5, 5, 12.5, 11], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [3.5, 5, 8, 11], "texture": "#0"},
+				"west": {"uv": [3.5, 5, 12.5, 11], "texture": "#0"}
+			}
+		}
+	]
+}

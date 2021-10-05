@@ -1,0 +1,161 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_shop_rack_top"
+	},
+
+    "variants": {
+
+    	"click": {
+            "0": {
+		    		"textures": {
+						"plate": "miniaturia_mod:blocks/furniture_darkbrown_side2",
+						"plate_middle": "miniaturia_mod:blocks/furniture_darkbrown_side2",
+						"edge": "miniaturia_mod:blocks/furniture_darkbrown_edge",
+						"edge2": "miniaturia_mod:blocks/furniture_darkbrown_edge",
+						"side1": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side",
+						"arm1": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"arm2": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"bottom_side": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side",
+						"frame": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side"
+					}
+				},
+            "1": {
+		    		"textures": {
+						"plate": "miniaturia_mod:blocks/furniture_darkbrown_side2",
+						"plate_middle": "miniaturia_mod:blocks/c",
+						"edge": "miniaturia_mod:blocks/furniture_darkbrown_edge",
+						"edge2": "miniaturia_mod:blocks/c",
+						"side1": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side",
+						"arm1": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"arm2": "miniaturia_mod:blocks/c",
+						"bottom_side": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side",
+						"frame": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side"
+					}
+				},
+            "2": {
+		    		"textures": {
+						"plate": "miniaturia_mod:blocks/furniture_darkbrown_side2",
+						"plate_middle": "miniaturia_mod:blocks/furniture_darkbrown_side2",
+						"edge": "miniaturia_mod:blocks/furniture_darkbrown_edge",
+						"edge2": "miniaturia_mod:blocks/furniture_darkbrown_edge",
+						"side1": "miniaturia_mod:blocks/wrought_iron_pannel_brown",
+						"arm1": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"arm2": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"bottom_side": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side",
+						"frame": "miniaturia_mod:blocks/window_c_black_single"
+					}
+				},
+            "3": {
+		    		"textures": {
+						"plate": "miniaturia_mod:blocks/furniture_darkbrown_side2",
+						"plate_middle": "miniaturia_mod:blocks/c",
+						"edge": "miniaturia_mod:blocks/furniture_darkbrown_edge",
+						"edge2": "miniaturia_mod:blocks/c",
+						"side1": "miniaturia_mod:blocks/wrought_iron_pannel_brown",
+						"arm1": "miniaturia_mod:blocks/lamppost_clock_brown_2",
+						"arm2": "miniaturia_mod:blocks/c",
+						"bottom_side": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side",
+						"frame": "miniaturia_mod:blocks/window_c_black_single"
+					}
+				}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"shape": {
+    		"bottom":	{ "model": "miniaturia_mod:mt_shop_rack_bottom" },
+    		"middle":	{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+    		"top":		{ "model": "miniaturia_mod:mt_shop_rack_top" },
+    		"single":	{ "model": "miniaturia_mod:mt_shop_rack_top" }
+		},
+
+		"click=0,facing=north,shape=bottom":	[{}],
+		"click=0,facing=east,shape=bottom":		[{}],
+		"click=0,facing=south,shape=bottom":	[{}],
+		"click=0,facing=west,shape=bottom":		[{}],
+
+		"click=0,facing=north,shape=middle":	[{}],
+		"click=0,facing=east,shape=middle":		[{}],
+		"click=0,facing=south,shape=middle":	[{}],
+		"click=0,facing=west,shape=middle":		[{}],
+
+		"click=0,facing=north,shape=top":		[{}],
+		"click=0,facing=east,shape=top":		[{}],
+		"click=0,facing=south,shape=top":		[{}],
+		"click=0,facing=west,shape=top":		[{}],
+
+		"click=0,facing=north,shape=single":	[{}],
+		"click=0,facing=east,shape=single":		[{}],
+		"click=0,facing=south,shape=single":	[{}],
+		"click=0,facing=west,shape=single":		[{}],
+
+
+		"click=1,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+		"click=1,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+		"click=1,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+		"click=1,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+
+		"click=1,facing=north,shape=middle":	[{}],
+		"click=1,facing=east,shape=middle":		[{}],
+		"click=1,facing=south,shape=middle":	[{}],
+		"click=1,facing=west,shape=middle":		[{}],
+
+		"click=1,facing=north,shape=top":		[{}],
+		"click=1,facing=east,shape=top":		[{}],
+		"click=1,facing=south,shape=top":		[{}],
+		"click=1,facing=west,shape=top":		[{}],
+
+		"click=1,facing=north,shape=single":	[{}],
+		"click=1,facing=east,shape=single":		[{}],
+		"click=1,facing=south,shape=single":	[{}],
+		"click=1,facing=west,shape=single":		[{}],
+
+
+		"click=2,facing=north,shape=bottom":	[{}],
+		"click=2,facing=east,shape=bottom":		[{}],
+		"click=2,facing=south,shape=bottom":	[{}],
+		"click=2,facing=west,shape=bottom":		[{}],
+
+		"click=2,facing=north,shape=middle":	[{}],
+		"click=2,facing=east,shape=middle":		[{}],
+		"click=2,facing=south,shape=middle":	[{}],
+		"click=2,facing=west,shape=middle":		[{}],
+
+		"click=2,facing=north,shape=top":		[{}],
+		"click=2,facing=east,shape=top":		[{}],
+		"click=2,facing=south,shape=top":		[{}],
+		"click=2,facing=west,shape=top":		[{}],
+
+		"click=2,facing=north,shape=single":	[{}],
+		"click=2,facing=east,shape=single":		[{}],
+		"click=2,facing=south,shape=single":	[{}],
+		"click=2,facing=west,shape=single":		[{}],
+
+
+		"click=3,facing=north,shape=bottom":	{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+		"click=3,facing=east,shape=bottom":		{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+		"click=3,facing=south,shape=bottom":	{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+		"click=3,facing=west,shape=bottom":		{ "model": "miniaturia_mod:mt_shop_rack_middle" },
+
+		"click=3,facing=north,shape=middle":	[{}],
+		"click=3,facing=east,shape=middle":		[{}],
+		"click=3,facing=south,shape=middle":	[{}],
+		"click=3,facing=west,shape=middle":		[{}],
+
+		"click=3,facing=north,shape=top":		[{}],
+		"click=3,facing=east,shape=top":		[{}],
+		"click=3,facing=south,shape=top":		[{}],
+		"click=3,facing=west,shape=top":		[{}],
+
+		"click=3,facing=north,shape=single":	[{}],
+		"click=3,facing=east,shape=single":		[{}],
+		"click=3,facing=south,shape=single":	[{}],
+		"click=3,facing=west,shape=single":		[{}]
+    }
+}

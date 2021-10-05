@@ -1,0 +1,26 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stairs_v"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+					"side":			"miniaturia_mod:blocks/wood_oriental_red",
+					"half_side":	"miniaturia_mod:blocks/wood_oriental_red_stairs_side",
+					"top":			"miniaturia_mod:blocks/wood_oriental_red_stairs",
+					"bottom":		"miniaturia_mod:blocks/wood_oriental_red_stairs"
+					}
+				},
+            "click1": {
+				"textures": {
+					"side":			"miniaturia_mod:blocks/wood_oriental_black",
+					"half_side":	"miniaturia_mod:blocks/wood_oriental_black_stairs_side",
+					"top":			"miniaturia_mod:blocks/wood_oriental_black_stairs",
+					"bottom":		"miniaturia_mod:blocks/wood_oriental_black_stairs"
+					}
+				}
+        }
+    }
+}

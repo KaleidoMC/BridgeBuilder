@@ -1,0 +1,31 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_pole_half_middle",
+	    "textures": {
+	        "side":		"miniaturia_mod:blocks/wood_white_pole",
+	        "end":		"miniaturia_mod:blocks/wood_white_pole",
+	        "bottom" :	"miniaturia_mod:blocks/wood_white",
+			"top" :		"miniaturia_mod:blocks/wood_white",
+			"half" :	"miniaturia_mod:blocks/wood_white"
+	    	},
+	    "uvlock": true
+	},
+
+    "variants": {
+
+        "poleshape=middle":	{ "model":"miniaturia_mod:mt_pole_half_middle" },
+
+        "poleshape=n":	{ "model":"miniaturia_mod:mt_pole_half_n" },
+        "poleshape=e":	{ "model":"miniaturia_mod:mt_pole_half_n", "y": 90 },
+        "poleshape=s":	{ "model":"miniaturia_mod:mt_pole_half_n", "y": 180 },
+        "poleshape=w":	{ "model":"miniaturia_mod:mt_pole_half_n", "y": 270 },
+
+        "poleshape=ne":	{ "model":"miniaturia_mod:mt_pole_half_ne" },
+        "poleshape=se":	{ "model":"miniaturia_mod:mt_pole_half_ne", "y": 90 },
+        "poleshape=sw":	{ "model":"miniaturia_mod:mt_pole_half_ne", "y": 180 },
+        "poleshape=nw":	{ "model":"miniaturia_mod:mt_pole_half_ne", "y": 270 },
+
+        "inventory":[{ }]
+	}
+}

@@ -1,0 +1,92 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "miniaturia_mod:item_generated",
+	  		"transform": "forge:default-item",
+			"uvlock": true
+	    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_oak"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_oak_b"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_oak_c"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_oak_d"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_oak_e"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_oak_f"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_oak_g"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_platan"
+				}
+			},
+			"meta8": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_platan_b"
+				}
+			},
+			"meta9": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_ginkgo"
+				}
+			},
+			"meta10": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_ginkgo_b"
+				}
+			},
+			"meta11": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_momiji"
+				}
+			},
+			"meta12": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/bamboo_leaves_b"
+				}
+			},
+			"meta13": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_ivy_a_block"
+				}
+			},
+			"meta14": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_ivy_b_block"
+				}
+			},
+			"meta15": {
+				"textures": {
+					"layer0": "miniaturia_mod:blocks/leaves_camellia"
+				}
+			}
+		}
+    }
+}

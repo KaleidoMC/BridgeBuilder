@@ -1,0 +1,26 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_furnace"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+		    	"textures":{
+		    		"fire": "minecraft:blocks/fire_layer_0",
+					"2": "miniaturia_mod:blocks/furnace_inner_bottom",
+					"3": "miniaturia_mod:blocks/cobblestone",
+					"4": "miniaturia_mod:blocks/stone_slab_side"
+					}
+				},
+            "click1": {
+		    	"textures":{
+		    		"fire": "minecraft:blocks/fire_layer_0",
+					"2": "miniaturia_mod:blocks/furnace_inner_bottom",
+					"3": "miniaturia_mod:blocks/stonebrick_b_cacao",
+					"4": "miniaturia_mod:blocks/stone_slab_side"
+					}
+				}
+            }
+        }
+}

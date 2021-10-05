@@ -1,0 +1,30 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_trapdoor_thin_open",
+		"textures":{
+			"bottom" : "miniaturia_mod:blocks/volets_a_orange",
+			"top" : "miniaturia_mod:blocks/volets_a_orange",
+			"front" : "miniaturia_mod:blocks/volets_a_orange",
+			"edge" : "miniaturia_mod:blocks/volets_a_orange"
+		}
+  },
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { },
+	    		"2": { }
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+        "inventory":[{ }]
+    }
+}

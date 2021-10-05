@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_slab_all",
+    "textures": {
+        "bottom": "cocricotmod:blocks/wood_3board_brown",
+        "top": "cocricotmod:blocks/wood_3board_brown_slab_b",
+        "n": "cocricotmod:blocks/wood_3board_brown_slab_n",
+        "s": "cocricotmod:blocks/wood_3board_brown_slab_s",
+        "w": "cocricotmod:blocks/wood_3board_brown_slab_ew",
+        "e": "cocricotmod:blocks/wood_3board_brown_slab_ew"
+    }
+}

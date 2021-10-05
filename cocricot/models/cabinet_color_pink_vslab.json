@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_vslab_all",
+    "textures": {
+      "u": "cocricotmod:blocks/chest_color_pink_top",
+      "d": "cocricotmod:blocks/chest_color_pink_top",
+  		"n": "cocricotmod:blocks/cabinet_color_pink_side",
+  		"s": "cocricotmod:blocks/cabinet_color_pink",
+  		"e": "cocricotmod:blocks/cabinet_color_pink_side",
+  		"w": "cocricotmod:blocks/cabinet_color_pink_side"
+    }
+}

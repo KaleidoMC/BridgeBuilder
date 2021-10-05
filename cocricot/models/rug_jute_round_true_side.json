@@ -1,0 +1,39 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/rug_jute_round",
+		"1": "cocricotmod:blocks/planks_dark",
+		"2": "cocricotmod:blocks/carpet_block_bottom",
+		"particle": "cocricotmod:blocks/rug_jute_round"
+	},
+	"elements": [
+		{
+			"from": [-8, 16.5, -4],
+			"to": [16, 16.5, 20],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 12]},
+			"faces": {
+				"up": {"uv": [6, 0, 12, 6], "texture": "#0"},
+				"down": {"uv": [6, 0, 12, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [0.65, 0.65, 0.65]
+		}
+	}
+}

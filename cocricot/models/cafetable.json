@@ -1,0 +1,64 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "#0",
+		"1": "cocricotmod:blocks/metal_black"
+	},
+	"elements": [
+		{
+			"from": [0, 14, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 14, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 14], "texture": "#1"},
+				"east": {"uv": [2, 0, 0, 14], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 14], "texture": "#1"},
+				"west": {"uv": [2, 0, 0, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 0, 7.5],
+			"to": [15, 2, 8.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 14], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 1.5], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 14], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 1.5], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 1.5, 14], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 1.5, 14], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.5, 0, 1],
+			"to": [9, 2, 15],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 1.5], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 14], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 1.5], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 14], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 1.5, 14], "texture": "#1"},
+				"down": {"uv": [0, 0, 1.5, 14], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, -1, 0],
+			"scale": [0.65, 0.65, 0.65]
+		}
+	}
+}

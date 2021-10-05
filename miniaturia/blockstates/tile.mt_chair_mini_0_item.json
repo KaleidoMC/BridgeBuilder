@@ -1,0 +1,118 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_chair_small_0",
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 1.0, "translation": [ 0, 0.2, 0 ] },
+	        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+	        "fixed": {"scale": 0.5},
+	        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 1.0, "translation": [ 0, 0.25, 0 ] },
+	        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 1.0},
+	        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 1.0},
+	        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 1.0}
+		}
+    },
+    "variants": {
+        "variant": {
+            "meta0": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_brown"
+				}
+            },
+            "meta1": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+                "textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_lightbrown"
+                }
+            },
+            "meta2": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+                "textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_white"
+                }
+            },
+            "meta3": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+                "textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_choco"
+                }
+            },
+			"meta4": {
+				"model": "miniaturia_mod:mt_chair_small_0",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_whitebrown"
+					}
+				},
+			"meta5": {
+				"model": "miniaturia_mod:mt_chair_small_0",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_blue"
+					}
+				},
+			"meta6": {
+				"model": "miniaturia_mod:mt_chair_small_0",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_yellow"
+					}
+				},
+			"meta7": {
+				"model": "miniaturia_mod:mt_chair_small_0",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_lightblue"
+					}
+				},
+            "meta8": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+                "textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_pink"
+                }
+            },
+            "meta9": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+                "textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_green"
+                }
+            },
+            "meta10": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+                "textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_red"
+                }
+            },
+            "meta11": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+                "textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_mint"
+                }
+            },
+            "meta12": {
+            	"model": "miniaturia_mod:mt_chair_small_0",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_orange"
+                }
+            },
+            "meta13": {
+            	"model": "miniaturia_mod:mt_chair_small_3",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_brown",
+					"cs3" : "miniaturia_mod:blocks/chair_small_1_black"
+                }
+            },
+            "meta14": {
+            	"model": "miniaturia_mod:mt_chair_small_3",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_lightbrown",
+					"cs3" : "miniaturia_mod:blocks/chair_small_1_black"
+                }
+            },
+            "meta15": {
+            	"model": "miniaturia_mod:mt_chair_small_3",
+				"textures": {
+					"cs0" : "miniaturia_mod:blocks/chair_small_0_choco",
+					"cs3" : "miniaturia_mod:blocks/chair_small_1_black"
+                }
+            }
+        }
+    }
+}

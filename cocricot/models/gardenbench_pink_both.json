@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/gardenbench_both",
+    "textures": {
+      "particle": "cocricotmod:blocks/stucco_pink",
+      "texture": "cocricotmod:blocks/gardenbench_pink"
+    }
+}

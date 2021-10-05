@@ -1,0 +1,122 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_barrel_a"
+	},
+
+    "variants": {
+
+		"click=0,half=top":	{
+						"model": "miniaturia_mod:mt_barrel_a",
+						"textures": {
+							"0": "miniaturia_mod:blocks/barrel_a",
+							"1": "miniaturia_mod:blocks/barrel_a_top"
+							}
+						},
+		"click=0,half=bottom":	{
+						"model": "miniaturia_mod:mt_barrel_a",
+						"textures": {
+							"0": "miniaturia_mod:blocks/barrel_a",
+							"1": "miniaturia_mod:blocks/barrel_a_top"
+							}
+						},
+		"click=1,half=top":	{
+						"model": "miniaturia_mod:mt_barrel_a",
+						"textures": {
+							"0": "miniaturia_mod:blocks/barrel_a2",
+							"1": "miniaturia_mod:blocks/barrel_a2_top"
+							}
+						},
+		"click=1,half=bottom":	{
+						"model": "miniaturia_mod:mt_barrel_a",
+						"textures": {
+							"0": "miniaturia_mod:blocks/barrel_a2",
+							"1": "miniaturia_mod:blocks/barrel_a2_top"
+							}
+						},
+		"click=2,half=top":	{
+						"model": "miniaturia_mod:mt_barrel_a",
+						"textures": {
+							"0": "miniaturia_mod:blocks/barrel_b",
+							"1": "miniaturia_mod:blocks/barrel_a_top"
+							}
+						},
+		"click=2,half=bottom":	{
+						"model": "miniaturia_mod:mt_barrel_a",
+						"textures": {
+							"0": "miniaturia_mod:blocks/barrel_b",
+							"1": "miniaturia_mod:blocks/barrel_a_top"
+							}
+						},
+		"click=3,half=top":	{
+						"model": "miniaturia_mod:mt_barrel_a",
+						"textures": {
+							"0": "miniaturia_mod:blocks/barrel_b2",
+							"1": "miniaturia_mod:blocks/barrel_a2_top"
+							}
+						},
+		"click=3,half=bottom":	{
+						"model": "miniaturia_mod:mt_barrel_a",
+						"textures": {
+							"0": "miniaturia_mod:blocks/barrel_b2",
+							"1": "miniaturia_mod:blocks/barrel_a2_top"
+							}
+						},
+		"click=4,half=top":	{
+						"model": "miniaturia_mod:mt_oil_drum",
+						"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum",
+							"1": "miniaturia_mod:blocks/oil_drum_top"
+							}
+						},
+		"click=4,half=bottom":	{
+						"model": "miniaturia_mod:mt_oil_drum",
+						"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum",
+							"1": "miniaturia_mod:blocks/oil_drum_top"
+							}
+						},
+		"click=5,half=top":	{
+						"model": "miniaturia_mod:mt_oil_drum",
+						"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_blue",
+							"1": "miniaturia_mod:blocks/oil_drum_blue_top"
+							}
+						},
+		"click=5,half=bottom":	{
+						"model": "miniaturia_mod:mt_oil_drum",
+						"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_blue",
+							"1": "miniaturia_mod:blocks/oil_drum_blue_top"
+							}
+						},
+		"click=6,half=top":	{
+						"model": "miniaturia_mod:mt_oil_drum",
+						"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_yellow",
+							"1": "miniaturia_mod:blocks/oil_drum_yellow_top"
+							}
+						},
+		"click=6,half=bottom":	{
+						"model": "miniaturia_mod:mt_oil_drum",
+						"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_yellow",
+							"1": "miniaturia_mod:blocks/oil_drum_yellow_top"
+							}
+						},
+		"click=7,half=top":	{
+						"model": "miniaturia_mod:mt_oil_drum",
+						"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_red",
+							"1": "miniaturia_mod:blocks/oil_drum_red_top"
+							}
+						},
+		"click=7,half=bottom":	{
+						"model": "miniaturia_mod:mt_oil_drum",
+						"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_red",
+							"1": "miniaturia_mod:blocks/oil_drum_red_top"
+							}
+						}
+	}
+}

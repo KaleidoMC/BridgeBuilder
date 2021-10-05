@@ -1,0 +1,107 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"model": "cube_column",
+		"uvlock": false
+  },
+	"variants": {
+		"variant": {
+			"meta0": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_white",
+					"side": "miniaturia_mod:blocks/wallpaper_a_white"
+					}
+				},
+			"meta1": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_orange",
+					"side": "miniaturia_mod:blocks/wallpaper_a_orange"
+					}
+				},
+			"meta2": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_magenta",
+					"side": "miniaturia_mod:blocks/wallpaper_a_magenta"
+					}
+				},
+			"meta3": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_lightblue",
+					"side": "miniaturia_mod:blocks/wallpaper_a_lightblue"
+					}
+				},
+			"meta4": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_yellow",
+					"side": "miniaturia_mod:blocks/wallpaper_a_yellow"
+					}
+				},
+			"meta5": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_lime",
+					"side": "miniaturia_mod:blocks/wallpaper_a_lime"
+					}
+				},
+			"meta6": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_pink",
+					"side": "miniaturia_mod:blocks/wallpaper_a_pink"
+					}
+				},
+			"meta7": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_gray",
+					"side": "miniaturia_mod:blocks/wallpaper_a_gray"
+					}
+				},
+			"meta8": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/cs",
+					"side": "miniaturia_mod:blocks/cs"
+					}
+				},
+			"meta9": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_mint",
+					"side": "miniaturia_mod:blocks/wallpaper_a_mint"
+					}
+				},
+			"meta10": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_purple",
+					"side": "miniaturia_mod:blocks/wallpaper_a_purple"
+					}
+				},
+			"meta11": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_blue",
+					"side": "miniaturia_mod:blocks/wallpaper_a_blue"
+					}
+				},
+			"meta12": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_brown",
+					"side": "miniaturia_mod:blocks/wallpaper_a_brown"
+					}
+				},
+			"meta13": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_green",
+					"side": "miniaturia_mod:blocks/wallpaper_a_green"
+					}
+				},
+			"meta14": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_red",
+					"side": "miniaturia_mod:blocks/wallpaper_a_red"
+					}
+				},
+			"meta15": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_a_black",
+					"side": "miniaturia_mod:blocks/wallpaper_a_black"
+					}
+				}
+			}
+		}
+}

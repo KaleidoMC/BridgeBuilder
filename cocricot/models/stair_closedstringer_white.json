@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/stair_closedstringer_brown",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_white",
+  		"0": "cocricotmod:blocks/stair_white"
+    }
+}

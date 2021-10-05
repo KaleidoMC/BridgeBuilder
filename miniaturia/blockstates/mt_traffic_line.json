@@ -1,0 +1,504 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_mat_base"
+	},
+
+	"variants": {
+
+		"east=false,north=false,south=false,variant=meta0,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													}
+												},
+		"east=false,north=true,south=false,variant=meta0,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													}
+												},
+		"east=true,north=false,south=false,variant=meta0,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													},
+												"y": 90
+												},
+		"east=false,north=false,south=true,variant=meta0,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													},
+												"y": 180
+												},
+		"east=false,north=false,south=false,variant=meta0,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													},
+												"y": 270
+												},
+		"east=true,north=true,south=false,variant=meta0,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_outer"
+													}
+												},
+		"east=true,north=false,south=true,variant=meta0,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_outer"
+													},
+												"y": 90
+												},
+		"east=false,north=false,south=true,variant=meta0,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_outer"
+													},
+												"y": 180
+												},
+		"east=false,north=true,south=false,variant=meta0,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_outer"
+													},
+												"y": 270
+												},
+		"east=false,north=true,south=true,variant=meta0,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													}
+												},
+		"east=true,north=false,south=false,variant=meta0,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													},
+												"y": 90
+												},
+		"east=true,north=true,south=true,variant=meta0,west=false":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_inner"
+													}
+												},
+		"east=true,north=false,south=true,variant=meta0,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_inner"
+													},
+												"y": 90
+												},
+		"east=false,north=true,south=true,variant=meta0,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_inner"
+													},
+												"y": 180
+												},
+		"east=true,north=true,south=false,variant=meta0,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_inner"
+													},
+												"y": 270
+												},
+		"east=true,north=true,south=true,variant=meta0,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_middle",
+													"particle": "miniaturia_mod:blocks/traffic_line_middle"
+													}
+												},
+
+
+		"east=false,north=false,south=false,variant=meta1,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													}
+												},
+		"east=false,north=true,south=false,variant=meta1,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													}
+												},
+		"east=true,north=false,south=false,variant=meta1,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													},
+												"y": 90
+												},
+		"east=false,north=false,south=true,variant=meta1,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													},
+												"y": 180
+												},
+		"east=false,north=false,south=false,variant=meta1,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													},
+												"y": 270
+												},
+		"east=true,north=true,south=false,variant=meta1,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_outer"
+													}
+												},
+		"east=true,north=false,south=true,variant=meta1,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_outer"
+													},
+												"y": 90
+												},
+		"east=false,north=false,south=true,variant=meta1,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_outer"
+													},
+												"y": 180
+												},
+		"east=false,north=true,south=false,variant=meta1,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_outer"
+													},
+												"y": 270
+												},
+		"east=false,north=true,south=true,variant=meta1,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													}
+												},
+		"east=true,north=false,south=false,variant=meta1,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_straight"
+													},
+												"y": 90
+												},
+		"east=true,north=true,south=true,variant=meta1,west=false":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_inner"
+													}
+												},
+		"east=true,north=false,south=true,variant=meta1,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_inner"
+													},
+												"y": 90
+												},
+		"east=false,north=true,south=true,variant=meta1,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_inner"
+													},
+												"y": 180
+												},
+		"east=true,north=true,south=false,variant=meta1,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_inner"
+													},
+												"y": 270
+												},
+		"east=true,north=true,south=true,variant=meta1,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_middle",
+													"particle": "miniaturia_mod:blocks/traffic_line_middle"
+													}
+												},
+
+
+		"east=false,north=false,south=false,variant=meta2,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													}
+												},
+		"east=false,north=true,south=false,variant=meta2,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													}
+												},
+		"east=true,north=false,south=false,variant=meta2,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													},
+												"y": 90
+												},
+		"east=false,north=false,south=true,variant=meta2,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													},
+												"y": 180
+												},
+		"east=false,north=false,south=false,variant=meta2,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													},
+												"y": 270
+												},
+		"east=true,north=true,south=false,variant=meta2,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_outer"
+													}
+												},
+		"east=true,north=false,south=true,variant=meta2,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_outer"
+													},
+												"y": 90
+												},
+		"east=false,north=false,south=true,variant=meta2,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_outer"
+													},
+												"y": 180
+												},
+		"east=false,north=true,south=false,variant=meta2,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_outer"
+													},
+												"y": 270
+												},
+		"east=false,north=true,south=true,variant=meta2,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													}
+												},
+		"east=true,north=false,south=false,variant=meta2,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													},
+												"y": 90
+												},
+		"east=true,north=true,south=true,variant=meta2,west=false":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_inner"
+													}
+												},
+		"east=true,north=false,south=true,variant=meta2,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_inner"
+													},
+												"y": 90
+												},
+		"east=false,north=true,south=true,variant=meta2,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_inner"
+													},
+												"y": 180
+												},
+		"east=true,north=true,south=false,variant=meta2,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_inner"
+													},
+												"y": 270
+												},
+		"east=true,north=true,south=true,variant=meta2,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_middle",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_middle"
+													}
+												},
+
+
+		"east=false,north=false,south=false,variant=meta3,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													}
+												},
+		"east=false,north=true,south=false,variant=meta3,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													}
+												},
+		"east=true,north=false,south=false,variant=meta3,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													},
+												"y": 90
+												},
+		"east=false,north=false,south=true,variant=meta3,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													},
+												"y": 180
+												},
+		"east=false,north=false,south=false,variant=meta3,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													},
+												"y": 270
+												},
+		"east=true,north=true,south=false,variant=meta3,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_outer"
+													}
+												},
+		"east=true,north=false,south=true,variant=meta3,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_outer"
+													},
+												"y": 90
+												},
+		"east=false,north=false,south=true,variant=meta3,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_outer"
+													},
+												"y": 180
+												},
+		"east=false,north=true,south=false,variant=meta3,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_outer",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_outer"
+													},
+												"y": 270
+												},
+		"east=false,north=true,south=true,variant=meta3,west=false":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													}
+												},
+		"east=true,north=false,south=false,variant=meta3,west=true":	{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_straight",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_straight"
+													},
+												"y": 90
+												},
+		"east=true,north=true,south=true,variant=meta3,west=false":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_inner"
+													}
+												},
+		"east=true,north=false,south=true,variant=meta3,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_inner"
+													},
+												"y": 90
+												},
+		"east=false,north=true,south=true,variant=meta3,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_inner"
+													},
+												"y": 180
+												},
+		"east=true,north=true,south=false,variant=meta3,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_inner",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_inner"
+													},
+												"y": 270
+												},
+		"east=true,north=true,south=true,variant=meta3,west=true":		{
+												"model": "miniaturia_mod:mt_mat_base",
+												"textures": {
+													"0": "miniaturia_mod:blocks/traffic_line_orange_middle",
+													"particle": "miniaturia_mod:blocks/traffic_line_orange_middle"
+													}
+												}
+		}
+}

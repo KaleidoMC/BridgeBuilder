@@ -1,0 +1,34 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_car_light_a_l",
+		"textures":{
+			"0": "miniaturia_mod:blocks/car_tire",
+			"1": "miniaturia_mod:blocks/car_silver_parts"
+		},
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 0}, { "y": 180 }, { "z": 0 } ], "scale": 1.6, "translation": [ -0.8, 0, 0 ] }
+			}
+  },
+    "variants": {
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+		"shape": {
+			"right":	{ "model": "miniaturia_mod:mt_car_light_a_r" },
+			"left":		{ "model": "miniaturia_mod:mt_car_light_a_l" }
+		},
+
+    	"switch": {
+    		"true": { },
+    		"false":{ }
+    	},
+
+		"inventory":[{}]
+		}
+}

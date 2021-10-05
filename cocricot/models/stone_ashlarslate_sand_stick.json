@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_stick",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_ashlarslate_sand_",
+        "0": "cocricotmod:blocks/stone_ashlarslate_sand_"
+    }
+}

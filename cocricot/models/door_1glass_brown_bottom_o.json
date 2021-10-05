@@ -1,0 +1,6 @@
+{
+    "parent": "block/door_small_bottom_o",
+    "textures": {
+        "texture": "cocricotmod:blocks/door_1glass_brown"
+    }
+}

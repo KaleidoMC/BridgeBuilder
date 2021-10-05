@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_fence_wood_a_slope",
+		"textures": {
+				"0": "miniaturia_mod:blocks/fence_wood_oak_cross",
+				"1": "miniaturia_mod:blocks/fence_wood_oak"
+			},
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 0 }, { "y": 90 }, { "z": 0 } ], "scale": 0.65
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { "model": "miniaturia_mod:mt_fence_wood_a_slope_bottom" },
+            "click2": { "model": "miniaturia_mod:mt_fence_wood_a_slope_top" }
+            }
+        }
+}

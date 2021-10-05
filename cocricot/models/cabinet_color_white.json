@@ -1,0 +1,9 @@
+{
+    "parent": "cocricotmod:block/base_cube_topfrontsidebottom",
+    "textures": {
+      "top": "cocricotmod:blocks/stone_color_white",
+      "bottom": "cocricotmod:blocks/stone_color_white",
+  		"front": "cocricotmod:blocks/cabinet_color_white",
+  		"side": "cocricotmod:blocks/cabinet_color_white_side"
+    }
+}

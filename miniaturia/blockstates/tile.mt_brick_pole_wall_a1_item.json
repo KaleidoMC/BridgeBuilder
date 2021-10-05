@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_pole_wall_end"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/brick_beige_pole",
+					"end": "miniaturia_mod:blocks/brick_beige_pole",
+					"wall": "miniaturia_mod:blocks/brick_beige"
+					}
+				},
+			"meta1": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/brick_thin_black_pole",
+					"end": "miniaturia_mod:blocks/brick_thin_black_pole",
+					"wall": "miniaturia_mod:blocks/brick_thin_black"
+					}
+				},
+			"meta2": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/quartz",
+					"end": "miniaturia_mod:blocks/quartz",
+					"wall": "miniaturia_mod:blocks/quartz"
+					}
+				},
+			"meta3": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/cs",
+					"end": "miniaturia_mod:blocks/cs",
+					"wall": "miniaturia_mod:blocks/cs"
+					}
+				}
+        }
+    }
+}

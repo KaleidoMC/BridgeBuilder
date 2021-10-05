@@ -1,0 +1,40 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_window_diagonal"
+  },
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures":{
+					    "0": "miniaturia_mod:blocks/glass_magenta"
+					}
+				},
+			 	"1": {
+			 		"model": "miniaturia_mod:mt_window_diagonal_half",
+					"textures":{
+					    "0": "miniaturia_mod:blocks/glass_magenta"
+					}
+				},
+	    		"2": {
+					"textures":{
+					    "0": "miniaturia_mod:blocks/glass_light_blue"
+					}
+	    		},
+	    		"3": {
+	    			"model": "miniaturia_mod:mt_window_diagonal_half",
+					"textures":{
+					    "0": "miniaturia_mod:blocks/glass_light_blue"
+					}
+	    		}
+	    },
+
+        "position": {
+			"ne":	{ "y": 0 },
+			"se":	{ "y": 90 },
+			"sw":	{ "y": 180 },
+			"nw":	{ "y": 270 }
+			}
+    }
+}

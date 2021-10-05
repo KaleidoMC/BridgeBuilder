@@ -1,0 +1,11 @@
+{
+	"parent": "cocricotmod:block/base_plate_all",
+	"textures": {
+		"top": "#top",
+		"bottom": "#top",
+		"n": "#side",
+		"s": "#side",
+		"e": "#side",
+		"w": "#side"
+	}
+}

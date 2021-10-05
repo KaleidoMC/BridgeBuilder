@@ -1,0 +1,30 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/book_modern",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 1],
+			"to": [12, 1, 8.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [12, 0, 8.5]},
+			"faces": {
+				"north": {"uv": [7.5, 0, 13.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 0, 1.5, 7.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [13.5, 0, 7.5, 1], "texture": "#0"},
+				"west": {"uv": [7.5, 0, 15, 1], "texture": "#0"},
+				"up": {"uv": [1.5, 0, 7.5, 7.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [1.5, 0, 7.5, 7.5], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [-2, 8, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

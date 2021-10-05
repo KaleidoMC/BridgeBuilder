@@ -1,0 +1,12 @@
+{
+    "parent": "cocricotmod:block/base_slab_all",
+    "textures": {
+      "top": "cocricotmod:blocks/basket_t",
+      "w": "cocricotmod:blocks/basket_slab",
+      "e": "cocricotmod:blocks/basket_slab",
+      "n": "cocricotmod:blocks/basket_slab1",
+      "s": "cocricotmod:blocks/basket_slab1",
+      "bottom": "cocricotmod:blocks/basket",
+      "particle": "cocricotmod:blocks/basket"
+    }
+}

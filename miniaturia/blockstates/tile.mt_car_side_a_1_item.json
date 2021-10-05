@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_car_side_a_left",
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.625 }
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/tin_mint_c"
+					}
+			 	},
+            "click1": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/tin_blue_c"
+					}
+			 	}
+		}
+	}
+}

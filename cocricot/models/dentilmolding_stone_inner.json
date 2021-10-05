@@ -1,0 +1,10 @@
+{
+    "parent": "cocricotmod:block/dentilmolding_sand_inner",
+  	"textures": {
+  		"0": "cocricotmod:blocks/dentilmolding_stone_side",
+  		"1": "cocricotmod:blocks/rustication_banded_stone_top",
+  		"2": "cocricotmod:blocks/dentilmolding_stone_bottom_inner",
+  		"3": "cocricotmod:blocks/dentilmolding_stone_side_inner",
+  		"particle": "cocricotmod:blocks/rustication_banded_stone_top"
+  	}
+}

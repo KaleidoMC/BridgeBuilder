@@ -1,0 +1,7 @@
+{
+    "parent":"cocricotmod:block/sand_pile_height10",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_ashlarslate_sand_",
+        "0": "cocricotmod:blocks/stone_ashlarslate_sand_"
+    }
+}

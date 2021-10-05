@@ -1,0 +1,6 @@
+{
+	"parent": "cocricotmod:block/picket_staggered_white_side",
+	"textures": {
+		"1_0": "cocricotmod:blocks/picket_staggered_brown"
+	}
+}

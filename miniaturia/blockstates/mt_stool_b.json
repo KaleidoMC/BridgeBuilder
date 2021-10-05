@@ -1,0 +1,47 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_stool_b"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/wood_spruce_pole",
+						"2": "miniaturia_mod:blocks/lamppost_brown",
+						"4": "miniaturia_mod:blocks/wood_spruce_half_side"
+					}
+				},
+	    		"1": {
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/wood_birch_pole",
+						"2": "miniaturia_mod:blocks/lamppost_brown",
+						"4": "miniaturia_mod:blocks/wood_birch_layers"
+					}
+				},
+	    		"2":	{
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/wood_acacia_pole",
+						"2": "miniaturia_mod:blocks/lamppost_brown",
+						"4": "miniaturia_mod:blocks/wood_acacia_layers"
+					}
+				},
+			 	"3":	{
+	    			"textures": {
+						"0": "miniaturia_mod:blocks/wood_dark_oak_pole",
+						"2": "miniaturia_mod:blocks/lamppost_brown",
+						"4": "miniaturia_mod:blocks/wood_dark_oak_layers"
+					}
+	    		}
+	    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+   }
+}

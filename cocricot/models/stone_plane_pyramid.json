@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_pyramid",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_plane",
+        "0": "cocricotmod:blocks/stone_plane"
+    }
+}

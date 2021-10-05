@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/industrialshadelamp_black_wall",
+    "textures": {
+    		"0": "cocricotmod:blocks/sofa_slipper_darkblue",
+    		"1": "cocricotmod:blocks/industrialshadelamp_darkblue_wall",
+    		"particle": "cocricotmod:blocks/stone_color_blue"
+    }
+}

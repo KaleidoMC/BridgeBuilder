@@ -1,0 +1,22 @@
+{
+	"parent": "cocricotmod:block/countertable_wood_brown",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/counterstool_american",
+		"1": "cocricotmod:blocks/stone_color_black",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	},
+	"elements": [
+		{
+			"from": [-0.1, -2, 10],
+			"to": [16.1, 0.1, 32],
+			"faces": {
+				"north": {"uv": [11, 15.5, 13, 0.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [11, 15.5, 13, 0.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [11, 15.5, 13, 0.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 7, 7.5], "texture": "#0"}
+			}
+		}
+	]
+}

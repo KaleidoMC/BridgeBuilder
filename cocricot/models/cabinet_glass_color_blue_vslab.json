@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_vslab_all",
+    "textures": {
+      "u": "cocricotmod:blocks/stone_color_blue",
+      "d": "cocricotmod:blocks/stone_color_blue",
+  		"n": "cocricotmod:blocks/cabinet_color_blue_side",
+  		"s": "cocricotmod:blocks/cabinet_glass_color_blue",
+  		"e": "cocricotmod:blocks/cabinet_color_blue_side",
+  		"w": "cocricotmod:blocks/cabinet_color_blue_side"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/stool_brown",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_brown",
+      "0": "cocricotmod:blocks/stool_shabby"
+    }
+}

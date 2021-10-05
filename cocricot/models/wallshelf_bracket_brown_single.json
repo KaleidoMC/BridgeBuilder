@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/wallshelf_bracket_single",
+    "textures": {
+      "texture": "cocricotmod:blocks/planks_brown",
+      "texture3": "cocricotmod:blocks/chair_brown"
+    }
+}

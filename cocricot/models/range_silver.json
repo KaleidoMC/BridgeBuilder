@@ -1,0 +1,9 @@
+{
+    "parent": "cocricotmod:block/base_cube_topfrontsidebottom",
+    "textures": {
+      "front": "cocricotmod:blocks/range_silver",
+      "side": "cocricotmod:blocks/range_silver_side",
+      "top": "cocricotmod:blocks/range_silver_top",
+      "bottom": "cocricotmod:blocks/stone_color_gray"
+    }
+}

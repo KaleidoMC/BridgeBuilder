@@ -1,0 +1,55 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_kingchair"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/kingchair1",
+						"2": "miniaturia_mod:blocks/kingchair2",
+						"3": "miniaturia_mod:blocks/kingchair3",
+						"4": "miniaturia_mod:blocks/kingchair4",
+						"5": "miniaturia_mod:blocks/kingchair5"
+					}
+				},
+	    		"1": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/kingchair1c",
+						"2": "miniaturia_mod:blocks/kingchair2",
+						"3": "miniaturia_mod:blocks/kingchair3c",
+						"4": "miniaturia_mod:blocks/kingchair4",
+						"5": "miniaturia_mod:blocks/kingchair5c"
+					}
+				},
+	    		"2":	{
+					"textures": {
+						"1": "miniaturia_mod:blocks/kingchair1d",
+						"2": "miniaturia_mod:blocks/kingchair2",
+						"3": "miniaturia_mod:blocks/kingchair3d",
+						"4": "miniaturia_mod:blocks/kingchair4",
+						"5": "miniaturia_mod:blocks/kingchair5d"
+					}
+				},
+			 	"3":	{
+					"textures": {
+						"1": "miniaturia_mod:blocks/kingchair1b",
+						"2": "miniaturia_mod:blocks/kingchair2b",
+						"3": "miniaturia_mod:blocks/kingchair3b",
+						"4": "miniaturia_mod:blocks/kingchair4b",
+						"5": "miniaturia_mod:blocks/kingchair5b"
+					}
+	    		}
+	    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+   }
+}

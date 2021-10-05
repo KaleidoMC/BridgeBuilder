@@ -1,0 +1,58 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "cube_column"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_g_brown_end",
+		    		"side": "miniaturia_mod:blocks/window_g_brown"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/cs",
+		    		"side": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/cs",
+		    		"side": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/cs",
+		    		"side": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/cs",
+		    		"side": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/cs",
+		    		"side": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/cs",
+		    		"side": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/cs",
+		    		"side": "miniaturia_mod:blocks/cs"
+				}
+			}
+		}
+    }
+}

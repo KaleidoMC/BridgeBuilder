@@ -1,0 +1,21 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/picket_staggered_white",
+		"particle": "cocricotmod:blocks/planks_white"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 16, 9.5],
+			"faces": {
+				"north": {"uv": [13, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [13, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [13, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [13, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [10, 0, 13, 3], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [10, 0, 13, 3], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

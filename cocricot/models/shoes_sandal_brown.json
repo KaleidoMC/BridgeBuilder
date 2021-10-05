@@ -1,0 +1,62 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/awning_stripe_orange_lower",
+		"particle": "cocricotmod:blocks/planks_brown"
+	},
+	"elements": [
+		{
+			"from": [3.75, 0, 4],
+			"to": [7.25, 1, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 1.375, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 15, 3.5, 16], "texture": "#0"},
+				"east": {"uv": [7.5, 15, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 15, 3.5, 16], "texture": "#0"},
+				"west": {"uv": [0, 15, 7.5, 16], "texture": "#0"},
+				"up": {"uv": [8.5, 12.5, 16, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 15.5, 4, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.75, 0, 4],
+			"to": [12.25, 1, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10.5, 1.375, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 15, 3.5, 16], "texture": "#0"},
+				"east": {"uv": [7.5, 15, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 15, 3.5, 16], "texture": "#0"},
+				"west": {"uv": [0, 15, 7.5, 16], "texture": "#0"},
+				"up": {"uv": [8.5, 12.5, 16, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 15.5, 4, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.77, -1, 5.5],
+			"to": [7.23, 1, 8],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [3.75, 1, 4.5]},
+			"faces": {
+				"east": {"uv": [2.5, 12, 0, 14], "texture": "#0"},
+				"west": {"uv": [0, 12, 2.5, 14], "texture": "#0"},
+				"up": {"uv": [3, 10.5, 5.5, 13.96], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.77, -1, 5.5],
+			"to": [12.23, 1, 8],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [9.25, 1, 4.5]},
+			"faces": {
+				"east": {"uv": [2.5, 12, 0, 14], "texture": "#0"},
+				"west": {"uv": [0, 12, 2.5, 14], "texture": "#0"},
+				"up": {"uv": [3, 10.5, 5.5, 13.96], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [-0.25, 6, 0],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	}
+}

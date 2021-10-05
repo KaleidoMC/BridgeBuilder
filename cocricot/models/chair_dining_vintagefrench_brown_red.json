@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/chair_dining_vintagefrench_brown_black",
+    "textures": {
+			"0": "cocricotmod:blocks/chair_dining_vintagefrench_brown_red"
+    }
+}

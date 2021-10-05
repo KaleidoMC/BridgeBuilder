@@ -1,0 +1,6 @@
+{
+	"parent": "cocricotmod:block/lantern_wood_white",
+	"textures": {
+		"1": "cocricotmod:blocks/torch_false"
+	}
+}

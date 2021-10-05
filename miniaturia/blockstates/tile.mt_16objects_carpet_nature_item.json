@@ -1,0 +1,122 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_carpet"
+    },
+    "variants": {
+        "variant": {
+            "meta0": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta1": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_momiji",
+                    "bottom" : "miniaturia_mod:blocks/carpet_momiji",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta2": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta3": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta4": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta5": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta6": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta7": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta8": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta9": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta10": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta11": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta12": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta13": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta14": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            },
+            "meta15": {
+                "textures": {
+                    "top" : "miniaturia_mod:blocks/carpet_sakura",
+                    "bottom" : "miniaturia_mod:blocks/carpet_sakura",
+                    "side" : "miniaturia_mod:blocks/c"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/basket",
+    "textures": {
+      "u": "cocricotmod:blocks/basket_towel"
+    }
+}

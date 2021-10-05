@@ -1,0 +1,9 @@
+{
+    "parent": "cocricotmod:block/base_cube_topfrontsidebottom",
+    "textures": {
+      "front": "cocricotmod:blocks/chest_white",
+      "side": "cocricotmod:blocks/chest_white_side",
+      "top": "cocricotmod:blocks/planks_white",
+      "bottom": "cocricotmod:blocks/planks_white"
+    }
+}

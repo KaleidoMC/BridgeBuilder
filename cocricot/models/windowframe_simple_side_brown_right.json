@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowframe_side_right",
+    "textures": {
+        "0": "cocricotmod:blocks/windowframe_simple_brown",
+        "particle": "cocricotmod:blocks/planks_brown"
+    }
+}

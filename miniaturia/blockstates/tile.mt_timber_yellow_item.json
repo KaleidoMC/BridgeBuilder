@@ -1,0 +1,115 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"model": "cube_column",
+		"uvlock": true
+  },
+	"variants": {
+		"variant": {
+			"meta0": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_0"
+					}
+				},
+			"meta1": {
+			    "model": "miniaturia_mod:mt_brick_nswe",
+    			"textures": {
+					"top": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"ns": "miniaturia_mod:blocks/timber_yellow_1",
+					"we": "miniaturia_mod:blocks/timber_yellow_2"
+					}
+				},
+			"meta2": {
+			    "model": "miniaturia_mod:mt_brick_nswe",
+    			"textures": {
+					"top": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"ns": "miniaturia_mod:blocks/timber_yellow_2",
+					"we": "miniaturia_mod:blocks/timber_yellow_1"
+					}
+				},
+			"meta3": {
+			    "model": "miniaturia_mod:mt_brick_nswe",
+    			"textures": {
+					"top": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"ns": "miniaturia_mod:blocks/timber_yellow_3",
+					"we": "miniaturia_mod:blocks/timber_yellow_4"
+					}
+				},
+			"meta4": {
+			    "model": "miniaturia_mod:mt_brick_nswe",
+    			"textures": {
+					"top": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"ns": "miniaturia_mod:blocks/timber_yellow_4",
+					"we": "miniaturia_mod:blocks/timber_yellow_3"
+					}
+				},
+			"meta5": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_5"
+					}
+				},
+			"meta6": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_6"
+					}
+				},
+			"meta7": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_7"
+					}
+				},
+			"meta8": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_8"
+					}
+				},
+			"meta9": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_9"
+					}
+				},
+			"meta10": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_10"
+					}
+				},
+			"meta11": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_11"
+					}
+				},
+			"meta12": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_12"
+					}
+				},
+			"meta13": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_13"
+					}
+				},
+			"meta14": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_14"
+					}
+				},
+			"meta15": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_top",
+					"side": "miniaturia_mod:blocks/timber_yellow_15"
+					}
+				}
+			}
+		}
+}

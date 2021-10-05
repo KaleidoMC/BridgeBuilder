@@ -1,0 +1,52 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "miniaturia_mod:item_generated",
+	  		"transform": "forge:default-item",
+			"uvlock": true
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+		    	"textures":{
+					"layer0": "miniaturia_mod:blocks/doublegrass_0_u"
+					}
+				},
+            "click1": {
+		    	"textures":{
+					"layer0": "miniaturia_mod:blocks/double_plant_miscanthus_top"
+					}
+				},
+            "click2": {
+		    	"textures":{
+					"layer0": "miniaturia_mod:blocks/double_plant_miscanthus_top"
+					}
+				},
+            "click3": {
+		    	"textures":{
+					"layer0": "miniaturia_mod:blocks/double_plant_lupine_top"
+					}
+				},
+            "click4": {
+		    	"textures":{
+					"layer0": "miniaturia_mod:blocks/double_plant_hibiscus_top"
+					}
+				},
+            "click5": {
+		    	"textures":{
+					"layer0": "miniaturia_mod:blocks/double_plant_nanohana_top"
+					}
+				},
+            "click6": {
+		    	"textures":{
+					"layer0": "miniaturia_mod:blocks/double_plant_rice_top"
+					}
+				},
+            "click7": {
+		    	"textures":{
+					"layer0": "miniaturia_mod:blocks/double_plant_rice_b_top"
+					}
+				}
+            }
+        }
+}

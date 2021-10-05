@@ -1,0 +1,28 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_molding_half_plate_a_single",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ],
+				"scale": 0.625
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/sandstone_plate_parts",
+					"side_a" : "miniaturia_mod:blocks/sandstone_upper_molding"
+	    		}
+    		},
+            "click1": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wood_oak_plate_parts",
+					"side_a" : "miniaturia_mod:blocks/wood_oak_upper_molding"
+	    		}
+    		}
+        }
+    }
+}

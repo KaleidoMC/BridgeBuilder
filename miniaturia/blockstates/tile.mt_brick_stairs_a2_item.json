@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs",
+		"uvlock": true
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom": "miniaturia_mod:blocks/brick_beige_top",
+			        "top": "miniaturia_mod:blocks/brick_beige_stairs_top",
+			        "side": "miniaturia_mod:blocks/brick_beige_stairs"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom": "miniaturia_mod:blocks/brick_thin_black",
+			        "top": "miniaturia_mod:blocks/brick_thin_black",
+			        "side": "miniaturia_mod:blocks/brick_thin_black"
+					}
+				}
+        }
+    }
+}

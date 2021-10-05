@@ -1,0 +1,28 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_steps_c_single",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "scale": 0.625
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures":{
+					"1": "miniaturia_mod:blocks/steel_checkered_black",
+					"3": "miniaturia_mod:blocks/steel_black_b"
+				}
+			},
+            "click1": {
+        		"model": "miniaturia_mod:mt_steps_b_single",
+				"textures":{
+					"1": "miniaturia_mod:blocks/steel_black_b",
+					"3": "miniaturia_mod:blocks/steel_black_b"
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+			"model": "cross"
+  	},
+
+	"variants": {
+
+		"click": {
+
+			"0": {
+				"textures": {
+					"cross": "miniaturia_mod:blocks/statue_stone"
+				}
+			},
+			"1": {
+				"textures": {
+					"cross": "miniaturia_mod:blocks/statue_white"
+				}
+			},
+			"2": {
+				"textures": {
+					"cross": "miniaturia_mod:blocks/statue_sandstone"
+				}
+			},
+			"3": {
+				"textures": {
+					"cross": "miniaturia_mod:blocks/statue_bronze"
+				}
+			},
+			"4": {
+				"textures": {
+					"cross": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"5": {
+				"textures": {
+					"cross": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"6": {
+				"textures": {
+					"cross": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"7": {
+				"textures": {
+					"cross": "miniaturia_mod:blocks/cs"
+				}
+			}
+		},
+
+		"half": {
+			"top": {},
+			"bottom": {}
+		}
+	}
+}

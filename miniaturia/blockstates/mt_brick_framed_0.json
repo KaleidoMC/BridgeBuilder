@@ -1,0 +1,138 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"model": "miniaturia_mod:mt_brick_nswe_framed"
+  },
+	"variants": {
+		"variant": {
+			"meta0": {
+				"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_normal",
+					"we" : "miniaturia_mod:blocks/brick_normal",
+					"frame": "miniaturia_mod:blocks/brick_frame"
+					}
+				},
+			"meta1": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_normal",
+					"we" : "miniaturia_mod:blocks/brick_normal",
+					"frame": "miniaturia_mod:blocks/brick_frame2"
+					}
+				},
+			"meta2": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_dark_normal",
+					"we" : "miniaturia_mod:blocks/brick_dark_normal",
+					"frame": "miniaturia_mod:blocks/brick_frame"
+					}
+				},
+			"meta3": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_dark_normal",
+					"we" : "miniaturia_mod:blocks/brick_dark_normal",
+					"frame": "miniaturia_mod:blocks/brick_frame2"
+					}
+				},
+			"meta4": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_grunge_regular",
+					"we" : "miniaturia_mod:blocks/brick_grunge_regular",
+					"frame": "miniaturia_mod:blocks/brick_frame"
+					}
+				},
+			"meta5": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_grunge_regular",
+					"we" : "miniaturia_mod:blocks/brick_grunge_regular",
+					"frame": "miniaturia_mod:blocks/brick_frame2"
+					}
+				},
+			"meta6": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_red_regular",
+					"we" : "miniaturia_mod:blocks/brick_red_regular",
+					"frame": "miniaturia_mod:blocks/brick_frame"
+					}
+				},
+			"meta7": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_red_regular",
+					"we" : "miniaturia_mod:blocks/brick_red_regular",
+					"frame": "miniaturia_mod:blocks/brick_frame2"
+					}
+				},
+			"meta8": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_orange_regular",
+					"we" : "miniaturia_mod:blocks/brick_orange_regular",
+					"frame": "miniaturia_mod:blocks/brick_frame"
+					}
+				},
+			"meta9": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_orange_regular",
+					"we" : "miniaturia_mod:blocks/brick_orange_regular",
+					"frame": "miniaturia_mod:blocks/brick_frame2"
+					}
+				},
+			"meta10": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_beige",
+					"we" : "miniaturia_mod:blocks/brick_beige",
+					"frame": "miniaturia_mod:blocks/brick_frame"
+					}
+				},
+			"meta11": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_beige",
+					"we" : "miniaturia_mod:blocks/brick_beige",
+					"frame": "miniaturia_mod:blocks/brick_frame2"
+					}
+				},
+			"meta12": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_thin_black",
+					"we" : "miniaturia_mod:blocks/brick_thin_black",
+					"frame": "miniaturia_mod:blocks/brick_frame"
+					}
+				},
+			"meta13": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/brick_thin_black",
+					"we" : "miniaturia_mod:blocks/brick_thin_black",
+					"frame": "miniaturia_mod:blocks/brick_frame2"
+					}
+				},
+			"meta14": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/quartz",
+					"we" : "miniaturia_mod:blocks/quartz",
+					"frame": "miniaturia_mod:blocks/brick_frame"
+					}
+				},
+			"meta15": {
+    			"textures": {
+					"top" : "miniaturia_mod:blocks/quartz_plate_parts",
+					"ns" : "miniaturia_mod:blocks/quartz",
+					"we" : "miniaturia_mod:blocks/quartz",
+					"frame": "miniaturia_mod:blocks/brick_frame2"
+					}
+				}
+			}
+		}
+}

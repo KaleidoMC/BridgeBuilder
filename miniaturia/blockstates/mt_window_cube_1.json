@@ -1,0 +1,58 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_column"
+  },
+    "variants": {
+		"variant": {
+			"meta0": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_b_magenta_single",
+		    		"side": "miniaturia_mod:blocks/window_a_magenta_single"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_b_magenta_single",
+		    		"side": "miniaturia_mod:blocks/window_b_magenta_single"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_b_lightblue_single",
+		    		"side": "miniaturia_mod:blocks/window_a_lightblue_single"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_b_lightblue_single",
+		    		"side": "miniaturia_mod:blocks/window_b_lightblue_single"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_b_yellow_single",
+		    		"side": "miniaturia_mod:blocks/window_a_yellow_single"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_b_yellow_single",
+		    		"side": "miniaturia_mod:blocks/window_b_yellow_single"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_b_pink_single",
+		    		"side": "miniaturia_mod:blocks/window_a_pink_single"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/window_b_pink_single",
+		    		"side": "miniaturia_mod:blocks/window_b_pink_single"
+				}
+			}
+		}
+	}
+}

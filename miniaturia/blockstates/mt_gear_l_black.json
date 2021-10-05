@@ -1,0 +1,36 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {
+		"model": "miniaturia_mod:mt_gear_l",
+		"textures": {
+			"0": "miniaturia_mod:blocks/gear_black_l",
+			"1": "miniaturia_mod:blocks/gear_black",
+			"2": "miniaturia_mod:blocks/gear_black2",
+			"3": "miniaturia_mod:blocks/gear_black_l",
+			"4": "miniaturia_mod:blocks/c"
+			}
+		},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { },
+	    		"2": { }
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+        "inventory":[{
+			"transform": {
+		        "gui": { "rotation": [ { "x": 0}, { "y": 0 }, { "z": 0 } ], "translation": [ 0, -0.2, 0 ], "scale": 0.6 }
+			}
+		}]
+    }
+}

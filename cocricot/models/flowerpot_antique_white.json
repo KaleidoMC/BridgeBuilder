@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_cross_thick",
+    "textures": {
+        "cross": "cocricotmod:blocks/flowerpot_antique_white"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/roof_incline_odd",
+    "textures": {
+       "texture2": "cocricotmod:blocks/roof_incline_white1",
+       "texture3": "cocricotmod:blocks/roof_incline_white"
+    }
+}

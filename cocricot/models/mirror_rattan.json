@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/wall_ornament",
+    "textures": {
+        "texture": "cocricotmod:blocks/mirror_rattan"
+    }
+}

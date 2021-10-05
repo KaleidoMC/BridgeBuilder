@@ -1,0 +1,21 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_prop_thin_n",
+		"textures": {
+			"top": "miniaturia_mod:blocks/steel_silver_b"
+	    	},
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 0}, { "y": 90 }, { "z": 0 } ], "scale": 0.5, "translation": [ 0, 0, 0 ] }
+		}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { },
+            "click2": { },
+            "click3": { }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/stair_monostringer_brown",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_dark",
+  		"0": "cocricotmod:blocks/stair_dark"
+    }
+}

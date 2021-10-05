@@ -1,0 +1,57 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_grand_piano"
+  },
+    "variants": {
+
+    	"facing": {
+    		"north":	{ "y": 180 },
+    		"east":		{ "y": 270 },
+    		"south":	{ "y": 0 },
+    		"west":		{ "y": 90 }
+		},
+
+    	"half": {
+    		"lower": { "model": "miniaturia_mod:mt_grand_piano" },
+		 	"upper": { "model": "cube_all" }
+	    },
+
+    	"click": {
+    		"0": {
+				"textures": {
+					"3": "miniaturia_mod:blocks/piano_key_parts_brown",
+					"5": "miniaturia_mod:blocks/brass_parts",
+					"6": "miniaturia_mod:blocks/piano_side_brown",
+					"7": "miniaturia_mod:blocks/piano_key_left_brown",
+					"8": "miniaturia_mod:blocks/piano_key_middle_brown",
+					"9": "miniaturia_mod:blocks/piano_key_right_brown",
+					"13": "miniaturia_mod:blocks/piano_plate_brown",
+					"15": "miniaturia_mod:blocks/piano_top_brown",
+					"16": "miniaturia_mod:blocks/table_lightbrown_top",
+					"17": "miniaturia_mod:blocks/table_marron_top",
+					"18": "miniaturia_mod:blocks/score",
+					"all": "miniaturia_mod:blocks/c",
+					"particle": "miniaturia_mod:blocks/piano_plate_brown"
+					}
+				},
+		 	"1": {
+				"textures": {
+					"3": "miniaturia_mod:blocks/piano_key_parts_white",
+					"5": "miniaturia_mod:blocks/brass_parts",
+					"6": "miniaturia_mod:blocks/piano_side_white",
+					"7": "miniaturia_mod:blocks/piano_key_left_white",
+					"8": "miniaturia_mod:blocks/piano_key_middle_white",
+					"9": "miniaturia_mod:blocks/piano_key_right_white",
+					"13": "miniaturia_mod:blocks/piano_plate_white",
+					"15": "miniaturia_mod:blocks/piano_top_white",
+					"16": "miniaturia_mod:blocks/table_lightbrown_top",
+					"17": "miniaturia_mod:blocks/table_marron_top",
+					"18": "miniaturia_mod:blocks/score",
+					"all": "miniaturia_mod:blocks/c",
+					"particle": "miniaturia_mod:blocks/piano_plate_white"
+					}
+				}
+	    }
+    }
+}

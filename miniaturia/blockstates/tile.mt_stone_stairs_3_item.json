@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/sandstone_normal",
+			        "top":		 "miniaturia_mod:blocks/sandstone_normal",
+			        "side":		 "miniaturia_mod:blocks/sandstone_normal"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/cs",
+			        "top":		 "miniaturia_mod:blocks/cs",
+			        "side":		 "miniaturia_mod:blocks/cs"
+					}
+				}
+        }
+    }
+}

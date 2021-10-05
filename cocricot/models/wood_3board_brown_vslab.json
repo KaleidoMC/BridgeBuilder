@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_vslab_topside",
+    "textures": {
+        "top": "cocricotmod:blocks/wood_3board_brown_vslab_t",
+        "side": "cocricotmod:blocks/wood_3board_brown_vslab"
+    }
+}

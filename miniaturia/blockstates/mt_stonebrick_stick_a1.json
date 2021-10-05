@@ -1,0 +1,46 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_stick",
+  		"textures": {
+			"1": "miniaturia_mod:blocks/nether_brick"
+			}
+	},
+    "variants": {
+
+    	"facing": {
+    		"down":		{ "x": 0, "y": 0 },
+    		"up":		{ "x": 0, "y": 0 },
+    		"north":	{ "x": 90, "y": 0 },
+    		"south":	{ "x": 90, "y": 180 },
+    		"west": 	{ "x": 90, "y": 270 },
+    		"east": 	{ "x": 90, "y": 90 }
+    	},
+
+    	"click": {
+    		"0": { },
+    		"1": { }
+    	},
+
+    	"click=0,facing=down":	[{}],
+    	"click=0,facing=up":	[{}],
+    	"click=0,facing=north":	[{}],
+    	"click=0,facing=south":	[{}],
+    	"click=0,facing=west":	[{}],
+    	"click=0,facing=east":	[{}],
+
+    	"click=1,facing=down":	{ "model": "miniaturia_mod:mt_stick_click" },
+    	"click=1,facing=up":	{ "model": "miniaturia_mod:mt_stick_click2" },
+    	"click=1,facing=north":	[{}],
+    	"click=1,facing=south":	[{}],
+    	"click=1,facing=west":	[{}],
+    	"click=1,facing=east":	[{}],
+
+
+        "inventory":[{
+			"transform": {
+		        "gui": { "rotation": [ { "x": 30}, { "y": 45 }, { "z": 0 } ], "scale": 0.625 }
+			}
+		}]
+	}
+}

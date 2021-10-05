@@ -1,0 +1,56 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_easel.obj",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.5, "translation": [ 0, 0, 0 ] },
+		        "ground": {"scale": 0.35, "translation": [ 0, 0.15, 0 ] },
+		        "fixed": {"scale": 0.5},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			}
+    },
+    "variants": {
+        "variant": {
+	    		"click0": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/ladder_spruce",
+						"#m_1": "miniaturia_mod:blocks/chain_thin_black",
+						"#m_2": "miniaturia_mod:blocks/easel_a",
+						"#m_3": "miniaturia_mod:blocks/wood_spruce_plate_parts",
+						"#m_4": "miniaturia_mod:blocks/leaves_ivy_center"
+			 		}
+			 	},
+			 	"click1": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/ladder_spruce",
+						"#m_1": "miniaturia_mod:blocks/chain_thin_black",
+						"#m_2": "miniaturia_mod:blocks/easel_b",
+						"#m_3": "miniaturia_mod:blocks/wood_spruce_plate_parts",
+						"#m_4": "miniaturia_mod:blocks/c"
+			 		}
+	    		},
+	    		"click2": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/ladder_spruce",
+						"#m_1": "miniaturia_mod:blocks/chain_thin_black",
+						"#m_2": "miniaturia_mod:blocks/easel_c",
+						"#m_3": "miniaturia_mod:blocks/wood_spruce_plate_parts",
+						"#m_4": "miniaturia_mod:blocks/c"
+			 		}
+	    		},
+	    		"click3": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/ladder_spruce",
+						"#m_1": "miniaturia_mod:blocks/chain_thin_black",
+						"#m_2": "miniaturia_mod:blocks/easel_d",
+						"#m_3": "miniaturia_mod:blocks/wood_spruce_plate_parts",
+						"#m_4": "miniaturia_mod:blocks/c"
+			 		}
+	    		}
+		}
+	}
+}

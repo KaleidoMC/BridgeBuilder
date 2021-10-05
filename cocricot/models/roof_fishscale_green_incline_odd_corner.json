@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/roof_incline_odd_corner",
+    "textures": {
+      "texture": "cocricotmod:blocks/roof_fishscale_green_outer",
+      "texture1": "cocricotmod:blocks/roof_fishscale_green_outer1"
+    }
+}

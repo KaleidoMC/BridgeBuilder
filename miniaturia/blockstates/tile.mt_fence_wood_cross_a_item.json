@@ -1,0 +1,33 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_fence_wood_a_single_smiddle",
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 0 }, { "y": 90 }, { "z": 0 } ], "scale": 0.65
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					    "0": "miniaturia_mod:blocks/fence_wood_oak_cross",
+						"1": "miniaturia_mod:blocks/fence_wood_oak"
+				}
+			},
+			"meta1": {
+				"textures": {
+					    "0": "miniaturia_mod:blocks/fence_wood_spruce_cross",
+						"1": "miniaturia_mod:blocks/fence_wood_spruce"
+				}
+			},
+			"meta2": {
+				"textures": {
+						"0": "miniaturia_mod:blocks/fence_wood_white_cross",
+						"1": "miniaturia_mod:blocks/fence_wood_white"
+				}
+			}
+		}
+    }
+}

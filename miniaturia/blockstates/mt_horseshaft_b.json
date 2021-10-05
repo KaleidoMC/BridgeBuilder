@@ -1,0 +1,44 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+  		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_horseshaft.obj"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"#1": "miniaturia_mod:blocks/harness_parts",
+						"particle": "miniaturia_mod:blocks/harness_parts"
+			 		}
+			 	},
+			 	"1": {
+					"textures": {
+						"#1": "miniaturia_mod:blocks/harness_parts_lightbrown",
+						"particle": "miniaturia_mod:blocks/harness_parts_lightbrown"
+			 		}
+	    		},
+	    		"2": {
+					"textures": {
+						"#1": "miniaturia_mod:blocks/harness_parts_white",
+						"particle": "miniaturia_mod:blocks/harness_parts_white"
+			 		}
+	    		},
+	    		"3": {
+					"textures": {
+						"#1": "miniaturia_mod:blocks/harness_parts_black",
+						"particle": "miniaturia_mod:blocks/harness_parts_black"
+			 		}
+	    		}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

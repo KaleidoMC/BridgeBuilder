@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/stair_outer",
+    "textures": {
+      "particle": "cocricotmod:blocks/stair_iron",
+  		"texture": "cocricotmod:blocks/stair_iron"
+    }
+}

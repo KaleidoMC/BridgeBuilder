@@ -1,0 +1,7 @@
+{
+    "parent":"cocricotmod:block/sand_pile_height8",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_mosaic_whitejoint_",
+        "0": "cocricotmod:blocks/stone_mosaic_whitejoint_"
+    }
+}

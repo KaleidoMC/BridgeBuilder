@@ -1,0 +1,34 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_winframe_cercle"
+	},
+    "variants": {
+
+    	"facing": {
+    		"down":		{ "x": 90, "y": 0 },
+    		"up":		{ "x": 270, "y": 0 },
+    		"north":	{ "x": 0, "y": 0 },
+    		"south":	{ "x": 0, "y": 180 },
+    		"west": 	{ "x": 0, "y": 270 },
+    		"east": 	{ "x": 0, "y": 90 }
+    	},
+
+    	"click": {
+    		"0": {
+				"textures": {
+					"window": "miniaturia_mod:blocks/window_f_silver_end",
+					"winframe_side": "miniaturia_mod:blocks/stone_winframe_side",
+					"side": "miniaturia_mod:blocks/stone_column_b_middle"
+					}
+				},
+    		"1": {
+				"textures": {
+					"window": "miniaturia_mod:blocks/c",
+					"winframe_side": "miniaturia_mod:blocks/stone_winframe_side",
+					"side": "miniaturia_mod:blocks/stone_column_b_middle"
+					}
+				}
+    	}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "cocricotmod:blocks/planks_clear",
+		"0": "cocricotmod:blocks/hat_boater"
+	},
+	"elements": [
+		{
+			"from": [5.64645, 6.06066, 12.5],
+			"to": [11.64645, 12.06066, 15.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [9, 8, 7]},
+			"faces": {
+				"north": {"uv": [10, 3, 16, 9], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [10, 0, 16, 3], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [10, 0, 16, 3], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 0, 16, 3], "texture": "#0"},
+				"down": {"uv": [10, 0, 16, 3], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.64645, 4.06066, 15.5],
+			"to": [13.64645, 14.06066, 16],
+			"rotation": {"angle": 45, "axis": "z", "origin": [9, 8, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 10, 10], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 9.5, 10, 10], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 10, 10], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 9.5, 10, 10], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 9.5, 10, 10], "texture": "#0"},
+				"down": {"uv": [0, 9.5, 10, 10], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/bathtub_clawfoot",
+    "textures": {
+			"2": "cocricotmod:blocks/transparent",
+			"3": "cocricotmod:blocks/bathtub_clawfoot_white"
+    }
+}

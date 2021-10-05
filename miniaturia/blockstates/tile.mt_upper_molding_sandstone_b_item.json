@@ -1,0 +1,26 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_upper_molding_b",
+	    "textures": {
+			"end" : "miniaturia_mod:blocks/sandstone_plate_parts",
+			"side_b" : "miniaturia_mod:blocks/sandstone_upper_molding",
+			"side_b2" : "miniaturia_mod:blocks/sandstone_molding_b2",
+			"side_c" : "miniaturia_mod:blocks/sandstone_upper_molding",
+			"side_c2" : "miniaturia_mod:blocks/sandstone_molding_b2",
+			"particle" : "miniaturia_mod:blocks/sandstone_upper_molding"
+	    	},
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ],
+				"scale": 0.625
+				}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { "model": "miniaturia_mod:mt_upper_molding_b" },
+            "click1": { "model": "miniaturia_mod:mt_upper_molding_c" }
+                }
+            }
+}

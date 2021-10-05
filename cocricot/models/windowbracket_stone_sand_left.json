@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/windowbracket_stone_white_left",
+  	"textures": {
+  		"0": "cocricotmod:blocks/dentilmolding_sand_side",
+  		"1": "cocricotmod:blocks/rustication_banded_sand_top",
+  		"2": "cocricotmod:blocks/dentilmolding_sand_bottom",
+  		"3": "cocricotmod:blocks/dentilmolding_sand_side_inner",
+  		"4": "cocricotmod:blocks/dentilmolding_sand_bottom_outer",
+  		"particle": "cocricotmod:blocks/rustication_banded_sand_top"
+  	}
+}

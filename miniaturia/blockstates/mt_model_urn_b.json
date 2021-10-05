@@ -1,0 +1,74 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+			"model": "miniaturia_mod:mt_finial_b"
+  	},
+
+	"variants": {
+
+		"click": {
+
+			"0": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/stone_plate_parts",
+					"side": "miniaturia_mod:blocks/stone_upper_molding",
+					"side2": "miniaturia_mod:blocks/stone_column_single"
+				}
+			},
+			"1": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/quartz_plate_parts",
+					"side": "miniaturia_mod:blocks/quartz_upper_molding",
+					"side2": "miniaturia_mod:blocks/quartz_molding_b"
+				}
+			},
+			"2": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/quartz_plate_parts",
+					"side": "miniaturia_mod:blocks/quartz_gold_molding",
+					"side2": "miniaturia_mod:blocks/quartz_gold_column_single"
+				}
+			},
+			"3": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/sandstone_plate_parts",
+					"side": "miniaturia_mod:blocks/sandstone_upper_molding",
+					"side2": "miniaturia_mod:blocks/sandstone_column_single"
+				}
+			},
+			"4": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/roof_zinc_plate_parts",
+					"side": "miniaturia_mod:blocks/roof_zinc_edge",
+					"side2": "miniaturia_mod:blocks/roof_zinc_stairs"
+				}
+			},
+			"5": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_oak_plate_parts",
+					"side": "miniaturia_mod:blocks/wood_oak_upper_molding",
+					"side2": "miniaturia_mod:blocks/anvil_sandstone"
+				}
+			},
+			"6": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_acacia_plate_parts",
+					"side": "miniaturia_mod:blocks/wood_acacia_upper_molding",
+					"side2": "miniaturia_mod:blocks/wood_acacia_column_b_top_parts"
+				}
+			},
+			"7": {
+				"textures": {
+					"end": "miniaturia_mod:blocks/wood_dark_oak_plate_parts",
+					"side": "miniaturia_mod:blocks/wood_dark_oak_upper_molding",
+					"side2": "miniaturia_mod:blocks/wood_dark_oak_stairs_side"
+				}
+			}
+		},
+
+		"half": {
+			"top": {},
+			"bottom": {}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_pillar_single"
+    },
+    "variants": {
+        "variant": {
+				"meta0": {
+					"textures": {
+					    "end": "miniaturia_mod:blocks/log_oak",
+					    "side": "miniaturia_mod:blocks/log_oak"
+					}
+				},
+				"meta1": {
+					"textures": {
+					    "end": "miniaturia_mod:blocks/log_spruce",
+					    "side": "miniaturia_mod:blocks/log_spruce"
+					}
+				},
+				"meta2": {
+					"textures": {
+					    "end": "miniaturia_mod:blocks/log_birch",
+					    "side": "miniaturia_mod:blocks/log_birch"
+					}
+				},
+				"meta3": {
+					"textures": {
+					    "end": "miniaturia_mod:blocks/log_jungle",
+					    "side": "miniaturia_mod:blocks/log_jungle"
+					}
+				},
+				"meta4": {
+					"textures": {
+					    "end": "miniaturia_mod:blocks/log_acacia",
+					    "side": "miniaturia_mod:blocks/log_acacia"
+					}
+				},
+				"meta5": {
+					"textures": {
+					    "end": "miniaturia_mod:blocks/log_big_oak",
+					    "side": "miniaturia_mod:blocks/log_big_oak"
+					}
+				}
+		}
+    }
+}

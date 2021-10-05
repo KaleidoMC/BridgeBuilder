@@ -1,0 +1,53 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "half_slab",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "half_slab" },
+			"top":		{ "model": "upper_slab" }
+		},
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/steel_silver",
+					"top" : "miniaturia_mod:blocks/steel_silver",
+					"side" : "miniaturia_mod:blocks/steel_silver"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/steel_black",
+					"top" : "miniaturia_mod:blocks/steel_black",
+					"side" : "miniaturia_mod:blocks/steel_black"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/steel_red",
+					"top" : "miniaturia_mod:blocks/steel_red",
+					"side" : "miniaturia_mod:blocks/steel_red"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/steel_green",
+					"top" : "miniaturia_mod:blocks/steel_green",
+					"side" : "miniaturia_mod:blocks/steel_green"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"bottom" : "miniaturia_mod:blocks/brass",
+					"top" : "miniaturia_mod:blocks/brass",
+					"side" : "miniaturia_mod:blocks/brass"
+				}
+			}
+		}
+	}
+}

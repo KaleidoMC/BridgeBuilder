@@ -1,0 +1,30 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures":{
+				    "straight_bottom": "miniaturia_mod:blocks/sandstone_brick_cracked_ns",
+			        "straight_top": "miniaturia_mod:blocks/sandstone_brick_cracked_ns",
+			        "straight_front": "miniaturia_mod:blocks/sandstone_brick_cracked_we",
+			        "straight_back": "miniaturia_mod:blocks/sandstone_brick_cracked_we",
+			        "straight_north": "miniaturia_mod:blocks/sandstone_brick_cracked_ns",
+			        "straight_south": "miniaturia_mod:blocks/sandstone_brick_cracked_ns"
+				}
+			},
+            "click1": {
+        		"textures":{
+				    "straight_bottom": "miniaturia_mod:blocks/sandstone_brick_worn",
+			        "straight_top": "miniaturia_mod:blocks/sandstone_brick_worn",
+			        "straight_front": "miniaturia_mod:blocks/sandstone_brick_worn",
+			        "straight_back": "miniaturia_mod:blocks/sandstone_brick_worn",
+			        "straight_north": "miniaturia_mod:blocks/sandstone_brick_worn",
+			        "straight_south": "miniaturia_mod:blocks/sandstone_brick_worn"
+				}
+			}
+        }
+    }
+}

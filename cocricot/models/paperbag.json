@@ -1,0 +1,55 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/door_tall_2glass3panel_seadrift",
+		"particle": "cocricotmod:blocks/planks_brown"
+	},
+	"elements": [
+		{
+			"from": [9, 0, 5],
+			"to": [14, 8.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2.75, 9.5]},
+			"faces": {
+				"north": {"uv": [13.25, 11.25, 16, 16], "texture": "#0"},
+				"east": {"uv": [11, 11.25, 13.25, 16], "texture": "#0"},
+				"south": {"uv": [8.5, 11.25, 11, 16], "texture": "#0"},
+				"west": {"uv": [13.25, 11.25, 11, 16], "texture": "#0"},
+				"up": {"uv": [13.25, 9.25, 16, 11.25], "texture": "#0"},
+				"down": {"uv": [13.25, 9.25, 16, 11.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 0, 5],
+			"to": [7.5, 8.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2.75, 9.5]},
+			"faces": {
+				"north": {"uv": [13.25, 11.25, 16, 16], "texture": "#0"},
+				"east": {"uv": [11, 11.25, 13.25, 16], "texture": "#0"},
+				"south": {"uv": [8.5, 11.25, 11, 16], "texture": "#0"},
+				"west": {"uv": [13.25, 11.25, 11, 16], "texture": "#0"},
+				"up": {"uv": [13.25, 9.25, 16, 11.25], "texture": "#0"},
+				"down": {"uv": [13.25, 9.25, 16, 11.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 0, 9.5],
+			"to": [11, 8.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2.75, 9.5]},
+			"faces": {
+				"north": {"uv": [13.25, 11.25, 16, 16], "texture": "#0"},
+				"east": {"uv": [11, 11.25, 13.25, 16], "texture": "#0"},
+				"south": {"uv": [8.5, 11.25, 11, 16], "texture": "#0"},
+				"west": {"uv": [13.25, 11.25, 11, 16], "texture": "#0"},
+				"up": {"uv": [13.25, 9.25, 16, 11.25], "texture": "#0"},
+				"down": {"uv": [13.25, 9.25, 16, 11.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [-0.25, 3.25, 0],
+			"scale": [1.1, 1.1, 1.1]
+		}
+	}
+}

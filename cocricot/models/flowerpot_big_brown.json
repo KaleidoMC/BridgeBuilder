@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/flowerpot_big",
+    "textures": {
+  		"texture": "cocricotmod:blocks/flowerpot_big_brown"
+    }
+}

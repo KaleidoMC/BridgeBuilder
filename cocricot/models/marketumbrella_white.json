@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/marketumbrella_black",
+    "textures": {
+      "0": "cocricotmod:blocks/marketumbrella_white",
+      "particle": "cocricotmod:blocks/awning_white_upper"
+    }
+}

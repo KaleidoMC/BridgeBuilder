@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/sunglasses_brown",
+  	"textures": {
+  		"0": "cocricotmod:blocks/awning_red_lower"
+  	}
+}

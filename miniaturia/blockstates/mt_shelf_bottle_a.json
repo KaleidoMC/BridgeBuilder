@@ -1,0 +1,62 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_shelf_bottle_a"
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+			 		"textures": {
+						"upper": "miniaturia_mod:blocks/shelf_bottle_a",
+						"lower": "miniaturia_mod:blocks/shelf_bottle_a"
+						}
+					},
+			 	"1": {
+			 		"textures": {
+						"upper": "miniaturia_mod:blocks/c",
+						"lower": "miniaturia_mod:blocks/shelf_bottle_a"
+						}
+					},
+			 	"2": {
+			 		"textures": {
+			 			"upper": "miniaturia_mod:blocks/shelf_bottle_a",
+						"lower": "miniaturia_mod:blocks/c"
+						}
+					},
+			 	"3": {
+			 		"textures": {
+						"lower": "miniaturia_mod:blocks/shelf_bottle_a"
+						}
+					}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+		"click=0,facing=north":	[{ }],
+		"click=0,facing=east":	[{ }],
+		"click=0,facing=south":	[{ }],
+		"click=0,facing=west":	[{ }],
+
+		"click=1,facing=north":	[{ }],
+		"click=1,facing=east":	[{ }],
+		"click=1,facing=south":	[{ }],
+		"click=1,facing=west":	[{ }],
+
+		"click=2,facing=north":	[{ }],
+		"click=2,facing=east":	[{ }],
+		"click=2,facing=south":	[{ }],
+		"click=2,facing=west":	[{ }],
+
+		"click=3,facing=north":	{ "model": "miniaturia_mod:mt_shelf_bottle_a2" },
+		"click=3,facing=east":	{ "model": "miniaturia_mod:mt_shelf_bottle_a2" },
+		"click=3,facing=south":	{ "model": "miniaturia_mod:mt_shelf_bottle_a2" },
+		"click=3,facing=west":	{ "model": "miniaturia_mod:mt_shelf_bottle_a2" }
+	}
+}

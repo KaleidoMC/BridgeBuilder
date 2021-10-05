@@ -1,0 +1,50 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_column_a_single"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures":{
+					    "end": "miniaturia_mod:blocks/sandstone_plate_parts",
+					    "single": "miniaturia_mod:blocks/sandstone_column_single",
+					    "top": "miniaturia_mod:blocks/sandstone_column_top",
+					    "middle": "miniaturia_mod:blocks/sandstone_column_middle",
+					    "bottom": "miniaturia_mod:blocks/sandstone_column_bottom"
+					}
+				},
+            "click1": {
+					"textures":{
+					    "end": "miniaturia_mod:blocks/sandstone_plate_parts",
+					    "single": "miniaturia_mod:blocks/sandstone_column_single",
+					    "top": "miniaturia_mod:blocks/sandstone_column_top",
+					    "middle": "miniaturia_mod:blocks/sandstone_column_middle",
+					    "bottom": "miniaturia_mod:blocks/sandstone_column_bottom"
+					}
+				},
+            "click2": {
+            		"model": "miniaturia_mod:mt_column_b_single",
+					"textures":{
+					    "end": "miniaturia_mod:blocks/sandstone_plate_parts",
+					    "cornice_parts": "miniaturia_mod:blocks/sandstone_molding_b",
+					    "top_parts": "miniaturia_mod:blocks/sandstone_column_b_top_parts",
+					    "top": "miniaturia_mod:blocks/sandstone_column_b_top",
+					    "middle": "miniaturia_mod:blocks/sandstone_column_b_middle",
+					    "bottom": "miniaturia_mod:blocks/sandstone_column_b_bottom"
+					}
+				},
+            "click3": {
+            		"model": "miniaturia_mod:mt_column_b_single",
+					"textures":{
+					    "end": "miniaturia_mod:blocks/sandstone_plate_parts",
+					    "cornice_parts": "miniaturia_mod:blocks/sandstone_molding_b",
+					    "top_parts": "miniaturia_mod:blocks/sandstone_column_b_top_parts",
+					    "top": "miniaturia_mod:blocks/sandstone_column_b_top",
+					    "middle": "miniaturia_mod:blocks/sandstone_column_b_middle",
+					    "bottom": "miniaturia_mod:blocks/sandstone_column_b_bottom"
+					}
+				}
+		}
+	}
+}

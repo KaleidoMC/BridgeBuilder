@@ -1,0 +1,30 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "straight_bottom": "miniaturia_mod:blocks/brick_dark_stairs_top",
+			        "straight_top": "miniaturia_mod:blocks/brick_dark_stairs_top",
+			        "straight_front": "miniaturia_mod:blocks/brick_dark_stairs_front",
+			        "straight_back": "miniaturia_mod:blocks/brick_dark_stairs_back",
+			        "straight_north": "miniaturia_mod:blocks/brick_dark_stairs_left",
+			        "straight_south": "miniaturia_mod:blocks/brick_dark_stairs_right"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "straight_bottom": "miniaturia_mod:blocks/brick_grunge_stairs_top",
+			        "straight_top": "miniaturia_mod:blocks/brick_grunge_stairs_top",
+			        "straight_front": "miniaturia_mod:blocks/brick_grunge_stairs_front",
+			        "straight_back": "miniaturia_mod:blocks/brick_grunge_stairs_back",
+			        "straight_north": "miniaturia_mod:blocks/brick_grunge_stairs_left",
+			        "straight_south": "miniaturia_mod:blocks/brick_grunge_stairs_right"
+					}
+				}
+        }
+    }
+}

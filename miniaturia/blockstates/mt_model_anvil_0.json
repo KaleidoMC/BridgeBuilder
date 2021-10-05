@@ -1,0 +1,44 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_anvil_custom"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+				    "textures": {
+						"body": "miniaturia_mod:blocks/anvil_stone",
+						"top": "miniaturia_mod:blocks/stone_plate_parts"
+			    	}
+	    		},
+			 	"1": {
+				    "textures": {
+						"body": "miniaturia_mod:blocks/anvil_quartz",
+						"top": "miniaturia_mod:blocks/quartz_plate_parts"
+			    	}
+	    		},
+	    		"2": {
+				    "textures": {
+						"body": "miniaturia_mod:blocks/anvil_quartz_gold",
+						"top": "miniaturia_mod:blocks/quartz_plate_parts"
+			    	}
+	    		},
+	    		"3": {
+				    "textures": {
+						"body": "miniaturia_mod:blocks/anvil_sandstone",
+						"top": "miniaturia_mod:blocks/sandstone_top"
+			    	}
+	    		}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+
+    }
+}

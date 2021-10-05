@@ -1,0 +1,27 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "miniaturia_mod:mt_winframe_cercle",
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 0}, { "y": 180 }, { "z": 0 } ], "scale": 0.625 }
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"window": "miniaturia_mod:blocks/window_cd_wood_darkbrown_top",
+					"winframe_side": "miniaturia_mod:blocks/wood_dark_oak_winframe_side",
+					"side": "miniaturia_mod:blocks/wood_dark_oak_arch"
+					}
+				},
+            "click1": {
+				"textures": {
+					"window": "miniaturia_mod:blocks/c",
+					"winframe_side": "miniaturia_mod:blocks/wood_acacia_winframe_side",
+					"side": "miniaturia_mod:blocks/wood_acacia_arch"
+					}
+				}
+			}
+		}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/partitionpole_classic_gold_post",
+    "textures": {
+  		"0": "cocricotmod:blocks/metal_silver",
+  		"particle": "cocricotmod:blocks/metal_stainless"
+  	}
+}

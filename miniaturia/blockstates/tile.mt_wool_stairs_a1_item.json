@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+			        "bottom":	 "miniaturia_mod:blocks/wool_colored_yellow",
+			        "top":		 "miniaturia_mod:blocks/wool_colored_yellow",
+			        "side":		 "miniaturia_mod:blocks/wool_colored_yellow"
+					}
+				},
+            "click1": {
+				"textures": {
+					"bottom":	 "miniaturia_mod:blocks/wool_colored_lime",
+			        "top":		 "miniaturia_mod:blocks/wool_colored_lime",
+			        "side":		 "miniaturia_mod:blocks/wool_colored_lime"
+					}
+				}
+        }
+    }
+}

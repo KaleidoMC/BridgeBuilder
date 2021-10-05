@@ -1,0 +1,62 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_shelf_book_a_single",
+		"textures": {
+	 		"upper": "miniaturia_mod:blocks/shelf_book",
+			"lower": "miniaturia_mod:blocks/shelf_book"
+			}
+    },
+    "variants": {
+        "variant": {
+			 	"click0": {
+				 	"submodel": "miniaturia_mod:mt_shelf_a_24",
+				 	"textures": {
+						"edge": "miniaturia_mod:blocks/furniture_white_brown_edge",
+						"plate": "miniaturia_mod:blocks/table_marron_top",
+						"parts": "miniaturia_mod:blocks/furniture_white_brown_parts",
+						"side1": "miniaturia_mod:blocks/furniture_white_brown_side1",
+						"plate_top": "miniaturia_mod:blocks/table_marron_top",
+						"plate_middle": "miniaturia_mod:blocks/table_marron_top",
+						"edge2": "miniaturia_mod:blocks/furniture_white_brown_edge"
+						}
+					},
+			 	"click1": {
+				 	"submodel": "miniaturia_mod:mt_shelf_b_24",
+				 	"textures": {
+						"edge": "miniaturia_mod:blocks/furniture_white_edge",
+						"plate": "miniaturia_mod:blocks/table_white_top",
+						"side1": "miniaturia_mod:blocks/furniture_white_side1",
+						"side2": "miniaturia_mod:blocks/furniture_white_side2",
+						"side1b": "miniaturia_mod:blocks/furniture_white_side1b",
+						"edge2": "miniaturia_mod:blocks/furniture_white_edge",
+						"plate_middle": "miniaturia_mod:blocks/table_white_top"
+						}
+					},
+			 	"click2": {
+				 	"submodel": "miniaturia_mod:mt_shelf_b_24",
+				 	"textures": {
+						"edge": "miniaturia_mod:blocks/furniture_pink_edge",
+						"plate": "miniaturia_mod:blocks/table_pink_top",
+						"side1": "miniaturia_mod:blocks/furniture_pink_side1",
+						"side2": "miniaturia_mod:blocks/furniture_pink_side2",
+						"side1b": "miniaturia_mod:blocks/furniture_pink_side1b",
+						"edge2": "miniaturia_mod:blocks/furniture_pink_edge",
+						"plate_middle": "miniaturia_mod:blocks/table_pink_top"
+						}
+					},
+			 	"click3": {
+				 	"submodel": "miniaturia_mod:mt_shelf_b_24",
+				 	"textures": {
+						"edge": "miniaturia_mod:blocks/furniture_mint_edge",
+						"plate": "miniaturia_mod:blocks/table_mint_top",
+						"side1": "miniaturia_mod:blocks/furniture_mint_side1",
+						"side2": "miniaturia_mod:blocks/furniture_mint_side2",
+						"side1b": "miniaturia_mod:blocks/furniture_mint_side1b",
+						"edge2": "miniaturia_mod:blocks/furniture_mint_edge",
+						"plate_middle": "miniaturia_mod:blocks/table_mint_top"
+						}
+					}
+		}
+	}
+}

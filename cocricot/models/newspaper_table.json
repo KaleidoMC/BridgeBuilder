@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_placed_table",
+    "textures": {
+      "top": "cocricotmod:blocks/newspaper"
+    }
+}

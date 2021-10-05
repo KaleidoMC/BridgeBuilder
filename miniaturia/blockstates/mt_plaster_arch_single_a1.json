@@ -1,0 +1,49 @@
+{
+  "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+  		"model": "miniaturia_mod:mt_arch_single.obj"
+    },
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+					"textures":{
+					    "#m_1": "miniaturia_mod:blocks/plaster_lightblue_arch_top",
+					    "#m_2": "miniaturia_mod:blocks/plaster_lightblue_arch_side_single",
+					    "#m_3": "miniaturia_mod:blocks/plaster_lightblue_arch",
+					    "particle": "miniaturia_mod:blocks/plaster_lightblue_arch"
+					}
+				},
+			 	"1": {
+					"textures":{
+					    "#m_1": "miniaturia_mod:blocks/plaster_pink_arch_top",
+					    "#m_2": "miniaturia_mod:blocks/plaster_pink_arch_side_single",
+					    "#m_3": "miniaturia_mod:blocks/plaster_pink_arch",
+					    "particle": "miniaturia_mod:blocks/plaster_pink_arch"
+					}
+	    		}
+    	},
+
+    	"facing": {
+    		"east":		{ "y": 0 },
+    		"west":		{ "y": 180 },
+    		"south":	{ "y": 90 },
+    		"north":	{ "y": 270 }
+		},
+
+		"half":{
+			"bottom":	{ "model": "miniaturia_mod:mt_arch_single_bottom.obj" },
+			"top":		{ "model": "miniaturia_mod:mt_arch_single.obj" }
+		},
+
+		"shape": {
+			"straight":		{ },
+            "outer_right":	{ },
+            "outer_left":	{ },
+            "inner_right":	{ },
+            "inner_left":	{ }
+		}
+    }
+}

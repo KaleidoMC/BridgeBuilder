@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/leaves_base",
+    "textures": {
+      "all": "cocricotmod:blocks/leaves_dry"
+    }
+}

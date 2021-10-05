@@ -1,0 +1,55 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_kitchen_counter"
+	},
+
+    "variants": {
+
+        	"click": {
+			 	"0": {
+					"textures": {
+							"edge": "miniaturia_mod:blocks/counter_tile_edge",
+							"front": "miniaturia_mod:blocks/furniture_ashbrown_cabinet_a_front",
+							"side": "miniaturia_mod:blocks/furniture_ashbrown_cabinet_side",
+							"top": "miniaturia_mod:blocks/tile_white",
+							"bottom": "miniaturia_mod:blocks/table_ashbrown_top"
+				 		}
+					},
+			 	"1": {
+					"textures": {
+							"edge": "miniaturia_mod:blocks/counter_tile_edge",
+							"front": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_a_front",
+							"side": "miniaturia_mod:blocks/furniture_lightbrown_cabinet_side",
+							"top": "miniaturia_mod:blocks/tile_white",
+							"bottom": "miniaturia_mod:blocks/table_lightbrown_top"
+				 		}
+					},
+			 	"2": {
+					"textures": {
+							"edge": "miniaturia_mod:blocks/counter_marble_edge",
+							"front": "miniaturia_mod:blocks/furniture_acacia_cabinet_a_front",
+							"side": "miniaturia_mod:blocks/furniture_acacia_cabinet_side",
+							"top": "miniaturia_mod:blocks/furniture_marble_white_top",
+							"bottom": "miniaturia_mod:blocks/table_acacia_top"
+				 		}
+					},
+			 	"3": {
+					"textures": {
+							"edge": "miniaturia_mod:blocks/counter_marble_edge",
+							"front": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_a_front",
+							"side": "miniaturia_mod:blocks/furniture_darkbrown_cabinet_side",
+							"top": "miniaturia_mod:blocks/furniture_marble_white_top",
+							"bottom": "miniaturia_mod:blocks/table_darkbrown_top"
+				 		}
+					}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

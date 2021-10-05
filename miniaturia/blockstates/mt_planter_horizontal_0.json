@@ -1,0 +1,57 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_planter_single"
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/pot_rattan",
+						"1": "miniaturia_mod:blocks/planter_rattan_bottom",
+						"2": "miniaturia_mod:blocks/planter_rattan_top",
+						"3": "miniaturia_mod:blocks/pot_rattan_left",
+						"4": "miniaturia_mod:blocks/pot_rattan_middle",
+						"5": "miniaturia_mod:blocks/pot_rattan_right",
+						"6": "miniaturia_mod:blocks/planter_rattan_top_left",
+						"7": "miniaturia_mod:blocks/planter_rattan_top_middle",
+						"8": "miniaturia_mod:blocks/planter_rattan_top_right"
+					}
+				},
+			 	"1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/planter_terracotta_orange",
+						"1": "miniaturia_mod:blocks/planter_terracotta_orange_top",
+						"2": "miniaturia_mod:blocks/planter_terracotta_top",
+						"3": "miniaturia_mod:blocks/planter_terracotta_orange_left",
+						"4": "miniaturia_mod:blocks/planter_terracotta_orange_middle",
+						"5": "miniaturia_mod:blocks/planter_terracotta_orange_right",
+						"6": "miniaturia_mod:blocks/planter_terracotta_top_left",
+						"7": "miniaturia_mod:blocks/planter_terracotta_top_middle",
+						"8": "miniaturia_mod:blocks/planter_terracotta_top_right"
+					}
+	    		}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+		"half": {
+    		"top":		{ },
+    		"bottom":	{ }
+    	},
+
+    	"shape": {
+    		"left":		{ "model": "miniaturia_mod:mt_planter_left" },
+    		"middle":	{ "model": "miniaturia_mod:mt_planter_middle" },
+    		"right":	{ "model": "miniaturia_mod:mt_planter_right" },
+    		"single":	{ "model": "miniaturia_mod:mt_planter_single" }
+		}
+    }
+}

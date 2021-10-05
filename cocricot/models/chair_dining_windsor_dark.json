@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/chair_dining_windsor_antique",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_dark",
+      "0": "cocricotmod:blocks/chair_dark"
+    }
+}

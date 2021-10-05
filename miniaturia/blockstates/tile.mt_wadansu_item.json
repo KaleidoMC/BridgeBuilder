@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"model": "furnace"
+    },
+    "variants": {
+        "variant": {
+			 	"click0": {
+					"textures": {
+							"front" : "miniaturia_mod:blocks/wadansu_marron_a",
+							"side" : "miniaturia_mod:blocks/wadansu_marron_side",
+							"top" : "miniaturia_mod:blocks/wadansu_marron_top"
+				 		}
+					},
+			 	"click1": {
+					"textures": {
+							"front" : "miniaturia_mod:blocks/wadansu_marron_b",
+							"side" : "miniaturia_mod:blocks/wadansu_marron_side",
+							"top" : "miniaturia_mod:blocks/wadansu_marron_top"
+				 		}
+					},
+			 	"click2": {
+					"textures": {
+							"front" : "miniaturia_mod:blocks/wadansu_brown_a",
+							"side" : "miniaturia_mod:blocks/wadansu_brown_side",
+							"top" : "miniaturia_mod:blocks/wadansu_brown_top"
+				 		}
+					},
+			 	"click3": {
+					"textures": {
+							"front" : "miniaturia_mod:blocks/wadansu_brown_b",
+							"side" : "miniaturia_mod:blocks/wadansu_brown_side",
+							"top" : "miniaturia_mod:blocks/wadansu_brown_top"
+				 		}
+					}
+        }
+    }
+}

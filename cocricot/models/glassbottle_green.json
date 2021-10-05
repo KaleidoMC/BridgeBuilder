@@ -1,0 +1,60 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/glassdome_specimen",
+		"particle": "cocricotmod:blocks/stone_color_green"
+	},
+	"elements": [
+		{
+			"from": [6.48744, 0, 6.23743],
+			"to": [9.98744, 10.5, 9.73743],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8.23744, 5.25, 7.98743]},
+			"faces": {
+				"north": {"uv": [3.25, 10.75, 5, 16], "texture": "#0"},
+				"east": {"uv": [3.25, 10.75, 5, 16], "texture": "#0"},
+				"south": {"uv": [3.25, 10.75, 5, 16], "texture": "#0"},
+				"west": {"uv": [3.25, 10.75, 5, 16], "texture": "#0"},
+				"up": {"uv": [3.25, 9.25, 5, 11], "texture": "#0"},
+				"down": {"uv": [3.25, 9.25, 5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.08979, 0, 6.88268],
+			"to": [8.08979, 9.5, 9.38268],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.70711, 4.25, 7.75]},
+			"faces": {
+				"east": {"uv": [11.25, 5.25, 12.5, 10], "texture": "#0"},
+				"west": {"uv": [11.25, 5.25, 12.5, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.83979, 0, 8.13268],
+			"to": [9.33979, 9.5, 8.13268],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.70711, 4.25, 7.75]},
+			"faces": {
+				"north": {"uv": [11.25, 5.25, 12.5, 10], "texture": "#0"},
+				"south": {"uv": [11.25, 5.25, 12.5, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.02, 9.5, 6.31289],
+			"to": [9.52, 12, 8.81289],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.70711, 5.25, 7.75]},
+			"faces": {
+				"north": {"uv": [5.5, 13.5, 6.75, 14.75], "texture": "#0"},
+				"east": {"uv": [5.5, 13.5, 6.75, 14.75], "texture": "#0"},
+				"south": {"uv": [5.5, 13.5, 6.75, 14.75], "texture": "#0"},
+				"west": {"uv": [5.5, 13.5, 6.75, 14.75], "texture": "#0"},
+				"up": {"uv": [5.5, 12.25, 6.75, 13.5], "texture": "#0"},
+				"down": {"uv": [5.5, 12.25, 6.75, 13.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -2, 0],
+			"translation": [-0.75, 1.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}

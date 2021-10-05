@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/marinelamp_bulkhead",
+    "textures": {
+				"particle": "cocricotmod:blocks/stone_color_black",
+        "texture": "cocricotmod:blocks/marinelamp_bulkhead_black"
+    }
+}

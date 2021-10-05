@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_oil_drum_b"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+							"0": "miniaturia_mod:blocks/oil_drum",
+							"1": "miniaturia_mod:blocks/oil_drum_top"
+				}
+            },
+            "click1": {
+                "textures": {
+							"0": "miniaturia_mod:blocks/oil_drum_blue",
+							"1": "miniaturia_mod:blocks/oil_drum_blue_top"
+                }
+            }
+		}
+    }
+}

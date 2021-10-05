@@ -1,0 +1,8 @@
+{
+	"parent": "cocricotmod:block/cushion_brown_slipper",
+	"textures": {
+		"0": "cocricotmod:blocks/cushion_deer",
+		"1": "cocricotmod:blocks/cushion_brown",
+		"particle": "cocricotmod:blocks/stone_color_darkbrown"
+	}
+}

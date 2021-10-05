@@ -1,0 +1,18 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"textures":{
+			"bottom" : "miniaturia_mod:blocks/plaster_peeled_brick",
+			"top" : "miniaturia_mod:blocks/plaster_peeled_brick",
+			"side" : "miniaturia_mod:blocks/plaster_peeled_brick"
+			},
+		"model": "half_slab",
+    	"uvlock": true
+  },
+    "variants": {
+        "half=bottom,variant=default": { "model": "half_slab" },
+        "half=top,variant=default": { "model": "upper_slab" },
+
+        "inventory":[{ }]
+    }
+}

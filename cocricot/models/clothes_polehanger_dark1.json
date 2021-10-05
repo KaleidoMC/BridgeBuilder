@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/clothes_polehanger_dark",
+    "textures": {
+      "cross": "cocricotmod:blocks/clothes_polehanger_dark1"
+    }
+}

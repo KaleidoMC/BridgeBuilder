@@ -1,0 +1,65 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_furnace"
+  },
+    "variants": {
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"switch": {
+    		"true": {},
+    		"false":{}
+    	},
+
+    	"click": {
+    		"0": {
+    			"textures":{
+					"2": "miniaturia_mod:blocks/furnace_inner_bottom",
+					"3": "miniaturia_mod:blocks/cobblestone",
+					"4": "miniaturia_mod:blocks/stone_slab_side"
+					}
+				},
+		 	"1": {
+    			"textures":{
+					"2": "miniaturia_mod:blocks/furnace_inner_bottom",
+					"3": "miniaturia_mod:blocks/stonebrick_b_cacao",
+					"4": "miniaturia_mod:blocks/stone_slab_side"
+					}
+				}
+	    },
+
+		"click=0,facing=north,switch=false":	{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "miniaturia_mod:blocks/c" } },
+		"click=0,facing=east,switch=false":		{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "miniaturia_mod:blocks/c" } },
+		"click=0,facing=south,switch=false":	{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "miniaturia_mod:blocks/c" } },
+		"click=0,facing=west,switch=false":		{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "miniaturia_mod:blocks/c" } },
+
+		"click=0,facing=north,switch=true":		[{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_0" } },
+												{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_1" } }],
+		"click=0,facing=east,switch=true":		[{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_0" } },
+												{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_1" } }],
+		"click=0,facing=south,switch=true":		[{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_0" } },
+												{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_1" } }],
+		"click=0,facing=west,switch=true":		[{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_0" } },
+												{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_1" } }],
+
+		"click=1,facing=north,switch=false":	{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "miniaturia_mod:blocks/c" } },
+		"click=1,facing=east,switch=false":		{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "miniaturia_mod:blocks/c" } },
+		"click=1,facing=south,switch=false":	{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "miniaturia_mod:blocks/c" } },
+		"click=1,facing=west,switch=false":		{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "miniaturia_mod:blocks/c" } },
+
+		"click=1,facing=north,switch=true":		[{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_0" } },
+												{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_1" } }],
+		"click=1,facing=east,switch=true":		[{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_0" } },
+												{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_1" } }],
+		"click=1,facing=south,switch=true":		[{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_0" } },
+												{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_1" } }],
+		"click=1,facing=west,switch=true":		[{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_0" } },
+												{ "model": "miniaturia_mod:mt_furnace", "textures": { "fire": "minecraft:blocks/fire_layer_1" } }]
+		}
+}

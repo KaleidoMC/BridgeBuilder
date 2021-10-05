@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "cocricotmod:blocks/hook_hanging_rope_lower"
+    }
+}

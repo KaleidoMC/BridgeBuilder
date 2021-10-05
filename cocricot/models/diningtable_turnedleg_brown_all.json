@@ -1,0 +1,17 @@
+{
+	"textures": {
+		"1": "cocricotmod:blocks/planks_brown",
+		"2": "cocricotmod:blocks/diningtable_turnedleg_brown",
+		"particle": "cocricotmod:blocks/planks_brown"
+	},
+	"elements": [
+		{
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [7.5, 7.5, 8, 8], "texture": "#2"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/marinelamp_lampshade_wall",
+    "textures": {
+				"particle": "cocricotmod:blocks/particle_gold",
+        "texture": "cocricotmod:blocks/marinelamp_antique"
+    }
+}

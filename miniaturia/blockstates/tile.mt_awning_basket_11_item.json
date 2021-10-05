@@ -1,0 +1,48 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_awning_basket_single.obj",
+		"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "translation": [ 0, 0, 0 ], "scale": 0.45 },
+	        "ground": {"scale": 0.25, "translation": [ 0, 0.2, 0 ] },
+	        "fixed": {"scale": 0.45},
+	        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0, 0 ] },
+	        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.35},
+	        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.35},
+	        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.35}
+		}
+    },
+    "variants": {
+        "variant": {
+			 	"click0": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/awning_white_orange",
+						"#m_1": "miniaturia_mod:blocks/awning_white_orange_frill",
+						"#m_2": "miniaturia_mod:blocks/lamppost_white"
+					}
+				},
+			 	"click1": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/awning_white_orange",
+						"#m_1": "miniaturia_mod:blocks/awning_white_orange_frill",
+						"#m_2": "miniaturia_mod:blocks/lamppost_white"
+					}
+	    		},
+	    		"click2": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/awning_white_green",
+						"#m_1": "miniaturia_mod:blocks/awning_white_green_frill",
+						"#m_2": "miniaturia_mod:blocks/lamppost_white"
+					}
+	    		},
+	    		"click3": {
+					"textures": {
+						"#m_0": "miniaturia_mod:blocks/awning_white_green",
+						"#m_1": "miniaturia_mod:blocks/awning_white_green_frill",
+						"#m_2": "miniaturia_mod:blocks/lamppost_white"
+					}
+	    		}
+		}
+	}
+}

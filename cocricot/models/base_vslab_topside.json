@@ -1,0 +1,11 @@
+{
+	"parent": "cocricotmod:block/base_vslab_all",
+	"textures": {
+			"n": "#side",
+			"e": "#side",
+			"s": "#side",
+			"w": "#side",
+			"u": "#top",
+			"d": "#top"
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_vslab_all",
+    "textures": {
+      "u": "cocricotmod:blocks/planks_seadrift",
+      "d": "cocricotmod:blocks/planks_seadrift",
+      "w": "cocricotmod:blocks/bookshelf_antique_seadrift_side",
+      "e": "cocricotmod:blocks/bookshelf_antique_seadrift_side",
+      "s": "cocricotmod:blocks/bookshelf_antique_seadrift_empty",
+      "n": "cocricotmod:blocks/bookshelf_antique_seadrift_empty"
+    }
+}

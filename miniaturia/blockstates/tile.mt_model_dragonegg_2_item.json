@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "miniaturia_mod:mt_dragon_egg"
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+					"2": "miniaturia_mod:blocks/wood_acacia_plate_parts",
+					"1": "miniaturia_mod:blocks/wood_acacia_column_b_top_parts"
+					}
+				},
+            "click1": {
+				"textures": {
+					"2": "miniaturia_mod:blocks/wood_dark_oak_plate_parts",
+					"1": "miniaturia_mod:blocks/wood_dark_oak_stairs_half"
+					}
+				}
+			}
+		}
+}

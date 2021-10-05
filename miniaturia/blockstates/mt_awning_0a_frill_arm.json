@@ -1,0 +1,40 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_awning_frill_single",
+		"textures": {
+			"0": "miniaturia_mod:blocks/awning_white_red_frill",
+			"1": "miniaturia_mod:blocks/lamppost_white",
+			"2": "miniaturia_mod:blocks/lamppost_white"
+		}
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": { },
+			 	"1": { }
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+		"half": {
+    		"bottom":	{ },
+    		"top":		{ }
+		},
+
+    	"shape": {
+    		"left":		{ "model": "miniaturia_mod:mt_awning_frill_left" },
+    		"middle":	{ "model": "miniaturia_mod:mt_awning_frill" },
+    		"right":	{ "model": "miniaturia_mod:mt_awning_frill_right" },
+    		"single":	{ "model": "miniaturia_mod:mt_awning_frill_single" }
+		},
+
+        "inventory":[{ }]
+	}
+}

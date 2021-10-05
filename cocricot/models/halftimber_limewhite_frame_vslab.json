@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/halftimber_vslab",
+    "textures": {
+      "d": "cocricotmod:blocks/halftimber_lime",
+      "u": "cocricotmod:blocks/halftimber_lime",
+      "n": "cocricotmod:blocks/halftimber_limewhite0",
+      "s": "cocricotmod:blocks/halftimber_limewhite0",
+      "w": "cocricotmod:blocks/halftimber_limewhite35",
+      "e": "cocricotmod:blocks/halftimber_limewhite35"
+    }
+}

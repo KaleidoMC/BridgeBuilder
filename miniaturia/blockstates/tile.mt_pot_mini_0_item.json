@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_pot_mini_a"
+    },
+    "variants": {
+        "variant": {
+				"click0":{
+					"textures": {
+						"1": "miniaturia_mod:blocks/pot_white_a",
+						"2": "miniaturia_mod:blocks/pot_soil_a",
+						"cross": "miniaturia_mod:blocks/pot_mini_mint"
+						}
+					},
+				"click1":{
+					"textures": {
+						"1": "miniaturia_mod:blocks/pot_white_a",
+						"2": "miniaturia_mod:blocks/pot_soil_a",
+						"cross": "miniaturia_mod:blocks/pot_mini_thyme"
+						}
+					},
+				"click2":{
+					"textures": {
+						"1": "miniaturia_mod:blocks/pot_white_a",
+						"2": "miniaturia_mod:blocks/pot_soil_a",
+						"cross": "miniaturia_mod:blocks/pot_mini_basil"
+						}
+					},
+				"click3":{
+					"textures": {
+						"1": "miniaturia_mod:blocks/pot_white_a",
+						"2": "miniaturia_mod:blocks/pot_soil_a",
+						"cross": "miniaturia_mod:blocks/pot_mini_chamomile"
+						}
+					}
+            }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/sawhorse_single",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_white",
+      "texture": "cocricotmod:blocks/sawhorse_white"
+    }
+}

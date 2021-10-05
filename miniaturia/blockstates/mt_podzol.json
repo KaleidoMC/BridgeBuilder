@@ -1,0 +1,18 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"textures":{
+	        "top": "miniaturia_mod:blocks/dirt_podzol_top",
+	        "overlay_top": "miniaturia_mod:blocks/o_dirt_podzol_top",
+	        "overlay": "miniaturia_mod:blocks/dirt_podzol_side"
+			},
+		"model": "miniaturia_mod:mt_grass",
+		"uvlock": true
+  },
+    "variants": {
+	     "half=bottom,variant=default": { "model": "miniaturia_mod:mt_grass" },
+	     "half=top,variant=default": { "model": "miniaturia_mod:mt_grass" },
+
+        "inventory":[{ }]
+    }
+}

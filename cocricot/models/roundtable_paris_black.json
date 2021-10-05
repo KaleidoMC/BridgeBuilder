@@ -1,0 +1,9 @@
+{
+    "parent": "cocricotmod:block/roundtable_paris_white",
+  	"textures": {
+  		"0": "cocricotmod:blocks/stone_color_black",
+  		"1": "cocricotmod:blocks/metal_gold",
+  		"2": "cocricotmod:blocks/roundtable_paris_black",
+  		"particle": "cocricotmod:blocks/stone_color_black"
+  	}
+}

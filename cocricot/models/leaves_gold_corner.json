@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/leaves_red_corner",
+  	"textures": {
+  		"0": "cocricotmod:blocks/leaves_gold",
+  		"particle": "cocricotmod:blocks/leaves_gold"
+  	}
+}

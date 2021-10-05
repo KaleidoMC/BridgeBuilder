@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/mug_white",
+    "textures": {
+  		"0": "cocricotmod:blocks/bed_pillow_gray",
+  		"particle": "cocricotmod:blocks/stone_color_black"
+    }
+}

@@ -1,0 +1,194 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_roof_double_single",
+  		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom": {},
+			"top": {}
+		},
+
+		"north": { "true": {}, "false": {} },
+		"east": { "true": {}, "false": {} },
+		"south": { "true": {}, "false": {} },
+		"west": { "true": {}, "false": {} },
+
+		"variant": {
+			"meta0": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/roof_orange_side",
+					"top": "miniaturia_mod:blocks/roof_orange_top",
+					"edge_bottom2": "miniaturia_mod:blocks/quartz_plate_parts",
+					"edge_bottom": "miniaturia_mod:blocks/quartz_upper_molding"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/roof_orange_side",
+					"top": "miniaturia_mod:blocks/roof_orange_top",
+					"edge_bottom2": "miniaturia_mod:blocks/wood_oak_plate_parts",
+					"edge_bottom": "miniaturia_mod:blocks/wood_oak_upper_molding"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/roof_orange_side",
+					"top": "miniaturia_mod:blocks/roof_orange_top",
+					"edge_bottom2": "miniaturia_mod:blocks/wood_dark_oak_plate_parts",
+					"edge_bottom": "miniaturia_mod:blocks/wood_dark_oak_upper_molding"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/roof_orange_top",
+					"side" : "miniaturia_mod:blocks/roof_orange_side"
+				}
+			}
+		},
+
+
+
+		"east=false,half=bottom,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_roof_double_single" },
+		"east=false,half=bottom,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end" },
+		"east=true,half=bottom,north=false,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end", "y":180},
+		"east=false,half=bottom,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_roof_double_end", "y":270},
+		"east=true,half=bottom,north=true,south=false,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_roof_double_outer" },
+		"east=true,half=bottom,north=false,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 180},
+		"east=false,half=bottom,north=true,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 270},
+		"east=false,half=bottom,north=true,south=true,variant=meta0,west=false":	{ "model": "miniaturia_mod:mt_roof_double_smiddle" },
+		"east=true,half=bottom,north=false,south=false,variant=meta0,west=true":	{ "model": "miniaturia_mod:mt_roof_double_smiddle", "y": 90},
+		"east=true,half=bottom,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_inner" },
+		"east=true,half=bottom,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 90 },
+		"east=false,half=bottom,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 180 },
+		"east=true,half=bottom,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 270 },
+		"east=true,half=bottom,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_middle" },
+
+		"east=false,half=top,north=false,south=false,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_single" },
+		"east=false,half=top,north=true,south=false,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end" },
+		"east=true,half=top,north=false,south=false,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end", "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end", "y":180},
+		"east=false,half=top,north=false,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_end", "y":270},
+		"east=true,half=top,north=true,south=false,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_outer" },
+		"east=true,half=top,north=false,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 180},
+		"east=false,half=top,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 270},
+		"east=false,half=top,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_smiddle" },
+		"east=true,half=top,north=false,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_smiddle", "y": 90},
+		"east=true,half=top,north=true,south=true,variant=meta0,west=false":		{ "model": "miniaturia_mod:mt_roof_double_inner" },
+		"east=true,half=top,north=false,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 90 },
+		"east=false,half=top,north=true,south=true,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 180 },
+		"east=true,half=top,north=true,south=false,variant=meta0,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 270 },
+		"east=true,half=top,north=true,south=true,variant=meta0,west=true":			{ "model": "miniaturia_mod:mt_roof_double_middle" },
+
+		"east=false,half=bottom,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_roof_double_single" },
+		"east=false,half=bottom,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end" },
+		"east=true,half=bottom,north=false,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end", "y":180},
+		"east=false,half=bottom,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_roof_double_end", "y":270},
+		"east=true,half=bottom,north=true,south=false,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_roof_double_outer" },
+		"east=true,half=bottom,north=false,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 180},
+		"east=false,half=bottom,north=true,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 270},
+		"east=false,half=bottom,north=true,south=true,variant=meta1,west=false":	{ "model": "miniaturia_mod:mt_roof_double_smiddle" },
+		"east=true,half=bottom,north=false,south=false,variant=meta1,west=true":	{ "model": "miniaturia_mod:mt_roof_double_smiddle", "y": 90},
+		"east=true,half=bottom,north=true,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_inner" },
+		"east=true,half=bottom,north=false,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 90 },
+		"east=false,half=bottom,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 180 },
+		"east=true,half=bottom,north=true,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 270 },
+		"east=true,half=bottom,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_middle" },
+
+		"east=false,half=top,north=false,south=false,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_single" },
+		"east=false,half=top,north=true,south=false,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end" },
+		"east=true,half=top,north=false,south=false,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end", "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end", "y":180},
+		"east=false,half=top,north=false,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_end", "y":270},
+		"east=true,half=top,north=true,south=false,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_outer" },
+		"east=true,half=top,north=false,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 180},
+		"east=false,half=top,north=true,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 270},
+		"east=false,half=top,north=true,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_smiddle" },
+		"east=true,half=top,north=false,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_smiddle", "y": 90},
+		"east=true,half=top,north=true,south=true,variant=meta1,west=false":		{ "model": "miniaturia_mod:mt_roof_double_inner" },
+		"east=true,half=top,north=false,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 90 },
+		"east=false,half=top,north=true,south=true,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 180 },
+		"east=true,half=top,north=true,south=false,variant=meta1,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 270 },
+		"east=true,half=top,north=true,south=true,variant=meta1,west=true":			{ "model": "miniaturia_mod:mt_roof_double_middle" },
+
+
+		"east=false,half=bottom,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_roof_double_single" },
+		"east=false,half=bottom,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end" },
+		"east=true,half=bottom,north=false,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_roof_double_end", "y":180},
+		"east=false,half=bottom,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_roof_double_end", "y":270},
+		"east=true,half=bottom,north=true,south=false,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_roof_double_outer" },
+		"east=true,half=bottom,north=false,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 90 },
+		"east=false,half=bottom,north=false,south=true,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 180},
+		"east=false,half=bottom,north=true,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 270},
+		"east=false,half=bottom,north=true,south=true,variant=meta2,west=false":	{ "model": "miniaturia_mod:mt_roof_double_smiddle" },
+		"east=true,half=bottom,north=false,south=false,variant=meta2,west=true":	{ "model": "miniaturia_mod:mt_roof_double_smiddle", "y": 90},
+		"east=true,half=bottom,north=true,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_inner" },
+		"east=true,half=bottom,north=false,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 90 },
+		"east=false,half=bottom,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 180 },
+		"east=true,half=bottom,north=true,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 270 },
+		"east=true,half=bottom,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_middle" },
+
+		"east=false,half=top,north=false,south=false,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_single" },
+		"east=false,half=top,north=true,south=false,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end" },
+		"east=true,half=top,north=false,south=false,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end", "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_end", "y":180},
+		"east=false,half=top,north=false,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_end", "y":270},
+		"east=true,half=top,north=true,south=false,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_outer" },
+		"east=true,half=top,north=false,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 90 },
+		"east=false,half=top,north=false,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 180},
+		"east=false,half=top,north=true,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_outer", "y": 270},
+		"east=false,half=top,north=true,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_smiddle" },
+		"east=true,half=top,north=false,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_smiddle", "y": 90},
+		"east=true,half=top,north=true,south=true,variant=meta2,west=false":		{ "model": "miniaturia_mod:mt_roof_double_inner" },
+		"east=true,half=top,north=false,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 90 },
+		"east=false,half=top,north=true,south=true,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 180 },
+		"east=true,half=top,north=true,south=false,variant=meta2,west=true":		{ "model": "miniaturia_mod:mt_roof_double_inner", "y": 270 },
+		"east=true,half=top,north=true,south=true,variant=meta2,west=true":			{ "model": "miniaturia_mod:mt_roof_double_middle" },
+
+
+		"east=false,half=bottom,north=false,south=false,variant=meta3,west=false":	{ "model": "cube_column" },
+		"east=false,half=bottom,north=true,south=false,variant=meta3,west=false":	{ "model": "cube_column" },
+		"east=true,half=bottom,north=false,south=false,variant=meta3,west=false":	{ "model": "cube_column" },
+		"east=false,half=bottom,north=false,south=true,variant=meta3,west=false":	{ "model": "cube_column" },
+		"east=false,half=bottom,north=false,south=false,variant=meta3,west=true":	{ "model": "cube_column" },
+		"east=true,half=bottom,north=true,south=false,variant=meta3,west=false":	{ "model": "cube_column" },
+		"east=true,half=bottom,north=false,south=true,variant=meta3,west=false":	{ "model": "cube_column" },
+		"east=false,half=bottom,north=false,south=true,variant=meta3,west=true":	{ "model": "cube_column" },
+		"east=false,half=bottom,north=true,south=false,variant=meta3,west=true":	{ "model": "cube_column" },
+		"east=false,half=bottom,north=true,south=true,variant=meta3,west=false":	{ "model": "cube_column" },
+		"east=true,half=bottom,north=false,south=false,variant=meta3,west=true":	{ "model": "cube_column" },
+		"east=true,half=bottom,north=true,south=true,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=true,half=bottom,north=false,south=true,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=false,half=bottom,north=true,south=true,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=true,half=bottom,north=true,south=false,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=true,half=bottom,north=true,south=true,variant=meta3,west=true":		{ "model": "cube_column" },
+
+		"east=false,half=top,north=false,south=false,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=false,half=top,north=true,south=false,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=true,half=top,north=false,south=false,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=false,half=top,north=false,south=true,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=false,half=top,north=false,south=false,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=true,half=top,north=true,south=false,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=true,half=top,north=false,south=true,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=false,half=top,north=false,south=true,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=false,half=top,north=true,south=false,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=false,half=top,north=true,south=true,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=true,half=top,north=false,south=false,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=true,half=top,north=true,south=true,variant=meta3,west=false":		{ "model": "cube_column" },
+		"east=true,half=top,north=false,south=true,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=false,half=top,north=true,south=true,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=true,half=top,north=true,south=false,variant=meta3,west=true":		{ "model": "cube_column" },
+		"east=true,half=top,north=true,south=true,variant=meta3,west=true":			{ "model": "cube_column" }
+
+		}
+}

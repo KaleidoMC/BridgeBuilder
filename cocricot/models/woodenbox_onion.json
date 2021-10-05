@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/woodenbox",
+    "textures": {
+        "u": "cocricotmod:blocks/woodenbox_onion"
+    }
+}

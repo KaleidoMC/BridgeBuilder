@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_stick",
+    "textures": {
+        "particle": "cocricotmod:blocks/roof_copper_lightblue",
+        "0": "cocricotmod:blocks/roof_copper_lightblue"
+    }
+}

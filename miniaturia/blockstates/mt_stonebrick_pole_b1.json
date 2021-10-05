@@ -1,0 +1,33 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_pole_middle",
+		"textures": {
+			"side": "miniaturia_mod:blocks/stonebrick_b_colorful_a",
+			"end": "miniaturia_mod:blocks/stonebrick_b_colorful_a"
+		}
+	},
+
+    "variants": {
+
+        "click=0,poleshape=n":	{ "model":"miniaturia_mod:mt_pole_n_b" },
+        "click=0,poleshape=e":	{ "model":"miniaturia_mod:mt_pole_n_b", "y": 90 },
+        "click=0,poleshape=s":	{ "model":"miniaturia_mod:mt_pole_n_b", "y": 180 },
+        "click=0,poleshape=w":	{ "model":"miniaturia_mod:mt_pole_n_b", "y": 270 },
+
+        "click=0,poleshape=ne":	{ "model":"miniaturia_mod:mt_pole_ne_b" },
+        "click=0,poleshape=se":	{ "model":"miniaturia_mod:mt_pole_ne_b", "y": 90 },
+        "click=0,poleshape=sw":	{ "model":"miniaturia_mod:mt_pole_ne_b", "y": 180 },
+        "click=0,poleshape=nw":	{ "model":"miniaturia_mod:mt_pole_ne_b", "y": 270 },
+
+        "click=1,poleshape=n":	{ "model":"miniaturia_mod:mt_pole_n" },
+        "click=1,poleshape=e":	{ "model":"miniaturia_mod:mt_pole_n", "y": 90 },
+        "click=1,poleshape=s":	{ "model":"miniaturia_mod:mt_pole_n", "y": 180 },
+        "click=1,poleshape=w":	{ "model":"miniaturia_mod:mt_pole_n", "y": 270 },
+
+        "click=1,poleshape=ne":	{ "model":"miniaturia_mod:mt_pole_ne" },
+        "click=1,poleshape=se":	{ "model":"miniaturia_mod:mt_pole_ne", "y": 90 },
+        "click=1,poleshape=sw":	{ "model":"miniaturia_mod:mt_pole_ne", "y": 180 },
+        "click=1,poleshape=nw":	{ "model":"miniaturia_mod:mt_pole_ne", "y": 270 }
+	}
+}

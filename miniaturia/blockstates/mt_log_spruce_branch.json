@@ -1,0 +1,56 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_wood_branch",
+		"textures": {
+				"0": "miniaturia_mod:blocks/log_spruce",
+				"1": "miniaturia_mod:blocks/log_spruce_branch"
+			}
+	},
+
+    "variants": {
+
+    	"facing": {
+    		"down":		{ "x": 180, "y": 0 },
+    		"up":		{ "x": 0, "y": 0 },
+    		"north":	{ "model": "miniaturia_mod:mt_wood_branch_b", "x": 90, "y": 0 },
+    		"south":	{ "model": "miniaturia_mod:mt_wood_branch_b", "x": 90, "y": 180 },
+    		"west": 	{ "model": "miniaturia_mod:mt_wood_branch_b", "x": 90, "y": 270 },
+    		"east": 	{ "model": "miniaturia_mod:mt_wood_branch_b", "x": 90, "y": 90 }
+    	},
+
+    	"click": {
+    		"0": { },
+    		"1": { }
+    	},
+
+    	"click=0,facing=down":	[{ "model": "miniaturia_mod:mt_wood_branch", "x": 180, "y": 0 },{ "model": "miniaturia_mod:mt_wood_branch", "x": 180, "y": 90 },
+    							{ "model": "miniaturia_mod:mt_wood_branch", "x": 180, "y": 180 },{ "model": "miniaturia_mod:mt_wood_branch", "x": 180, "y": 270 }
+    							],
+    	"click=0,facing=up":	[{ "model": "miniaturia_mod:mt_wood_branch", "y": 0 },{ "model": "miniaturia_mod:mt_wood_branch", "y": 90 },
+    							{ "model": "miniaturia_mod:mt_wood_branch", "y": 180 },{ "model": "miniaturia_mod:mt_wood_branch", "y": 270 }
+    							],
+    	"click=0,facing=north":	[{}],
+    	"click=0,facing=south":	[{}],
+    	"click=0,facing=west":	[{}],
+    	"click=0,facing=east":	[{}],
+
+    	"click=1,facing=down":	[{ "model": "miniaturia_mod:mt_wood_branch", "x": 180, "y": 0 },{ "model": "miniaturia_mod:mt_wood_branch", "x": 180, "y": 90 },
+    							{ "model": "miniaturia_mod:mt_wood_branch", "x": 180, "y": 180 },{ "model": "miniaturia_mod:mt_wood_branch", "x": 180, "y": 270 }
+    							],
+    	"click=1,facing=up":	[{ "model": "miniaturia_mod:mt_wood_branch", "y": 0 },{ "model": "miniaturia_mod:mt_wood_branch", "y": 90 },
+    							{ "model": "miniaturia_mod:mt_wood_branch", "y": 180 },{ "model": "miniaturia_mod:mt_wood_branch", "y": 270 }
+    							],
+    	"click=1,facing=north":	[{}],
+    	"click=1,facing=south":	[{}],
+    	"click=1,facing=west":	[{}],
+    	"click=1,facing=east":	[{}],
+
+
+        "inventory":[{
+			"transform": {
+		        "gui": { "rotation": [ { "x": 30}, { "y": 45 }, { "z": 0 } ], "scale": 0.625 }
+			}
+		}]
+	}
+}

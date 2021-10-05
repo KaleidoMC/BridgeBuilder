@@ -1,0 +1,47 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_directional"
+	},
+
+    "variants": {
+
+    	"click": {
+				"0":{
+					"model": "cube_directional",
+					"textures": {
+							"down": "miniaturia_mod:blocks/firewood_top",
+							"up": "miniaturia_mod:blocks/firewood_top",
+							"north": "miniaturia_mod:blocks/firewood_front",
+							"south": "miniaturia_mod:blocks/firewood_front",
+							"west": "miniaturia_mod:blocks/firewood_top",
+							"east": "miniaturia_mod:blocks/firewood_top",
+							"particle": "miniaturia_mod:blocks/firewood_front"
+						}
+					},
+				"1":{
+					"model": "miniaturia_mod:mt_stairs",
+					"textures": {
+							"straight_bottom": "miniaturia_mod:blocks/firewood_top",
+					        "straight_top": "miniaturia_mod:blocks/firewood_top",
+					        "straight_front": "miniaturia_mod:blocks/firewood_side",
+					        "straight_back": "miniaturia_mod:blocks/firewood_side",
+					        "straight_north": "miniaturia_mod:blocks/firewood_front",
+					        "straight_south": "miniaturia_mod:blocks/firewood_front"
+						}
+					}
+    	},
+
+    	"half": {
+    		"top":		{ },
+    		"bottom":	{ }
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 90 },
+    		"east":		{ "y": 180 },
+    		"south":	{ "y": 270 },
+    		"west":		{ "y": 0 }
+		}
+	}
+}

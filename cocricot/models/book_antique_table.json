@@ -1,0 +1,21 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/book_antique",
+		"particle": "cocricotmod:blocks/planks_antique"
+	},
+	"elements": [
+		{
+			"from": [5, -8, 1],
+			"to": [11, -6, 8.5],
+			"faces": {
+				"north": {"uv": [4, 7.5, 10, 9.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 7.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [10, 7.5, 4, 9.5], "texture": "#0"},
+				"west": {"uv": [10, 0, 12, 7.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4, 0, 10, 7.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 0, 10, 7.5], "rotation": 180, "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

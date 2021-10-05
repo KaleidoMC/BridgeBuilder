@@ -1,0 +1,77 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+			"model": "miniaturia_mod:mt_paper_a1",
+			"textures": {
+					"paper": "miniaturia_mod:blocks/paper_1",
+					"envelope": "miniaturia_mod:blocks/paper_2",
+					"particle": "miniaturia_mod:blocks/paper_1"
+		    	}
+		},
+
+    "variants": {
+        "click=0,facing=north": [
+									{ "model": "miniaturia_mod:mt_paper_a1" },
+								   	{ "model": "miniaturia_mod:mt_paper_a2" }
+        						],
+        "click=0,facing=east": [
+									{ "model": "miniaturia_mod:mt_paper_a1", "y": 90 },
+								   	{ "model": "miniaturia_mod:mt_paper_a2", "y": 90 }
+        						],
+        "click=0,facing=south": [
+									{ "model": "miniaturia_mod:mt_paper_a1", "y": 180 },
+								   	{ "model": "miniaturia_mod:mt_paper_a2", "y": 180 }
+        						],
+        "click=0,facing=west": [
+									{ "model": "miniaturia_mod:mt_paper_a1", "y": 270 },
+								   	{ "model": "miniaturia_mod:mt_paper_a2", "y": 270 }
+        						],
+
+        "click=1,facing=north": [
+        							{ "model": "miniaturia_mod:mt_paper_b1" },
+        							{ "model": "miniaturia_mod:mt_paper_b2" },
+        							{ "model": "miniaturia_mod:mt_paper_b3" },
+        							{ "model": "miniaturia_mod:mt_paper_b4" }
+        						],
+        "click=1,facing=east": [
+        							{ "model": "miniaturia_mod:mt_paper_b1", "y": 90 },
+        							{ "model": "miniaturia_mod:mt_paper_b2", "y": 90 },
+        							{ "model": "miniaturia_mod:mt_paper_b3", "y": 90 },
+        							{ "model": "miniaturia_mod:mt_paper_b4", "y": 90 }
+        						],
+        "click=1,facing=south": [
+        							{ "model": "miniaturia_mod:mt_paper_b1", "y": 180 },
+        							{ "model": "miniaturia_mod:mt_paper_b2", "y": 180 },
+        							{ "model": "miniaturia_mod:mt_paper_b3", "y": 180 },
+        							{ "model": "miniaturia_mod:mt_paper_b4", "y": 180 }
+        						],
+        "click=1,facing=west": [
+        							{ "model": "miniaturia_mod:mt_paper_b1", "y": 270 },
+        							{ "model": "miniaturia_mod:mt_paper_b2", "y": 270 },
+        							{ "model": "miniaturia_mod:mt_paper_b3", "y": 270 },
+        							{ "model": "miniaturia_mod:mt_paper_b4", "y": 270 }
+        						],
+
+        "click=2,facing=north":	{ "model": "miniaturia_mod:mt_paper_c", "y": 0 },
+        "click=2,facing=east":	{ "model": "miniaturia_mod:mt_paper_c", "y": 90 },
+        "click=2,facing=south":	{ "model": "miniaturia_mod:mt_paper_c", "y": 180 },
+        "click=2,facing=west":	{ "model": "miniaturia_mod:mt_paper_c", "y": 270 },
+
+        "click=3,facing=north": [
+									{ "model": "miniaturia_mod:mt_envelope_brown" },
+								   	{ "model": "miniaturia_mod:mt_envelope_brown2" }
+        						],
+        "click=3,facing=east": [
+									{ "model": "miniaturia_mod:mt_envelope_brown", "y": 90 },
+								   	{ "model": "miniaturia_mod:mt_envelope_brown2", "y": 90 }
+        						],
+        "click=3,facing=south": [
+									{ "model": "miniaturia_mod:mt_envelope_brown", "y": 180 },
+								   	{ "model": "miniaturia_mod:mt_envelope_brown2", "y": 180 }
+        						],
+        "click=3,facing=west": [
+									{ "model": "miniaturia_mod:mt_envelope_brown", "y": 270 },
+								   	{ "model": "miniaturia_mod:mt_envelope_brown2", "y": 270 }
+        						]
+    }
+}

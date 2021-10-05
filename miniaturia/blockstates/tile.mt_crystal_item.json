@@ -1,0 +1,52 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "miniaturia_mod:item_generated",
+	  		"transform": "forge:default-item",
+			"uvlock": true
+    },
+    "variants": {
+        "variant": {
+            "meta0": {
+                "textures": {
+                    "layer0" : "miniaturia_mod:blocks/crystal"
+                }
+            },
+            "meta1": {
+                "textures": {
+                    "layer0" : "miniaturia_mod:blocks/crystal_blue"
+                }
+            },
+            "meta2": {
+                "textures": {
+                    "layer0": "miniaturia_mod:blocks/crystal_green"
+                }
+            },
+            "meta3": {
+                "textures": {
+                    "layer0": "miniaturia_mod:blocks/crystal_purple"
+                }
+            },
+            "meta4": {
+                "textures": {
+                    "layer0": "miniaturia_mod:blocks/particle"
+                }
+            },
+            "meta5": {
+                "textures": {
+                    "layer0": "miniaturia_mod:blocks/particle_yellow"
+                }
+            },
+            "meta6": {
+                "textures": {
+                    "layer0": "miniaturia_mod:blocks/particle_blue"
+                }
+            },
+            "meta7": {
+                "textures": {
+                    "layer0": "miniaturia_mod:blocks/particle_purple"
+                }
+            }
+		}
+    }
+}

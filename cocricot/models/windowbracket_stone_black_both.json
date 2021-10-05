@@ -1,0 +1,9 @@
+{
+    "parent": "cocricotmod:block/windowbracket_stone_white_both",
+  	"textures": {
+  		"0": "cocricotmod:blocks/dentilmolding_black_side",
+  		"1": "cocricotmod:blocks/rustication_banded_black_top",
+  		"2": "cocricotmod:blocks/dentilmolding_black_bottom",
+  		"particle": "cocricotmod:blocks/rustication_banded_black_top"
+  	}
+}

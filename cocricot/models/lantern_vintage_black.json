@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/lantern_vintage_white",
+  	"textures": {
+  		"0": "cocricotmod:blocks/bed_mattress_black",
+  		"particle": "cocricotmod:blocks/stone_color_black"
+  	}
+}

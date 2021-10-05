@@ -1,0 +1,50 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/sofa_simple_black",
+		"particle": "cocricotmod:blocks/stone_color_black"
+	},
+	"elements": [
+		{
+			"from": [5, 7.5, 7.5],
+			"to": [16, 19, 12],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [1, 7.1, 9.5]},
+			"faces": {
+				"north": {"uv": [13.25, 7, 16, 9.875], "texture": "#0"},
+				"south": {"uv": [16, 8.5, 13.25, 11.375], "texture": "#0"},
+				"west": {"uv": [6.875, 9.875, 8, 7], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [13.25, 5.875, 16, 7], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 0, -4],
+			"to": [16, 8.5, 12],
+			"faces": {
+				"north": {"uv": [16, 16, 13.25, 13.875], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [16, 13.875, 13.25, 9.875], "texture": "#0"},
+				"down": {"uv": [16, 13.875, 13.25, 9.875], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, -4],
+			"to": [5, 13.5, 16],
+			"faces": {
+				"north": {"uv": [6.25, 12.625, 5, 16], "texture": "#0"},
+				"east": {"uv": [0, 12.375, 5, 9], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [5, 12.625, 6.25, 16], "texture": "#0"},
+				"west": {"uv": [0, 16, 5, 12.625], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [0, 11.375, 5, 12.625], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 11.375, 5, 12.625], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 0, 12],
+			"to": [16, 13.5, 16],
+			"faces": {
+				"south": {"uv": [0.5, 12.625, 3.25, 16], "texture": "#0"},
+				"up": {"uv": [0.5, 10.25, 3.25, 11.25], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0.5, 10.25, 3.25, 11.25], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

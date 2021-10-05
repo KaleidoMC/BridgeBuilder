@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/window_pane_three",
+    "textures": {
+        "texture": "cocricotmod:blocks/window_centrebar_antique"
+    }
+}

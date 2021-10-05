@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/awning_black",
+    "textures": {
+  		"0": "cocricotmod:blocks/awning_black_gold_lower",
+  		"1": "cocricotmod:blocks/awning_black_upper",
+      "2": "cocricotmod:blocks/metal_gold"
+    }
+}

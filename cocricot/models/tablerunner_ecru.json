@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_cube_topside_nobottom",
+    "textures": {
+        "top": "cocricotmod:blocks/tablerunner_ecru_top",
+        "side": "cocricotmod:blocks/tablerunner_ecru_side"
+    }
+}

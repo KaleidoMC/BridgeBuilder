@@ -1,0 +1,28 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "cocricotmod:blocks/range_plate",
+		"particle": "cocricotmod:blocks/range_plate"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 0.5],
+			"to": [15, 0.5, 15.5],
+			"faces": {
+				"north": {"uv": [0, 0, 15, 0.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 14, 0.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 15, 0.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 14, 0.5], "texture": "#0"},
+				"up": {"uv": [1, 0.5, 15, 15.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}

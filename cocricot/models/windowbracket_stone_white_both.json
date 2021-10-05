@@ -1,0 +1,32 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/dentilmolding_white_side",
+		"1": "cocricotmod:blocks/rustication_banded_white_top",
+		"2": "cocricotmod:blocks/dentilmolding_white_bottom",
+		"particle": "cocricotmod:blocks/rustication_banded_white_top"
+	},
+	"elements": [
+		{
+			"from": [0, 11.5, 5.5],
+			"to": [16, 15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13.25, 10.75]},
+			"faces": {
+				"north": {"uv": [0, 4.5, 16, 8], "texture": "#0"},
+				"south": {"uv": [0, 3.5, 16, 7], "texture": "#1", "cullface": "south"},
+				"down": {"uv": [0, 0, 16, 10.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 15, 4.5],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 10.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#1", "cullface": "south"},
+				"up": {"uv": [0, 0, 11.5, 16], "rotation": 90, "texture": "#1", "cullface": "up"},
+				"down": {"uv": [0, 0.5, 16, 12], "rotation": 180, "texture": "#2"}
+			}
+		}
+	]
+}

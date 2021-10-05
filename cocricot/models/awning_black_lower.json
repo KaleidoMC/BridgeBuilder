@@ -1,0 +1,39 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/awning_black_lower",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [-1, -2.52, 0.02],
+			"to": [1.5, -0.02, 15.98],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 2, 2], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 2], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 2], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 2], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [-0.98, -8, 0.02],
+			"to": [0.02, -2.5, 15.98],
+			"faces": {
+				"north": {"uv": [16, 0, 15, 5.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 5.5], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [1, 0, 0, 5.5], "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 5.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [6.5, 8.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}

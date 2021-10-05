@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cocricotmod:blocks/wood_wrapsiding_woodshake_gray"
+    }
+}

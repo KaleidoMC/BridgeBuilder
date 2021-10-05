@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/roof_copper_incline_odd_corner",
+    "textures": {
+  		"0": "cocricotmod:blocks/roof_copper_gray_outer",
+  		"1": "cocricotmod:blocks/roof_copper_gray_outer1",
+  		"2": "cocricotmod:blocks/roof_copper_gray_incline_odd"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "blocks/dirt",
+        "top": "cocricotmod:blocks/fallen_leaves_red_block",
+        "side": "cocricotmod:blocks/fallen_leaves_red_block_side"
+    }
+}

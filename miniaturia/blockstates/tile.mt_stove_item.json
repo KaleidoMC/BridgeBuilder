@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"model": "furnace"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+            	"model": "furnace",
+				"textures": {
+					"front" : "miniaturia_mod:blocks/stove_white_front",
+					"side" : "miniaturia_mod:blocks/stove_white_side",
+					"top" : "miniaturia_mod:blocks/stove_white_top"
+		 		}
+            },
+            "click1": {
+            	"model": "cross",
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/cs"
+                }
+            },
+            "click2": {
+            	"model": "cross",
+                "textures": {
+                    "cross": "miniaturia_mod:blocks/cs"
+                }
+            },
+            "click3": {
+            	"model": "furnace",
+				"textures": {
+					"front" : "miniaturia_mod:blocks/stove_choco_front",
+					"side" : "miniaturia_mod:blocks/stove_choco_side",
+					"top" : "miniaturia_mod:blocks/stove_white_top"
+		 		}
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/luggage_antique_small_brown",
+    "textures": {
+			"particle": "cocricotmod:blocks/stone_color_white",
+  		"texture": "cocricotmod:blocks/luggage_antique_small_white"
+    }
+}

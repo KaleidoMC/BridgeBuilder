@@ -1,0 +1,17 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_roof_edge_l",
+		"textures": {
+				"edge_side": "miniaturia_mod:blocks/roof_fantasy_blue_edge",
+				"edge_top": "miniaturia_mod:blocks/roof_fantasy_blue_edge",
+				"edge_board": "miniaturia_mod:blocks/wood_dark_oak_upper_molding"
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { "model": "miniaturia_mod:mt_roof_edge_l_v" }
+		}
+	}
+}

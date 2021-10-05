@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/basket_slab",
+    "textures": {
+      "top": "cocricotmod:blocks/basket_towel"
+    }
+}

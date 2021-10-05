@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/wheel_small",
+    "textures": {
+        "particle": "cocricotmod:blocks/planks_white",
+        "texture": "cocricotmod:blocks/wheel_white_rubber"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/speaker_floor",
+    "textures": {
+      "u": "cocricotmod:blocks/speaker_floor_black3",
+      "n": "cocricotmod:blocks/speaker_floor_black"
+    }
+}

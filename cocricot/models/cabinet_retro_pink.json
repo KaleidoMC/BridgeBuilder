@@ -1,0 +1,10 @@
+{
+    "parent": "cocricotmod:block/refrigerator_retro",
+  	"textures": {
+      		"0": "cocricotmod:blocks/cabinet_retro_pink",
+  		"1": "cocricotmod:blocks/chest_retro_pink1",
+  		"2": "cocricotmod:blocks/chest_retro_pink1",
+  		"3": "cocricotmod:blocks/stone_color_black",
+      		"4": "cocricotmod:blocks/retro_white"
+  	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/base_pane_thin_post",
+    "textures": {
+        "texture": "cocricotmod:blocks/fence_iron_classic_white"
+    }
+}

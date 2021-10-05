@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/windowframe_arch_left",
+    "textures": {
+        "0": "cocricotmod:blocks/windowframe_classic_black",
+        "particle": "cocricotmod:blocks/rustication_banded_black_top"
+    }
+}

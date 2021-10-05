@@ -1,0 +1,52 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+		"uvlock": true
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/stonebrick_a_gray",
+				        "corner_top":		"miniaturia_mod:blocks/stonebrick_a_gray",
+				        "ns":		"miniaturia_mod:blocks/stonebrick_a_gray",
+				        "we":		"miniaturia_mod:blocks/stonebrick_a_gray"
+				    	}
+				},
+	    		"1": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/stonebrick_a_red",
+				        "corner_top":		"miniaturia_mod:blocks/stonebrick_a_red",
+				        "ns":		"miniaturia_mod:blocks/stonebrick_a_red",
+				        "we":		"miniaturia_mod:blocks/stonebrick_a_red"
+				    	}
+	    			},
+	    		"2": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/stonebrick_a_sand",
+				        "corner_top":		"miniaturia_mod:blocks/stonebrick_a_sand",
+				        "ns":		"miniaturia_mod:blocks/stonebrick_a_sand",
+				        "we":		"miniaturia_mod:blocks/stonebrick_a_sand"
+				    	}
+	    			},
+	    		"3": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/stonebrick_a_terracotta",
+				        "corner_top":		"miniaturia_mod:blocks/stonebrick_a_terracotta",
+				        "ns":		"miniaturia_mod:blocks/stonebrick_a_terracotta",
+				        "we":		"miniaturia_mod:blocks/stonebrick_a_terracotta"
+				    	}
+	    			}
+    	},
+
+        "position": {
+				"ne":	{ "y": 270 },
+				"se":	{ "y": 0 },
+				"sw":	{ "y": 90 },
+				"nw":	{ "y": 180 }
+		}
+	}
+}

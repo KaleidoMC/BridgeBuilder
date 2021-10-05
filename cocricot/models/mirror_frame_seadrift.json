@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/shutter",
+    "textures": {
+      "top": "cocricotmod:blocks/mirror_frame_seadrift",
+      "side": "cocricotmod:blocks/mirror_frame_seadrift"
+    }
+}

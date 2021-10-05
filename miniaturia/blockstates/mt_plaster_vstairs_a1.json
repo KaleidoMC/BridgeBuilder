@@ -1,0 +1,52 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+		"uvlock": true
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/plaster_mint",
+				        "corner_top":		"miniaturia_mod:blocks/plaster_mint",
+				        "ns":		"miniaturia_mod:blocks/plaster_mint",
+				        "we":		"miniaturia_mod:blocks/plaster_mint"
+				    	}
+				},
+	    		"1": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/plaster_blue",
+				        "corner_top":		"miniaturia_mod:blocks/plaster_blue",
+				        "ns":		"miniaturia_mod:blocks/plaster_blue",
+				        "we":		"miniaturia_mod:blocks/plaster_blue"
+				    	}
+	    			},
+	    		"2": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/plaster_green",
+				        "corner_top":		"miniaturia_mod:blocks/plaster_green",
+				        "ns":		"miniaturia_mod:blocks/plaster_green",
+				        "we":		"miniaturia_mod:blocks/plaster_green"
+				    	}
+	    			},
+	    		"3": {
+				    "textures": {
+						"corner_bottom":	"miniaturia_mod:blocks/plaster_red",
+				        "corner_top":		"miniaturia_mod:blocks/plaster_red",
+				        "ns":		"miniaturia_mod:blocks/plaster_red",
+				        "we":		"miniaturia_mod:blocks/plaster_red"
+				    	}
+	    			}
+    	},
+
+        "position": {
+				"ne":	{ "y": 270 },
+				"se":	{ "y": 0 },
+				"sw":	{ "y": 90 },
+				"nw":	{ "y": 180 }
+		}
+	}
+}

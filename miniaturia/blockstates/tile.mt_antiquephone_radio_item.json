@@ -1,0 +1,67 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_antiquephone_b",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.8, "translation": [ 0.15, -0.1, 0 ] },
+		        "ground": {"scale": 0.35, "translation": [ 0, 0.15, 0 ] },
+		        "fixed": {"scale": 0.5},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/telephone_b_body_wood",
+						"body2": "miniaturia_mod:blocks/telephone_a_body_wood",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_wood"
+			    	}
+				},
+            "click1": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/telephone_b_body_oak",
+						"body2": "miniaturia_mod:blocks/telephone_b_body_oak2",
+						"parts": "miniaturia_mod:blocks/telephone_b_parts_oak"
+			    	}
+				},
+            "click2": {
+				"model": "miniaturia_mod:mt_antiqueradio",
+			    "textures": {
+						"body": "miniaturia_mod:blocks/antiqueradio_a",
+						"body2": "miniaturia_mod:blocks/antiqueradio_a2",
+						"parts": "miniaturia_mod:blocks/typewriter_black_parts"
+			    	},
+			   	"transform": {
+						"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 1.0, "translation": [ 0.1, 0.1, 0 ] },
+				        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+				        "fixed": {"scale": 0.5},
+				        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+				        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+				        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+				        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+					}
+				},
+            "click3": {
+				"model": "miniaturia_mod:mt_antiqueradio",
+			    "textures": {
+						"body": "miniaturia_mod:blocks/antiqueradio_b",
+						"body2": "miniaturia_mod:blocks/antiqueradio_b2",
+						"parts": "miniaturia_mod:blocks/typewriter_black_parts"
+			    	},
+			   	"transform": {
+						"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 1.0, "translation": [ 0.1, 0.1, 0 ] },
+				        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+				        "fixed": {"scale": 0.5},
+				        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+				        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+				        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+				        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+					}
+				}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/jar_brown",
+    "textures": {
+        "0": "cocricotmod:blocks/jar_yellow"
+    }
+}

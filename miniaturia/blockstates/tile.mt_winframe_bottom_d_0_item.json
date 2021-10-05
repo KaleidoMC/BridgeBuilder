@@ -1,0 +1,52 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_winframe_lower_a_s",
+	   	"transform": {
+					"gui": {"rotation": [ { "x": 0}, { "y": 180 }, { "z": 0 } ], "scale": 0.625 }
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+					"textures": {
+						"1": "miniaturia_mod:blocks/wood_oak_upper_molding",
+						"2": "miniaturia_mod:blocks/wood_oak_half_side",
+						"3": "miniaturia_mod:blocks/wood_oak_upper_molding",
+						"4": "miniaturia_mod:blocks/wood_oak_plate_parts",
+						"5": "miniaturia_mod:blocks/wood_oak_winframe_side"
+						}
+					},
+            "click1": {
+					"model": "miniaturia_mod:mt_winframe_lower_b_s",
+					"textures": {
+						"1": "miniaturia_mod:blocks/wood_oak_upper_molding",
+						"2": "miniaturia_mod:blocks/wood_oak_winframe_side",
+						"3": "miniaturia_mod:blocks/wood_oak_half_side",
+						"4": "miniaturia_mod:blocks/wood_oak_plate_parts",
+						"5": "miniaturia_mod:blocks/wood_oak_upper_molding",
+						"6": "miniaturia_mod:blocks/wood_oak_column_b_top_parts"
+						}
+					},
+			"click2": {
+					"model": "miniaturia_mod:mt_winframe_lower_c_s",
+					"textures": {
+						"3": "miniaturia_mod:blocks/wood_oak_upper_molding",
+						"4": "miniaturia_mod:blocks/wood_oak_plate_parts",
+						"5": "miniaturia_mod:blocks/wood_oak_winframe_side"
+						}
+					},
+            "click3": {
+					"model": "miniaturia_mod:mt_winframe_balcony_a_s",
+				   	"transform": {
+								"gui": {"rotation": [ { "x": 0}, { "y": 180 }, { "z": 0 } ], "scale": 0.525 }
+						},
+					"textures": {
+						"1": "miniaturia_mod:blocks/wood_oak_upper_molding",
+						"4": "miniaturia_mod:blocks/wood_oak_plate_parts",
+						"5": "miniaturia_mod:blocks/wood_oak_column_b_top_parts"
+						}
+					}
+		}
+	}
+}

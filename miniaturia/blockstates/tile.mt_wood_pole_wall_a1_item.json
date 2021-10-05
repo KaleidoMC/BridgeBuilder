@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_pole_wall_end"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/wood_acacia_pole",
+					"end": "miniaturia_mod:blocks/wood_acacia_plate_parts",
+					"wall": "miniaturia_mod:blocks/wood_acacia"
+					}
+				},
+			"meta1": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/wood_dark_oak_pole",
+					"end": "miniaturia_mod:blocks/wood_dark_oak_plate_parts",
+					"wall": "miniaturia_mod:blocks/wood_dark_oak"
+					}
+				},
+			"meta2": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/wood_oriental_red_pole",
+					"end": "miniaturia_mod:blocks/wood_oriental_red_pole",
+					"wall": "miniaturia_mod:blocks/wood_oriental_red"
+					}
+				},
+			"meta3": {
+				"textures": {
+		    		"side": "miniaturia_mod:blocks/wood_oriental_black_pole",
+					"end": "miniaturia_mod:blocks/wood_oriental_black_pole",
+					"wall": "miniaturia_mod:blocks/wood_oriental_black"
+					}
+				}
+        }
+    }
+}

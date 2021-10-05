@@ -1,0 +1,76 @@
+{
+  "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+  		"model": "miniaturia_mod:mt_arch_b_lower.obj",
+		"textures":{
+		    "#2": "miniaturia_mod:blocks/quartz",
+		    "#3": "miniaturia_mod:blocks/quartz",
+		    "#4": "miniaturia_mod:blocks/quartz",
+		    "#5": "miniaturia_mod:blocks/brick_arch_parts2",
+			"particle": "miniaturia_mod:blocks/quartz"
+		}
+    },
+    "variants": {
+
+    	"click": {
+    		"0": { "model": "miniaturia_mod:mt_arch_b_upper.obj" },
+		 	"1": { "model": "miniaturia_mod:mt_arch_b_lower.obj" },
+    		"2": { "model": "miniaturia_mod:mt_arch_b_under.obj" }
+			},
+
+    	"facing": {
+    		"north":	{ "y": 270 },
+    		"east":		{ "y": 0 },
+    		"south":	{ "y": 90 },
+    		"west":		{ "y": 180 }
+			},
+
+        "click=0,facing=north":	[{}],
+        "click=0,facing=east":	[{}],
+        "click=0,facing=south":	[{}],
+        "click=0,facing=west":	[{}],
+
+        "click=1,facing=north":	[{}],
+        "click=1,facing=east":	[{}],
+        "click=1,facing=south":	[{}],
+        "click=1,facing=west":	[{}],
+
+        "click=2,facing=north":	[{}],
+        "click=2,facing=east":	[{}],
+        "click=2,facing=south":	[{}],
+        "click=2,facing=west":	[{}],
+
+        "inventory":[{
+        	"transform": {
+		        "gui": {
+		            "rotation": [ { "x": 30}, { "y": 315 }, { "z": 0 } ],
+		            "scale": 0.625
+		        },
+		        "ground": {
+		            "translation": [ 0, 0, 0],
+		            "scale": 0.25
+		        },
+		        "fixed": {
+		            "scale": 0.45
+		        },
+		        "thirdperson_righthand": {
+		            "rotation": [ 75, 45, 0 ],
+		            "scale": 0.375
+		        },
+		        "thirdperson_lefthand": {
+		            "rotation": [ 75, 225, 0 ],
+		            "scale": 0.35
+		        },
+		        "firstperson_righthand": {
+		            "rotation": [ 0, 45, 0 ],
+		            "scale": 0.35
+		        },
+		        "firstperson_lefthand": {
+		            "rotation": [ 0, 225, 0 ],
+		            "scale": 0.35
+		        }
+			}
+        }]
+    }
+}

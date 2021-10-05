@@ -1,0 +1,30 @@
+{
+	"textures": {
+		"texture1": "cocricotmod:blocks/wallshelf_chain",
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"from": [0, 14.5, 5],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1.5], "texture": "#texture2"},
+				"east": {"uv": [0, 0, 11, 1.5], "texture": "#texture2"},
+				"south": {"uv": [0, 0, 16, 1.5], "texture": "#texture2"},
+				"west": {"uv": [5, 0, 16, 1.5], "texture": "#texture2"},
+				"up": {"uv": [0, 5, 16, 16], "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 11], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [0, -0.29289, -1.33452],
+			"to": [16, 13.70711, -1.33352],
+			"rotation": {"angle": 45, "axis": "x", "origin": [0, -1, 22]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture1"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/roof_incline_inner",
+    "textures": {
+       "texture2": "cocricotmod:blocks/planks_white",
+       "texture3": "cocricotmod:blocks/roof_incline_white"
+    }
+}

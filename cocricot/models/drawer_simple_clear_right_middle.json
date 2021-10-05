@@ -1,0 +1,17 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/drawer_simple_clear",
+		"particle": "cocricotmod:blocks/planks_clear"
+	},
+	"elements": [
+		{
+			"from": [3.5, 0, 3],
+			"to": [16, 16, 15.5],
+			"faces": {
+				"north": {"uv": [10.875, 8.5, 14, 12.5], "texture": "#0"},
+				"south": {"uv": [12.875, 0.5, 9.75, 4.5], "texture": "#0"},
+				"west": {"uv": [12.875, 0.5, 16, 4.5], "texture": "#0"}
+			}
+		}
+	]
+}

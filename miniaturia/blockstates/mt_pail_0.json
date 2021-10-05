@@ -1,0 +1,60 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {
+		"model": "miniaturia_mod:mt_pail_a",
+		"textures": {
+			"0": "miniaturia_mod:blocks/pail_a",
+			"1": "miniaturia_mod:blocks/pail_water",
+			"2": "miniaturia_mod:blocks/pail_bottom",
+			"particle": "miniaturia_mod:blocks/pail_a"
+			}
+		},
+
+    "variants": {
+
+        "click=0,facing=north": { "model": "miniaturia_mod:mt_pail_a" },
+        "click=0,facing=east": { "model": "miniaturia_mod:mt_pail_a", "y": 90 },
+        "click=0,facing=south": { "model": "miniaturia_mod:mt_pail_a", "y": 180 },
+        "click=0,facing=west": { "model": "miniaturia_mod:mt_pail_a", "y": 270 },
+
+        "click=1,facing=north": [
+        							{ "model": "miniaturia_mod:mt_pail_b" },
+        							{ "model": "miniaturia_mod:mt_pail_b_2" }
+        						],
+        "click=1,facing=east": [
+        							{ "model": "miniaturia_mod:mt_pail_b", "y": 90 },
+        							{ "model": "miniaturia_mod:mt_pail_b_2", "y": 90 }
+        						],
+        "click=1,facing=south": [
+        							{ "model": "miniaturia_mod:mt_pail_b", "y": 180 },
+        							{ "model": "miniaturia_mod:mt_pail_b_2", "y": 180 }
+        						],
+        "click=1,facing=west": [
+        							{ "model": "miniaturia_mod:mt_pail_b", "y": 270 },
+        							{ "model": "miniaturia_mod:mt_pail_b_2", "y": 270 }
+        						],
+
+        "click=2,facing=north":	[
+        							{ "model": "miniaturia_mod:mt_pail_c" },
+        							{ "model": "miniaturia_mod:mt_pail_c_2" }
+        						],
+        "click=2,facing=east":	[
+        							{ "model": "miniaturia_mod:mt_pail_c", "y": 90 },
+        							{ "model": "miniaturia_mod:mt_pail_c_2", "y": 90 }
+        						],
+        "click=2,facing=south":	[
+        							{ "model": "miniaturia_mod:mt_pail_c", "y": 180 },
+        							{ "model": "miniaturia_mod:mt_pail_c_2", "y": 180 }
+        						],
+        "click=2,facing=west":	[
+        							{ "model": "miniaturia_mod:mt_pail_c", "y": 270 },
+        							{ "model": "miniaturia_mod:mt_pail_c_2", "y": 270 }
+        						],
+
+        "click=3,facing=north": { "model": "miniaturia_mod:mt_pail_d" },
+        "click=3,facing=east": { "model": "miniaturia_mod:mt_pail_d", "y": 90 },
+        "click=3,facing=south": { "model": "miniaturia_mod:mt_pail_d", "y": 180 },
+        "click=3,facing=west": { "model": "miniaturia_mod:mt_pail_d", "y": 270 }
+    			}
+}

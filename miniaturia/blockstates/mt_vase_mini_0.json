@@ -1,0 +1,43 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_vase_mini"
+	},
+
+    "variants": {
+
+    	"click": {
+				"0":{
+					"textures": {
+						"1": "miniaturia_mod:blocks/pot_red_a",
+						"cross": "miniaturia_mod:blocks/vase_gerbera"
+						}
+					},
+				"1":{
+					"textures": {
+						"1": "miniaturia_mod:blocks/pot_red_a",
+						"cross": "miniaturia_mod:blocks/vase_marguerite"
+						}
+					},
+				"2":{
+					"textures": {
+						"1": "miniaturia_mod:blocks/pot_red_a",
+						"cross": "miniaturia_mod:blocks/vase_poppy"
+						}
+					},
+				"3":{
+					"textures": {
+						"1": "miniaturia_mod:blocks/pot_red_a",
+						"cross": "miniaturia_mod:blocks/vase_leaves"
+						}
+					}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+	}
+}

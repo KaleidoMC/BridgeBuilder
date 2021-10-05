@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_string_slope",
+		"textures": {
+			"0": "miniaturia_mod:blocks/rope",
+			"1": "miniaturia_mod:blocks/rope",
+			"#m_0": "miniaturia_mod:blocks/rope",
+			"#m_1": "miniaturia_mod:blocks/rope"
+	    	},
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 90 }, { "z": 0 } ], "scale": 0.7, "translation": [ 0.3, 0, 0 ] }
+		}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { },
+            "click2": { },
+            "click3": { }
+            }
+        }
+}

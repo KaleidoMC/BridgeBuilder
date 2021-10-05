@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"elements": [
+		{
+			"from": [5.5, 0.125, 2],
+			"to": [13.5, 0.125, 14.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [9.5, 0.125, 8.25]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 12.5], "texture": "#paper"},
+				"down": {"uv": [0, 0, 8, 12.5], "texture": "#paper"}
+			}
+		},
+		{
+			"from": [2, 0.25, 2],
+			"to": [10, 0.25, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0.25, 8.25]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 12.5], "texture": "#paper"},
+				"down": {"uv": [0, 0, 8, 12.5], "texture": "#paper"}
+			}
+		}
+	]
+}

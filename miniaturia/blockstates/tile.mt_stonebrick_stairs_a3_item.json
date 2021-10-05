@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/stonebrick_a_sand",
+			        "top":		 "miniaturia_mod:blocks/stonebrick_a_sand",
+			        "side":		 "miniaturia_mod:blocks/stonebrick_a_sand"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/stonebrick_a_terracotta",
+			        "top":		 "miniaturia_mod:blocks/stonebrick_a_terracotta",
+			        "side":		 "miniaturia_mod:blocks/stonebrick_a_terracotta"
+					}
+				}
+        }
+    }
+}

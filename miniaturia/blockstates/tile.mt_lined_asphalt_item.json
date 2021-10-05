@@ -1,0 +1,50 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "cube",
+  		"textures": {
+					"north": "miniaturia_mod:blocks/asphalt_line_straight",
+					"south": "miniaturia_mod:blocks/asphalt",
+					"west": "miniaturia_mod:blocks/asphalt",
+					"east": "miniaturia_mod:blocks/asphalt_line_straight",
+					"down": "miniaturia_mod:blocks/asphalt",
+					"up": "miniaturia_mod:blocks/asphalt_line_outer"
+				}
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"north": "miniaturia_mod:blocks/asphalt",
+					"south": "miniaturia_mod:blocks/asphalt",
+					"west": "miniaturia_mod:blocks/asphalt",
+					"east": "miniaturia_mod:blocks/asphalt",
+					"down": "miniaturia_mod:blocks/asphalt",
+					"up": "miniaturia_mod:blocks/asphalt"
+				}
+			},
+			"meta1": { },
+			"meta2": {
+				"textures": {
+					"north": "miniaturia_mod:blocks/asphalt_line_straight",
+					"south": "miniaturia_mod:blocks/asphalt",
+					"west": "miniaturia_mod:blocks/asphalt",
+					"east": "miniaturia_mod:blocks/asphalt_line_straight",
+					"down": "miniaturia_mod:blocks/asphalt",
+					"up": "miniaturia_mod:blocks/asphalt_line_outer2"
+				}
+			},
+			"meta3": { },
+			"meta4": {
+				"textures": {
+					"north": "miniaturia_mod:blocks/asphalt_line_straight",
+					"south": "miniaturia_mod:blocks/asphalt",
+					"west": "miniaturia_mod:blocks/asphalt",
+					"east": "miniaturia_mod:blocks/asphalt_line_straight",
+					"down": "miniaturia_mod:blocks/asphalt",
+					"up": "miniaturia_mod:blocks/asphalt_line_outer2"
+				}
+			}
+		}
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "cocricotmod:block/sink_cabinet_brown_ceramic",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_lightgreen",
+      "bottom": "cocricotmod:blocks/stone_color_lightgreen",
+  		"front": "cocricotmod:blocks/sink_color_lightgreen",
+  		"side": "cocricotmod:blocks/sink_color_lightgreen_side"
+    }
+}

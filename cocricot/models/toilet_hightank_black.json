@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/toilet_hightank_white",
+    "textures": {
+        "2": "cocricotmod:blocks/toilet_hightank_black"
+    }
+}

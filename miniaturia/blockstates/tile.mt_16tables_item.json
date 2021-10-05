@@ -1,0 +1,122 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_table_square_single"
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_ashbrown",
+					"top": "miniaturia_mod:blocks/table_ashbrown_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_ashbrown"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/table_lightbrown_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_lightbrown"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_acacia",
+					"top": "miniaturia_mod:blocks/table_acacia_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_acacia"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_darkbrown",
+					"top": "miniaturia_mod:blocks/table_darkbrown_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_darkbrown"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_white",
+					"top": "miniaturia_mod:blocks/table_white_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_white"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_white",
+					"top": "miniaturia_mod:blocks/table_marron_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_marron"
+				}
+			},
+			"meta6": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/tablecloth_white_top",
+					"cloth": "miniaturia_mod:blocks/tablecloth_white"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/tablecloth_yellowcheck_top",
+					"cloth": "miniaturia_mod:blocks/tablecloth_yellowcheck"
+				}
+			},
+			"meta8": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/tablecloth_bluecheck_top",
+					"cloth": "miniaturia_mod:blocks/tablecloth_bluecheck"
+				}
+			},
+			"meta9": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_lightbrown",
+					"top": "miniaturia_mod:blocks/tablecloth_redcheck_top",
+					"cloth": "miniaturia_mod:blocks/tablecloth_redcheck"
+				}
+			},
+			"meta10": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/cs",
+					"top": "miniaturia_mod:blocks/cs",
+					"cloth": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta11": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/cs",
+					"top": "miniaturia_mod:blocks/cs",
+					"cloth": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta12": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/cs",
+					"top": "miniaturia_mod:blocks/cs",
+					"cloth": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta13": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/cs",
+					"top": "miniaturia_mod:blocks/cs",
+					"cloth": "miniaturia_mod:blocks/cs"
+				}
+			},
+			"meta14": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_pink",
+					"top": "miniaturia_mod:blocks/table_pink_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_pink"
+				}
+			},
+			"meta15": {
+				"textures": {
+					"side": "miniaturia_mod:blocks/table_side1_mint",
+					"top": "miniaturia_mod:blocks/table_mint_top",
+					"cloth": "miniaturia_mod:blocks/table_edge1_mint"
+				}
+			}
+		}
+    }
+}

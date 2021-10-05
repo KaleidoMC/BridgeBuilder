@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/sofa_midcentury_black_single",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_antique",
+      "0": "cocricotmod:blocks/sofa_midcentury_lightbrown"
+    }
+}

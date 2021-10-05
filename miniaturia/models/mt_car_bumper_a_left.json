@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "miniaturia_mod:blocks/car_silver_parts",
+		"particle": "miniaturia_mod:blocks/car_silver_parts"
+	},
+	"elements": [
+		{
+			"from": [13.3834, 11.049, 7.73922],
+			"to": [19.1335, 14.049, 9.73922],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [2.9578, 14.91722, 14.09334]},
+			"faces": {
+				"north": {"uv": [5.7501, 0, 0, 3], "texture": "#1"},
+				"east": {"uv": [2, 0, 0, 3], "texture": "#1"},
+				"south": {"uv": [5.7501, 0.5, 0, 3.5], "texture": "#1"},
+				"up": {"uv": [5.7501, 0, 0, 2], "texture": "#1"},
+				"down": {"uv": [5.7501, 14, 0, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 11.05, 12.21167],
+			"to": [15.0625, 14.05, 14.21167],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.2578, 14.91722, 14.09334]},
+			"faces": {
+				"north": {"uv": [15.0625, 0, 0, 3], "texture": "#1"},
+				"south": {"uv": [15.0625, 0.5, 0, 3.5], "texture": "#1"},
+				"up": {"uv": [15.0625, 0, 0, 2], "texture": "#1"},
+				"down": {"uv": [15.0625, 14, 0, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.61561, 9.85, 11.31167],
+			"to": [9.61561, 15.85, 13.31167],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.7578, 14.91722, 14.09334]},
+			"faces": {
+				"north": {"uv": [2, 0, 0, 6], "texture": "#1"},
+				"east": {"uv": [4, 0, 2, 6], "texture": "#1"},
+				"south": {"uv": [8, 0, 6, 6], "texture": "#1"},
+				"west": {"uv": [9.5, 0, 7.5, 6], "texture": "#1"},
+				"up": {"uv": [16, 0, 14, 2], "texture": "#1"},
+				"down": {"uv": [2, 14, 0, 16], "rotation": 180, "texture": "#1"}
+			}
+		}
+	]
+}

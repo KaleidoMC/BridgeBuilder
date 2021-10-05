@@ -1,0 +1,77 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_box_vege",
+		"textures": {
+			"0": "miniaturia_mod:blocks/box_sea0",
+			"0b": "miniaturia_mod:blocks/c",
+			"1": "miniaturia_mod:blocks/box_sea_side",
+			"2": "miniaturia_mod:blocks/box_sea_side2",
+			"3": "miniaturia_mod:blocks/box_sea_bottom"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {},
+			 	"1": {},
+			 	"2": {},
+			 	"3": {}
+    	},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+    	"click=0,facing=north": [{ "textures": { "0": "miniaturia_mod:blocks/box_sea0" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea1" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea2" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea3" } }],
+		"click=0,facing=east": [{ "textures": { "0": "miniaturia_mod:blocks/box_sea0" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea1" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea2" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea3" } }],
+		"click=0,facing=south": [{ "textures": { "0": "miniaturia_mod:blocks/box_sea0" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea1" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea2" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea3" } }],
+		"click=0,facing=west": [{ "textures": { "0": "miniaturia_mod:blocks/box_sea0" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea1" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea2" } },
+						 			{ "textures": { "0": "miniaturia_mod:blocks/box_sea3" } }],
+
+
+		"click=1,facing=north": [{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea0" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea1" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea2" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea3" } }],
+		"click=1,facing=east": [{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea0" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea1" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea2" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea3" } }],
+		"click=1,facing=south": [{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea0" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea1" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea2" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea3" } }],
+		"click=1,facing=west": [{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea0" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea1" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea2" } },
+						 			{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/box_sea3" } }],
+
+
+    	"click=2,facing=north": [{ "textures": { "0": "miniaturia_mod:blocks/cs", "0b": "miniaturia_mod:blocks/cs" } }],
+		"click=2,facing=east": [{ "textures": { "0": "miniaturia_mod:blocks/cs", "0b": "miniaturia_mod:blocks/cs" } }],
+		"click=2,facing=south": [{ "textures": { "0": "miniaturia_mod:blocks/cs", "0b": "miniaturia_mod:blocks/cs" } }],
+		"click=2,facing=west": [{ "textures": { "0": "miniaturia_mod:blocks/cs", "0b": "miniaturia_mod:blocks/cs" } }],
+
+
+		"click=3,facing=north": [{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/cs", "0b": "miniaturia_mod:blocks/cs" } }],
+		"click=3,facing=east": [{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/cs", "0b": "miniaturia_mod:blocks/cs" } }],
+		"click=3,facing=south": [{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/cs", "0b": "miniaturia_mod:blocks/cs" } }],
+		"click=3,facing=west": [{ "model": "miniaturia_mod:mt_box_vege_tilted", "textures": { "0": "miniaturia_mod:blocks/cs", "0b": "miniaturia_mod:blocks/cs" } }]
+	}
+}

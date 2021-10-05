@@ -1,0 +1,37 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_tire_display_a",
+		"textures": {
+			"4": "miniaturia_mod:blocks/car_tire",
+			"#m_4": "miniaturia_mod:blocks/car_tire",
+			"particle": "miniaturia_mod:blocks/car_tire"
+			}
+		},
+
+    "variants": {
+
+        "click=0,facing=north,half=bottom":	{ "model": "miniaturia_mod:mt_tire_display_b.obj" },
+        "click=0,facing=east,half=bottom":	{ "model": "miniaturia_mod:mt_tire_display_b.obj", "y": 90 },
+        "click=0,facing=south,half=bottom":	{ "model": "miniaturia_mod:mt_tire_display_b.obj", "y": 180 },
+        "click=0,facing=west,half=bottom":	{ "model": "miniaturia_mod:mt_tire_display_b.obj", "y": 270 },
+
+        "click=0,facing=north,half=top":	{ "model": "miniaturia_mod:mt_tire_display_b.obj" },
+        "click=0,facing=east,half=top":		{ "model": "miniaturia_mod:mt_tire_display_b.obj", "y": 90 },
+        "click=0,facing=south,half=top":	{ "model": "miniaturia_mod:mt_tire_display_b.obj", "y": 180 },
+        "click=0,facing=west,half=top":		{ "model": "miniaturia_mod:mt_tire_display_b.obj", "y": 270 },
+
+        "click=1,facing=north,half=bottom":	{ "model": "miniaturia_mod:mt_tire_display_a" },
+        "click=1,facing=east,half=bottom":	{ "model": "miniaturia_mod:mt_tire_display_a", "y": 90 },
+        "click=1,facing=south,half=bottom":	{ "model": "miniaturia_mod:mt_tire_display_a", "y": 180 },
+        "click=1,facing=west,half=bottom":	{ "model": "miniaturia_mod:mt_tire_display_a", "y": 270 },
+
+        "click=1,facing=north,half=top":	{ "model": "miniaturia_mod:mt_tire_display_a" },
+        "click=1,facing=east,half=top":		{ "model": "miniaturia_mod:mt_tire_display_a", "y": 90 },
+        "click=1,facing=south,half=top":	{ "model": "miniaturia_mod:mt_tire_display_a", "y": 180 },
+        "click=1,facing=west,half=top":		{ "model": "miniaturia_mod:mt_tire_display_a", "y": 270 }
+
+    	}
+}

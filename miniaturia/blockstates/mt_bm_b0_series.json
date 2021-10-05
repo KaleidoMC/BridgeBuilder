@@ -1,0 +1,49 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "cube_column",
+		"uvlock": true
+	},
+
+	"variants": {
+
+		"half": {
+			"bottom":	{ "model": "cube_column" },
+			"top":		{ "model": "cube_column" }
+		},
+
+		"variant": {
+
+			"meta0": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/stone_column_end",
+					"side" : "minecraft:blocks/stonebrick_carved"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"end" : "minecraft:blocks/quartz_block_lines_top",
+					"side" : "miniaturia_mod:blocks/quartz_column"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/quartz_gold_top",
+					"side" : "miniaturia_mod:blocks/quartz_gold_column_old"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"end" : "minecraft:blocks/sandstone_top",
+					"side" : "minecraft:blocks/sandstone_smooth"
+				}
+			},
+			"meta4": {
+				"textures": {
+					"end" : "minecraft:blocks/stone_slab_top",
+					"side" : "minecraft:blocks/stone_slab_side"
+				}
+			}
+		}
+	}
+}

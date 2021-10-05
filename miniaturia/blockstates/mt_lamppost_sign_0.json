@@ -1,0 +1,39 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_lamppost_sign3",
+		"textures": {
+			"1": "miniaturia_mod:blocks/lamppost_brown",
+			"2": "miniaturia_mod:blocks/lamppost_sign_brown"
+			}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { "model": "miniaturia_mod:mt_lamppost_sign2" },
+			 	"1": { "model": "miniaturia_mod:mt_lamppost_sign3" },
+	    		"2": {
+					"model": "miniaturia_mod:mt_lamppost_sign2",
+					"textures": {
+						"1": "miniaturia_mod:blocks/lamppost_green",
+						"2": "miniaturia_mod:blocks/lamppost_sign_green"
+						}
+					},
+	    		"3": {
+					"model": "miniaturia_mod:mt_lamppost_sign3",
+					"textures": {
+						"1": "miniaturia_mod:blocks/lamppost_green",
+						"2": "miniaturia_mod:blocks/lamppost_sign_green"
+						}
+					}
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		}
+    }
+}

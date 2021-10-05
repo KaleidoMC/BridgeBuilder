@@ -1,0 +1,36 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_window_diagonal",
+	   	"transform": {
+			"gui": { "rotation": [ { "x": 30}, { "y": 0 }, { "z": 0 } ], "scale": 0.625 }
+			}
+    },
+
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures":{
+				    "0": "miniaturia_mod:blocks/window_b_white_single"
+					}
+				},
+            "click1": {
+            	"model": "miniaturia_mod:mt_window_diagonal_half",
+				"textures":{
+				    "0": "miniaturia_mod:blocks/window_b_white_single"
+					}
+            	},
+            "click2": {
+				"textures":{
+				    "0": "miniaturia_mod:blocks/window_b_orange_single"
+					}
+            	},
+            "click3": {
+            	"model": "miniaturia_mod:mt_window_diagonal_half",
+				"textures":{
+				    "0": "miniaturia_mod:blocks/window_b_orange_single"
+					  }
+				}
+            }
+        }
+}

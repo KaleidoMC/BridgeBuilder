@@ -1,0 +1,8 @@
+{
+    "parent": "cocricotmod:block/base_cube_topsidebottom",
+    "textures": {
+      "top": "cocricotmod:blocks/planter_brick_white_top",
+      "bottom": "cocricotmod:blocks/brick_white",
+      "side": "cocricotmod:blocks/brick_white"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+  		"model": "miniaturia_mod:mt_string_fence_smiddle",
+	   	"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 90 }, { "z": 0 } ], "scale": 0.7, "translation": [ 0, 0, 0 ] }
+		}
+    },
+    "variants": {
+        "variant": {
+			"meta0": {
+				"textures": {
+					"upper1": "miniaturia_mod:blocks/c",
+					"upper2": "miniaturia_mod:blocks/c",
+					"middle1": "miniaturia_mod:blocks/rope",
+					"middle2": "miniaturia_mod:blocks/rope",
+					"lower1": "miniaturia_mod:blocks/c",
+					"lower2": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"upper1": "miniaturia_mod:blocks/rope",
+					"upper2": "miniaturia_mod:blocks/rope",
+					"middle1": "miniaturia_mod:blocks/c",
+					"middle2": "miniaturia_mod:blocks/c",
+					"lower1": "miniaturia_mod:blocks/c",
+					"lower2": "miniaturia_mod:blocks/c"
+				}
+			},
+			"meta2": {
+				"textures": {
+					"upper1": "miniaturia_mod:blocks/c",
+					"upper2": "miniaturia_mod:blocks/c",
+					"middle1": "miniaturia_mod:blocks/c",
+					"middle2": "miniaturia_mod:blocks/c",
+					"lower1": "miniaturia_mod:blocks/rope",
+					"lower2": "miniaturia_mod:blocks/rope"
+				}
+			},
+			"meta3": {
+				"model": "miniaturia_mod:mt_rope_fence_smiddle",
+				"textures": {
+					"0": "miniaturia_mod:blocks/rope_1",
+					"1": "miniaturia_mod:blocks/rope",
+					"2": "miniaturia_mod:blocks/c",
+					"3": "miniaturia_mod:blocks/c"
+				}
+			}
+		}
+    }
+}

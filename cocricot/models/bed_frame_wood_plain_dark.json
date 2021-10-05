@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/bed_frame_wood_plain_brown",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_dark",
+      "0": "cocricotmod:blocks/bed_frame_wood_simple_dark"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/plaster_orange",
+			        "top":		 "miniaturia_mod:blocks/plaster_orange",
+			        "side":		 "miniaturia_mod:blocks/plaster_orange"
+					}
+				},
+            "click1": {
+				"textures": {
+				    "bottom":	 "miniaturia_mod:blocks/plaster_yellow",
+			        "top":		 "miniaturia_mod:blocks/plaster_yellow",
+			        "side":		 "miniaturia_mod:blocks/plaster_yellow"
+					}
+				}
+        }
+    }
+}

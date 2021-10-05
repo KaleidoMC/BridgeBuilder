@@ -1,0 +1,53 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	  		"model": "miniaturia_mod:item_generated",
+	  		"transform": "forge:default-item",
+			"uvlock": true
+			},
+
+    "variants": {
+        "variant": {
+            "click0": {
+				"textures": {
+			        "layer0": "miniaturia_mod:blocks/flower_sunflower_front"
+					}
+				},
+            "click1": {
+				"textures": {
+			        "layer0": "miniaturia_mod:blocks/flower_sunflower_front"
+					}
+				},
+            "click2": {
+				"textures": {
+			        "layer0": "miniaturia_mod:blocks/flower_sunflower_front"
+					}
+				},
+            "click3": {
+ 				"textures": {
+			        "layer0": "miniaturia_mod:blocks/flower_sunflower_front"
+					}
+				},
+			"click4": {
+    			"textures": {
+			        "layer0": "miniaturia_mod:blocks/plant_corn_top"
+					}
+				},
+			"click5": {
+    			"textures": {
+			        "layer0": "miniaturia_mod:blocks/bamboo_stem_item"
+					}
+				},
+			"click6": {
+    			"textures": {
+			        "layer0": "miniaturia_mod:blocks/plant_cactus_stack_top"
+					}
+				},
+			"click7": {
+    			"textures": {
+			        "layer0": "miniaturia_mod:blocks/plant_hedge_top"
+					}
+				}
+            }
+    }
+}

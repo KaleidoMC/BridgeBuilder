@@ -1,0 +1,123 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_flower_a"
+	},
+
+    "variants": {
+
+		"variant=meta0": [
+				{	"model": "miniaturia_mod:mt_flower_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_geranium_base", "1": "miniaturia_mod:blocks/flower_geranium" }
+				},
+				{	"model": "miniaturia_mod:mt_flower_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_geranium_base", "1": "miniaturia_mod:blocks/flower_geranium" }
+				}
+			],
+		"variant=meta1": [
+				{	"model": "miniaturia_mod:mt_flower_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_geranium_base", "1": "miniaturia_mod:blocks/flower_geranium_pink" }
+				},
+				{	"model": "miniaturia_mod:mt_flower_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_geranium_base", "1": "miniaturia_mod:blocks/flower_geranium_pink" }
+				}
+			],
+		"variant=meta2": [
+				{	"model": "miniaturia_mod:mt_plant_double_cross",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_delphinium" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_double_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_delphinium" }
+				}
+			],
+		"variant=meta3": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_grape_hyacinth" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_grape_hyacinth" }
+				}
+			],
+		"variant=meta4": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_lily_of_the_valley" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_lily_of_the_valley" }
+				}
+			],
+		"variant=meta5": {	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_pansy" }
+				},
+		"variant=meta6": {	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_pansy_yellow" }
+				},
+		"variant=meta7": {	"model": "miniaturia_mod:mt_plant_multicross",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_pansy_purple" }
+				},
+		"variant=meta8": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_red" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_red" }
+				}
+			],
+		"variant=meta9": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_pink" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_pink" }
+				}
+			],
+		"variant=meta10": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_orange" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_orange" }
+				}
+			],
+		"variant=meta11": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_yelloworange" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_yelloworange" }
+				}
+			],
+		"variant=meta12": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_yellow" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_yellow" }
+				}
+			],
+		"variant=meta13": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_purple" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_purple" }
+				}
+			],
+		"variant=meta14": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_white" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_white" }
+				}
+			],
+		"variant=meta15": [
+				{	"model": "miniaturia_mod:mt_plant_cross_a",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_black" }
+				},
+				{	"model": "miniaturia_mod:mt_plant_cross_b",
+					"textures": { "cross": "miniaturia_mod:blocks/flower_tulip_black" }
+				}
+			]
+	}
+}

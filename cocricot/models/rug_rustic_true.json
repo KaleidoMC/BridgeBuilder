@@ -1,0 +1,32 @@
+{
+	"textures": {
+		"0": "cocricotmod:blocks/rug_rustic",
+		"2": "cocricotmod:blocks/planks_dark",
+		"particle": "cocricotmod:blocks/rug_rustic"
+	},
+	"elements": [
+		{
+			"from": [0, 16, 0],
+			"to": [16, 17, 16],
+			"faces": {
+				"north": {"uv": [16, 16, 0, 15], "texture": "#0", "cullface": "up"},
+				"east": {"uv": [0, 0, 1, 16], "rotation": 90, "texture": "#0", "cullface": "up"},
+				"south": {"uv": [16, 0, 0, 1], "texture": "#0", "cullface": "up"},
+				"west": {"uv": [15, 0, 16, 16], "rotation": 270, "texture": "#0", "cullface": "up"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "down"}
+			}
+		}
+	]
+}

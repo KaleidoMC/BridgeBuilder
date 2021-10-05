@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/fallen_leaves_red_end",
+	"textures": {
+		"0": "cocricotmod:blocks/fallen_leaves_gold_end",
+		"particle": "cocricotmod:blocks/fallen_leaves_gold_end"
+	}
+}

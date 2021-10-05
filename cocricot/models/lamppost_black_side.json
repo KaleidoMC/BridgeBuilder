@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/lamppost_side",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_color_black",
+        "texture": "cocricotmod:blocks/lamppost_black_side"
+    }
+}

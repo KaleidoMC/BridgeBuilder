@@ -1,0 +1,30 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_vhalf_inner",
+	    "textures": {
+	        "corner_bottom":	"miniaturia_mod:blocks/plaster_peeled_stone",
+	        "corner_top":		"miniaturia_mod:blocks/plaster_peeled_stone",
+	        "ns":		"miniaturia_mod:blocks/plaster_peeled_stone",
+	        "we":		"miniaturia_mod:blocks/plaster_peeled_stone"
+	    	},
+		"uvlock": true
+	},
+
+    "variants": {
+
+        "position=ne":	{ "model": "miniaturia_mod:mt_vhalf_inner", "y": 270 },
+        "position=se":	{ "model": "miniaturia_mod:mt_vhalf_inner", "y": 0 },
+        "position=sw":	{ "model": "miniaturia_mod:mt_vhalf_inner", "y": 90 },
+        "position=nw":	{ "model": "miniaturia_mod:mt_vhalf_inner", "y": 180 },
+
+        "inventory":[{
+        	"transform": {
+		        "gui": {
+		            "rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ],
+		            "scale": 0.625
+		        }
+			}
+        }]
+	}
+}

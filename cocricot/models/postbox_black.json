@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/postbox_red",
+    "textures": {
+			"particle": "cocricotmod:blocks/stone_color_black",
+			"0": "cocricotmod:blocks/sofa_slipper_black1"
+    }
+}

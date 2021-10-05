@@ -1,0 +1,150 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_fence_steel_straight"
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/steel_red_b"
+						}
+	    		},
+	    		"1": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/steel_red_b"
+						}
+	    		},
+	    		"2": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/steel_green_b"
+						}
+	    		},
+	    		"3": {
+					"textures": {
+						"0": "miniaturia_mod:blocks/steel_green_b"
+						}
+	    		}
+    	},
+
+    	"facing": {
+    		"east":	{ "y": 0 },
+    		"south":{ "y": 90 },
+    		"west":	{ "y": 180 },
+    		"north":{ "y": 270 }
+    	},
+
+    	"shape": {
+    		"straight":		{ "model": "miniaturia_mod:mt_fence_steel_straight" },
+    		"outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_outer" },
+    		"outer_left":	{ "model": "miniaturia_mod:mt_fence_steel_outer" },
+    		"inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_inner" },
+    		"inner_left":	{ "model": "miniaturia_mod:mt_fence_steel_inner" }
+    	},
+
+        "click=0,facing=east,shape=straight":		[{ }],
+        "click=0,facing=west,shape=straight":		[{ }],
+        "click=0,facing=south,shape=straight":		[{ }],
+        "click=0,facing=north,shape=straight":		[{ }],
+
+        "click=0,facing=east,shape=outer_right":	[{ }],
+        "click=0,facing=west,shape=outer_right":	[{ }],
+        "click=0,facing=south,shape=outer_right":	[{ }],
+        "click=0,facing=north,shape=outer_right":	[{ }],
+
+        "click=0,facing=east,shape=outer_left":		{ "y": 270 },
+        "click=0,facing=west,shape=outer_left":		{ "y": 90 },
+        "click=0,facing=south,shape=outer_left":	{ "y": 0 },
+        "click=0,facing=north,shape=outer_left":	{ "y": 180 },
+
+        "click=0,facing=east,shape=inner_right":	[{ }],
+        "click=0,facing=west,shape=inner_right":	[{ }],
+        "click=0,facing=south,shape=inner_right":	[{ }],
+        "click=0,facing=north,shape=inner_right":	[{ }],
+
+        "click=0,facing=east,shape=inner_left":		{ "y": 270 },
+        "click=0,facing=west,shape=inner_left":		{ "y": 90 },
+        "click=0,facing=south,shape=inner_left":	{ "y": 0 },
+        "click=0,facing=north,shape=inner_left":	{ "y": 180 },
+
+
+        "click=1,facing=east,shape=straight":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=1,facing=west,shape=straight":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=1,facing=south,shape=straight":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=1,facing=north,shape=straight":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+        "click=1,facing=east,shape=outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=1,facing=west,shape=outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=1,facing=south,shape=outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=1,facing=north,shape=outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+        "click=1,facing=east,shape=outer_left":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=1,facing=west,shape=outer_left":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=1,facing=south,shape=outer_left":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=1,facing=north,shape=outer_left":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+        "click=1,facing=east,shape=inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=1,facing=west,shape=inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=1,facing=south,shape=inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=1,facing=north,shape=inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+        "click=1,facing=east,shape=inner_left":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=1,facing=west,shape=inner_left":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=1,facing=south,shape=inner_left":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=1,facing=north,shape=inner_left":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+
+        "click=2,facing=east,shape=straight":		[{ }],
+        "click=2,facing=west,shape=straight":		[{ }],
+        "click=2,facing=south,shape=straight":		[{ }],
+        "click=2,facing=north,shape=straight":		[{ }],
+
+        "click=2,facing=east,shape=outer_right":	[{ }],
+        "click=2,facing=west,shape=outer_right":	[{ }],
+        "click=2,facing=south,shape=outer_right":	[{ }],
+        "click=2,facing=north,shape=outer_right":	[{ }],
+
+        "click=2,facing=east,shape=outer_left":		{ "y": 270 },
+        "click=2,facing=west,shape=outer_left":		{ "y": 90 },
+        "click=2,facing=south,shape=outer_left":	{ "y": 0 },
+        "click=2,facing=north,shape=outer_left":	{ "y": 180 },
+
+        "click=2,facing=east,shape=inner_right":	[{ }],
+        "click=2,facing=west,shape=inner_right":	[{ }],
+        "click=2,facing=south,shape=inner_right":	[{ }],
+        "click=2,facing=north,shape=inner_right":	[{ }],
+
+        "click=2,facing=east,shape=inner_left":		{ "y": 270 },
+        "click=2,facing=west,shape=inner_left":		{ "y": 90 },
+        "click=2,facing=south,shape=inner_left":	{ "y": 0 },
+        "click=2,facing=north,shape=inner_left":	{ "y": 180 },
+
+
+        "click=3,facing=east,shape=straight":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=3,facing=west,shape=straight":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=3,facing=south,shape=straight":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=3,facing=north,shape=straight":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+        "click=3,facing=east,shape=outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=3,facing=west,shape=outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=3,facing=south,shape=outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=3,facing=north,shape=outer_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+        "click=3,facing=east,shape=outer_left":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=3,facing=west,shape=outer_left":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=3,facing=south,shape=outer_left":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=3,facing=north,shape=outer_left":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+        "click=3,facing=east,shape=inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=3,facing=west,shape=inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=3,facing=south,shape=inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=3,facing=north,shape=inner_right":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 },
+
+        "click=3,facing=east,shape=inner_left":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 0 },
+        "click=3,facing=west,shape=inner_left":		{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 180 },
+        "click=3,facing=south,shape=inner_left":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 90 },
+        "click=3,facing=north,shape=inner_left":	{ "model": "miniaturia_mod:mt_fence_steel_slope", "y": 270 }
+	}
+}

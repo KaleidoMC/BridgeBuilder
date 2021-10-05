@@ -1,0 +1,28 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_trapdoor_center",
+		"textures":{
+			"front" : "miniaturia_mod:blocks/ranma_brown_b",
+			"edge" : "miniaturia_mod:blocks/wood_spruce_pole"
+		}
+	},
+
+    "variants": {
+
+    	"click": {
+	    		"0": { },
+			 	"1": { },
+	    		"2": { }
+	    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+		},
+
+        "inventory":[{ }]
+    }
+}

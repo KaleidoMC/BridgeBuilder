@@ -1,0 +1,23 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"1": "cocricotmod:blocks/woodfence_ropenet"
+	},
+	"elements": [
+		{
+			"from": [0, 2.1, 8],
+			"to": [6.8, 18.1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.95, 3.35, 7.75]},
+			"faces": {
+				"north": {"uv": [0, 0, 6.8, 16], "texture": "#1"},
+				"south": {"uv": [6.8, 0, 0, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.73, 0.73, 0.73]
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stick_connect_middle_pole"
+	},
+
+    "variants": {
+        "variant": {
+            "click0": {
+	            "textures": {
+						"0": "miniaturia_mod:blocks/wood_painted_red_bar_top",
+						"1": "miniaturia_mod:blocks/c"
+					}
+				},
+            "click1": {
+	            "textures": {
+						"0": "miniaturia_mod:blocks/wood_painted_red_bar_top",
+						"1": "miniaturia_mod:blocks/wood_painted_red_bar_top"
+					}
+				},
+            "click2": {
+	            "textures": {
+						"0": "miniaturia_mod:blocks/wood_painted_black_bar_top",
+						"1": "miniaturia_mod:blocks/c"
+					}
+				},
+            "click3": {
+	            "textures": {
+						"0": "miniaturia_mod:blocks/wood_painted_black_bar_top",
+						"1": "miniaturia_mod:blocks/wood_painted_black_bar_top"
+					}
+				}
+			}
+	}
+}

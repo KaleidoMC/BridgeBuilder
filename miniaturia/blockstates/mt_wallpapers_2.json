@@ -1,0 +1,106 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"model": "cube_column"
+  },
+	"variants": {
+		"variant": {
+			"meta0": {
+				"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_red",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_red"
+					}
+				},
+			"meta1": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_redgold",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_redgold"
+					}
+				},
+			"meta2": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_khaki",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_khaki"
+					}
+				},
+			"meta3": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_khakigold",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_khakigold"
+					}
+				},
+			"meta4": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_blue",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_blue"
+					}
+				},
+			"meta5": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_bluegold",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_bluegold"
+					}
+				},
+			"meta6": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_purple",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_purple"
+					}
+				},
+			"meta7": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_purplegold",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_purplegold"
+					}
+				},
+			"meta8": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_white",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_white"
+					}
+				},
+			"meta9": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_whitegold",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_whitegold"
+					}
+				},
+			"meta10": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_black",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_black"
+					}
+				},
+			"meta11": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/wallpaper_2a_blackgold",
+					"side": "miniaturia_mod:blocks/wallpaper_2a_blackgold"
+					}
+				},
+			"meta12": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/cs",
+					"side": "miniaturia_mod:blocks/cs"
+					}
+				},
+			"meta13": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/cs",
+					"side": "miniaturia_mod:blocks/cs"
+					}
+				},
+			"meta14": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/cs",
+					"side": "miniaturia_mod:blocks/cs"
+					}
+				},
+			"meta15": {
+    			"textures": {
+					"end" : "miniaturia_mod:blocks/cs",
+					"side": "miniaturia_mod:blocks/cs"
+					}
+				}
+			}
+		}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/rug_jute_round_both",
+	"textures": {
+		"0": "cocricotmod:blocks/rug_shag_round_pink",
+		"particle": "cocricotmod:blocks/stone_color_pink"
+	}
+}

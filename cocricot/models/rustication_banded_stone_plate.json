@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/rustication_plate",
+    "textures": {
+  		"0": "cocricotmod:blocks/rustication_banded_stone",
+  		"1": "cocricotmod:blocks/rustication_banded_stone_top"
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "cocricotmod:block/desk_simple_white_left",
+	"textures": {
+		"0": "cocricotmod:blocks/chair_brown",
+		"1": "cocricotmod:blocks/planks_brown",
+		"2": "cocricotmod:blocks/chair_brown",
+		"particle": "cocricotmod:blocks/planks_brown"
+	}
+}

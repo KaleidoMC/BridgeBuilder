@@ -1,0 +1,67 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_upper_molding_b",
+	    "textures": {
+			"end" : "miniaturia_mod:blocks/quartz_plate_parts",
+			"side_b" : "miniaturia_mod:blocks/quartz_gold_molding",
+			"side_b2" : "miniaturia_mod:blocks/quartz_gold_molding_b2",
+			"side_c" : "miniaturia_mod:blocks/quartz_gold_molding",
+			"side_c2" : "miniaturia_mod:blocks/quartz_gold_molding_b2",
+			"particle" : "miniaturia_mod:blocks/quartz_gold_molding"
+	    	}
+	},
+
+    "variants": {
+        "click=0,facing=east,shape=straight":		{"model":"miniaturia_mod:mt_upper_molding_b", "y": 0 },
+        "click=0,facing=west,shape=straight":		{"model":"miniaturia_mod:mt_upper_molding_b", "y": 180 },
+        "click=0,facing=south,shape=straight":		{"model":"miniaturia_mod:mt_upper_molding_b", "y": 90 },
+        "click=0,facing=north,shape=straight":		{"model":"miniaturia_mod:mt_upper_molding_b", "y": 270 },
+
+        "click=0,facing=east,shape=outer_right":	{"model":"miniaturia_mod:mt_upper_molding_b_outer", "y": 0 },
+        "click=0,facing=west,shape=outer_right":	{"model":"miniaturia_mod:mt_upper_molding_b_outer", "y": 180 },
+        "click=0,facing=south,shape=outer_right":	{"model":"miniaturia_mod:mt_upper_molding_b_outer", "y": 90 },
+        "click=0,facing=north,shape=outer_right":	{"model":"miniaturia_mod:mt_upper_molding_b_outer", "y": 270 },
+
+        "click=0,facing=east,shape=outer_left":		{"model":"miniaturia_mod:mt_upper_molding_b_outer", "y": 270 },
+        "click=0,facing=west,shape=outer_left":		{"model":"miniaturia_mod:mt_upper_molding_b_outer", "y": 90 },
+        "click=0,facing=south,shape=outer_left":	{"model":"miniaturia_mod:mt_upper_molding_b_outer", "y": 0 },
+        "click=0,facing=north,shape=outer_left":	{"model":"miniaturia_mod:mt_upper_molding_b_outer", "y": 180 },
+
+        "click=0,facing=east,shape=inner_right":	{"model":"miniaturia_mod:mt_upper_molding_b_inner", "y": 0 },
+        "click=0,facing=west,shape=inner_right":	{"model":"miniaturia_mod:mt_upper_molding_b_inner", "y": 180 },
+        "click=0,facing=south,shape=inner_right":	{"model":"miniaturia_mod:mt_upper_molding_b_inner", "y": 90 },
+        "click=0,facing=north,shape=inner_right":	{"model":"miniaturia_mod:mt_upper_molding_b_inner", "y": 270 },
+
+        "click=0,facing=east,shape=inner_left":		{"model":"miniaturia_mod:mt_upper_molding_b_inner", "y": 270 },
+        "click=0,facing=west,shape=inner_left":		{"model":"miniaturia_mod:mt_upper_molding_b_inner", "y": 90 },
+        "click=0,facing=south,shape=inner_left":	{"model":"miniaturia_mod:mt_upper_molding_b_inner", "y": 0 },
+        "click=0,facing=north,shape=inner_left":	{"model":"miniaturia_mod:mt_upper_molding_b_inner", "y": 180 },
+
+
+        "click=1,facing=east,shape=straight":		{"model":"miniaturia_mod:mt_upper_molding_c", "y": 0 },
+        "click=1,facing=west,shape=straight":		{"model":"miniaturia_mod:mt_upper_molding_c", "y": 180 },
+        "click=1,facing=south,shape=straight":		{"model":"miniaturia_mod:mt_upper_molding_c", "y": 90 },
+        "click=1,facing=north,shape=straight":		{"model":"miniaturia_mod:mt_upper_molding_c", "y": 270 },
+
+        "click=1,facing=east,shape=outer_right":	{"model":"miniaturia_mod:mt_upper_molding_c_outer", "y": 0 },
+        "click=1,facing=west,shape=outer_right":	{"model":"miniaturia_mod:mt_upper_molding_c_outer", "y": 180 },
+        "click=1,facing=south,shape=outer_right":	{"model":"miniaturia_mod:mt_upper_molding_c_outer", "y": 90 },
+        "click=1,facing=north,shape=outer_right":	{"model":"miniaturia_mod:mt_upper_molding_c_outer", "y": 270 },
+
+        "click=1,facing=east,shape=outer_left":		{"model":"miniaturia_mod:mt_upper_molding_c_outer", "y": 270 },
+        "click=1,facing=west,shape=outer_left":		{"model":"miniaturia_mod:mt_upper_molding_c_outer", "y": 90 },
+        "click=1,facing=south,shape=outer_left":	{"model":"miniaturia_mod:mt_upper_molding_c_outer", "y": 0 },
+        "click=1,facing=north,shape=outer_left":	{"model":"miniaturia_mod:mt_upper_molding_c_outer", "y": 180 },
+
+        "click=1,facing=east,shape=inner_right":	{"model":"miniaturia_mod:mt_upper_molding_c_inner", "y": 0 },
+        "click=1,facing=west,shape=inner_right":	{"model":"miniaturia_mod:mt_upper_molding_c_inner", "y": 180 },
+        "click=1,facing=south,shape=inner_right":	{"model":"miniaturia_mod:mt_upper_molding_c_inner", "y": 90 },
+        "click=1,facing=north,shape=inner_right":	{"model":"miniaturia_mod:mt_upper_molding_c_inner", "y": 270 },
+
+        "click=1,facing=east,shape=inner_left":		{"model":"miniaturia_mod:mt_upper_molding_c_inner", "y": 270 },
+        "click=1,facing=west,shape=inner_left":		{"model":"miniaturia_mod:mt_upper_molding_c_inner", "y": 90 },
+        "click=1,facing=south,shape=inner_left":	{"model":"miniaturia_mod:mt_upper_molding_c_inner", "y": 0 },
+        "click=1,facing=north,shape=inner_left":	{"model":"miniaturia_mod:mt_upper_molding_c_inner", "y": 180 }
+	}
+}

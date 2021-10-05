@@ -1,0 +1,55 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_kingchair",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.55, "translation": [ 0, -0.1, 0 ] },
+		        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+		        "fixed": {"scale": 0.5},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+			    "textures": {
+						"1": "miniaturia_mod:blocks/kingchair1",
+						"2": "miniaturia_mod:blocks/kingchair2",
+						"3": "miniaturia_mod:blocks/kingchair3",
+						"4": "miniaturia_mod:blocks/kingchair4",
+						"5": "miniaturia_mod:blocks/kingchair5"
+			    	}
+				},
+            "click1": {
+			    "textures": {
+						"1": "miniaturia_mod:blocks/kingchair1c",
+						"2": "miniaturia_mod:blocks/kingchair2",
+						"3": "miniaturia_mod:blocks/kingchair3c",
+						"4": "miniaturia_mod:blocks/kingchair4",
+						"5": "miniaturia_mod:blocks/kingchair5c"
+			    	}
+				},
+            "click2": {
+			    "textures": {
+						"1": "miniaturia_mod:blocks/kingchair1d",
+						"2": "miniaturia_mod:blocks/kingchair2",
+						"3": "miniaturia_mod:blocks/kingchair3d",
+						"4": "miniaturia_mod:blocks/kingchair4",
+						"5": "miniaturia_mod:blocks/kingchair5d"
+			    	}
+				},
+            "click3": {
+			    "textures": {
+						"1": "miniaturia_mod:blocks/kingchair1b",
+						"2": "miniaturia_mod:blocks/kingchair2b",
+						"3": "miniaturia_mod:blocks/kingchair3b",
+						"4": "miniaturia_mod:blocks/kingchair4b",
+						"5": "miniaturia_mod:blocks/kingchair5b"
+			    	}
+				}
+            }
+        }
+}

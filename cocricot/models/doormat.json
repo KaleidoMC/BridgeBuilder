@@ -1,0 +1,30 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/bed_mattress_rustic",
+		"particle": "cocricotmod:blocks/stone_color_darkbrown"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 1.5],
+			"to": [16, 1, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 8, 11]},
+			"faces": {
+				"north": {"uv": [13.125, 6.625, 9.125, 6.875], "texture": "#0"},
+				"east": {"uv": [9.125, 6.625, 11.875, 6.875], "texture": "#0"},
+				"south": {"uv": [9.125, 6.625, 13.125, 6.875], "texture": "#0"},
+				"west": {"uv": [9.125, 6.625, 11.875, 6.875], "texture": "#0"},
+				"up": {"uv": [9.125, 3.5, 13.125, 6.75], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [9.125, 3.5, 9.25, 3.625], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.78, 0.78, 0.78]
+		}
+	}
+}

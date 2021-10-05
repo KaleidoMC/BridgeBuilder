@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {
+		"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_moviecamera.obj"
+		},
+
+    "variants": {
+    	"click": {
+	    		"0": {
+	    			"model": "miniaturia_mod:mt_moviecamera.obj",
+					"textures": {
+							"#0": "miniaturia_mod:blocks/moviecamera1",
+							"#1": "miniaturia_mod:blocks/moviecamera2",
+							"particle": "miniaturia_mod:blocks/moviecamera1"
+						}
+	    			},
+			 	"1": {
+					"model": "miniaturia_mod:mt_tripod.obj",
+					"textures": {
+							"#0": "miniaturia_mod:blocks/moviecamera1",
+							"#1": "miniaturia_mod:blocks/moviecamera2",
+							"#2": "miniaturia_mod:blocks/tripod",
+							"particle": "miniaturia_mod:blocks/moviecamera1"
+						}
+					},
+	    		"2": {
+	    			"model": "cross",
+					"textures": {
+							"cross": "miniaturia_mod:blocks/cs",
+							"particle": "miniaturia_mod:blocks/cs"
+						}
+	    			},
+	    		"3": {
+	    			"model": "cross",
+					"textures": {
+							"cross": "miniaturia_mod:blocks/cs",
+							"particle": "miniaturia_mod:blocks/cs"
+						}
+	    			}
+		    },
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+			}
+       }
+}

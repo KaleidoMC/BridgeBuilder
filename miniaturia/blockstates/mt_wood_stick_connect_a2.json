@@ -1,0 +1,219 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "miniaturia_mod:mt_stick_connect_middle_pole"
+
+	},
+
+    "variants": {
+
+    	"click": {
+			 	"0": {
+			 		"textures": {
+						"0": "miniaturia_mod:blocks/fence_acacia",
+						"1": "miniaturia_mod:blocks/c"
+					}
+				},
+			 	"1": {
+			 		"textures": {
+						"0": "miniaturia_mod:blocks/fence_acacia",
+						"1": "miniaturia_mod:blocks/fence_acacia"
+					}
+				},
+				"2": {
+			 		"textures": {
+						"0": "miniaturia_mod:blocks/fence_dark_oak",
+						"1": "miniaturia_mod:blocks/c"
+					}
+				},
+			 	"3": {
+			 		"textures": {
+						"0": "miniaturia_mod:blocks/fence_dark_oak",
+						"1": "miniaturia_mod:blocks/fence_dark_oak"
+					}
+				}
+			},
+
+    	"facing": {
+    		"north":	{ "y": 0 },
+    		"east":		{ "y": 90 },
+    		"south":	{ "y": 180 },
+    		"west":		{ "y": 270 }
+			},
+
+		"fence": {
+			"true":		{ },
+			"false":	{ }
+			},
+
+    	"shape": {
+    		"left":		{ },
+    		"middle":	{ },
+    		"right":	{ },
+    		"single":	{ }
+			},
+
+		"click=0,facing=north,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left" },
+		"click=0,facing=east,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 90 },
+		"click=0,facing=south,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 180 },
+		"click=0,facing=west,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 270 },
+
+		"click=0,facing=north,fence=false,shape=middle":{ "model": "miniaturia_mod:mt_stick_connect_middle" },
+		"click=0,facing=east,fence=false,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 90 },
+		"click=0,facing=south,fence=false,shape=middle":{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 180 },
+		"click=0,facing=west,fence=false,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 270 },
+
+		"click=0,facing=north,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right" },
+		"click=0,facing=east,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 90 },
+		"click=0,facing=south,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 180 },
+		"click=0,facing=west,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 270 },
+
+		"click=0,facing=north,fence=false,shape=single":{ "model": "miniaturia_mod:mt_stick_connect_single" },
+		"click=0,facing=east,fence=false,shape=single": { "model": "miniaturia_mod:mt_stick_connect_single", "y": 90 },
+		"click=0,facing=south,fence=false,shape=single":{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 180 },
+		"click=0,facing=west,fence=false,shape=single": { "model": "miniaturia_mod:mt_stick_connect_single", "y": 270 },
+
+		"click=0,facing=north,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole" },
+		"click=0,facing=east,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 90 },
+		"click=0,facing=south,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 180 },
+		"click=0,facing=west,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 270 },
+
+		"click=0,facing=north,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole" },
+		"click=0,facing=east,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 90 },
+		"click=0,facing=south,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 180 },
+		"click=0,facing=west,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 270 },
+
+		"click=0,facing=north,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole" },
+		"click=0,facing=east,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 90 },
+		"click=0,facing=south,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 180 },
+		"click=0,facing=west,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 270 },
+
+		"click=0,facing=north,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single" },
+		"click=0,facing=east,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 90 },
+		"click=0,facing=south,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 180 },
+		"click=0,facing=west,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 270 },
+
+
+		"click=1,facing=north,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left" },
+		"click=1,facing=east,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 90 },
+		"click=1,facing=south,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 180 },
+		"click=1,facing=west,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 270 },
+
+		"click=1,facing=north,fence=false,shape=middle":{ "model": "miniaturia_mod:mt_stick_connect_middle" },
+		"click=1,facing=east,fence=false,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 90 },
+		"click=1,facing=south,fence=false,shape=middle":{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 180 },
+		"click=1,facing=west,fence=false,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 270 },
+
+		"click=1,facing=north,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right" },
+		"click=1,facing=east,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 90 },
+		"click=1,facing=south,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 180 },
+		"click=1,facing=west,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 270 },
+
+		"click=1,facing=north,fence=false,shape=single":{ "model": "miniaturia_mod:mt_stick_connect_single" },
+		"click=1,facing=east,fence=false,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 90 },
+		"click=1,facing=south,fence=false,shape=single":{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 180 },
+		"click=1,facing=west,fence=false,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 270 },
+
+		"click=1,facing=north,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole" },
+		"click=1,facing=east,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 90 },
+		"click=1,facing=south,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 180 },
+		"click=1,facing=west,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 270 },
+
+		"click=1,facing=north,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole" },
+		"click=1,facing=east,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 90 },
+		"click=1,facing=south,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 180 },
+		"click=1,facing=west,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 270 },
+
+		"click=1,facing=north,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole" },
+		"click=1,facing=east,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 90 },
+		"click=1,facing=south,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 180 },
+		"click=1,facing=west,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 270 },
+
+		"click=1,facing=north,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single" },
+		"click=1,facing=east,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 90 },
+		"click=1,facing=south,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 180 },
+		"click=1,facing=west,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 270 },
+
+
+		"click=2,facing=north,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left" },
+		"click=2,facing=east,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 90 },
+		"click=2,facing=south,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 180 },
+		"click=2,facing=west,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 270 },
+
+		"click=2,facing=north,fence=false,shape=middle":{ "model": "miniaturia_mod:mt_stick_connect_middle" },
+		"click=2,facing=east,fence=false,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 90 },
+		"click=2,facing=south,fence=false,shape=middle":{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 180 },
+		"click=2,facing=west,fence=false,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 270 },
+
+		"click=2,facing=north,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right" },
+		"click=2,facing=east,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 90 },
+		"click=2,facing=south,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 180 },
+		"click=2,facing=west,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 270 },
+
+		"click=2,facing=north,fence=false,shape=single":{ "model": "miniaturia_mod:mt_stick_connect_single" },
+		"click=2,facing=east,fence=false,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 90 },
+		"click=2,facing=south,fence=false,shape=single":{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 180 },
+		"click=2,facing=west,fence=false,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 270 },
+
+		"click=2,facing=north,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole" },
+		"click=2,facing=east,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 90 },
+		"click=2,facing=south,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 180 },
+		"click=2,facing=west,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 270 },
+
+		"click=2,facing=north,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole" },
+		"click=2,facing=east,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 90 },
+		"click=2,facing=south,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 180 },
+		"click=2,facing=west,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 270 },
+
+		"click=2,facing=north,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole" },
+		"click=2,facing=east,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 90 },
+		"click=2,facing=south,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 180 },
+		"click=2,facing=west,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 270 },
+
+		"click=2,facing=north,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single" },
+		"click=2,facing=east,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 90 },
+		"click=2,facing=south,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 180 },
+		"click=2,facing=west,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 270 },
+
+
+		"click=3,facing=north,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left" },
+		"click=3,facing=east,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 90 },
+		"click=3,facing=south,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 180 },
+		"click=3,facing=west,fence=false,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left", "y": 270 },
+
+		"click=3,facing=north,fence=false,shape=middle":{ "model": "miniaturia_mod:mt_stick_connect_middle" },
+		"click=3,facing=east,fence=false,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 90 },
+		"click=3,facing=south,fence=false,shape=middle":{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 180 },
+		"click=3,facing=west,fence=false,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle", "y": 270 },
+
+		"click=3,facing=north,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right" },
+		"click=3,facing=east,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 90 },
+		"click=3,facing=south,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 180 },
+		"click=3,facing=west,fence=false,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right", "y": 270 },
+
+		"click=3,facing=north,fence=false,shape=single":{ "model": "miniaturia_mod:mt_stick_connect_single" },
+		"click=3,facing=east,fence=false,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 90 },
+		"click=3,facing=south,fence=false,shape=single":{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 180 },
+		"click=3,facing=west,fence=false,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 270 },
+
+		"click=3,facing=north,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole" },
+		"click=3,facing=east,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 90 },
+		"click=3,facing=south,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 180 },
+		"click=3,facing=west,fence=true,shape=left":	{ "model": "miniaturia_mod:mt_stick_connect_left_pole", "y": 270 },
+
+		"click=3,facing=north,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole" },
+		"click=3,facing=east,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 90 },
+		"click=3,facing=south,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 180 },
+		"click=3,facing=west,fence=true,shape=middle":	{ "model": "miniaturia_mod:mt_stick_connect_middle_pole", "y": 270 },
+
+		"click=3,facing=north,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole" },
+		"click=3,facing=east,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 90 },
+		"click=3,facing=south,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 180 },
+		"click=3,facing=west,fence=true,shape=right":	{ "model": "miniaturia_mod:mt_stick_connect_right_pole", "y": 270 },
+
+		"click=3,facing=north,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single" },
+		"click=3,facing=east,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 90 },
+		"click=3,facing=south,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 180 },
+		"click=3,facing=west,fence=true,shape=single":	{ "model": "miniaturia_mod:mt_stick_connect_single", "y": 270 }
+    }
+}

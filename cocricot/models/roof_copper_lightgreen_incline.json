@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/roof_copper_incline",
+    "textures": {
+        "0": "cocricotmod:blocks/roof_copper_lightgreen",
+        "1": "cocricotmod:blocks/roof_copper_lightgreen_incline"
+    }
+}

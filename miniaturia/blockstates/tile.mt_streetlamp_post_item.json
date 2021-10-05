@@ -1,0 +1,108 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+			"model": "miniaturia_mod:mt_lamppost_single"
+			},
+
+    "variants": {
+        "variant": {
+			"meta0": {
+				"model": "miniaturia_mod:mt_lamppost",
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta1": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			},
+			"meta2": {
+				"model": "miniaturia_mod:mt_lamppost",
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_green"
+				}
+			},
+			"meta3": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_green",
+					"1": "miniaturia_mod:blocks/lamppost_green"
+				}
+			},
+			"meta4": {
+				"model": "miniaturia_mod:mt_lamppost",
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_gold"
+				}
+			},
+			"meta5": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_gold",
+					"1": "miniaturia_mod:blocks/lamppost_gold",
+					"particle": "miniaturia_mod:blocks/lamppost_bottom_gold"
+				}
+			},
+			"meta6": {
+				"model": "miniaturia_mod:mt_lamppost",
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_white"
+				}
+			},
+			"meta7": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_white",
+					"1": "miniaturia_mod:blocks/lamppost_white"
+				}
+			},
+			"meta8": {
+				"model": "miniaturia_mod:mt_lamppost",
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta9": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			},
+			"meta10": {
+				"model": "miniaturia_mod:mt_lamppost",
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta11": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			},
+			"meta12": {
+				"model": "miniaturia_mod:mt_lamppost",
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta13": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			},
+			"meta14": {
+				"model": "miniaturia_mod:mt_lamppost",
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown"
+				}
+			},
+			"meta15": {
+				"textures": {
+					"0": "miniaturia_mod:blocks/lamppost_bottom_brown",
+					"1": "miniaturia_mod:blocks/lamppost_brown"
+				}
+			}
+		}
+	}
+}

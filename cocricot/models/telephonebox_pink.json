@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_cube_topside",
+    "textures": {
+        "top": "cocricotmod:blocks/telephonebox_pink_top",
+        "side": "cocricotmod:blocks/telephonebox_pink"
+    }
+}

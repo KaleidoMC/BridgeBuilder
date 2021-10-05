@@ -1,0 +1,42 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cocricotmod:blocks/bathtub_clawfoot_white2",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	},
+	"elements": [
+		{
+			"from": [3.25, 0, 3.25],
+			"to": [12.75, 0.5, 12.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.25, 8]},
+			"faces": {
+				"north": {"uv": [11, 7, 15.75, 7.25], "texture": "#0"},
+				"east": {"uv": [11, 7, 15.75, 7.25], "texture": "#0"},
+				"south": {"uv": [11, 7, 15.75, 7.25], "texture": "#0"},
+				"west": {"uv": [11, 7, 15.75, 7.25], "texture": "#0"},
+				"down": {"uv": [11, 0.25, 15.75, 5], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2.75, 0.5, 2.75],
+			"to": [13.25, 4, 13.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.25, 8]},
+			"faces": {
+				"north": {"uv": [10.75, 5.25, 16, 7], "texture": "#0"},
+				"east": {"uv": [10.75, 5.25, 16, 7], "texture": "#0"},
+				"south": {"uv": [10.75, 5.25, 16, 7], "texture": "#0"},
+				"west": {"uv": [10.75, 5.25, 16, 7], "texture": "#0"},
+				"up": {"uv": [10.75, 0, 16, 5.25], "texture": "#0"},
+				"down": {"uv": [10.75, 0, 16, 5.25], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 1.25, 0],
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}

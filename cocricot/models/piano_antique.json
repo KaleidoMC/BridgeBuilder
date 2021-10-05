@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/piano_black",
+    "textures": {
+        "0": "cocricotmod:blocks/piano_antique",
+    		"particle": "cocricotmod:blocks/shopfacade_paris_wood_top"
+    }
+}

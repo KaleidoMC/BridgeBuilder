@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_stick_connect_middle_pole"
+	},
+
+    "variants": {
+        "variant": {
+            "click0": {
+	            "textures": {
+						"0": "miniaturia_mod:blocks/wood_white_stairs",
+						"1": "miniaturia_mod:blocks/c"
+					}
+				},
+            "click1": {
+	            "textures": {
+						"0": "miniaturia_mod:blocks/wood_white_stairs",
+						"1": "miniaturia_mod:blocks/wood_white_stairs"
+					}
+				}
+			}
+	}
+}

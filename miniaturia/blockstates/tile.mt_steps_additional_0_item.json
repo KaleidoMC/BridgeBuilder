@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_steps_b_single"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+            		"textures":{
+						"1": "miniaturia_mod:blocks/wood_white_stairs",
+						"3": "miniaturia_mod:blocks/wood_white_stairs"
+					}
+				},
+            "click1": {
+					"textures":{
+						"1": "miniaturia_mod:blocks/wood_vintage2",
+						"3": "miniaturia_mod:blocks/wood_vintage"
+					}
+				}
+        }
+    }
+}

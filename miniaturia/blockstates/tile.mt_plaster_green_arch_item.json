@@ -1,0 +1,35 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_arch_single.obj",
+		"transform": {
+			"gui": {"rotation": [ { "x": 30}, { "y": 135 }, { "z": 0 } ], "translation": [ 0, 0, 0 ], "scale": 0.45 },
+	        "ground": {"scale": 0.25, "translation": [ 0, 0.2, 0 ] },
+	        "fixed": {"scale": 0.45},
+	        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0, 0 ] },
+	        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.35},
+	        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.35},
+	        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.35}
+		}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+            		"model": "miniaturia_mod:mt_arch_single.obj",
+            		"textures":{
+					    "#m_1": "miniaturia_mod:blocks/plaster_green_arch_top",
+					    "#m_2": "miniaturia_mod:blocks/plaster_green_arch_side_single",
+					    "#m_3": "miniaturia_mod:blocks/plaster_green_arch"
+					}
+				},
+            "click1": {
+            		"model": "miniaturia_mod:mt_arch_straight.obj",
+					"textures":{
+					    "#m_1": "miniaturia_mod:blocks/plaster_green_arch_top",
+					    "#m_2": "miniaturia_mod:blocks/plaster_green_arch_side"
+					}
+				}
+        }
+    }
+}

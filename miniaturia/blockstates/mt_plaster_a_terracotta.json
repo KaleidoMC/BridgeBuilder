@@ -1,0 +1,18 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+		"textures":{
+			"bottom" : "miniaturia_mod:blocks/plaster_white",
+			"top" : "miniaturia_mod:blocks/terracotta_square",
+			"side" : "miniaturia_mod:blocks/plaster_white_terracotta"
+			},
+		"model": "cube_bottom_top",
+		"uvlock": true
+  },
+    "variants": {
+	     "half=bottom,variant=default": { "model": "cube_bottom_top" },
+	     "half=top,variant=default": { "model": "cube_bottom_top" },
+
+        "inventory":[{ }]
+    }
+}

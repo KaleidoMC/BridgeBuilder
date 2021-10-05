@@ -1,0 +1,47 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"custom": { "flip-v": true },
+  		"model": "miniaturia_mod:mt_propeller_a.obj"
+	},
+    "variants": {
+
+    	"facing": {
+    		"down":		{ "x": 270, "y": 0 },
+    		"up":		{ "x": 90, "y": 0 },
+    		"north":	{ "x": 0, "y": 0 },
+    		"south":	{ "x": 0, "y": 180 },
+    		"west": 	{ "x": 0, "y": 270 },
+    		"east": 	{ "x": 0, "y": 90 }
+    	},
+
+    	"click": {
+    		"0": {
+    			"textures": {
+					"#m_1": "miniaturia_mod:blocks/wood_spruce_arch_side",
+		    		"particle": "miniaturia_mod:blocks/wood_spruce_arch_side"
+					}
+    		},
+    		"1": {
+    			"textures": {
+    				"#m_1": "miniaturia_mod:blocks/wood_white_arch_side",
+		    		"particle": "miniaturia_mod:blocks/wood_white_arch_side"
+					}
+    		}
+    	},
+
+		"click=0,facing=up":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=0,facing=down":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=0,facing=north":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=0,facing=south":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=0,facing=west":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=0,facing=east":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+
+		"click=1,facing=up":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=1,facing=down":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=1,facing=north":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=1,facing=south":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=1,facing=west":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }],
+		"click=1,facing=east":	[{ "model": "miniaturia_mod:mt_propeller_a.obj" }, { "model": "miniaturia_mod:mt_propeller_a2.obj" }]
+	}
+}

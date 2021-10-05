@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/basket",
+    "textures": {
+      "u": "cocricotmod:blocks/basket_bread2",
+      "d": "cocricotmod:blocks/wood_6board_brown",
+      "s": "cocricotmod:blocks/basket2",
+      "n": "cocricotmod:blocks/basket2",
+      "w": "cocricotmod:blocks/basket2",
+      "e": "cocricotmod:blocks/basket2"
+    }
+}

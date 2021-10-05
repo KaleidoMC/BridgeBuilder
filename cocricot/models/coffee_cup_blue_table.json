@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/coffee_cup_table",
+	"textures": {
+		"0": "cocricotmod:blocks/bed_pillow_darkblue",
+		"particle": "cocricotmod:blocks/stone_color_white"
+	}
+}

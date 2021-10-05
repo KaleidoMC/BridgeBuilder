@@ -1,0 +1,26 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_steps_a_single"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+            		"model": "miniaturia_mod:mt_steps_a_single",
+            		"textures":{
+						"1": "miniaturia_mod:blocks/wood_spruce_stairs",
+						"2": "miniaturia_mod:blocks/wood_spruce_stairs",
+						"3": "miniaturia_mod:blocks/c"
+					}
+				},
+            "click1": {
+            		"model": "miniaturia_mod:mt_steps_a_single",
+					"textures":{
+						"1": "miniaturia_mod:blocks/wood_spruce_stairs",
+						"2": "miniaturia_mod:blocks/c",
+						"3": "miniaturia_mod:blocks/wood_spruce_stairs"
+					}
+				}
+        }
+    }
+}

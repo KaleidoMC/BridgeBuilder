@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "cocricotmod:blocks/firewood_fr",
+    "side": "cocricotmod:blocks/firewood_si"
+  },
+  "display": {
+      "gui": {
+          "rotation": [ 30, 225, 90 ],
+          "translation": [ 0, 0, 0],
+          "scale":[ 0.625, 0.625, 0.625 ]
+      }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/drainpipe_elbow",
+    "textures": {
+        "particle": "cocricotmod:blocks/drainpipe_bronze",
+        "texture": "cocricotmod:blocks/drainpipe_bronze"
+    }
+}

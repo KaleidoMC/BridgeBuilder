@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/gardenbench_single",
+    "textures": {
+      "particle": "cocricotmod:blocks/planks_black",
+      "texture": "cocricotmod:blocks/gardenbench_black"
+    }
+}

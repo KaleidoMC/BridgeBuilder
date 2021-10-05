@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/stair_closedstringer_brown",
+    "textures": {
+      "particle": "cocricotmod:blocks/stone_color_black",
+  		"0": "cocricotmod:blocks/stair_iron"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "cocricotmod:block/base_stairs_all_outer",
+    "textures": {
+        "bottom": "cocricotmod:blocks/wood_3board_black",
+        "top": "cocricotmod:blocks/wood_3board_black_stairs_o",
+        "side": "cocricotmod:blocks/wood_3board_black_stairs_s",
+        "side1": "cocricotmod:blocks/wood_3board_black_stairs_s1",
+        "front": "cocricotmod:blocks/wood_3board_black_slab_ew",
+        "back": "cocricotmod:blocks/wood_3board_black_stairs_b"
+    }
+}

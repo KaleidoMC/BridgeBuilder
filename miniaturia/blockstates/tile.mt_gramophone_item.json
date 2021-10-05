@@ -1,0 +1,73 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"custom": { "flip-v": true },
+		"model": "miniaturia_mod:mt_gramophone.obj"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+            	"transform": {
+						"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.55, "translation": [ 0, -0.1, 0 ] },
+				        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+				        "fixed": {"scale": 0.5},
+				        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+				        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+				        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+				        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+					},
+		    	"textures":{
+					"#0": "miniaturia_mod:blocks/gramophone_a_body",
+					"#1": "miniaturia_mod:blocks/facade_wood_darkbrown_top",
+					"#2": "miniaturia_mod:blocks/gramophone_brass",
+					"#3": "miniaturia_mod:blocks/gramophone_brass2",
+					"#4": "miniaturia_mod:blocks/gramophone_parts",
+					"#5": "miniaturia_mod:blocks/gramophone_a_body2"
+					}
+				},
+            "click1": {
+            	"transform": {
+						"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 0.55, "translation": [ 0, -0.1, 0 ] },
+				        "ground": {"scale": 0.35, "translation": [ 0, 0.2, 0 ] },
+				        "fixed": {"scale": 0.5},
+				        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+				        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+				        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+				        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+					},
+		    	"textures":{
+					"#0": "miniaturia_mod:blocks/gramophone_b_body",
+					"#1": "miniaturia_mod:blocks/facade_wood_lightbrown_top",
+					"#2": "miniaturia_mod:blocks/gramophone_brass",
+					"#3": "miniaturia_mod:blocks/gramophone_brass2",
+					"#4": "miniaturia_mod:blocks/gramophone_parts",
+					"#5": "miniaturia_mod:blocks/gramophone_b_body2"
+					}
+				},
+			"click2": {
+				"model": "miniaturia_mod:mt_music_box",
+    			"textures":{
+					"0": "miniaturia_mod:blocks/telephone_a_parts_wood",
+					"1": "miniaturia_mod:blocks/table_lightbrown_parts",
+					"2": "miniaturia_mod:blocks/table_lightbrown_top",
+					"3": "miniaturia_mod:blocks/brass_parts",
+					"4": "miniaturia_mod:blocks/facade_wood_lightbrown_c_sign",
+					"5": "miniaturia_mod:blocks/grandpiano_lid2",
+					"6": "miniaturia_mod:blocks/kingchair3"
+					}
+				},
+		 	"click3": {
+		 		"model": "miniaturia_mod:mt_music_box",
+    			"textures":{
+					"0": "miniaturia_mod:blocks/telephone_a_parts_white",
+					"1": "miniaturia_mod:blocks/table_white_parts",
+					"2": "miniaturia_mod:blocks/table_white_top",
+					"3": "miniaturia_mod:blocks/brass_parts",
+					"4": "miniaturia_mod:blocks/facade_wood_lightbrown_c_sign",
+					"5": "miniaturia_mod:blocks/grandpiano_lid2",
+					"6": "miniaturia_mod:blocks/kingchair3"
+					}
+				}
+            }
+        }
+}

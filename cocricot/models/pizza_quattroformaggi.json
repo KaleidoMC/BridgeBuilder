@@ -1,0 +1,7 @@
+{
+	"parent": "cocricotmod:block/pizza_margherita",
+	"textures": {
+		"particle": "cocricotmod:blocks/planks_dark",
+		"0": "cocricotmod:blocks/pizza_quattroformaggi"
+	}
+}

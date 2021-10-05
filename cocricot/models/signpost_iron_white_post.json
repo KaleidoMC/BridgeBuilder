@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/signpost_iron_black_post",
+    "textures": {
+        "particle": "cocricotmod:blocks/signpost_iron_white",
+        "texture": "cocricotmod:blocks/stone_color_white"
+    }
+}

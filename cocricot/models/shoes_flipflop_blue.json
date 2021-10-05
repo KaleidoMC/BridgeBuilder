@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/shoes_flipflop_yellow",
+  	"textures": {
+  		"0": "cocricotmod:blocks/awning_blue_lower",
+  		"particle": "cocricotmod:blocks/stone_color_blue"
+  	}
+}

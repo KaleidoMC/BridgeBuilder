@@ -1,0 +1,6 @@
+{
+    "parent": "cocricotmod:block/window_pane_slant",
+    "textures": {
+        "texture": "cocricotmod:blocks/fence_ranchrail_marineblue"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_wall_side_molding_single",
+		"textures": {
+				"side_side": "miniaturia_mod:blocks/wall_stone_post_side",
+				"side_top": "miniaturia_mod:blocks/stone_plate_parts"
+				},
+	   	"transform": {
+			"gui": {
+				"rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ], "scale": 0.5
+				}
+			}
+		},
+
+    "variants": {
+        "variant": {
+            "click0": { },
+            "click1": { "model": "miniaturia_mod:mt_wall_side_molding_slope" },
+            "click2": {
+				"textures": {
+						"side_side": "miniaturia_mod:blocks/wall_stone_white_post_side",
+						"side_top": "miniaturia_mod:blocks/quartz_plate_parts"
+						}
+					},
+            "click3": {
+            	"model": "miniaturia_mod:mt_wall_side_molding_slope",
+				"textures": {
+						"side_side": "miniaturia_mod:blocks/wall_stone_white_post_side",
+						"side_top": "miniaturia_mod:blocks/quartz_plate_parts"
+						}
+					}
+			}
+	}
+}

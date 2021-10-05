@@ -1,0 +1,21 @@
+{
+  	"forge_marker": 1,
+  	"defaults": {
+  		"model": "miniaturia_mod:mt_half_slab",
+		"textures":{
+			"bottom" : "miniaturia_mod:blocks/brick_top",
+			"top" : "miniaturia_mod:blocks/brick_top",
+			"n" : "miniaturia_mod:blocks/brick_ns_half",
+			"s" : "miniaturia_mod:blocks/brick_ns_half",
+			"w" : "miniaturia_mod:blocks/brick_we_half",
+			"e" : "miniaturia_mod:blocks/brick_we_half"
+			},
+		"uvlock": true
+	},
+    "variants": {
+        "half=bottom,variant=default": { "model": "miniaturia_mod:mt_half_slab" },
+        "half=top,variant=default": { "model": "miniaturia_mod:mt_upper_slab" },
+
+        "inventory":[{ }]
+    }
+}

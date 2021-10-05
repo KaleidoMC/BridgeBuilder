@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/base_hourglass_side",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_plane_sand",
+        "0": "blocks/sandstone_smooth"
+    }
+}

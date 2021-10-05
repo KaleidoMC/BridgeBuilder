@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "stairs"
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+        		"textures":{
+				    "bottom":	"miniaturia_mod:blocks/sandstone_slab_top",
+			        "top":		"miniaturia_mod:blocks/sandstone_slab_top",
+			        "side":		"miniaturia_mod:blocks/sandstone_plate_stacked"
+				}
+			},
+            "click1": {
+				"textures":{
+				    "bottom":	"miniaturia_mod:blocks/sandstone_slab_top",
+			        "top":		"miniaturia_mod:blocks/sandstone_slab_top",
+			        "side":		"miniaturia_mod:blocks/sandstone_plate_stacked_b"
+				}
+			}
+        }
+    }
+}

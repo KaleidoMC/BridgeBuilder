@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/halftimber_slab",
+    "textures": {
+      "u": "cocricotmod:blocks/planks_dark",
+      "n": "cocricotmod:blocks/halftimber_darklime35"
+    }
+}

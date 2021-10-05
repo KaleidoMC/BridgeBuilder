@@ -1,0 +1,47 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+		"model": "miniaturia_mod:mt_antiquephone_a",
+	   	"transform": {
+				"gui": {"rotation": [ { "x": 30}, { "y": 225 }, { "z": 0 } ], "scale": 1.1, "translation": [ 0.05, 0.1, 0 ] },
+		        "ground": {"scale": 0.35, "translation": [ 0, 0.15, 0 ] },
+		        "fixed": {"scale": 0.5},
+		        "thirdperson_righthand": {"rotation": [ { "x": 75}, { "y": 45 }, { "z": 0 } ], "scale": 0.375, "translation": [ 0, 0.25, 0 ] },
+		        "thirdperson_lefthand": {"rotation": [ { "x": 75}, { "y": 225 }, { "z": 0 } ], "scale": 0.375},
+		        "firstperson_righthand": {"rotation": [ { "x": 0}, { "y": 45 }, { "z": 0 } ], "scale": 0.4},
+		        "firstperson_lefthand": {"rotation": [ { "x": 0}, { "y": 225 }, { "z": 0 } ], "scale": 0.4}
+			},
+	    "textures": {
+				"body": "miniaturia_mod:blocks/telephone_a_body_wood",
+				"parts": "miniaturia_mod:blocks/telephone_a_parts_wood"
+	    	}
+    },
+    "variants": {
+        "variant": {
+            "click0": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/telephone_a_body_wood",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_wood"
+			    	}
+				},
+            "click1": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/telephone_a_body_white",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_white"
+			    	}
+				},
+            "click2": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/telephone_a_body_pink",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_pink"
+			    	}
+				},
+            "click3": {
+			    "textures": {
+						"body": "miniaturia_mod:blocks/telephone_a_body_mint",
+						"parts": "miniaturia_mod:blocks/telephone_a_parts_mint"
+			    	}
+				}
+		}
+	}
+}

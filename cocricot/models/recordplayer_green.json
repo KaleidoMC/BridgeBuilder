@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/recordplayer",
+    "textures": {
+        "particle": "cocricotmod:blocks/stone_color_green",
+        "texture": "cocricotmod:blocks/recordplayer_green"
+    }
+}

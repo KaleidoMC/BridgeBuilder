@@ -1,0 +1,7 @@
+{
+    "parent": "cocricotmod:block/sofa_slipper_black_inner",
+    "textures": {
+      "0": "cocricotmod:blocks/sofa_slipper_lightbrown",
+      "1": "cocricotmod:blocks/sofa_slipper_lightbrown1"
+    }
+}
