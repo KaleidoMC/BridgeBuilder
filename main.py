@@ -21,15 +21,17 @@ def dumpRes(namespace, filename):
 		path.parent.mkdir(parents=True, exist_ok=True)
 		with open(path, "w+") as f:
 			resources = dict()
+			if namespace == "cocricotmod":
+				filename = "block/" + filename
 			resources["parent"] = namespace + ":" + filename.replace("\\", "/")[:len(filename)-5]
 			json.dump(resources, f, sort_keys=True, indent=2)
 
 def main():
 	#namespace = input("Namespace: ")
-	#folder = "cocricot"
-	#namespace = "cocricotmod"
-	folder = "yuushya"
-	namespace = "yuushya"
+	folder = "cocricot"
+	namespace = "cocricotmod"
+	#folder = "yuushya"
+	#namespace = "yuushya"
 
 	os.chdir(folder)
 
@@ -71,8 +73,6 @@ def main():
 			if override.exists():
 				if override.stat().st_size != 0:
 					shutil.copyfile(override, os.path.join("./data", filename))
-					if namespace == "cocricot":
-						filename = "block/" + filename
 					dumpRes(namespace, filename)
 				continue
 
@@ -94,8 +94,6 @@ def main():
 			path.parent.mkdir(parents=True, exist_ok=True)
 			with open(path, "w+") as f:
 				json.dump(data, f, sort_keys=True, indent=2)
-			if namespace == "cocricot":
-				filename = "block/" + filename
 			dumpRes(namespace, filename)
 		except Exception as e:
 			print(e)
