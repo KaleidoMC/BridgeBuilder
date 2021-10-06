@@ -15,6 +15,7 @@ class template:
 		self.item = TagDef("item", "#008000ff", "white")
 
 skip = TagDef("skip", "#fa573cff", "white")
+skip2 = TagDef("skip2", "#fa573cff", "white")
 glass = TagDef("glass", "#fa573cff", "white")
 shape_block = TagDef("shape-block", "#fa573cff", "white")
 template = template()
