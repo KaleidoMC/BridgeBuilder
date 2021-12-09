@@ -23,7 +23,7 @@ def main():
 		print("Process " + reg["name"])
 		try:
 			states_json = json.loads(Path("./blockstates/" + reg["name"] + ".json").read_text())
-			models = [];
+			models = []
 			for variant in states_json["variants"].keys():
 				variant = states_json["variants"][variant]
 				if isinstance(variant, list):
@@ -51,6 +51,8 @@ def main():
 				defs.append(tagdefs.template.horizontal)
 			elif reg["classtype"] == "SemiBlock" or reg["classtype"] == "LayerBlock":
 				defs.append(tagdefs.skip)
+			elif reg["classtype"] == "PoleBlock" and reg["name"].startswith("thin_post"):
+				defs.append(tagdefs.skip)
 			elif reg["classtype"] == "BoardBlock" or reg["classtype"] == "PlantBlock":
 				if "rendertype" not in reg:
 					defs.append(tagdefs.layer.cutout)
@@ -65,63 +67,6 @@ def main():
 				tags.remove("skip2")
 				for tagdef in defs:
 					tags.add(tagdef)
-			
-			"""
-			tags = Tags(model_path)
-			skip = False
-			for prefix in skip_prefixes:
-				if filename.startswith(prefix):
-					print("Skip template model " + prefix)
-					skip = True
-					break
-			if skip:
-				tags.add(tagdefs.skip)
-				continue
-			
-			with open(model_path) as json_file:
-				json_text = json.load(json_file)
-				glass = filename.startswith("window_")
-				cutout = False
-				solid = False
-				if glass:
-					cutout = True
-				elif "leaves" in filename:
-					cutout = True
-				elif filename.startswith("neon_"):
-					tags.add(tagdefs.layer.translucent)
-				
-				if "parent" in json_text:
-					parent = json_text["parent"]
-					if parent in skip_models:
-						print("Skip " + json_text["parent"])
-						tags.add(tagdefs.skip)
-						continue
-					if parent in block_models:
-						solid = True
-					elif parent.startswith("block/cube"):
-						solid = True
-					if not cutout:
-						if parent in cutout_models:
-							cutout = True
-				elif "textures" not in json_text:
-					print("Skip template model")
-					tags.add(tagdefs.skip)
-					continue
-				if not cutout:
-					for prefix in cutout_prefixes:
-						if filename.startswith(prefix):
-							cutout = True
-							break
-					
-				if glass:
-					tags.add(tagdefs.glass)
-				if cutout:
-					tags.add(tagdefs.layer.cutout)
-					if solid:
-						tags.add(tagdefs.shape_block)
-				elif solid:
-					tags.add(tagdefs.template.block)
-			"""
 				
 		except Exception as e:
 			print(e)

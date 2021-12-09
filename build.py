@@ -6,7 +6,9 @@ import os
 import json
 from pathlib import Path
 import shutil
+import yaml
 import sys
+from zipfile import ZipFile
 
 from utils.tagspaces_getter import Tags
 import tagdefs
@@ -26,14 +28,18 @@ def dumpRes(namespace, filename):
 			resources["parent"] = namespace + ":" + filename.replace("\\", "/")[:len(filename)-5]
 			json.dump(resources, f, sort_keys=True, indent=2)
 
-def main():
+def main(argv):
 	#namespace = input("Namespace: ")
-	folder = "cocricot"
-	namespace = "cocricotmod"
 	#folder = "yuushya"
 	#namespace = "yuushya"
-
+	Path("./build").mkdir(parents=True, exist_ok=True)
+	folder = argv[0]
 	os.chdir(folder)
+
+	with open("config.yml", "r") as stream:
+		cfg = yaml.safe_load(stream)
+
+	namespace = cfg['namespace']
 
 	try:
 		shutil.rmtree("./data")
@@ -46,7 +52,7 @@ def main():
 
 	json_files = []
 	for root, dirs, files in os.walk("./models"):
-		if root.endswith(".ts"):
+		if root.endswith(".ts"): # is TagSpaces file
 			continue
 		root = root.replace("/models", "", 1)
 		for name in files:
@@ -63,6 +69,7 @@ def main():
 	tag_map["cutout"] = ("renderType", "cutout")
 	tag_map["cutoutMipped"] = ("renderType", "cutoutMipped")
 	tag_map["translucent"] = ("renderType", "translucent")
+	tag_map["seat"] = ("event.useOnBlock", { "action": "sit" })
 
 	# 6131 files
 	for filename in json_files:
@@ -101,4 +108,35 @@ def main():
 
 	print("Fails:\n" + "\n".join(fails))
 
-main()
+	buildName = "../build/" + cfg['buildName'] + "-KaleidoData-" + cfg['version'] + ".zip"
+	dest = "data/" + namespace + "/kaleido/"
+	with ZipFile(buildName,'w') as zip:
+		for filename in getAllFiles('./data'):
+			zip.write(filename, dest + filename[6:])
+		for filename in getAllFiles('./data_extras'):
+			zip.write(filename, filename[13:])
+	
+	buildName = "../build/" + cfg['buildName'] + "-KaleidoResources-" + cfg['version'] + ".zip"
+	dest = "assets/" + namespace + "/models/kaleido/"
+	with ZipFile(buildName,'w') as zip:
+		for filename in getAllFiles('./resources'):
+			zip.write(filename, dest + filename[11:])
+		for filename in getAllFiles('./resources_extras'):
+			zip.write(filename, filename[18:])
+
+def getAllFiles(directory):
+	# initializing empty file paths list
+	file_paths = []
+
+	# crawling through directory and subdirectories
+	for root, directories, files in os.walk(directory):
+		for filename in files:
+			# join the two strings in order to form the full filepath.
+			filepath = os.path.join(root, filename)
+			file_paths.append(filepath)
+
+	# returning all file paths
+	return file_paths
+
+if __name__ == "__main__":
+  main(sys.argv[1:])
